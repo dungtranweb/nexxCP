@@ -1,4 +1,184 @@
+@charset "UTF-8";
+::-webkit-input-placeholder {
+  color: #c3c3c3; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #c3c3c3; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c3c3c3; }
+
+:-ms-input-placeholder {
+  color: #c3c3c3; }
+
 body {
-  max-width: 1440px; }
+  max-width: 1440px;
+  background-color: #eeeeee;
+  color: #666666;
+  margin: 0 auto;
+  font-family: "Open Sans", Arial, sans-serif; }
+
+input {
+  background-color: white;
+  color: #666666;
+  border: 1px solid #e6e6e6;
+  box-shadow: none;
+  background-image: none;
+  display: block;
+  padding-left: 30px;
+  box-sizing: border-box; }
+  input:focus {
+    border: 1px solid #77C044;
+    box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6); }
+
+label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 45px;
+  margin-right: 15px;
+  font-size: 16px; }
+
+input[type=checkbox] {
+  display: none; }
+
+label:before {
+  display: inline-block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  background-color: white; }
+
+.checkbox label:before {
+  border-radius: 3px; }
+
+input[type=checkbox]:checked + label:before {
+  content: "✔";
+  border: 2px solid #77C044;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  color: #77C044; }
+
+/* Login */
+#login-wrap {
+  width: 1440px;
+  height: 100vh;
+  position: relative;
+  color: #ffffff; }
+
+#topbar-login {
+  height: 60px;
+  background-color: white;
+  text-align: center; }
+  #topbar-login div {
+    display: inline-block;
+    width: 100px; }
+    #topbar-login div img {
+      margin-top: 10px; }
+
+.focus-login {
+  border: 3px solid #b0d553; }
+
+#board-wrap {
+  width: 465px;
+  height: 558px;
+  border-radius: 7px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -249px;
+  margin-left: -232.5px;
+  background: url("../images/login/login-bg.png") no-repeat center center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); }
+
+.board-login {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 159, 72, 0.95);
+  /* Lock Screen */ }
+  .board-login .title {
+    width: 220px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin: 0 auto; }
+    .board-login .title div:first-child {
+      font-weight: 600;
+      font-size: 18px; }
+    .board-login .title div:nth-child(2) {
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 48px; }
+    .board-login .title img {
+      padding-top: 20px; }
+  .board-login form.form-login {
+    width: 345px;
+    margin: 0 auto; }
+    .board-login form.form-login .form-style {
+      width: 349px;
+      height: 53px; }
+      .board-login form.form-login .form-style .form-label {
+        float: left;
+        width: 47px;
+        height: 47px;
+        padding: 10px 0 0 14px;
+        background-color: #217756;
+        display: inline-block; }
+      .board-login form.form-login .form-style input {
+        float: left;
+        width: 296px;
+        padding-left: 20px;
+        height: 47px;
+        outline: none;
+        border: none; }
+        .board-login form.form-login .form-style input:focus {
+          border: none;
+          box-shadow: none; }
+  .board-login .space {
+    clear: both;
+    height: 30px; }
+  .board-login input[type=submit] {
+    background-color: #217756;
+    width: 349px;
+    height: 60px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: none; }
+    .board-login input[type=submit]:focus {
+      border: none;
+      box-shadow: none;
+      background-color: #18583f;
+      outline: none; }
+  .board-login .user-info {
+    width: 200px;
+    text-align: center;
+    padding: 110px 0 50px 0;
+    margin: 0 auto; }
+    .board-login .user-info .user-avatar {
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 5px solid rgba(33, 119, 86, 0.9);
+      background: #77C044 url("../images/login/user-avatar.png") no-repeat top right; }
+    .board-login .user-info div:nth-child(2) {
+      font-size: 16px;
+      font-weight: 300; }
+    .board-login .user-info div:last-child {
+      font-size: 24px;
+      font-weight: 600; }
+  .board-login #lock-submit {
+    margin-top: 64px; }
 
 /*# sourceMappingURL=style.css.map */

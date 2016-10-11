@@ -1,0 +1,24 @@
+= Haml::Engine.new(File.read('header.haml')).render
+
+/ Content
+#login-wrap
+  #topbar-login
+    %div
+      %img(src="../images/login/logo.png" alt="Logo of GVN")
+
+  #board-wrap
+    .board-login
+      .user-info
+        .user-avatar
+        %div Welcome Back
+        %div Lady Killer
+      %form.form-login
+        .form-style
+          .form-label
+            %img.pass(src="../images/login/pass.png" alt="Password icon")
+          %input.input-login(type="text" name="password" placeholder="Password" )
+        .space
+        %input#lock-submit(type="submit" name="submit" value="Access")
+
+
+= Haml::Engine.new(File.read('footer.haml')).render

@@ -1,5 +1,32 @@
 = Haml::Engine.new(File.read('header.haml')).render
-#topbar-login
-  %img(src="../images/login/logo.png" alt="Logo of GVN")
 
-\</body>
+/ Content
+#login-wrap
+  #topbar-login
+    %div
+      %img(src="../images/login/logo.png" alt="Logo of GVN")
+
+  #board-wrap
+    .board-login
+      .title
+        %div Admin Control Panel
+        %div Sign In
+        %img(src="../images/login/lock.png" alt="Lock icon")
+      %form.form-login
+        .form-style
+          .form-label
+            %img.user(src="../images/login/user.png" alt="User icon")
+          %input.input-login(type="text" name="username" placeholder="Username" )
+        .space
+        .form-style
+          .form-label
+            %img.pass(src="../images/login/pass.png" alt="Password icon")
+          %input.input-login(type="text" name="password" placeholder="Password" )
+        .space
+        .checkbox
+          %input#remember(type="checkbox" name="remember-me" value="check")
+          %label(for="remember") Remember me
+        %input(type="submit" name="submit" value="Access")
+
+
+= Haml::Engine.new(File.read('footer.haml')).render

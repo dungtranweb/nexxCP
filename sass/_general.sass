@@ -1,2 +1,34 @@
+// Setup style of input place holder
+::-webkit-input-placeholder
+  color: $inputText
+
+\:-moz-placeholder
+  /* Firefox 18- */
+  color: $inputText
+
+::-moz-placeholder
+  /* Firefox 19+ */
+  color: $inputText
+
+\:-ms-input-placeholder
+  color: $inputText
+
 body
   max-width: 1440px
+  background-color: $background
+  color: $primaryText
+  margin: 0 auto
+  font-family: "Open Sans", Arial, sans-serif
+
+input
+  background-color: white
+  color: $primaryText
+  border: 1px solid $line
+  box-shadow: none
+  background-image: none
+  display: block
+  padding-left: 30px
+  box-sizing: border-box
+  &:focus
+    border: 1px solid $primary
+    box-shadow: inset 0 1px 1px rgba($primary ,.075), 0 0 8px rgba($primary ,.6)
