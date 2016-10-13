@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_default.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_default.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_login.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_login.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/style.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/style.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_default.sass" afterPath="$PROJECT_DIR$/sass/_default.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_general.sass" afterPath="$PROJECT_DIR$/sass/_general.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_login.sass" afterPath="$PROJECT_DIR$/sass/_login.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.sass" afterPath="$PROJECT_DIR$/sass/style.sass" />
     </list>
     <ignored path="nexxCP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_general.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_general.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_general.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -83,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_login.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_login.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_login.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+            <state relative-caret-position="337">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -96,7 +90,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="2937">
               <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
               <folding />
             </state>
@@ -123,16 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haml/login.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -153,12 +137,12 @@
         <option value="$PROJECT_DIR$/haml/lock-screen.haml" />
         <option value="$PROJECT_DIR$/haml/login.haml" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/sass/_login.sass" />
         <option value="$PROJECT_DIR$/sass/_variables.sass" />
         <option value="$PROJECT_DIR$/sass/_function.sass" />
         <option value="$PROJECT_DIR$/sass/_default.sass" />
         <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/sass/_general.sass" />
+        <option value="$PROJECT_DIR$/sass/_login.sass" />
       </list>
     </option>
   </component>
@@ -170,7 +154,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="24" />
+    <option name="y" value="924" />
     <option name="width" value="1547" />
     <option name="height" value="876" />
   </component>
@@ -362,15 +346,15 @@
       <workItem from="1476166721852" duration="18452000" />
       <workItem from="1476238744949" duration="1386000" />
       <workItem from="1476260512375" duration="7231000" />
-      <workItem from="1476328725221" duration="5540000" />
+      <workItem from="1476328725221" duration="6001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46122000" />
+    <option name="totallyTimeSpent" value="46583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1547" height="876" extended-state="6" />
+    <frame x="53" y="924" width="1547" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25344715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -688,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/lock-screen.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -718,14 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-657">
@@ -734,26 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_variables.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_function.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_login.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -778,6 +731,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2937">
+          <caret line="285" column="0" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_login.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding />
         </state>
       </provider>
