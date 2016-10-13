@@ -1,4 +1,5 @@
 // Setup style of input place holder
+// =================================
 ::-webkit-input-placeholder
   color: $inputText
 
@@ -13,6 +14,12 @@
 \:-ms-input-placeholder
   color: $inputText
 
+
+// General Setting
+// ==============
+html
+  font-size: percentage(10/16)
+
 body
   max-width: 1440px
   background-color: $background
@@ -24,11 +31,11 @@ input
   background-color: white
   color: $primaryText
   border: 1px solid $line
-  box-shadow: none
-  background-image: none
+  +box-shadow(none)
+  +background-image(none)
   display: block
   padding-left: 30px
-  box-sizing: border-box
+  +box-sizing(border-box)
   &:focus
     border: 1px solid $primary
-    box-shadow: inset 0 1px 1px rgba($primary ,.075), 0 0 8px rgba($primary ,.6)
+    +box-shadow(inset 0 1px 1px rgba($primary ,.075), 0 0 8px rgba($primary ,.6))

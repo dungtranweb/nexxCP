@@ -1,4 +1,5 @@
 /* Login
+ * =====
 #login-wrap
   width: 1440px
   height: 100vh
@@ -21,7 +22,7 @@
 #board-wrap
   width: 465px
   height: 558px
-  border-radius: 7px
+  +border-radius(7px)
   overflow: hidden
   position: absolute
   top: 50%
@@ -29,7 +30,7 @@
   margin-top: -249px
   margin-left: -232.5px
   background: url("../images/login/login-bg.png") no-repeat center center
-  box-shadow: 0 5px 15px rgba(black, 0.35)
+  +box-shadow(0 5px 15px rgba(black, 0.35))
 
 .board-login
   width: 100%
@@ -42,10 +43,10 @@
     margin: 0 auto
     div:first-child
       font-weight: 600
-      font-size: 18px
+      font-size: rem(18px)
     div:nth-child(2)
       font-weight: 300
-      font-size: 48px
+      font-size: rem(48px)
       line-height: 48px
     img
       padding-top: 20px
@@ -71,7 +72,7 @@
         border: none
         &:focus
           border: none
-          box-shadow: none
+          +box-shadow(none)
   .space
     clear: both
     height: 30px
@@ -79,19 +80,23 @@
     background-color: $loginDark
     width: 349px
     height: 60px
+    padding: 0
     margin-top: 30px
     text-align: center
-    font-size: 24px
+    font-size: rem(24px)
     font-weight: 600
     color: white
     border: none
-    box-shadow: none
+    +box-shadow(none)
     &:focus
       border: none
-      box-shadow: none
-      background-color: $loginButton
+      +box-shadow(none)
+      background-color: darken($loginDark, 5%)
       outline: none
+
+
   /* Lock Screen
+   * ===========
   .user-info
     width: 200px
     text-align: center
@@ -101,14 +106,14 @@
       display: inline-block
       width: 90px
       height: 90px
-      border-radius: 50%
+      +border-radius(50%)
       border: 5px solid rgba($loginDark, 0.9)
       background: $primary url("../images/login/user-avatar.png") no-repeat top right
     div:nth-child(2)
-      font-size: 16px
+      font-size: rem(16px)
       font-weight: 300
     div:last-child
-      font-size: 24px
+      font-size: rem(24px)
       font-weight: 600
   #lock-submit
     margin-top: 64px

@@ -1,93 +1,144 @@
 @charset "UTF-8";
+/* line 3, ../sass/_general.sass */
 ::-webkit-input-placeholder {
-  color: #c3c3c3; }
+  color: #c3c3c3;
+}
 
+/* line 6, ../sass/_general.sass */
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #c3c3c3; }
+  color: #c3c3c3;
+}
 
+/* line 10, ../sass/_general.sass */
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #c3c3c3; }
+  color: #c3c3c3;
+}
 
+/* line 14, ../sass/_general.sass */
 :-ms-input-placeholder {
-  color: #c3c3c3; }
+  color: #c3c3c3;
+}
 
+/* line 20, ../sass/_general.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 23, ../sass/_general.sass */
 body {
   max-width: 1440px;
   background-color: #eeeeee;
   color: #666666;
   margin: 0 auto;
-  font-family: "Open Sans", Arial, sans-serif; }
+  font-family: "Open Sans", Arial, sans-serif;
+}
 
+/* line 30, ../sass/_general.sass */
 input {
   background-color: white;
   color: #666666;
   border: 1px solid #e6e6e6;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
   background-image: none;
   display: block;
   padding-left: 30px;
-  box-sizing: border-box; }
-  input:focus {
-    border: 1px solid #77C044;
-    box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6); }
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 39, ../sass/_general.sass */
+input:focus {
+  border: 1px solid #77C044;
+  -moz-box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
+  box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
+}
 
+/* line 2, ../sass/_default.sass */
 label {
   display: inline-block;
   cursor: pointer;
   position: relative;
   padding-left: 45px;
   margin-right: 15px;
-  font-size: 16px; }
-  label:before {
-    display: inline-block;
-    content: "";
-    width: 25px;
-    height: 25px;
-    margin-right: 15px;
-    position: absolute;
-    left: 0;
-    bottom: 5px;
-    background-color: white; }
+  font-size: 16px;
+}
+/* line 9, ../sass/_default.sass */
+label:before {
+  display: inline-block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  background-color: white;
+}
 
+/* line 20, ../sass/_default.sass */
 .checkbox label:before {
-  border-radius: 3px; }
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
 
+/* line 23, ../sass/_default.sass */
 input[type=checkbox] {
-  display: none; }
+  display: none;
+}
 
+/* line 26, ../sass/_default.sass */
 input[type=checkbox]:checked + label:before {
   content: "✔";
   border: 2px solid #77C044;
   font-size: 22px;
   line-height: 18px;
   text-align: center;
-  color: #77C044; }
+  color: #77C044;
+}
 
-/* Login */
+/* Login
+ * ===== */
+/* line 3, ../sass/_login.sass */
 #login-wrap {
   width: 1440px;
   height: 100vh;
   position: relative;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
+/* line 9, ../sass/_login.sass */
 #topbar-login {
   height: 60px;
   background-color: white;
-  text-align: center; }
-  #topbar-login div {
-    display: inline-block;
-    width: 100px; }
-    #topbar-login div img {
-      margin-top: 10px; }
+  text-align: center;
+}
+/* line 13, ../sass/_login.sass */
+#topbar-login div {
+  display: inline-block;
+  width: 100px;
+}
+/* line 16, ../sass/_login.sass */
+#topbar-login div img {
+  margin-top: 10px;
+}
 
+/* line 19, ../sass/_login.sass */
 .focus-login {
-  border: 3px solid #b0d553; }
+  border: 3px solid #b0d553;
+}
 
+/* line 22, ../sass/_login.sass */
 #board-wrap {
   width: 465px;
   height: 558px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
   border-radius: 7px;
   overflow: hidden;
   position: absolute;
@@ -96,88 +147,135 @@ input[type=checkbox]:checked + label:before {
   margin-top: -249px;
   margin-left: -232.5px;
   background: url("../images/login/login-bg.png") no-repeat center center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35); }
+  -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
 
+/* line 35, ../sass/_login.sass */
 .board-login {
   width: 100%;
   height: 100%;
   background-color: rgba(78, 159, 72, 0.95);
-  /* Lock Screen */ }
-  .board-login .title {
-    width: 220px;
-    text-align: center;
-    padding: 50px 0 50px 0;
-    margin: 0 auto; }
-    .board-login .title div:first-child {
-      font-weight: 600;
-      font-size: 18px; }
-    .board-login .title div:nth-child(2) {
-      font-weight: 300;
-      font-size: 48px;
-      line-height: 48px; }
-    .board-login .title img {
-      padding-top: 20px; }
-  .board-login form.form-login {
-    width: 345px;
-    margin: 0 auto; }
-    .board-login form.form-login .form-style {
-      width: 349px;
-      height: 53px; }
-      .board-login form.form-login .form-style .form-label {
-        float: left;
-        width: 47px;
-        height: 47px;
-        padding: 10px 0 0 14px;
-        background-color: #217756;
-        display: inline-block; }
-      .board-login form.form-login .form-style input {
-        float: left;
-        width: 296px;
-        padding-left: 20px;
-        height: 47px;
-        outline: none;
-        border: none; }
-        .board-login form.form-login .form-style input:focus {
-          border: none;
-          box-shadow: none; }
-  .board-login .space {
-    clear: both;
-    height: 30px; }
-  .board-login input[type=submit] {
-    background-color: #217756;
-    width: 349px;
-    height: 60px;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: white;
-    border: none;
-    box-shadow: none; }
-    .board-login input[type=submit]:focus {
-      border: none;
-      box-shadow: none;
-      background-color: #18583f;
-      outline: none; }
-  .board-login .user-info {
-    width: 200px;
-    text-align: center;
-    padding: 110px 0 50px 0;
-    margin: 0 auto; }
-    .board-login .user-info .user-avatar {
-      display: inline-block;
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      border: 5px solid rgba(33, 119, 86, 0.9);
-      background: #77C044 url("../images/login/user-avatar.png") no-repeat top right; }
-    .board-login .user-info div:nth-child(2) {
-      font-size: 16px;
-      font-weight: 300; }
-    .board-login .user-info div:last-child {
-      font-size: 24px;
-      font-weight: 600; }
-  .board-login #lock-submit {
-    margin-top: 64px; }
-
-/*# sourceMappingURL=style.css.map */
+  /* Lock Screen
+   * =========== */
+}
+/* line 39, ../sass/_login.sass */
+.board-login .title {
+  width: 220px;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  margin: 0 auto;
+}
+/* line 44, ../sass/_login.sass */
+.board-login .title div:first-child {
+  font-weight: 600;
+  font-size: rem(18px);
+}
+/* line 47, ../sass/_login.sass */
+.board-login .title div:nth-child(2) {
+  font-weight: 300;
+  font-size: rem(48px);
+  line-height: 48px;
+}
+/* line 51, ../sass/_login.sass */
+.board-login .title img {
+  padding-top: 20px;
+}
+/* line 53, ../sass/_login.sass */
+.board-login form.form-login {
+  width: 345px;
+  margin: 0 auto;
+}
+/* line 56, ../sass/_login.sass */
+.board-login form.form-login .form-style {
+  width: 349px;
+  height: 53px;
+}
+/* line 59, ../sass/_login.sass */
+.board-login form.form-login .form-style .form-label {
+  float: left;
+  width: 47px;
+  height: 47px;
+  padding: 10px 0 0 14px;
+  background-color: #217756;
+  display: inline-block;
+}
+/* line 66, ../sass/_login.sass */
+.board-login form.form-login .form-style input {
+  float: left;
+  width: 296px;
+  padding-left: 20px;
+  height: 47px;
+  outline: none;
+  border: none;
+}
+/* line 73, ../sass/_login.sass */
+.board-login form.form-login .form-style input:focus {
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 76, ../sass/_login.sass */
+.board-login .space {
+  clear: both;
+  height: 30px;
+}
+/* line 79, ../sass/_login.sass */
+.board-login input[type=submit] {
+  background-color: #217756;
+  width: 349px;
+  height: 60px;
+  padding: 0;
+  margin-top: 30px;
+  text-align: center;
+  font-size: rem(24px);
+  font-weight: 600;
+  color: white;
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 91, ../sass/_login.sass */
+.board-login input[type=submit]:focus {
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #1b6348;
+  outline: none;
+}
+/* line 100, ../sass/_login.sass */
+.board-login .user-info {
+  width: 200px;
+  text-align: center;
+  padding: 110px 0 50px 0;
+  margin: 0 auto;
+}
+/* line 105, ../sass/_login.sass */
+.board-login .user-info .user-avatar {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(33, 119, 86, 0.9);
+  background: #77C044 url("../images/login/user-avatar.png") no-repeat top right;
+}
+/* line 112, ../sass/_login.sass */
+.board-login .user-info div:nth-child(2) {
+  font-size: rem(16px);
+  font-weight: 300;
+}
+/* line 115, ../sass/_login.sass */
+.board-login .user-info div:last-child {
+  font-size: rem(24px);
+  font-weight: 600;
+}
+/* line 118, ../sass/_login.sass */
+.board-login #lock-submit {
+  margin-top: 64px;
+}
