@@ -1,4 +1,5 @@
 // Login
+// =====
 $(document).ready(function () {
     $('.input-login').focusin(function () {
         $(this).parent().addClass('focus-login');
@@ -10,4 +11,11 @@ $(document).ready(function () {
         $(this).parent().find('.user').attr('src', '../images/login/user.png');
         $(this).parent().find('.pass').attr('src', '../images/login/pass.png');
     })
+})
+
+
+// Sidebar: Setup metisMenu
+// ========================
+$(document).ready(function () {
+    $('#sidebar-menu').metisMenu();
 })

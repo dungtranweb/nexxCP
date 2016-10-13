@@ -1,1 +1,45 @@
-%p this is a sidebar
+\<cp-container>
+%aside.sidebar
+  .sidebar-nav
+    .user-info
+      %img.avatar-circle(src="../images/login/user-avatar.png" )
+      %ul.nav.nav-pills.nav-stacked#user-menu
+        %li
+          %a(href="#" data-target="#user-menu-item" data-toggle="collapse" data-parent="#user-menu")Lady Killer<span class="caret"></span>
+          %ul.nav.nav-stacked.collapse#user-menu-item
+            %li
+              %a(href="#")Profile
+            %li
+              %a(href="#")Change Password
+            %li
+              %a(href="#")Sign Out
+
+    .divider
+    %ul.metismenu#sidebar-menu
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-dashboard"></i>Dashboard
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-user"></i>User
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )List User
+          %li
+            %a(href="#" )Create User
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-cleaner"></i>Cleaner
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )List Cleaner
+          %li
+            %a(href="#" )Create Cleaner
+          %li
+            %a(href="#" )Configuration
+
+
+

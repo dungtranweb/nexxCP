@@ -1,0 +1,19 @@
+// Define Button Style
+// ===================
+
+
+$list-btn: trans upload instant primary
+$list-btn-color: transparent $primaryText $purple $primary
+$btn-style-list: zip($list-btn, $list-btn-color)
+
+%cp-btn,
+.cp-btn
+  height: 40px
+  padding: auto 40px
+  +border-radius(3px)
+  color: white
+  cursor: pointer
+
+@each $btn in $btn-style-list
+  .cp-btn-#{nth($btn, 1)}
+    background-color: nth($btn, 2)

@@ -1,4 +1,91 @@
 @charset "UTF-8";
+/* line 7, ../sass/_image.sass */
+.avatar-circle {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid rgba(33, 119, 86, 0.9);
+}
+
+/* line 9, ../sass/_button.sass */
+.cp-btn {
+  height: 40px;
+  padding: auto 40px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+/* line 18, ../sass/_button.sass */
+.cp-btn-trans {
+  background-color: transparent;
+}
+
+/* line 18, ../sass/_button.sass */
+.cp-btn-upload {
+  background-color: #666666;
+}
+
+/* line 18, ../sass/_button.sass */
+.cp-btn-instant {
+  background-color: #3c57a7;
+}
+
+/* line 18, ../sass/_button.sass */
+.cp-btn-primary {
+  background-color: #77C044;
+}
+
+/* line 7, ../sass/_form.sass */
+label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 45px;
+  margin-right: 15px;
+  font-size: 1.6rem;
+}
+/* line 14, ../sass/_form.sass */
+label:before {
+  display: inline-block;
+  content: "";
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  background-color: white;
+}
+
+/* line 25, ../sass/_form.sass */
+.checkbox label:before {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 28, ../sass/_form.sass */
+input[type=checkbox] {
+  display: none;
+}
+
+/* line 31, ../sass/_form.sass */
+input[type=checkbox]:checked + label:before {
+  content: "✔";
+  border: 2px solid #77C044;
+  font-size: 2.2rem;
+  line-height: 18px;
+  text-align: center;
+  color: #77C044;
+}
+
 /* line 3, ../sass/_general.sass */
 ::-webkit-input-placeholder {
   color: #c3c3c3;
@@ -60,50 +147,6 @@ input:focus {
   -moz-box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
   -webkit-box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
   box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
-}
-
-/* line 2, ../sass/_default.sass */
-label {
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  padding-left: 45px;
-  margin-right: 15px;
-  font-size: 1.6rem;
-}
-/* line 9, ../sass/_default.sass */
-label:before {
-  display: inline-block;
-  content: "";
-  width: 25px;
-  height: 25px;
-  margin-right: 15px;
-  position: absolute;
-  left: 0;
-  bottom: 5px;
-  background-color: white;
-}
-
-/* line 20, ../sass/_default.sass */
-.checkbox label:before {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-
-/* line 23, ../sass/_default.sass */
-input[type=checkbox] {
-  display: none;
-}
-
-/* line 26, ../sass/_default.sass */
-input[type=checkbox]:checked + label:before {
-  content: "✔";
-  border: 2px solid #77C044;
-  font-size: 2.2rem;
-  line-height: 18px;
-  text-align: center;
-  color: #77C044;
 }
 
 /* Login
@@ -259,27 +302,16 @@ input[type=checkbox]:checked + label:before {
   margin: 0 auto;
 }
 /* line 105, ../sass/_login.sass */
-.board-login .user-info .user-avatar {
-  display: inline-block;
-  width: 90px;
-  height: 90px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  border: 5px solid rgba(33, 119, 86, 0.9);
-  background: #77C044 url("../images/login/user-avatar.png") no-repeat top right;
-}
-/* line 112, ../sass/_login.sass */
 .board-login .user-info div:nth-child(2) {
   font-size: 1.6rem;
   font-weight: 300;
 }
-/* line 115, ../sass/_login.sass */
+/* line 108, ../sass/_login.sass */
 .board-login .user-info div:last-child {
   font-size: 2.4rem;
   font-weight: 600;
 }
-/* line 118, ../sass/_login.sass */
+/* line 111, ../sass/_login.sass */
 .board-login #lock-submit {
-  margin-top: 64px;
+  margin-top: 67px;
 }
