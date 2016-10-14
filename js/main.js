@@ -17,5 +17,17 @@ $(document).ready(function () {
 // Sidebar: Setup metisMenu
 // ========================
 $(document).ready(function () {
-    $('#sidebar-menu').metisMenu();
+    $('#sidebar-menu').metisMenu({
+        activeClass: 'active'
+    });
+})
+
+// Setup NiceScroll plugin
+// =======================
+$(document).ready(function () {
+    $('html').niceScroll();
+    $('.sidebar-nav').niceScroll({
+        cursorcolor: 'rgba(238, 238, 238 , 0.2)',
+        cursorborder: 'none'
+    });
 })

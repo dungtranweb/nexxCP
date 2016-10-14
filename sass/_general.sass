@@ -31,6 +31,9 @@ body
   margin: 0 auto
   font-family: "Open Sans", Arial, sans-serif
 
+hr
+  border-top: 1px solid rgba($line, 0.35)
+
 input
   background-color: white
   color: $primaryText
@@ -43,3 +46,13 @@ input
   &:focus
     border: 1px solid $primary
     +box-shadow(inset 0 1px 1px rgba($primary ,.075), 0 0 8px rgba($primary ,.6))
+
+
+// Container
+// =========
+.cp-container
+  width: 100&
+  height: 100vh
+  padding-top: 60px
+  padding-bottom: 60px
+  position: relative

@@ -1,0 +1,15 @@
+// Define Sprite Map for Icons
+// ===========================
+
+$icons: sprite-map("icons/*.png")
+
+i
+  background: $icons no-repeat
+  display: inline-block
+  vertical-align: baseline
+
+@each $i in sprite_names($icons)
+  .cp-icn-#{$i}
+    background-position: sprite-position($icons, $i)
+    +sprite-dimensions($icons, $i)
+

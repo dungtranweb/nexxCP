@@ -26,14 +26,14 @@
 </head>
 <body>
 <!-- Content -->
-<cp-container>
+<div class="cp-container">
 <aside class='sidebar'>
-  <div class='sidebar-nav'>
+  <div class='sidebar-nav' data-scollable>
     <div class='user-info'>
       <img class='avatar-circle' src='../images/login/user-avatar.png'>
       <ul class='nav nav-pills nav-stacked' id='user-menu'>
         <li>
-          <a data-parent='#user-menu' data-target='#user-menu-item' data-toggle='collapse' href='#'>Lady Killer<span class="caret"></span></a>
+          <a data-parent='#user-menu' data-target='#user-menu-item' data-toggle='collapse' href='#' id='user-name'>Lady Killer <i class="cp-icn-caret-down icn-right"></i></a>
           <ul class='nav nav-stacked collapse' id='user-menu-item'>
             <li>
               <a href='#'>Profile</a>
@@ -48,13 +48,13 @@
         </li>
       </ul>
     </div>
-    <div class='divider'></div>
+    <hr>
     <ul class='metismenu' id='sidebar-menu'>
       <li>
-        <a aria-expanded='false' href='#'><i class="cp-icn-dashboard"></i>Dashboard</a>
+        <a aria-expanded='false' class='active-alone' href='#'><i class="cp-icn-dashboard icn-left"></i>Dashboard</a>
       </li>
       <li>
-        <a aria-expanded='false' href='#'><i class="cp-icn-user"></i>User</a>
+        <a aria-expanded='false' href='#'><i class="cp-icn-user icn-left"></i>User <i class="cp-icn-caret-down icn-right"></i></a>
         <ul aria-expanded='false'>
           <li>
             <a href='#'>Dashboard</a>
@@ -71,7 +71,7 @@
         </ul>
       </li>
       <li>
-        <a aria-expanded='false' href='#'><i class="cp-icn-cleaner"></i>Cleaner</a>
+        <a aria-expanded='false' href='#'><i class="cp-icn-cleaner icn-left"></i>Cleaner <i class="cp-icn-caret-down icn-right caret-down"></i></a>
         <ul aria-expanded='false'>
           <li>
             <a href='#'>Dashboard</a>
@@ -87,13 +87,251 @@
           </li>
         </ul>
       </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-customer icn-left"></i>Customer <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>List Customer</a>
+          </li>
+          <li>
+            <a href='#'>Create Customer</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-booking icn-left"></i>Booking <i class="cp-icn-caret-down icn-right caret-down"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>New</a>
+          </li>
+          <li>
+            <a href='#'>Approved</a>
+          </li>
+          <li>
+            <a href='#'>In Progress</a>
+          </li>
+          <li>
+            <a href='#'>Completed</a>
+          </li>
+          <li>
+            <a href='#'>Cancelled</a>
+          </li>
+          <li>
+            <a href='#'>Expired</a>
+          </li>
+          <li>
+            <a href='#'>Complete</a>
+          </li>
+          <li>
+            <a href='#'>Cancel</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-notification icn-left"></i>Notification <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Notification List</a>
+          </li>
+          <li>
+            <a href='#'>Notification Categories</a>
+          </li>
+          <li>
+            <a href='#'>Create Notification</a>
+          </li>
+          <li>
+            <a href='#'>Customer Devices</a>
+          </li>
+          <li>
+            <a href='#'>Cleaner Devices</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-service icn-left"></i>Location <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Service <i class="cp-icn-caret-down icn-right caret-down-2line"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Training Level</a>
+          </li>
+          <li>
+            <a href='#'>Cleaner Level</a>
+          </li>
+          <li>
+            <a href='#'>Service Categories</a>
+          </li>
+          <li>
+            <a href='#'>Create Category</a>
+          </li>
+          <li>
+            <a href='#'>Service Manager</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-finance icn-left"></i>Finance <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Cleaner Transaction</a>
+          </li>
+          <li>
+            <a href='#'>Deposit</a>
+          </li>
+          <li>
+            <a href='#'>Withdraw</a>
+          </li>
+          <li>
+            <a href='#'>Bonus</a>
+          </li>
+          <li>
+            <a href='#'>Pay Fine</a>
+          </li>
+          <li>
+            <a href='#'>Income & Balance</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-business icn-left"></i>Business <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Report <i class="cp-icn-caret-down icn-right caret-down-2line"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-payment icn-left"></i>Payment <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-news icn-left"></i>News & Article <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-geography icn-left"></i>Geography <i class="cp-icn-caret-down icn-right caret-down"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
     </ul>
   </div>
 </aside>
-</cp-container>
+</div class="cp-container">
 <!-- External Javascript -->
 <script src='../js/jquery-2.2.4.min.js' type='text/javascript'></script>
 <script src='../js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../js/jquery.nicescroll.min.js' type='text/javascript'></script>
 <script src='../js/metisMenu.min.js' type='text/javascript'></script>
 <script src='../js/main.js' type='text/javascript'></script>
 </body>

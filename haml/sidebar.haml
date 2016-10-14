@@ -1,11 +1,11 @@
-\<cp-container>
+\<div class="cp-container">
 %aside.sidebar
-  .sidebar-nav
+  .sidebar-nav(data-scollable)
     .user-info
       %img.avatar-circle(src="../images/login/user-avatar.png" )
       %ul.nav.nav-pills.nav-stacked#user-menu
         %li
-          %a(href="#" data-target="#user-menu-item" data-toggle="collapse" data-parent="#user-menu")Lady Killer<span class="caret"></span>
+          %a#user-name(href="#" data-target="#user-menu-item" data-toggle="collapse" data-parent="#user-menu")Lady Killer <i class="cp-icn-caret-down icn-right"></i>
           %ul.nav.nav-stacked.collapse#user-menu-item
             %li
               %a(href="#")Profile
@@ -14,12 +14,13 @@
             %li
               %a(href="#")Sign Out
 
-    .divider
+    %hr
+
     %ul.metismenu#sidebar-menu
       %li
-        %a(href="#" aria-expanded="false" ) <i class="cp-icn-dashboard"></i>Dashboard
+        %a.active-alone(href="#" aria-expanded="false" ) <i class="cp-icn-dashboard icn-left"></i>Dashboard
       %li
-        %a(href="#" aria-expanded="false" ) <i class="cp-icn-user"></i>User
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-user icn-left"></i>User <i class="cp-icn-caret-down icn-right"></i>
         %ul(aria-expanded="false" )
           %li
             %a(href="#" )Dashboard
@@ -30,7 +31,7 @@
           %li
             %a(href="#" )Configuration
       %li
-        %a(href="#" aria-expanded="false" ) <i class="cp-icn-cleaner"></i>Cleaner
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-cleaner icn-left"></i>Cleaner <i class="cp-icn-caret-down icn-right caret-down"></i>
         %ul(aria-expanded="false" )
           %li
             %a(href="#" )Dashboard
@@ -40,6 +41,164 @@
             %a(href="#" )Create Cleaner
           %li
             %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-customer icn-left"></i>Customer <i class="cp-icn-caret-down icn-right"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )List Customer
+          %li
+            %a(href="#" )Create Customer
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-booking icn-left"></i>Booking <i class="cp-icn-caret-down icn-right caret-down"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )New
+          %li
+            %a(href="#" )Approved
+          %li
+            %a(href="#" )In Progress
+          %li
+            %a(href="#" )Completed
+          %li
+            %a(href="#" )Cancelled
+          %li
+            %a(href="#" )Expired
+          %li
+            %a(href="#" )Complete
+          %li
+            %a(href="#" )Cancel
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-notification icn-left"></i>Notification <i class="cp-icn-caret-down icn-right"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )Notification List
+          %li
+            %a(href="#" )Notification Categories
+          %li
+            %a(href="#" )Create Notification
+          %li
+            %a(href="#" )Customer Devices
+          %li
+            %a(href="#" )Cleaner Devices
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-service icn-left"></i>Location <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Service <i class="cp-icn-caret-down icn-right caret-down-2line"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )Training Level
+          %li
+            %a(href="#" )Cleaner Level
+          %li
+            %a(href="#" )Service Categories
+          %li
+            %a(href="#" )Create Category
+          %li
+            %a(href="#" )Service Manager
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-finance icn-left"></i>Finance <i class="cp-icn-caret-down icn-right"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )Cleaner Transaction
+          %li
+            %a(href="#" )Deposit
+          %li
+            %a(href="#" )Withdraw
+          %li
+            %a(href="#" )Bonus
+          %li
+            %a(href="#" )Pay Fine
+          %li
+            %a(href="#" )Income & Balance
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-business icn-left"></i>Business <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Report <i class="cp-icn-caret-down icn-right caret-down-2line"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )Section 1
+          %li
+            %a(href="#" )Section 2
+          %li
+            %a(href="#" )Section 3
+          %li
+            %a(href="#" )Section 4
+          %li
+            %a(href="#" )Section 5
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-payment icn-left"></i>Payment <i class="cp-icn-caret-down icn-right"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )Section 1
+          %li
+            %a(href="#" )Section 2
+          %li
+            %a(href="#" )Section 3
+          %li
+            %a(href="#" )Section 4
+          %li
+            %a(href="#" )Section 5
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-news icn-left"></i>News & Article <i class="cp-icn-caret-down icn-right"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )Section 1
+          %li
+            %a(href="#" )Section 2
+          %li
+            %a(href="#" )Section 3
+          %li
+            %a(href="#" )Section 4
+          %li
+            %a(href="#" )Section 5
+          %li
+            %a(href="#" )Configuration
+      %li
+        %a(href="#" aria-expanded="false" ) <i class="cp-icn-geography icn-left"></i>Geography <i class="cp-icn-caret-down icn-right caret-down"></i>
+        %ul(aria-expanded="false" )
+          %li
+            %a(href="#" )Dashboard
+          %li
+            %a(href="#" )Section 1
+          %li
+            %a(href="#" )Section 2
+          %li
+            %a(href="#" )Section 3
+          %li
+            %a(href="#" )Section 4
+          %li
+            %a(href="#" )Section 5
+          %li
+            %a(href="#" )Configuration
+
+
+
 
 
 

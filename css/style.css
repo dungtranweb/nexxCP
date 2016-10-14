@@ -1,4 +1,102 @@
 @charset "UTF-8";
+/* line 6, ../sass/_sprite.sass */
+i {
+  background: url('../images/icons-sf4415d8823.png') no-repeat;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-booking {
+  background-position: 0 0;
+  height: 22px;
+  width: 18px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-business {
+  background-position: 0 -22px;
+  height: 19px;
+  width: 16px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-caret-down {
+  background-position: 0 -41px;
+  height: 6px;
+  width: 9px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-cleaner {
+  background-position: 0 -47px;
+  height: 25px;
+  width: 18px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-customer {
+  background-position: 0 -72px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-dashboard {
+  background-position: 0 -88px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-finance {
+  background-position: 0 -104px;
+  height: 17px;
+  width: 21px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-geography {
+  background-position: 0 -121px;
+  height: 23px;
+  width: 20px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-news {
+  background-position: 0 -144px;
+  height: 15px;
+  width: 17px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-notification {
+  background-position: 0 -159px;
+  height: 19px;
+  width: 14px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-payment {
+  background-position: 0 -178px;
+  height: 14px;
+  width: 21px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-service {
+  background-position: 0 -192px;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 12, ../sass/_sprite.sass */
+.cp-icn-user {
+  background-position: 0 -212px;
+  height: 16px;
+  width: 19px;
+}
+
 /* line 7, ../sass/_image.sass */
 .avatar-circle {
   display: inline-block;
@@ -127,6 +225,11 @@ body {
 }
 
 /* line 34, ../sass/_general.sass */
+hr {
+  border-top: 1px solid rgba(230, 230, 230, 0.35);
+}
+
+/* line 37, ../sass/_general.sass */
 input {
   background-color: white;
   color: #666666;
@@ -141,7 +244,7 @@ input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 43, ../sass/_general.sass */
+/* line 46, ../sass/_general.sass */
 input:focus {
   border: 1px solid #77C044;
   -moz-box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
@@ -149,11 +252,20 @@ input:focus {
   box-shadow: inset 0 1px 1px rgba(119, 192, 68, 0.075), 0 0 8px rgba(119, 192, 68, 0.6);
 }
 
+/* line 53, ../sass/_general.sass */
+.cp-container {
+  width: 100 .cp-container;
+  height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
 /* Login
  * ===== */
 /* line 3, ../sass/_login.sass */
 #login-wrap {
-  width: 1440px;
+  width: 100%;
   height: 100vh;
   position: relative;
   color: #ffffff;
@@ -193,7 +305,7 @@ input:focus {
   left: 50%;
   margin-top: -249px;
   margin-left: -232.5px;
-  background: url("../images/login/login-bg.png") no-repeat center center;
+  background: url('../images/login/login-bg.png?1476166055') no-repeat center center;
   -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -223,7 +335,7 @@ input:focus {
 .board-login .title div:nth-child(2) {
   font-weight: 300;
   font-size: 4.8rem;
-  line-height: 48px;
+  line-height: 4.8rem;
 }
 /* line 51, ../sass/_login.sass */
 .board-login .title img {
@@ -314,4 +426,103 @@ input:focus {
 /* line 111, ../sass/_login.sass */
 .board-login #lock-submit {
   margin-top: 67px;
+}
+
+/* Sidebar
+ * ======= */
+/* line 3, ../sass/_sidebar.sass */
+.sidebar {
+  background: url('../images/sidebar-bg.png?1476365216') repeat center center;
+  width: 190px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: auto;
+}
+/* line 9, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav {
+  background-color: rgba(78, 159, 72, 0.95);
+  width: 100%;
+  height: 100%;
+  border-right: 2px solid rgba(78, 159, 72, 0.95);
+}
+/* line 14, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 18, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav ul li {
+  display: block;
+}
+/* line 20, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav ul li a {
+  text-align: left;
+  padding: 15px 10px 15px 20px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  display: block;
+  outline: none;
+}
+/* line 29, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav ul li a:hover, .sidebar .sidebar-nav ul li a:focus, .sidebar .sidebar-nav ul li a:active {
+  outline: none;
+  font-weight: 600;
+}
+/* line 35, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav ul li .active-alone:focus, .sidebar .sidebar-nav ul li .active-alone:active {
+  background-color: rgba(238, 238, 238, 0.15);
+}
+/* line 38, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav ul ul a {
+  padding-left: 65px;
+}
+/* line 40, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav ul ul a:hover, .sidebar .sidebar-nav ul ul a:focus, .sidebar .sidebar-nav ul ul a:active {
+  background-color: rgba(238, 238, 238, 0.15);
+}
+/* line 45, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .user-info {
+  padding-top: 70px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 49, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .user-info img {
+  margin-bottom: 20px;
+}
+/* line 51, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .user-info #user-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+/* line 55, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .user-info ul#user-menu-item {
+  margin-top: 10px;
+}
+/* line 57, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .icn-left {
+  padding-right: 30px;
+}
+/* line 59, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .icn-right {
+  float: right;
+  position: relative;
+  top: 10px;
+  right: 15px;
+}
+/* line 64, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .icn-right.caret-down {
+  top: 18px;
+}
+/* line 66, ../sass/_sidebar.sass */
+.sidebar .sidebar-nav .icn-right.caret-down-2line {
+  top: -12px;
 }
