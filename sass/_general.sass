@@ -33,6 +33,7 @@ body
 
 hr
   border-top: 1px solid rgba($line, 0.35)
+  margin: 0
 
 input
   background-color: white
@@ -53,6 +54,22 @@ input
 .cp-container
   width: 100&
   height: 100vh
-  padding-top: 60px
-  padding-bottom: 60px
   position: relative
+
+.cp-content
+  width: percentage(1250px/1440px)
+  height: 100%
+  margin-left: 190px
+
+
+// Config Bootstrap
+// ================
+.dropdown-toggle::after
+  display: none
+
+.dropdown-menu
+  +border-radius(5px)
+  +box-shadow(0 6px 12px rgba(black, 0.175))
+
+.dropdown-item
+  white-space: normal
