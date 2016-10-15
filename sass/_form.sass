@@ -26,10 +26,33 @@ input[type=checkbox]
   display: none
 
 input[type=checkbox]:checked + label:before
-  content: '\2714'
+  content: url("../images/icons/check.png")
   border: 2px solid $primary
   font-size: rem(22px)
   line-height: 18px
   text-align: center
   color: $primary
+
+// Select
+// ======
+select
+  display: inline-block
+  background: white image_url("icons/caret-grey.png") no-repeat right 12px
+  border: none
+  outline: none
+  line-height: 1.5
+  margin: 0
+  padding: 0 15px 4px 15px
+  color: $primaryText !important
+  +box-sizing(border-box)
+  +appearance(none)
+  option
+    color: $primaryText
+    &:checked:after
+      content: attr(title)
+      background: $background
+      position: absolute
+      width: 100%
+      left: 0
+      border: none
 

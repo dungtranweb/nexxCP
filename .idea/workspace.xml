@@ -1,37 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/sass/_selectric.sass" description="$selectric-main-color" line="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons-scfb85c1b9a.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_color.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_color.sassc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-datepicker.standalone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons-s8b7ceec299.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_flex-grid.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_flex-grid.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_form.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_form.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_general.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_general.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_login.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_login.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_selectric.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_selectric.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_table.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_table.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_topbar.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_topbar.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/style.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/style.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/foobar.haml" afterPath="$PROJECT_DIR$/haml/foobar.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/footer.haml" afterPath="$PROJECT_DIR$/haml/footer.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/header.haml" afterPath="$PROJECT_DIR$/haml/header.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/layout.haml" afterPath="$PROJECT_DIR$/haml/layout.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/login.haml" afterPath="$PROJECT_DIR$/haml/login.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/sidebar.haml" afterPath="$PROJECT_DIR$/haml/sidebar.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/topbar.haml" afterPath="$PROJECT_DIR$/haml/topbar.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/foobar.html" afterPath="$PROJECT_DIR$/html/foobar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/user-list-user.haml" afterPath="$PROJECT_DIR$/haml/user-list-user.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/footer.html" afterPath="$PROJECT_DIR$/html/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/header.html" afterPath="$PROJECT_DIR$/html/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/layout.html" afterPath="$PROJECT_DIR$/html/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/login.html" afterPath="$PROJECT_DIR$/html/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/sidebar.html" afterPath="$PROJECT_DIR$/html/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/topbar.html" afterPath="$PROJECT_DIR$/html/topbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/user-list-user.html" afterPath="$PROJECT_DIR$/html/user-list-user.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_color.sass" afterPath="$PROJECT_DIR$/sass/_color.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_draft.sass" afterPath="$PROJECT_DIR$/sass/_draft.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_card.sass" afterPath="$PROJECT_DIR$/sass/_card.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_flex-grid.sass" afterPath="$PROJECT_DIR$/sass/_flex-grid.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_form.sass" afterPath="$PROJECT_DIR$/sass/_form.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_general.sass" afterPath="$PROJECT_DIR$/sass/_general.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_login.sass" afterPath="$PROJECT_DIR$/sass/_login.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_selectric.sass" afterPath="$PROJECT_DIR$/sass/_selectric.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_table.sass" afterPath="$PROJECT_DIR$/sass/_table.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_topbar.sass" afterPath="$PROJECT_DIR$/sass/_topbar.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.sass" afterPath="$PROJECT_DIR$/sass/style.sass" />
     </list>
     <ignored path="nexxCP.iws" />
@@ -58,8 +55,8 @@
       <file leaf-file-name="_general.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_general.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="597">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,49 +65,61 @@
       <file leaf-file-name="user-list-user.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haml/user-list-user.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+            <state relative-caret-position="880">
+              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_table.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_card.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_card.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_topbar.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_topbar.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/_form.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_table.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_table.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="302">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_color.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_color.sass">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_typography.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_typography.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_selectric.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_selectric.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="1400">
+              <caret line="1187" column="0" selection-start-line="1187" selection-start-column="0" selection-end-line="1187" selection-end-column="0" />
+              <folding>
+                <marker date="1476552424956" expanded="true" signature="25956:25957" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +127,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="604">
+              <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -152,7 +161,6 @@
         <option value="$PROJECT_DIR$/sass/_sidebar.sass" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/sass/_sprite.sass" />
-        <option value="$PROJECT_DIR$/sass/_topbar.sass" />
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/scss/bootstrap-flex.scss" />
@@ -163,22 +171,23 @@
         <option value="$PROJECT_DIR$/haml/layout.haml" />
         <option value="$PROJECT_DIR$/sass/_typography.sass" />
         <option value="$PROJECT_DIR$/scss/selectric.scss" />
-        <option value="$PROJECT_DIR$/sass/_selectric.sass" />
-        <option value="$PROJECT_DIR$/sass/_flex-grid.sass" />
         <option value="$PROJECT_DIR$/haml/header.haml" />
-        <option value="$PROJECT_DIR$/haml/footer.haml" />
-        <option value="$PROJECT_DIR$/sass/_general.sass" />
-        <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/sass/_draft.sass" />
         <option value="$PROJECT_DIR$/sass/_breadcrumb.sass" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/sass/_card.sass" />
-        <option value="$PROJECT_DIR$/sass/_form.sass" />
         <option value="$PROJECT_DIR$/sass/_login.sass" />
         <option value="$PROJECT_DIR$/haml/login.haml" />
         <option value="$PROJECT_DIR$/sass/_color.sass" />
+        <option value="$PROJECT_DIR$/sass/_flex-grid.sass" />
+        <option value="$PROJECT_DIR$/sass/_topbar.sass" />
+        <option value="$PROJECT_DIR$/sass/_selectric.sass" />
         <option value="$PROJECT_DIR$/haml/user-list-user.haml" />
+        <option value="$PROJECT_DIR$/sass/style.sass" />
+        <option value="$PROJECT_DIR$/haml/footer.haml" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/sass/_table.sass" />
+        <option value="$PROJECT_DIR$/sass/_general.sass" />
+        <option value="$PROJECT_DIR$/sass/_card.sass" />
+        <option value="$PROJECT_DIR$/sass/_form.sass" />
       </list>
     </option>
   </component>
@@ -235,6 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -326,7 +336,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,11 +423,12 @@
       <workItem from="1476342080880" duration="15070000" />
       <workItem from="1476412541840" duration="34252000" />
       <workItem from="1476499341371" duration="35636000" />
+      <workItem from="1476544900750" duration="7705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132192000" />
+    <option name="totallyTimeSpent" value="139897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="24" width="1547" height="876" extended-state="6" />
@@ -566,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-147">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,19 +610,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_topbar.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haml/foobar.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-483">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="39" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,119 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1475786525000" expanded="true" signature="33828:33836" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/user-list-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="1237" column="0" selection-start-line="1237" selection-start-column="0" selection-end-line="1237" selection-end-column="0" />
-          <folding>
-            <marker date="1476538221359" expanded="true" signature="55:175" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="229:291" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="346:412" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="469:533" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="590:654" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="712:778" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="832:898" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="964:1030" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="1212:1279" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="1335:1402" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="1455:1522" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="1573:1640" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="1693:1760" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="1937:2004" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="2055:2122" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="2306:2373" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="2544:2611" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="2665:2732" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="2786:2853" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="2920:2987" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="3048:3115" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="3170:3237" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="3409:3476" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="3535:3602" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="3777:4039" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="4089:4286" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="5463:5498" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="5556:5591" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="5946:5990" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="6046:6090" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="6149:6193" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="6948:7054" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="7137:7158" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="7241:7338" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="7433:7465" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="7543:7564" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="7739:7894" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="8035:8067" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="8121:8153" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="8207:8239" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="13247:13381" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="13429:13600" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="13659:13741" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="13898:14028" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14094:14136" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14192:14254" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14312:14374" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14436:14478" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14522:14545" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14589:14725" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14767:14834" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="14879:15186" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="15236:15551" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="15604:15661" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="15716:15777" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="15828:15875" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="15938:15988" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="16051:16070" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="16267:16364" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="17155:17223" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="19737:19781" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="20184:20219" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="20308:20437" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="20520:20625" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="21304:21442" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="21667:21711" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="21787:21831" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="23010:23050" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="23196:23246" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="23508:23558" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="23634:23703" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="23783:23808" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="24060:24085" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="24160:24186" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="24262:24331" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="24527:24544" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="24939:25022" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="25105:25123" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="25209:25450" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="25628:25711" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="26069:26094" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="26308:26330" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="26453:26476" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="26592:26635" ph="{...}" />
-            <marker date="1476538221359" expanded="true" signature="28897:28898" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_flex-grid.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,23 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haml/footer.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haml/header.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,14 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -826,51 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_selectric.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_general.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_form.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haml/login.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="28" column="60" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_card.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,10 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_color.sass">
+    <entry file="file://$PROJECT_DIR$/html/user-list-user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="360">
+          <caret line="468" column="53" selection-start-line="468" selection-start-column="53" selection-end-line="468" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -898,18 +714,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/user-list-user.haml">
+    <entry file="file://$PROJECT_DIR$/sass/_flex-grid.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_selectric.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/footer.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/header.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="45" column="2" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="1187" column="0" selection-start-line="1187" selection-start-column="0" selection-end-line="1187" selection-end-column="0" />
+          <folding>
+            <marker date="1476552424956" expanded="true" signature="25956:25957" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_color.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_table.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="302">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/user-list-user.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_topbar.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_general.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_card.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_form.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>

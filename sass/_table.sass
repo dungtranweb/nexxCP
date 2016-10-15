@@ -2,6 +2,7 @@
 // ==================
 .table
   color: $primaryText
+  overflow: hidden
   thead
     font-size: rem(12px)
     font-weight: 600
@@ -10,6 +11,28 @@
       padding-left: 0
     tr.filter td
       border: none
+      padding-left: 0
+      padding-bottom: 10px
+      input[type="text"]
+        display: inline-block
+        border: none
+        border-bottom: 1px solid rgba($primaryText, 0.4) !important
+        padding-left: 0
+        &:focus
+          +box-shadow(none)
+          outline: none
+        &.cp-input-small
+          width: 65px
+        &.cp-input-normal
+          width: 95px
+        &.cp-input-middle
+          width: 165px
+      select
+        border-bottom: 1px solid rgba($primaryText, 0.4)
+        background-position-y: 8px
+        option
+          font-size: rem(12px)
+
   tbody
     tr
       &:hover
@@ -18,10 +41,10 @@
         border-top: 1px solid $line
         font-size: rem(12px)
         font-weight: 400
-        padding: 5px 0 15px
+        padding: 10px 0 10px
         &.online
-          border-left: 5px solid $blue
-          margin-left: 2px
+          border-left: 10px solid $blue
+          padding-right: 5px
         &.action
           width: 90px
           padding-right: 30px
@@ -39,3 +62,5 @@ label
     bottom: -16px
     border: 1px solid $line
     +border-radius(3px)
+
+

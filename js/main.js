@@ -44,9 +44,3 @@ $(document).ready(function () {
         autoclose: true
     });
 })
-
-// Setup Selectric plugin
-// ======================
-$(document).ready(function () {
-    $('.cp-card-selecta').selectric();
-})
