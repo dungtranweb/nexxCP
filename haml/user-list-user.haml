@@ -1,0 +1,156 @@
+= Haml::Engine.new(File.read('header.haml')).render
+
+/ Container
+/ =========
+\<div class="cp-container">
+
+/ Sidebar
+/ =======
+= Haml::Engine.new(File.read('sidebar.haml')).render
+/ End Sidebar
+
+/ Right Block
+/ ===========
+\<div class="cp-right-block">
+
+/ Topbar
+/ ======
+= Haml::Engine.new(File.read('topbar.haml')).render
+/ End Topbar
+
+/ Content
+/ =======
+\<div class="cp-content">
+
+/ Breadcrumb
+%ol.cp-breadcrumb
+  %li.cp-breadcrumb-item
+    %a(href="index.html") Home
+  %li.cp-breadcrumb-item
+    %a(href="user-dashboard.html") User
+  %li.cp-breadcrumb-item.active List User
+
+/ Content Flex
+\<div class="cp-content-flex">
+
+.cp-flex.cp-card
+  %header
+    .cp-card-title
+      .cp-typo-title List User
+    .cp-card-config
+      .dropdown.export
+        .dropdown-toggle(data-toggle="dropdown") Export &nbsp;&nbsp;&nbsp;<i class="cp-icn-caret-grey"></i>
+        .dropdown-menu.dropdown-menu-right
+          %a.dropdown-item(href="#") Excel
+          %a.dropdown-item(href="#") CSV
+      .split
+      %select
+        %option 10 items
+        %option 20 items
+        %option 50 items
+        %option 100 items
+      .split
+      %input.cp-card-date(type="text" placeholder="15/10/2016" )
+
+  %table.table
+    %thead
+      %tr
+        %th &nbsp;
+        %th &nbsp;
+        %th &nbsp;
+        %th CODE
+        %th NAME
+        %th EMAIL
+        %th DATE OF BIRTH
+        %th ROLE
+        %th POSITION
+        %th STATUS
+        %th ACTION
+      %tr.filter
+        %td &nbsp;
+        %td &nbsp;
+        %td &nbsp;
+        %td CODE
+        %td NAME
+        %td EMAIL
+        %td DATE OF BIRTH
+        %td ROLE
+        %td POSITION
+        %td STATUS
+        %td ACTION
+    %tbody
+      %tr
+        %td.online &nbsp;
+        %td
+          %input#chb-1(type="checkbox")
+          %label(for="chb-1")
+        %td 1
+        %td NV2516
+        %td Toan Nguyen
+        %td toan.nguyen@nexx.vn
+        %td 12/12/1990
+        %td Moderator
+        %td Tech Guy
+        %td Active
+        %td.action
+          %a.btn-list(href="#") <i class="cp-icn-view"></i>
+          %a.btn-list(href="#") <i class="cp-icn-pass"></i>
+          %a.btn-list(href="#") <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+      %tr
+        %td &nbsp;
+        %td
+          %input#chb-2(type="checkbox")
+          %label(for="chb-2")
+        %td 2
+        %td NV2512
+        %td Anh Nguyen
+        %td anh.nguyen@nexx.vn
+        %td 06/10/1990
+        %td Moderator
+        %td Tech Guy
+        %td Active
+        %td.action
+          %a.btn-list(href="#") <i class="cp-icn-view"></i>
+          %a.btn-list(href="#") <i class="cp-icn-pass"></i>
+          %a.btn-list(href="#") <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+      %tr
+        %td &nbsp;
+        %td
+          %input#chb-3(type="checkbox")
+          %label(for="chb-3")
+        %td 3
+        %td NV2587
+        %td Thi Huynh
+        %td thi.huynh@nexx.vn
+        %td 25/07/1990
+        %td Admin
+        %td Tech Manager
+        %td Active
+        %td.action
+          %a.btn-list(href="#") <i class="cp-icn-view"></i>
+          %a.btn-list(href="#") <i class="cp-icn-pass"></i>
+          %a.btn-list(href="#") <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+
+
+
+\</div>
+/ End Content Flex
+
+\</div>
+/ End Content
+
+/ Foobar
+/ ======
+= Haml::Engine.new(File.read('foobar.haml')).render
+/ End Foobar
+
+\</div>
+/ End Right Block
+
+\</div>
+/ End Container
+
+= Haml::Engine.new(File.read('footer.haml')).render

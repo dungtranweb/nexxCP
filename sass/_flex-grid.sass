@@ -1,0 +1,27 @@
+// Define Flex Grid
+.cp-content-flex
+  +display-flex(flex)
+  +flex-flow(row wrap)
+  +justify-content(flex-start)
+  +align-items(flex-start)
+  height: 100%
+  width: 100%
+
+.cp-flex
+  +flex(1 100%)
+  background-color: white
+  margin-left: 30px
+  border: 1 solid $line
+  +border-radius(7px)
+
+@for $i from 1 through 3
+  .cp-flex-#{$i}
+    +flex($i auto)
+    background-color: white
+    margin-left: 30px
+    border: 1 solid $line
+    +border-radius(7px)
+
+@for $i from 1 through 6
+  .cp-flex-order-#{$i}
+    +order($i)

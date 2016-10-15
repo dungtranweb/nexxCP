@@ -34,3 +34,19 @@ $(document).ready(function () {
         cursorborder: 'none'
     });
 })
+
+// Setup datePicker plugin
+// ======================
+$(document).ready(function () {
+    $('.cp-card-date').datepicker({
+        format: 'dd/mm/yyyy',
+        todayHighlight: true,
+        autoclose: true
+    });
+})
+
+// Setup Selectric plugin
+// ======================
+$(document).ready(function () {
+    $('.cp-card-selecta').selectric();
+})

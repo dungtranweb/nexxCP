@@ -25,9 +25,8 @@
           %input.input-login(type="text" name="password" placeholder="Password" )
         .space
         .checkbox
-          %input#remember(type="checkbox" name="remember-me" value="check")
-          %label(for="remember") Remember me
+          %input#chb-login(type="checkbox")
+          %label#checkbox-login(for="chb-login") Remember me
         %input(type="submit" name="submit" value="Access")
-
 
 = Haml::Engine.new(File.read('footer.haml')).render
