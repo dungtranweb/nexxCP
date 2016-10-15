@@ -7,6 +7,7 @@ http_path = "/"
 relative_assets = true
 css_dir = "css"
 sass_dir = "sass"
+scss_dir = "scss"
 images_dir = "images"
 javascripts_dir = "js"
 

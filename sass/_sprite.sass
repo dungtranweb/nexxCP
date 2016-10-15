@@ -2,7 +2,7 @@
 // ===========================
 
 $icons: sprite-map("icons/*.png")
-
+$sizes: 0.25 0.5 2 3 4
 
 i
   background: $icons no-repeat
@@ -13,4 +13,3 @@ i
   .cp-icn-#{$i}
     background-position: sprite-position($icons, $i)
     +sprite-dimensions($icons, $i)
-

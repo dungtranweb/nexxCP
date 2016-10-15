@@ -21,34 +21,35 @@
         +border-radius(20px)
         height: 20px
         text-align: center
-        padding: 3px 5px 5px 5px
+        padding: 2px 5px 6px 5px
         color: white
         font-weight: 600
         background-color: $orange
-    .dropdown-messages
+    ul
+      width: 150px
+      .topbar-wraplink
+        position: relative
+        color: $primaryText
+        font-size: rem(12px)
+        padding: 10px 0
+        a.topbar-link
+          display: block
+          +stretch(0, 0, 0, 0)
+          text-indent: -9999
+          z-index: 1000
+          padding: 0
+          height: 100%
+        .icn-left
+          padding-left: 20px
+    ul.dropdown-messages
       width: 350px
-      margin-left: auto
-      right: 0
-      left: auto
-      li.dropdown-item
-        cursor: pointer
-        a
-          height: auto
-          width: 100%
-          color: $primaryText
-          &:hover,
-          &:focus,
-          &:active
-            text-decoration: none
-          div:last-child
-            padding-top: 5px
-      li.read-more
-        text-align: center
-        padding-top: 15px
-        padding-bottom: 5px
-        a
-          padding-left: 0
-          cursor: pointer
+      .topbar-wraplink
+        padding: 15px 0
+        div:nth-child(2)
+          padding-top: 5px
+        &.read-more
+          text-align: center
+          padding: 8px 0
 
     hr
       border-color: rgba($primaryText, 0.15)

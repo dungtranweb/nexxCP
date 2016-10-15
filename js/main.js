@@ -25,7 +25,10 @@ $(document).ready(function () {
 // Setup NiceScroll plugin
 // =======================
 $(document).ready(function () {
-    $('html').niceScroll();
+    $('html').niceScroll({
+        cursorcolor: 'rgba(33, 119, 86 , 0.2)',
+        cursorborder: 'none'
+    });
     $('.sidebar-nav').niceScroll({
         cursorcolor: 'rgba(238, 238, 238 , 0.2)',
         cursorborder: 'none'

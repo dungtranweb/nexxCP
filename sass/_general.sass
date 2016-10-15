@@ -52,7 +52,7 @@ input
 // Container
 // =========
 .cp-container
-  width: 100&
+  width: 100%
   height: 100vh
   position: relative
 
@@ -70,6 +70,23 @@ input
 .dropdown-menu
   +border-radius(5px)
   +box-shadow(0 6px 12px rgba(black, 0.175))
+  padding: 0
 
 .dropdown-item
   white-space: normal
+  &:first-child:hover,
+  &:first-child:focus
+    +border-top-left-radius(5px)
+    +border-top-right-radius(5px)
+  &:last-child:hover,
+  &:last-child:focus
+    +border-bottom-left-radius(5px)
+    +border-bottom-right-radius(5px)
+
+.dropdown-submenu
+  position: relative
+  > .dropdown-menu
+    top: 0
+    left: 100%
+    margin-top: -6px
+    margin-left: -1px
