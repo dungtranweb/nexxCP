@@ -1,0 +1,37 @@
+// Define Pagination
+// =================
+ul.cp-pagination
+  margin: 30px 40px 0 0
+  display: inline-block
+  padding: 0
+  float: right
+  li.cp-pagination-item
+    display: inline
+    a.cp-pagination-link
+      position: relative
+      float: left
+      text-decoration: none
+      background-color: white
+      border: none
+      color: $primaryText
+      font-size: rem(12px)
+      padding: 5px 10px
+      margin: 0
+      box-sizing: border-box
+      &:hover,
+      &:focus,
+      &:active
+        border: 1px solid $primary
+        +border-radius(50%)
+        color: $primary
+    &:first-child a,
+    &:last-child a
+      font-size: rem(20px)
+      padding-right: 15px
+      padding-left: 15px
+      line-height: rem(13px)
+      &:hover,
+      &:focus,
+      &:active
+        border: none
+        +border-radius(none)

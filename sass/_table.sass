@@ -3,6 +3,7 @@
 .table
   color: $primaryText
   overflow: hidden
+  margin-bottom: 0
   thead
     font-size: rem(12px)
     font-weight: 600
@@ -25,7 +26,7 @@
           width: 65px
         &.cp-input-normal
           width: 95px
-        &.cp-input-middle
+        &.cp-input-medium
           width: 165px
       select
         border-bottom: 1px solid rgba($primaryText, 0.4)
@@ -37,6 +38,8 @@
     tr
       &:hover
         background-color: rgba($hover, 0.05)
+      &:first-child td
+        border-top: none !important
       td
         border-top: 1px solid $line
         font-size: rem(12px)
@@ -55,12 +58,13 @@
           &:nth-child(3)
             padding-left: 3px
             padding-right: 7px
+        label.checkbox
+          padding-left: 25px
+          margin-right: 5px
+          &:before
+            bottom: -16px
 
-label
-  padding-left: 25px
-  &:before
-    bottom: -16px
-    border: 1px solid $line
-    +border-radius(3px)
+
+
 
 

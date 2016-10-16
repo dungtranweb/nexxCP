@@ -26,7 +26,7 @@ $(document).ready(function () {
 // =======================
 $(document).ready(function () {
     $('html').niceScroll({
-        cursorcolor: 'rgba(33, 119, 86 , 0.2)',
+        cursorcolor: 'rgba(33, 119, 86 , 0.6)',
         cursorborder: 'none'
     });
     $('.sidebar-nav').niceScroll({

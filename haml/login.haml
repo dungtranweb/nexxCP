@@ -24,9 +24,9 @@
             %img.pass(src="../images/login/pass.png" alt="Password icon")
           %input.input-login(type="text" name="password" placeholder="Password" )
         .space
-        .checkbox
-          %input#chb-login(type="checkbox")
-          %label#checkbox-login(for="chb-login") Remember me
+        %input#chb-login(type="checkbox")
+        %label#checkbox-login.checkbox(for="chb-login") Remember me
+
         %input(type="submit" name="submit" value="Access")
 
 = Haml::Engine.new(File.read('footer.haml')).render

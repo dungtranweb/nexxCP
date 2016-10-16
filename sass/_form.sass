@@ -2,7 +2,7 @@
 // =========================
 
 
-// Checkbox
+// Checkbox & Radio
 // ================
 label
   display: inline-block
@@ -11,27 +11,43 @@ label
   font-size: rem(16px)
   &:before
     display: inline-block
-    content: ''
-    width: 25px
-    height: 25px
+    content: ""
     position: absolute
     left: 0
     bottom: 5px
     background-color: white
+    border: 1px solid $line
 
-.checkbox label:before
+label.checkbox:before
   +border-radius(3px)
+  width: 25px
+  height: 25px
 
-input[type=checkbox]
+label.radio:before
+  +border-radius(8px)
+  width: 16px
+  height: 16px
+
+input[type=checkbox],
+input[type=radio]
   display: none
 
-input[type=checkbox]:checked + label:before
+input[type=checkbox]:checked + label.checkbox:before
   content: url("../images/icons/check.png")
   border: 2px solid $primary
   font-size: rem(22px)
-  line-height: 18px
+  line-height: rem(18px)
   text-align: center
   color: $primary
+
+input[type=radio]:checked + label.radio:before
+  content: "\2022"
+  border: 2px solid $primary
+  font-size: rem(32px)
+  line-height: rem(11px)
+  text-align: center
+  color: $primary
+
 
 // Select
 // ======
