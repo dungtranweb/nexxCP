@@ -53,12 +53,11 @@ input[type=radio]:checked + label.radio:before
 // ======
 select
   display: inline-block
-  background: white image_url("icons/caret-grey.png") no-repeat right 12px
-  border: none
+  background: white image_url("icons/caret-grey.png") no-repeat 97% 16px
+  +border-radius(3px)
+  +box-shadow(inset 0 1px 3px rgba($primary, 0.2))
   outline: none
-  line-height: 1.5
   margin: 0
-  padding: 0 15px 4px 15px
   color: $primaryText !important
   +box-sizing(border-box)
   +appearance(none)
@@ -71,4 +70,84 @@ select
       width: 100%
       left: 0
       border: none
+
+// Other Input & Textarea
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+select
+  border: 1px solid rgba($inputText, 0.6)
+  +border-radius(3px)
+  +box-shadow(inset 0 1px 3px rgba($inputText, 0.2))
+  +input-placeholder
+    color: $inputText
+  color: $primaryText
+  font-size: rem(16px)
+  font-weight: 400
+  padding: 8px 0 8px 35px
+  width: 100%
+  &:hover
+    border-color: $inputText
+  &:focus
+    border-color: rgba($primary, 0.6)
+    outline: none
+    +box-shadow(inset 0 1px 1px rgba($primary, 0.075), 0 0 8px rgba($primary, 0.6))
+
+textarea
+  height: 115px
+
+
+// Setup Form Section
+// ==================
+form
+  .cp-label
+    text-transform: uppercase
+    padding-top: 20px
+    padding-bottom: 6px
+    @extend .cp-typo-label
+    &:first-child
+      padding-top: 0
+  .cp-date
+    display: inline
+    select
+      width: 145px
+      margin-right: 21px
+      background-position-x: 91%
+      &:last-child
+        margin-right: 0
+  .cp-btn-success
+    margin-top: 40px
+  .cp-is-default
+    margin-left: 150px
+  select:disabled
+    background-color: $background
+    background-image: image_url("icons/disable.png")
+    background-position-y: 12px
+
+
+// Style Upload Form
+// =================
+.kv-avatar .file-preview-frame,
+.kv-avatar .file-preview-frame:hover
+  margin: 0
+  padding: 0
+  border: none
+  +box-shadow(none)
+  text-align: center
+
+.kv-avatar .file-input
+  display: table-cell
+  max-width: 160px
 

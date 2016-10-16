@@ -17,12 +17,13 @@ ul.cp-pagination
       font-size: rem(12px)
       padding: 5px 10px
       margin: 0
-      box-sizing: border-box
+      +box-sizing(border-box)
       &:hover,
       &:focus,
       &:active
         border: 1px solid $primary
         +border-radius(50%)
+        +box-sizing(border-box)
         color: $primary
     &:first-child a,
     &:last-child a

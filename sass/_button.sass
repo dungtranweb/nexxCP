@@ -2,17 +2,22 @@
 // ===================
 
 
-$list-btn: trans upload instant primary
-$list-btn-color: transparent $primaryText $purple $primary
+$list-btn: trans upload instant primary danger success
+$list-btn-color: transparent $primaryText $purple $primary $red $blue
 $btn-style-list: zip($list-btn, $list-btn-color)
 
 %cp-btn,
 .cp-btn
   height: 40px
-  padding: auto 40px
-  +border-radius(3px)
+  padding: 10px 40px
+  border: none
+  outline: none
   color: white
   cursor: pointer
+  font-size: rem(16px)
+  line-height: rem(16px)
+  +border-radius(3px)
+  +box-shadow(none)
 
 @each $btn in $btn-style-list
   .cp-btn-#{nth($btn, 1)}

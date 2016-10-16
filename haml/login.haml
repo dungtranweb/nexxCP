@@ -17,12 +17,12 @@
         .form-style
           .form-label
             %img.user(src="../images/login/user.png" alt="User icon")
-          %input.input-login(type="text" name="username" placeholder="Username" )
+          %input.input-login(type="text" name="username" placeholder="Username" required )
         .space
         .form-style
           .form-label
             %img.pass(src="../images/login/pass.png" alt="Password icon")
-          %input.input-login(type="text" name="password" placeholder="Password" )
+          %input.input-login(type="text" name="password" placeholder="Password" required )
         .space
         %input#chb-login(type="checkbox")
         %label#checkbox-login.checkbox(for="chb-login") Remember me

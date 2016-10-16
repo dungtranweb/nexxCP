@@ -17,11 +17,16 @@
       input[type="text"]
         display: inline-block
         border: none
-        border-bottom: 1px solid rgba($primaryText, 0.4) !important
-        padding-left: 0
+        border-bottom: 1px solid rgba($primaryText, 0.4)
+        padding: 0
+        font-size: rem(12px)
+        line-height: rem(20px)
+        +box-shadow(none)
+        +border-radius(0)
         &:focus
           +box-shadow(none)
           outline: none
+          border-bottom-color: $brandText
         &.cp-input-small
           width: 65px
         &.cp-input-normal
@@ -29,8 +34,16 @@
         &.cp-input-medium
           width: 165px
       select
+        border: none
         border-bottom: 1px solid rgba($primaryText, 0.4)
+        background-image: image_url("icons/caret-black.png")
+        background-position-x: right
         background-position-y: 8px
+        font-weight: 400
+        padding: 0 15px 4px 15px
+        font-size: rem(12px)
+        +box-shadow(none)
+        +border-radius(0)
         option
           font-size: rem(12px)
 

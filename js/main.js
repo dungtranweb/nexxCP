@@ -44,3 +44,24 @@ $(document).ready(function () {
         autoclose: true
     });
 })
+
+// Setup Bootstrap Input File plugin
+// =================================
+$(document).ready(function () {
+    $("#user-avatar").fileinput({
+        overwriteInitial: true,
+        maxFileSize: 1500,
+        showClose: false,
+        showCaption: false,
+        browseLabel: '',
+        removeLabel: '',
+        browseIcon: '<span style="font-size: 16px;">Browse...</span>',
+        removeIcon: '<i class="cp-icn-disable"></i>',
+        removeTitle: 'Cancel or reset changes',
+        elErrorContainer: '#kv-avatar-errors-1',
+        msgErrorClass: 'alert alert-block alert-danger',
+        defaultPreviewContent: '<img src="../images/avatar-ph.png" alt="Your Avatar" style="width:160px">',
+        layoutTemplates: {main2: '{preview} {remove} {browse}'},
+        allowedFileExtensions: ["jpg", "png", "gif"]
+    });
+})
