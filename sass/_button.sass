@@ -1,7 +1,8 @@
 // Define Button Style
 // ===================
 
-
+// Button Action
+// =============
 $list-btn: trans upload instant primary danger success
 $list-btn-color: transparent $primaryText $purple $primary $red $blue
 $btn-style-list: zip($list-btn, $list-btn-color)
@@ -25,3 +26,21 @@ $btn-style-list: zip($list-btn, $list-btn-color)
 
 .cp-btn-upload
   width: 162px !important
+
+// Button Cleaner Activities
+// =========================
+.cp-btn-act
+  padding: 3px 10px
+  color: white
+  text-align: center
+  display: inline-block
+  +border-radius(3px)
+
+$list-cleaner-act: available accept inprogress outbalance
+$list-cleaner-color: $primary $pink $purple $primaryText
+$btn-cleaner-act: zip($list-cleaner-act, $list-cleaner-color)
+
+@each $btn in $btn-cleaner-act
+  .cp-cleaner-#{nth($btn, 1)}
+    background-color: nth($btn, 2)
+

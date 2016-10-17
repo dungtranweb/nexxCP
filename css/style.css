@@ -385,7 +385,8 @@ i {
 }
 
 /* line 7, ../sass/_image.sass */
-.avatar-circle, .avatar-rectangle, .avatar-list {
+.avatar-circle, .avatar-rectangle, .avatar-rec-empty, .avatar-list-empty,
+.avatar-list {
   display: inline-block;
   width: 90px;
   height: 90px;
@@ -401,7 +402,7 @@ i {
 }
 
 /* line 18, ../sass/_image.sass */
-.avatar-rectangle {
+.avatar-rectangle, .avatar-rec-empty {
   border-color: #e6e6e6;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -409,6 +410,7 @@ i {
 }
 
 /* line 23, ../sass/_image.sass */
+.avatar-list-empty,
 .avatar-list {
   width: 56px;
   height: 56px;
@@ -418,14 +420,25 @@ i {
   border-radius: 3px;
 }
 
-/* line 30, ../sass/_image.sass */
-.avatar-empty {
-  background-color: rgba(119, 192, 68, 0.1);
-  color: rgba(39, 64, 37, 0.2);
+/* line 31, ../sass/_image.sass */
+.avatar-rec-empty, .avatar-list-empty {
+  background-color: rgba(102, 102, 102, 0.5);
+  color: white;
   text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
+}
+
+/* line 38, ../sass/_image.sass */
+.avatar-rec-empty {
   font-size: 2rem;
   line-height: 2.4rem;
-  font-weight: 300;
+}
+
+/* line 44, ../sass/_image.sass */
+.avatar-list-empty {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
 }
 
 /* line 3, ../sass/_breadcrumb.sass */
@@ -475,7 +488,7 @@ i {
   text-decoration: none;
 }
 
-/* line 9, ../sass/_button.sass */
+/* line 10, ../sass/_button.sass */
 .cp-btn {
   height: 40px;
   padding: 10px 40px;
@@ -493,39 +506,70 @@ i {
   box-shadow: none;
 }
 
-/* line 23, ../sass/_button.sass */
+/* line 24, ../sass/_button.sass */
 .cp-btn-trans {
   background-color: transparent;
 }
 
-/* line 23, ../sass/_button.sass */
+/* line 24, ../sass/_button.sass */
 .cp-btn-upload {
   background-color: #666666;
 }
 
-/* line 23, ../sass/_button.sass */
+/* line 24, ../sass/_button.sass */
 .cp-btn-instant {
   background-color: #3c57a7;
 }
 
-/* line 23, ../sass/_button.sass */
+/* line 24, ../sass/_button.sass */
 .cp-btn-primary {
   background-color: #77C044;
 }
 
-/* line 23, ../sass/_button.sass */
+/* line 24, ../sass/_button.sass */
 .cp-btn-danger {
   background-color: #e75425;
 }
 
-/* line 23, ../sass/_button.sass */
+/* line 24, ../sass/_button.sass */
 .cp-btn-success {
   background-color: #40c7f1;
 }
 
-/* line 26, ../sass/_button.sass */
+/* line 27, ../sass/_button.sass */
 .cp-btn-upload {
   width: 162px !important;
+}
+
+/* line 32, ../sass/_button.sass */
+.cp-btn-act {
+  padding: 3px 10px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 44, ../sass/_button.sass */
+.cp-cleaner-available {
+  background-color: #77C044;
+}
+
+/* line 44, ../sass/_button.sass */
+.cp-cleaner-accept {
+  background-color: #e13370;
+}
+
+/* line 44, ../sass/_button.sass */
+.cp-cleaner-inprogress {
+  background-color: #3c57a7;
+}
+
+/* line 44, ../sass/_button.sass */
+.cp-cleaner-outbalance {
+  background-color: #666666;
 }
 
 /* line 7, ../sass/_form.sass */
@@ -940,74 +984,82 @@ table.cp-table-list thead tr.filter td label.checkbox {
   margin-bottom: -10px;
 }
 /* line 65, ../sass/_table.sass */
+table.cp-table-list tbody.have-avatar tr td {
+  vertical-align: middle;
+}
+/* line 68, ../sass/_table.sass */
 table.cp-table-list tbody tr:hover {
   background-color: rgba(38, 34, 98, 0.05);
 }
-/* line 67, ../sass/_table.sass */
+/* line 70, ../sass/_table.sass */
 table.cp-table-list tbody tr:first-child td {
   border-top: none !important;
 }
-/* line 69, ../sass/_table.sass */
+/* line 72, ../sass/_table.sass */
 table.cp-table-list tbody tr td {
   border-top: 1px solid #e6e6e6;
   font-size: 1.2rem;
   font-weight: 400;
   padding: 10px 0 10px 10px;
 }
-/* line 74, ../sass/_table.sass */
+/* line 77, ../sass/_table.sass */
 table.cp-table-list tbody tr td:nth-child(2) {
   padding-left: 0;
 }
-/* line 76, ../sass/_table.sass */
+/* line 79, ../sass/_table.sass */
 table.cp-table-list tbody tr td.online {
   border-left: 10px solid #40c7f1;
 }
-/* line 78, ../sass/_table.sass */
+/* line 81, ../sass/_table.sass */
 table.cp-table-list tbody tr td.action {
   width: 90px;
   padding-right: 30px;
 }
-/* line 81, ../sass/_table.sass */
+/* line 84, ../sass/_table.sass */
+table.cp-table-list tbody tr td.cell-center {
+  text-align: center;
+}
+/* line 86, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list {
   padding-right: 10px;
 }
-/* line 83, ../sass/_table.sass */
+/* line 88, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list:first-child {
   padding-right: 5px;
 }
-/* line 85, ../sass/_table.sass */
+/* line 90, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list:nth-child(3) {
   padding-left: 3px;
   padding-right: 7px;
 }
-/* line 88, ../sass/_table.sass */
+/* line 93, ../sass/_table.sass */
 table.cp-table-list tbody tr td label.checkbox {
   padding-left: 25px;
   margin-right: 5px;
 }
-/* line 91, ../sass/_table.sass */
+/* line 96, ../sass/_table.sass */
 table.cp-table-list tbody tr td label.checkbox:before {
   bottom: -16px;
 }
 
-/* line 94, ../sass/_table.sass */
+/* line 99, ../sass/_table.sass */
 table.cp-card-detail {
   margin: 25px 30px 0 30px;
 }
-/* line 97, ../sass/_table.sass */
+/* line 102, ../sass/_table.sass */
 table.cp-card-detail tr:last-child td {
   padding-bottom: 0;
 }
-/* line 99, ../sass/_table.sass */
+/* line 104, ../sass/_table.sass */
 table.cp-card-detail tr td {
   padding-bottom: 5px;
 }
-/* line 101, ../sass/_table.sass */
+/* line 106, ../sass/_table.sass */
 table.cp-card-detail tr td:first-child {
   width: 110px;
   vertical-align: text-top;
 }
-/* line 105, ../sass/_table.sass */
+/* line 110, ../sass/_table.sass */
 table.cp-card-detail tr td:nth-child(2) {
   text-align: right;
 }

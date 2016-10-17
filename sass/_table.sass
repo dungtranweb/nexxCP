@@ -61,6 +61,9 @@ table.cp-table-list
         margin-bottom: -10px
 
   tbody
+    &.have-avatar
+      tr td
+        vertical-align: middle
     tr
       &:hover
         background-color: rgba($hover, 0.05)
@@ -78,6 +81,8 @@ table.cp-table-list
         &.action
           width: 90px
           padding-right: 30px
+        &.cell-center
+          text-align: center
         a.btn-list
           padding-right: 10px
           &:first-child
@@ -105,9 +110,6 @@ table.cp-card-detail
       &:nth-child(2)
         @extend .cp-typo-text
         text-align: right
-
-
-
 
 
 
