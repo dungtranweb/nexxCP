@@ -809,29 +809,29 @@ form select:disabled {
 }
 
 /* line 3, ../sass/_table.sass */
-.table {
+.cp-table-list {
   color: #666666;
   overflow: hidden;
   margin-bottom: 0;
 }
 /* line 7, ../sass/_table.sass */
-.table thead {
+.cp-table-list thead {
   font-size: 1.2rem;
   font-weight: 600;
 }
 /* line 10, ../sass/_table.sass */
-.table thead tr th {
+.cp-table-list thead tr th {
   border: none;
   padding-left: 0;
 }
 /* line 13, ../sass/_table.sass */
-.table thead tr.filter td {
+.cp-table-list thead tr.filter td {
   border: none;
   padding-left: 0;
   padding-bottom: 10px;
 }
 /* line 17, ../sass/_table.sass */
-.table thead tr.filter td input[type="text"] {
+.cp-table-list thead tr.filter td input[type="text"] {
   display: inline-block;
   border: none;
   border-bottom: 1px solid rgba(102, 102, 102, 0.4);
@@ -846,7 +846,7 @@ form select:disabled {
   border-radius: 0;
 }
 /* line 26, ../sass/_table.sass */
-.table thead tr.filter td input[type="text"]:focus {
+.cp-table-list thead tr.filter td input[type="text"]:focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -854,19 +854,19 @@ form select:disabled {
   border-bottom-color: #274025;
 }
 /* line 30, ../sass/_table.sass */
-.table thead tr.filter td input[type="text"].cp-input-small {
+.cp-table-list thead tr.filter td input[type="text"].cp-input-small {
   width: 65px;
 }
 /* line 32, ../sass/_table.sass */
-.table thead tr.filter td input[type="text"].cp-input-normal {
+.cp-table-list thead tr.filter td input[type="text"].cp-input-normal {
   width: 95px;
 }
 /* line 34, ../sass/_table.sass */
-.table thead tr.filter td input[type="text"].cp-input-medium {
+.cp-table-list thead tr.filter td input[type="text"].cp-input-medium {
   width: 165px;
 }
 /* line 36, ../sass/_table.sass */
-.table thead tr.filter td select {
+.cp-table-list thead tr.filter td select {
   border: none;
   border-bottom: 1px solid rgba(102, 102, 102, 0.4);
   background-image: url('../images/icons/caret-black.png?1476461550');
@@ -883,54 +883,54 @@ form select:disabled {
   border-radius: 0;
 }
 /* line 47, ../sass/_table.sass */
-.table thead tr.filter td select option {
+.cp-table-list thead tr.filter td select option {
   font-size: 1.2rem;
 }
 /* line 52, ../sass/_table.sass */
-.table tbody tr:hover {
+.cp-table-list tbody tr:hover {
   background-color: rgba(38, 34, 98, 0.05);
 }
 /* line 54, ../sass/_table.sass */
-.table tbody tr:first-child td {
+.cp-table-list tbody tr:first-child td {
   border-top: none !important;
 }
 /* line 56, ../sass/_table.sass */
-.table tbody tr td {
+.cp-table-list tbody tr td {
   border-top: 1px solid #e6e6e6;
   font-size: 1.2rem;
   font-weight: 400;
   padding: 10px 0 10px;
 }
 /* line 61, ../sass/_table.sass */
-.table tbody tr td.online {
+.cp-table-list tbody tr td.online {
   border-left: 10px solid #40c7f1;
   padding-right: 5px;
 }
 /* line 64, ../sass/_table.sass */
-.table tbody tr td.action {
+.cp-table-list tbody tr td.action {
   width: 90px;
   padding-right: 30px;
 }
 /* line 67, ../sass/_table.sass */
-.table tbody tr td a.btn-list {
+.cp-table-list tbody tr td a.btn-list {
   padding-right: 10px;
 }
 /* line 69, ../sass/_table.sass */
-.table tbody tr td a.btn-list:first-child {
+.cp-table-list tbody tr td a.btn-list:first-child {
   padding-right: 5px;
 }
 /* line 71, ../sass/_table.sass */
-.table tbody tr td a.btn-list:nth-child(3) {
+.cp-table-list tbody tr td a.btn-list:nth-child(3) {
   padding-left: 3px;
   padding-right: 7px;
 }
 /* line 74, ../sass/_table.sass */
-.table tbody tr td label.checkbox {
+.cp-table-list tbody tr td label.checkbox {
   padding-left: 25px;
   margin-right: 5px;
 }
 /* line 77, ../sass/_table.sass */
-.table tbody tr td label.checkbox:before {
+.cp-table-list tbody tr td label.checkbox:before {
   bottom: -16px;
 }
 
@@ -1405,18 +1405,19 @@ aside#sidebar .sidebar-nav {
   width: 100%;
   height: 100%;
   border-right: 2px solid rgba(78, 159, 72, 0.95);
+  padding-bottom: 70px;
 }
-/* line 15, ../sass/_sidebar.sass */
+/* line 16, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 19, ../sass/_sidebar.sass */
+/* line 20, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li {
   display: block;
 }
-/* line 21, ../sass/_sidebar.sass */
+/* line 22, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li a {
   text-align: left;
   padding: 15px 10px 15px 20px;
@@ -1427,59 +1428,59 @@ aside#sidebar .sidebar-nav ul li a {
   display: block;
   outline: none;
 }
-/* line 30, ../sass/_sidebar.sass */
+/* line 31, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li a:hover, aside#sidebar .sidebar-nav ul li a:focus, aside#sidebar .sidebar-nav ul li a:active {
   outline: none;
   font-weight: 600;
 }
-/* line 36, ../sass/_sidebar.sass */
+/* line 37, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li .active-alone:focus, aside#sidebar .sidebar-nav ul li .active-alone:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 39, ../sass/_sidebar.sass */
+/* line 40, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a {
   padding-left: 65px;
 }
-/* line 41, ../sass/_sidebar.sass */
+/* line 42, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a:hover, aside#sidebar .sidebar-nav ul ul a:focus, aside#sidebar .sidebar-nav ul ul a:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 46, ../sass/_sidebar.sass */
+/* line 47, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info {
   padding-top: 70px;
   margin-bottom: 10px;
   text-align: center;
 }
-/* line 50, ../sass/_sidebar.sass */
+/* line 51, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info img {
   margin-bottom: 5px;
 }
-/* line 52, ../sass/_sidebar.sass */
+/* line 53, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info #user-name {
   font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
 }
-/* line 57, ../sass/_sidebar.sass */
+/* line 58, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info ul#user-menu-item li a {
   padding-left: 20px;
 }
-/* line 59, ../sass/_sidebar.sass */
+/* line 60, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-left {
   padding-right: 30px;
 }
-/* line 61, ../sass/_sidebar.sass */
+/* line 62, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-right {
   float: right;
   position: relative;
   top: 10px;
   right: 15px;
 }
-/* line 66, ../sass/_sidebar.sass */
+/* line 67, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-right.caret-down {
   top: 18px;
 }
-/* line 68, ../sass/_sidebar.sass */
+/* line 69, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-right.caret-down-2line {
   top: -12px;
 }
