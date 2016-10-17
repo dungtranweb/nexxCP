@@ -60,8 +60,8 @@ $(document).ready(function () {
         removeTitle: 'Cancel or reset changes',
         elErrorContainer: '#kv-avatar-errors-1',
         msgErrorClass: 'alert alert-block alert-danger',
-        defaultPreviewContent: '<img src="../images/avatar-ph.png" alt="Your Avatar" style="width:160px">',
-        layoutTemplates: {main2: '{preview} {remove} {browse}'},
+        defaultPreviewContent: '<img src="../images/avatar-ph.png" alt="Your Avatar" style="width: 162px">',
+        layoutTemplates: {main2: '{preview} {browse}'},
         allowedFileExtensions: ["jpg", "png", "gif"]
     });
 })

@@ -301,8 +301,8 @@
         uploadIcon: '<i class="glyphicon glyphicon-upload text-info"></i>',
         uploadClass: 'btn btn-xs btn-default',
         uploadTitle: 'Upload file',
-        zoomIcon: '<i class="glyphicon glyphicon-zoom-in"></i>',
-        zoomClass: 'btn btn-xs btn-default',
+        zoomIcon: '<i class="cp-icn-zoom"></i>',
+        zoomClass: 'btn cp-btn-trans',
         zoomTitle: 'View Details',
         dragIcon: '<i class="glyphicon glyphicon-menu-hamburger"></i>',
         dragClass: 'text-info',
@@ -445,7 +445,7 @@
     };
     defaultPreviewTypes = ['image', 'html', 'text', 'video', 'audio', 'flash', 'pdf', 'object'];
     defaultPreviewSettings = {
-        image: {width: "auto", height: "160px"},
+        image: {width: "100%", height: "auto"},
         html: {width: "213px", height: "160px"},
         text: {width: "213px", height: "160px"},
         video: {width: "213px", height: "160px"},
@@ -456,7 +456,7 @@
         other: {width: "160px", height: "160px"}
     };
     defaultPreviewZoomSettings = {
-        image: {width: "100%", height: "100%"},
+        image: {width: "auto", height: "100%"},
         html: {width: "100%", height: "100%", 'min-height': "480px"},
         text: {width: "100%", height: "100%", 'min-height': "480px"},
         video: {width: "auto", height: "100%", 'max-width': "100%"},
@@ -3173,7 +3173,7 @@
         previewFileExtSettings: {},
         buttonLabelClass: 'hidden-xs',
         browseIcon: '<i class="glyphicon glyphicon-folder-open"></i>&nbsp;',
-        browseClass: 'btn btn-primary',
+        browseClass: 'btn cp-btn cp-btn-upload',
         removeIcon: '<i class="glyphicon glyphicon-trash"></i>',
         removeClass: 'btn btn-default',
         cancelIcon: '<i class="glyphicon glyphicon-ban-circle"></i>',
