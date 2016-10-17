@@ -385,7 +385,7 @@ i {
 }
 
 /* line 7, ../sass/_image.sass */
-.avatar-circle, .avatar-rectangle {
+.avatar-circle, .avatar-rectangle, .avatar-list {
   display: inline-block;
   width: 90px;
   height: 90px;
@@ -409,6 +409,16 @@ i {
 }
 
 /* line 23, ../sass/_image.sass */
+.avatar-list {
+  width: 56px;
+  height: 56px;
+  border-color: #e6e6e6;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 30, ../sass/_image.sass */
 .avatar-empty {
   background-color: rgba(119, 192, 68, 0.1);
   color: rgba(39, 64, 37, 0.2);
@@ -798,15 +808,16 @@ form .cp-btn-success {
 /* line 132, ../sass/_form.sass */
 form .cp-is-default {
   margin-left: 150px;
+  height: 0;
 }
-/* line 134, ../sass/_form.sass */
+/* line 135, ../sass/_form.sass */
 form select:disabled {
   background-color: #eeeeee;
   background-image: url('../images/icons/disable.png?1476619147');
   background-position-y: 12px;
 }
 
-/* line 142, ../sass/_form.sass */
+/* line 143, ../sass/_form.sass */
 .kv-avatar .file-preview-frame,
 .kv-avatar .file-preview-frame:hover {
   margin: 0;
@@ -818,13 +829,13 @@ form select:disabled {
   text-align: center;
 }
 
-/* line 150, ../sass/_form.sass */
+/* line 151, ../sass/_form.sass */
 .kv-avatar .file-input {
   display: table-cell;
   max-width: 162px;
 }
 
-/* line 154, ../sass/_form.sass */
+/* line 155, ../sass/_form.sass */
 .kv-avatar .file-preview {
   padding: 0;
 }
@@ -834,24 +845,34 @@ table.cp-table-list {
   color: #666666;
   overflow: hidden;
   margin-bottom: 0;
+  border-spacing: 35px;
 }
-/* line 7, ../sass/_table.sass */
+/* line 8, ../sass/_table.sass */
 table.cp-table-list thead {
   font-size: 1.2rem;
   font-weight: 600;
 }
-/* line 10, ../sass/_table.sass */
+/* line 11, ../sass/_table.sass */
 table.cp-table-list thead tr th {
   border: none;
-  padding-left: 0;
+  padding-left: 10px;
+  text-transform: uppercase;
 }
-/* line 13, ../sass/_table.sass */
-table.cp-table-list thead tr.filter td {
-  border: none;
+/* line 15, ../sass/_table.sass */
+table.cp-table-list thead tr th:nth-child(2) {
   padding-left: 0;
-  padding-bottom: 10px;
 }
 /* line 17, ../sass/_table.sass */
+table.cp-table-list thead tr.filter td {
+  border: none;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+/* line 21, ../sass/_table.sass */
+table.cp-table-list thead tr.filter td:nth-child(2) {
+  padding-left: 0;
+}
+/* line 23, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"] {
   display: inline-block;
   border: none;
@@ -866,7 +887,7 @@ table.cp-table-list thead tr.filter td input[type="text"] {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 26, ../sass/_table.sass */
+/* line 32, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"]:focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -874,19 +895,23 @@ table.cp-table-list thead tr.filter td input[type="text"]:focus {
   outline: none;
   border-bottom-color: #274025;
 }
-/* line 30, ../sass/_table.sass */
-table.cp-table-list thead tr.filter td input[type="text"].cp-input-small {
+/* line 36, ../sass/_table.sass */
+table.cp-table-list thead tr.filter td input[type="text"].cp-input-s1 {
   width: 65px;
 }
-/* line 32, ../sass/_table.sass */
-table.cp-table-list thead tr.filter td input[type="text"].cp-input-normal {
+/* line 38, ../sass/_table.sass */
+table.cp-table-list thead tr.filter td input[type="text"].cp-input-s2 {
   width: 95px;
 }
-/* line 34, ../sass/_table.sass */
-table.cp-table-list thead tr.filter td input[type="text"].cp-input-medium {
+/* line 40, ../sass/_table.sass */
+table.cp-table-list thead tr.filter td input[type="text"].cp-input-s3 {
+  width: 120px;
+}
+/* line 42, ../sass/_table.sass */
+table.cp-table-list thead tr.filter td input[type="text"].cp-input-s4 {
   width: 165px;
 }
-/* line 36, ../sass/_table.sass */
+/* line 44, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td select {
   border: none;
   border-bottom: 1px solid rgba(102, 102, 102, 0.4);
@@ -896,6 +921,7 @@ table.cp-table-list thead tr.filter td select {
   font-weight: 400;
   padding: 0 15px 4px 15px;
   font-size: 1.2rem;
+  text-transform: capitalize;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -903,81 +929,85 @@ table.cp-table-list thead tr.filter td select {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 47, ../sass/_table.sass */
+/* line 56, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td select option {
   font-size: 1.2rem;
+  text-transform: capitalize;
 }
-/* line 49, ../sass/_table.sass */
+/* line 59, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td label.checkbox {
   margin-top: 28px;
   margin-bottom: -10px;
 }
-/* line 55, ../sass/_table.sass */
+/* line 65, ../sass/_table.sass */
 table.cp-table-list tbody tr:hover {
   background-color: rgba(38, 34, 98, 0.05);
 }
-/* line 57, ../sass/_table.sass */
+/* line 67, ../sass/_table.sass */
 table.cp-table-list tbody tr:first-child td {
   border-top: none !important;
 }
-/* line 59, ../sass/_table.sass */
+/* line 69, ../sass/_table.sass */
 table.cp-table-list tbody tr td {
   border-top: 1px solid #e6e6e6;
   font-size: 1.2rem;
   font-weight: 400;
-  padding: 10px 0 10px;
+  padding: 10px 0 10px 10px;
 }
-/* line 64, ../sass/_table.sass */
+/* line 74, ../sass/_table.sass */
+table.cp-table-list tbody tr td:nth-child(2) {
+  padding-left: 0;
+}
+/* line 76, ../sass/_table.sass */
 table.cp-table-list tbody tr td.online {
   border-left: 10px solid #40c7f1;
-  padding-right: 5px;
 }
-/* line 67, ../sass/_table.sass */
+/* line 78, ../sass/_table.sass */
 table.cp-table-list tbody tr td.action {
   width: 90px;
   padding-right: 30px;
 }
-/* line 70, ../sass/_table.sass */
+/* line 81, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list {
   padding-right: 10px;
 }
-/* line 72, ../sass/_table.sass */
+/* line 83, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list:first-child {
   padding-right: 5px;
 }
-/* line 74, ../sass/_table.sass */
+/* line 85, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list:nth-child(3) {
   padding-left: 3px;
   padding-right: 7px;
 }
-/* line 77, ../sass/_table.sass */
+/* line 88, ../sass/_table.sass */
 table.cp-table-list tbody tr td label.checkbox {
   padding-left: 25px;
   margin-right: 5px;
 }
-/* line 80, ../sass/_table.sass */
+/* line 91, ../sass/_table.sass */
 table.cp-table-list tbody tr td label.checkbox:before {
   bottom: -16px;
 }
 
-/* line 83, ../sass/_table.sass */
+/* line 94, ../sass/_table.sass */
 table.cp-card-detail {
   margin: 25px 30px 0 30px;
 }
-/* line 86, ../sass/_table.sass */
+/* line 97, ../sass/_table.sass */
 table.cp-card-detail tr:last-child td {
   padding-bottom: 0;
 }
-/* line 88, ../sass/_table.sass */
+/* line 99, ../sass/_table.sass */
 table.cp-card-detail tr td {
   padding-bottom: 5px;
 }
-/* line 90, ../sass/_table.sass */
+/* line 101, ../sass/_table.sass */
 table.cp-card-detail tr td:first-child {
   width: 110px;
   vertical-align: text-top;
 }
-/* line 94, ../sass/_table.sass */
+/* line 105, ../sass/_table.sass */
 table.cp-card-detail tr td:nth-child(2) {
   text-align: right;
 }

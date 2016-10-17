@@ -1,0 +1,141 @@
+= Haml::Engine.new(File.read('header.haml')).render
+
+/ Container
+/ =========
+\<div class="cp-container">
+
+/ Sidebar
+/ =======
+= Haml::Engine.new(File.read('sidebar.haml')).render
+/ End Sidebar
+
+/ Right Block
+/ ===========
+\<div class="cp-right-block">
+
+/ Topbar
+/ ======
+= Haml::Engine.new(File.read('topbar.haml')).render
+/ End Topbar
+
+/ Content
+/ =======
+\<div class="cp-content">
+
+/ Breadcrumb
+%ol.cp-breadcrumb
+  %li.cp-breadcrumb-item
+    %a(href="index.html") Home
+  %li.cp-breadcrumb-item
+    %a(href="cleaner-dashboard.html") Cleaner
+  %li.cp-breadcrumb-item.active List Cleaner
+/ End Breadcrumb
+
+/ Content Flex
+\<div class="cp-content-flex">
+
+.cp-flex-1.cp-card
+  %header
+    .cp-card-title
+      .cp-typo-title List Cleaner
+    .cp-card-config
+      .dropdown.export
+        .dropdown-toggle(data-toggle="dropdown") <i class="cp-icn-export"></i> &nbsp;&nbsp;<i class="cp-icn-caret-black"></i>
+        .dropdown-menu.dropdown-menu-right
+          %a.dropdown-item(href="#") Excel
+          %a.dropdown-item(href="#") CSV
+      .split
+      %select
+        %option 10 items
+        %option 20 items
+        %option 50 items
+        %option 100 items
+      .split
+      %input.cp-card-date(type="text" placeholder="15/10/2016" ) <i class="cp-icn-caret-black"></i>
+
+  %table.table.cp-table-list
+    %thead
+      %tr
+        %th &nbsp;
+        %th &nbsp;
+        %th &nbsp;
+        %th &nbsp;
+        %th CODE
+        %th NAME
+        %th PHONE
+        %th DATE OF BIRTH
+        %th ACTIVITY
+        %th STATUS
+        %th BOOKING
+        %th ACTION
+      %tr.filter
+        %td &nbsp;
+        %td
+          %input#chb-all(type="checkbox")
+          %label.checkbox(for="chb-all")
+        %td &nbsp;
+        %td &nbsp;
+        %td
+          %input.cp-input-s1(type="text")
+        %td
+          %input(type="text")
+        %td
+          %input(type="text")
+        %td
+          %input(type="text")
+        %td
+          %select.cp-table-select
+            %option All
+            %option Available
+            %option Accept
+            %option In Progress
+            %option Out of Balance
+        %td
+          %select.cp-table-select
+            %option All
+            %option Active
+            %option Deactive
+            %option Blocked
+        %td
+          %input(type="text")
+        %td &nbsp;
+    %tbody
+      %tr
+        %td.online &nbsp;
+        %td
+          %input#chb-1(type="checkbox")
+          %label.checkbox(for="chb-1")
+        %td
+          %img(src="../image" )
+        %td 1
+        %td NV2516
+        %td Toan Nguyen
+        %td toan.nguyen@nexx.vn
+        %td 12/12/1990
+        %td Moderator
+        %td Tech Guy
+        %td Active
+        %td.action
+          %a.btn-list(href="user-detail.html") <i class="cp-icn-view"></i>
+          %a.btn-list(href="user-change-pass.html") <i class="cp-icn-pass"></i>
+          %a.btn-list(href="user-edit.html") <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+
+\</div>
+/ End Content Flex
+
+\</div>
+/ End Content
+
+/ Foobar
+/ ======
+= Haml::Engine.new(File.read('foobar.haml')).render
+/ End Foobar
+
+\</div>
+/ End Right Block
+
+\</div>
+/ End Container
+
+= Haml::Engine.new(File.read('footer.haml')).render
