@@ -1,32 +1,23 @@
-// Define Card Block
-// =================
+// Define Flex Grid
+.cp-content-flex
+  +display-flex(flex)
+  +flex-flow(row wrap)
+  +justify-content(flex-start)
+  +align-items(flex-start)
+  height: 100%
+  width: 100%
 
-.cp-card
-  .cp-card-title
-    display: inline-block
-    padding: 15px 30px
-  .cp-card-config
-    float: right
-    display: inline-block
-    .split
-      border-right: 1px solid $line
-      height: 15px
-      margin-right: 10px
-      margin-left: 15px
-    select
-      display: inline-block
-      background: white image_url("icons/caret-grey.png") no-repeat right center
-      border: none
-      outline: none
-      font-size: rem(16px)
-      line-height: 1.5
-      margin: 0
-      width: 100px
-      +box-sizing(border-box)
-      +appearance(none)
-      option
-        color: $primaryText
-        font-size: rem(14px)
+@for $i from 1 through 3
+  .cp-flex-#{$i}
+    background-color: white
+    margin-left: 30px
+    border: 1px solid $line
+    width: (1170px - (30px * $i)) / $i
+    +border-radius(7px)
+    padding: 0 if($i >= 2, 30px, 0)
+    .cp-card-title
+      padding-left: if($i >= 2, 0, 30px ) !important
 
-
-
+@for $i from 1 through 6
+  .cp-flex-order-#{$i}
+    +order($i)
