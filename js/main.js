@@ -48,7 +48,7 @@ $(document).ready(function () {
 // Setup Bootstrap Input File plugin
 // =================================
 $(document).ready(function () {
-    $("#user-avatar").fileinput({
+    $(".cp-avatar").fileinput({
         overwriteInitial: true,
         maxFileSize: 1500,
         showClose: false,

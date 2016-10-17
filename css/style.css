@@ -283,7 +283,7 @@ i {
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   border-radius: 7px;
-  padding: 0 35px;
+  padding: 0 30px;
 }
 /* line 18, ../sass/_flex-grid.sass */
 .cp-flex-2 .cp-card-title {
@@ -299,7 +299,7 @@ i {
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   border-radius: 7px;
-  padding: 0 35px;
+  padding: 0 30px;
 }
 /* line 18, ../sass/_flex-grid.sass */
 .cp-flex-3 .cp-card-title {
@@ -763,7 +763,7 @@ form .cp-date {
 /* line 124, ../sass/_form.sass */
 form .cp-date select {
   width: 145px;
-  margin-right: 21px;
+  margin-right: 26px;
   background-position-x: 91%;
 }
 /* line 128, ../sass/_form.sass */
