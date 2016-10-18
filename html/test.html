@@ -458,8 +458,131 @@
 </ol>
 <!-- End Breadcrumb -->
 <!-- Content Flex -->
-<div class="cp-float-container">
-</div>
+<form class='cp-content-flex' enctype='multipart/form-data' method='post'>
+  <!-- Create Cleaner -->
+  <div class='cp-flex-2 cp-card'>
+    <header>
+      <div class='cp-card-title'>
+        <div class='cp-typo-title'>Create Cleaner</div>
+      </div>
+    </header>
+    <div class='cp-card-content'>
+      <div class='cp-label'>avatar</div>
+      <div class='kv-avatar'>
+        <input class='cp-avatar file-loading' name='cleaner-avatar' type='file'>
+      </div>
+      <div class='cp-label'>first name</div>
+      <input placeholder='Enter first name' type='text'>
+      <div class='cp-label'>last name</div>
+      <input placeholder='Enter last name' type='text'>
+      <div class='cp-label'>display name</div>
+      <input placeholder='Enter display name' type='text'>
+      <div class='cp-label'>email</div>
+      <input placeholder='Enter email' type='email'>
+      <div class='cp-label'>password</div>
+      <input placeholder='Enter password' type='password'>
+      <div class='cp-label'>retype password</div>
+      <input placeholder='Retype password' type='password'>
+      <div class='cp-label'>phone</div>
+      <input placeholder='Enter phone number' type='text'>
+      <div class='cp-label'>Gender</div>
+      <select>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      <div class='cp-label'>date of birth</div>
+      <div class='cp-date'>
+        <select>
+          <option disabled selected>Day</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+        <select>
+          <option disabled selected>Month</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+        <select>
+          <option disabled selected>Year</option>
+          <option>1990</option>
+          <option>1991</option>
+          <option>1992</option>
+          <option>1993</option>
+          <option>1994</option>
+          <option>1995</option>
+          <option>1996</option>
+          <option>1997</option>
+          <option>1998</option>
+          <option>1999</option>
+          <option>2000</option>
+        </select>
+      </div>
+      <div class='cp-label'>description</div>
+      <textarea placeholder='Enter description'></textarea>
+    </div>
+  </div>
+  <!-- Create Cleaner -->
+  <div class='cp-flex-2 cp-card'>
+    <header>
+      <div class='cp-card-title'>
+        <div class='cp-typo-title'>System Infomation</div>
+      </div>
+    </header>
+    <div class='cp-card-content'>
+      <div class='cp-label'>is verified?</div>
+      <div class='cp-is'>
+        <input checked id='is-verify-cleaner' type='checkbox'>
+        <label class='checkbox' for='is-verify-cleaner'></label>
+      </div>
+      <div class='cp-label'>cleaner rate (%)</div>
+      <input placeholder='Enter cleaner rate' type='text'>
+      <div class='cp-label'>service location</div>
+      <select>
+        <option disabled selected>Select one</option>
+        <option>HCM1 include District 1, District 3, District 11, District 5, District 10</option>
+        <option>HCM2 include District 2, District 9, District 12, District 4, District 8</option>
+      </select>
+      <div class='cp-label'>training level</div>
+      <select>
+        <option disabled selected>Select one</option>
+        <option>Training Level 1</option>
+        <option>Training Level 2</option>
+        <option>Training Level 3</option>
+      </select>
+      <div class='cp-label'>level</div>
+      <select>
+        <option disabled selected>Select one</option>
+        <option>Level 1</option>
+        <option>Level 2</option>
+        <option>Level 3</option>
+        <option>Level 4</option>
+        <option>Level 5</option>
+      </select>
+      <div class='cp-label'>description</div>
+      <textarea placeholder='Enter description'></textarea>
+    </div>
+  </div>
+</form>
 <!-- End Content Flex -->
 </div>
 <!-- End Content -->

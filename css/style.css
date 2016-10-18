@@ -258,24 +258,32 @@ i {
   width: 16px;
 }
 
-/* line 2, ../sass/_flex-grid.sass */
-.cp-content-flex {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-  height: 100%;
+/* line 3, ../sass/_layout.sass */
+.cp-float-container {
   width: 100%;
+  height: auto;
 }
 
-/* line 11, ../sass/_flex-grid.sass */
-.cp-flex-1 {
+/* line 7, ../sass/_layout.sass */
+.cp-left {
+  float: left;
+}
+
+/* line 10, ../sass/_layout.sass */
+.cp-right {
+  float: right;
+}
+
+/* line 13, ../sass/_layout.sass */
+.cp-clear {
+  clear: both;
+}
+
+/* line 17, ../sass/_layout.sass */
+.cp-float-item-s1 {
   background-color: white;
   margin-left: 30px;
+  margin-bottom: 30px;
   border: 1px solid #e6e6e6;
   width: 1140px;
   -moz-border-radius: 7px;
@@ -283,10 +291,11 @@ i {
   border-radius: 7px;
 }
 
-/* line 11, ../sass/_flex-grid.sass */
-.cp-flex-2 {
+/* line 17, ../sass/_layout.sass */
+.cp-float-item-s2 {
   background-color: white;
   margin-left: 30px;
+  margin-bottom: 30px;
   border: 1px solid #e6e6e6;
   width: 555px;
   -moz-border-radius: 7px;
@@ -294,51 +303,16 @@ i {
   border-radius: 7px;
 }
 
-/* line 11, ../sass/_flex-grid.sass */
-.cp-flex-3 {
+/* line 17, ../sass/_layout.sass */
+.cp-float-item-s3 {
   background-color: white;
   margin-left: 30px;
+  margin-bottom: 30px;
   border: 1px solid #e6e6e6;
   width: 360px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   border-radius: 7px;
-}
-
-/* line 19, ../sass/_flex-grid.sass */
-.cp-flex-order-1 {
-  -webkit-order: 1;
-  order: 1;
-}
-
-/* line 19, ../sass/_flex-grid.sass */
-.cp-flex-order-2 {
-  -webkit-order: 2;
-  order: 2;
-}
-
-/* line 19, ../sass/_flex-grid.sass */
-.cp-flex-order-3 {
-  -webkit-order: 3;
-  order: 3;
-}
-
-/* line 19, ../sass/_flex-grid.sass */
-.cp-flex-order-4 {
-  -webkit-order: 4;
-  order: 4;
-}
-
-/* line 19, ../sass/_flex-grid.sass */
-.cp-flex-order-5 {
-  -webkit-order: 5;
-  order: 5;
-}
-
-/* line 19, ../sass/_flex-grid.sass */
-.cp-flex-order-6 {
-  -webkit-order: 6;
-  order: 6;
 }
 
 /* line 3, ../sass/_typography.sass */
@@ -538,10 +512,11 @@ i {
 
 /* line 27, ../sass/_button.sass */
 .cp-btn-upload {
-  width: 162px !important;
+  width: 200px !important;
+  margin-top: 5px;
 }
 
-/* line 32, ../sass/_button.sass */
+/* line 33, ../sass/_button.sass */
 .cp-btn-act {
   padding: 3px 10px;
   color: white;
@@ -552,22 +527,22 @@ i {
   border-radius: 3px;
 }
 
-/* line 44, ../sass/_button.sass */
+/* line 45, ../sass/_button.sass */
 .cp-cleaner-available {
   background-color: #77C044;
 }
 
-/* line 44, ../sass/_button.sass */
+/* line 45, ../sass/_button.sass */
 .cp-cleaner-accept {
   background-color: #e13370;
 }
 
-/* line 44, ../sass/_button.sass */
+/* line 45, ../sass/_button.sass */
 .cp-cleaner-inprogress {
   background-color: #3c57a7;
 }
 
-/* line 44, ../sass/_button.sass */
+/* line 45, ../sass/_button.sass */
 .cp-cleaner-outbalance {
   background-color: #666666;
 }
@@ -850,7 +825,7 @@ form .cp-btn-success {
   margin-top: 40px;
 }
 /* line 132, ../sass/_form.sass */
-form .cp-is-default {
+form .cp-is {
   margin-left: 150px;
   height: 0;
 }
@@ -876,7 +851,7 @@ form select:disabled {
 /* line 151, ../sass/_form.sass */
 .kv-avatar .file-input {
   display: table-cell;
-  max-width: 162px;
+  max-width: 200px;
 }
 
 /* line 155, ../sass/_form.sass */
@@ -1363,6 +1338,20 @@ input:focus {
   overflow: hidden;
 }
 /* line 67, ../sass/_card.sass */
+.cp-card .cp-upload-oneline {
+  width: 100%;
+  padding-top: 20px;
+}
+/* line 70, ../sass/_card.sass */
+.cp-card .cp-upload-oneline .cp-upload-item {
+  float: left;
+  margin-left: 90px;
+}
+/* line 73, ../sass/_card.sass */
+.cp-card .cp-upload-oneline .cp-upload-item:first-child {
+  margin-left: 0;
+}
+/* line 75, ../sass/_card.sass */
 .cp-card hr {
   border-top-color: #e6e6e6;
 }
@@ -1732,17 +1721,18 @@ aside#sidebar .sidebar-nav .icn-right.caret-down-2line {
 
 /* line 1, ../sass/_foobar.sass */
 footer#foobar {
+  clear: both;
   width: 100%;
   font-size: 1.4rem;
   background-color: transparent;
 }
-/* line 5, ../sass/_foobar.sass */
+/* line 6, ../sass/_foobar.sass */
 footer#foobar p {
   float: right;
   margin-right: 80px;
-  padding: 15px 0 10px;
+  padding-bottom: 15px;
 }
-/* line 9, ../sass/_foobar.sass */
+/* line 10, ../sass/_foobar.sass */
 footer#foobar p span.love {
   color: #e75425;
 }

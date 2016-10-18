@@ -1,0 +1,24 @@
+// Define Layout Using Float
+// =========================
+.cp-float-container
+  width: 100%
+  height: auto
+
+.cp-left
+  float: left
+
+.cp-right
+  float: right
+
+.cp-clear
+  clear: both
+
+@for $i from 1 through 3
+  .cp-float-item-s#{$i}
+    background-color: white
+    margin-left: 30px
+    margin-bottom: 30px
+    border: 1px solid $line
+    width: (1170px - (30px * $i)) / $i
+    +border-radius(7px)
+

@@ -28,35 +28,28 @@
     %a(href="index.html") Home
   %li.cp-breadcrumb-item
     %a(href="user-dashboard.html") User
-  %li.cp-breadcrumb-item.active Create User
+  %li.cp-breadcrumb-item.active List User
 / End Breadcrumb
 
 / Content Flex
-%form.cp-float-container(method="post" enctype="multipart/form-data" )
+%form.cp-content-flex(method="post" enctype="multipart/form-data" )
 
-  / Create User
-  .cp-float-item-s2.cp-card.cp-left
+  / Create Cleaner
+  .cp-flex-2.cp-card
     %header
       .cp-card-title
-        .cp-typo-title Create User
+        .cp-typo-title Create Cleaner
 
     .cp-card-content
       .cp-label avatar
       .kv-avatar
-        %input.cp-upimage.file-loading(name="user-avatar" type="file" )
-      .cp-label name
-      %input(type="text" placeholder="Enter username" )
-      .cp-label role
-      %select
-        %option Admin
-        %option Moderator
-        %option Member
-      .cp-label position
-      %select
-        %option CEO
-        %option Tech Manager
-        %option Tech Guy
-        %option Marketer
+        %input.cp-avatar.file-loading(name="cleaner-avatar" type="file" )
+      .cp-label first name
+      %input(type="text" placeholder="Enter first name" )
+      .cp-label last name
+      %input(type="text" placeholder="Enter last name" )
+      .cp-label display name
+      %input(type="text" placeholder="Enter display name" )
       .cp-label email
       %input(type="email" placeholder="Enter email" )
       .cp-label password
@@ -114,64 +107,42 @@
           %option 2000
       .cp-label description
       %textarea(placeholder="Enter description" )
-      .cp-label status
-      %select
-        %option Active
-        %option Deactive
-      %button.cp-btn.cp-btn-success(type="submit" ) Create
 
-
-  / Address
-  .cp-float-item-s2.cp-card.cp-right
+  / Create Cleaner
+  .cp-flex-2.cp-card
     %header
       .cp-card-title
-        .cp-typo-title Address
+        .cp-typo-title System Infomation
 
     .cp-card-content
-      .cp-label is default?
+      .cp-label is verified?
       .cp-is
-        %input#is-default-user(type="checkbox" checked )
-        %label.checkbox(for="is-default-user")
-      .cp-label address
-      %input(type="text" placeholder="Enter address" )
-      .cp-label type
-      %input(type="text" placeholder="Eg: Home, Company..." )
-      .cp-label country
-      %select(disabled)
-        %option Viet Nam
-      .cp-label province
-      %select(disabled)
-        %option Ho Chi Minh
-      .cp-label district
+        %input#is-verify-cleaner(type="checkbox" checked )
+        %label.checkbox(for="is-verify-cleaner")
+      .cp-label cleaner rate (%)
+      %input(type="text" placeholder="Enter cleaner rate" )
+      .cp-label service location
       %select
-        %option(disabled selected) Select one
-        %option 1
-        %option 2
-        %option 3
-        %option 4
-        %option 5
-        %option 6
-        %option 7
-        %option 8
-        %option 9
-        %option 10
-        %option 11
-        %option 12
-      .cp-label ward
+        %option(selected disabled) Select one
+        %option HCM1 include District 1, District 3, District 11, District 5, District 10
+        %option HCM2 include District 2, District 9, District 12, District 4, District 8
+      .cp-label training level
       %select
-        %option(disabled selected) Select one
-        %option 1
-        %option 2
-        %option 3
-        %option 4
-        %option 5
-        %option 6
-        %option 7
-        %option 8
-        %option 9
-        %option 10
-        %option 11
-        %option 12
+        %option(selected disabled) Select one
+        %option Training Level 1
+        %option Training Level 2
+        %option Training Level 3
+      .cp-label level
+      %select
+        %option(selected disabled) Select one
+        %option Level 1
+        %option Level 2
+        %option Level 3
+        %option Level 4
+        %option Level 5
+      .cp-label description
+      %textarea(placeholder="Enter description" )
+
 
 / End Content Flex
 

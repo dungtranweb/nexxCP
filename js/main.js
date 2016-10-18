@@ -50,7 +50,7 @@ $(document).ready(function () {
 // Setup Bootstrap Input File plugin
 // =================================
 $(document).ready(function () {
-    $(".cp-avatar").fileinput({
+    $(".cp-upimage").fileinput({
         overwriteInitial: true,
         maxFileSize: 1500,
         showClose: false,
@@ -62,8 +62,9 @@ $(document).ready(function () {
         removeTitle: 'Cancel or reset changes',
         elErrorContainer: '#kv-avatar-errors-1',
         msgErrorClass: 'alert alert-block alert-danger',
-        defaultPreviewContent: '<img src="../images/avatar-ph.png" alt="Your Avatar" style="width: 162px">',
+        defaultPreviewContent: '<img src="../images/upimage-ph.png" alt="Your Image" style="width: 200px">',
         layoutTemplates: {main2: '{preview} {browse}'},
-        allowedFileExtensions: ["jpg", "png", "gif"]
+        allowedFileExtensions: ["jpg", "png", "gif"],
+        elPreviewContainer: '.cp-upimage-container'
     });
 })

@@ -25,7 +25,8 @@ $btn-style-list: zip($list-btn, $list-btn-color)
     background-color: nth($btn, 2)
 
 .cp-btn-upload
-  width: 162px !important
+  width: 200px !important
+  margin-top: 5px
 
 // Button Cleaner Activities
 // =========================
@@ -43,4 +44,5 @@ $btn-cleaner-act: zip($list-cleaner-act, $list-cleaner-color)
 @each $btn in $btn-cleaner-act
   .cp-cleaner-#{nth($btn, 1)}
     background-color: nth($btn, 2)
+
 

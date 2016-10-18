@@ -454,15 +454,13 @@
   <li class='cp-breadcrumb-item'>
     <a href='user-dashboard.html'>User</a>
   </li>
-  <li class='cp-breadcrumb-item'>
-    <a href='user-list-user.html'>List User</a>
-  </li>
   <li class='cp-breadcrumb-item active'>Create User</li>
 </ol>
 <!-- End Breadcrumb -->
 <!-- Content Flex -->
-<form class='cp-content-flex' enctype='multipart/form-data' method='post'>
-  <div class='cp-flex-2 cp-card'>
+<form class='cp-float-container' enctype='multipart/form-data' method='post'>
+  <!-- Create User -->
+  <div class='cp-float-item-s2 cp-card cp-left'>
     <header>
       <div class='cp-card-title'>
         <div class='cp-typo-title'>Create User</div>
@@ -471,7 +469,7 @@
     <div class='cp-card-content'>
       <div class='cp-label'>avatar</div>
       <div class='kv-avatar'>
-        <input class='cp-avatar file-loading' name='user-avatar' type='file'>
+        <input class='cp-upimage file-loading' name='user-avatar' type='file'>
       </div>
       <div class='cp-label'>name</div>
       <input placeholder='Enter username' type='text'>
@@ -558,7 +556,8 @@
       <button class='cp-btn cp-btn-success' type='submit'>Create</button>
     </div>
   </div>
-  <div class='cp-flex-2 cp-card'>
+  <!-- Address -->
+  <div class='cp-float-item-s2 cp-card cp-right'>
     <header>
       <div class='cp-card-title'>
         <div class='cp-typo-title'>Address</div>
@@ -566,7 +565,7 @@
     </header>
     <div class='cp-card-content'>
       <div class='cp-label'>is default?</div>
-      <div class='cp-is-default'>
+      <div class='cp-is'>
         <input checked id='is-default-user' type='checkbox'>
         <label class='checkbox' for='is-default-user'></label>
       </div>
