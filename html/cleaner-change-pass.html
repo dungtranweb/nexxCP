@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Nexx Control Panel</title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+  <meta content='Nexx Admin, Nexx Control Panel, Nexx CMS, Nexx Content Management System, NextStep, GVN, Dtaxi' name='keywords'>
+  <meta content='NextStep Digital Technology And Media Company Limited' name='author'>
+  <!-- Favicon -->
+  <link href='../images/favicon.png' rel='shortcut icon'>
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=vietnamese' rel='stylesheet'>
+  <!-- External Style Sheet -->
+  <link href='../css/bootstrap.min.css' rel='stylesheet'>
+  <link href='../css/animate.css' rel='stylesheet'>
+  <link href='../css/lightbox.min.css' rel='stylesheet'>
+  <link href='../css/metisMenu.min.css' rel='stylesheet'>
+  <link href='../css/bootstrap-datepicker3.css' rel='stylesheet'>
+  <link href='../css/fileinput.min.css' rel='stylesheet'>
+  <link href='../css/style.css' rel='stylesheet'>
+  <!-- Setup for Compass -->
+  <link href='/stylesheets/screen.css' media='screen, projection' rel='stylesheet' type='text/css'>
+  <link href='/stylesheets/print.css' media='print' rel='stylesheet' type='text/css'>
+  <!--[if IE]>
+    <link href='/stylesheets/ie.css' media='screen, projection' rel='stylesheet' type='text/css'>
+  <![endif]-->
+</head>
+<body>
+<!-- Container -->
+<!-- ========= -->
+<div class="cp-container">
+<!-- Sidebar -->
+<!-- ======= -->
+<aside id='sidebar'>
+  <div class='sidebar-nav' data-scollable>
+    <div class='user-info'>
+      <img class='avatar-circle' src='../images/login/user-avatar.png'>
+      <ul class='nav nav-pills nav-stacked' id='user-menu'>
+        <li>
+          <a data-parent='#user-menu' data-target='#user-menu-item' data-toggle='collapse' href='#' id='user-name'>Lady Killer <i class="cp-icn-caret-down icn-right"></i></a>
+          <ul class='nav nav-stacked collapse' id='user-menu-item'>
+            <li>
+              <a href='user-detail.html'><i class="cp-icn-profile icn-left"></i>Profile</a>
+            </li>
+            <li>
+              <a href='user-change-pass.html'><i class="cp-icn-change-pass icn-left"></i>Change Password</a>
+            </li>
+            <li>
+              <a href='#'><i class="cp-icn-sign-out icn-left"></i>Sign Out</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <hr>
+    <ul class='metismenu' id='sidebar-menu'>
+      <li>
+        <a aria-expanded='false' class='active-alone' href='index.html'><i class="cp-icn-dashboard icn-left"></i>Dashboard</a>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-user icn-left"></i>User <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='user-dashboard.html'>Dashboard</a>
+          </li>
+          <li>
+            <a href='user-list-user.html'>List User</a>
+          </li>
+          <li>
+            <a href='user-create-user.html'>Create User</a>
+          </li>
+          <li>
+            <a href='user-configuration.html'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-cleaner icn-left"></i>Cleaner <i class="cp-icn-caret-down icn-right caret-down"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='cleaner-dashboard.html'>Dashboard</a>
+          </li>
+          <li>
+            <a href='cleaner-list-cleaner.html'>List Cleaner</a>
+          </li>
+          <li>
+            <a href='cleaner-create-cleaner.html'>Create Cleaner</a>
+          </li>
+          <li>
+            <a href='cleaner-configuration.html'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-customer icn-left"></i>Customer <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='customer-dashboard.html'>Dashboard</a>
+          </li>
+          <li>
+            <a href='customer-list-customer.html'>List Customer</a>
+          </li>
+          <li>
+            <a href='customer-create-customer.html'>Create Customer</a>
+          </li>
+          <li>
+            <a href='customer-configuration.html'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-booking icn-left"></i>Booking <i class="cp-icn-caret-down icn-right caret-down"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='booking-dashboard.html'>Dashboard</a>
+          </li>
+          <li>
+            <a href='booking-new.html'>New</a>
+          </li>
+          <li>
+            <a href='booking-approved.html'>Approved</a>
+          </li>
+          <li>
+            <a href='booking-in-progress.html'>In Progress</a>
+          </li>
+          <li>
+            <a href='booking-completed.html'>Completed</a>
+          </li>
+          <li>
+            <a href='booking-cancelled.html'>Cancelled</a>
+          </li>
+          <li>
+            <a href='booking-expired.html'>Expired</a>
+          </li>
+          <li>
+            <a href='booking-complete.html'>Complete</a>
+          </li>
+          <li>
+            <a href='booking-cancel.html'>Cancel</a>
+          </li>
+          <li>
+            <a href='booking-configuration.html'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-notification icn-left"></i>Notification <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='noti-dashboard.html'>Dashboard</a>
+          </li>
+          <li>
+            <a href='noti-list.html'>Notification List</a>
+          </li>
+          <li>
+            <a href='noti-categories.html'>Notification Categories</a>
+          </li>
+          <li>
+            <a href='noti-create-noti.html'>Create Notification</a>
+          </li>
+          <li>
+            <a href='noti-customer-devices.html'>Customer Devices</a>
+          </li>
+          <li>
+            <a href='noti-cleaner-devices.html'>Cleaner Devices</a>
+          </li>
+          <li>
+            <a href='noti-configuration.html'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-service icn-left"></i>Location <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Service <i class="cp-icn-caret-down icn-right caret-down-2line"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='service-dashboard.html'>Dashboard</a>
+          </li>
+          <li>
+            <a href='service-training-level.html'>Training Level</a>
+          </li>
+          <li>
+            <a href='service-cleaner-level.html'>Cleaner Level</a>
+          </li>
+          <li>
+            <a href='service-categories.html'>Service Categories</a>
+          </li>
+          <li>
+            <a href='service-create-category.html'>Create Category</a>
+          </li>
+          <li>
+            <a href='service-manager.html'>Service Manager</a>
+          </li>
+          <li>
+            <a href='service-configuration.html'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-finance icn-left"></i>Finance <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='finance-dashboard.html'>Dashboard</a>
+          </li>
+          <li>
+            <a href='finance-cleaner-transaction.html'>Cleaner Transaction</a>
+          </li>
+          <li>
+            <a href='finance-deposit.html'>Deposit</a>
+          </li>
+          <li>
+            <a href='finance-withdraw.html'>Withdraw</a>
+          </li>
+          <li>
+            <a href='finance-bonus.html'>Bonus</a>
+          </li>
+          <li>
+            <a href='finance-pay-fine.html'>Pay Fine</a>
+          </li>
+          <li>
+            <a href='finance-income-balance.html'>Income & Balance</a>
+          </li>
+          <li>
+            <a href='finance-configuration.html'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-business icn-left"></i>Business <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Report <i class="cp-icn-caret-down icn-right caret-down-2line"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-payment icn-left"></i>Payment <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-news icn-left"></i>News & Article <i class="cp-icn-caret-down icn-right"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a aria-expanded='false' href='#'><i class="cp-icn-geography icn-left"></i>Geography <i class="cp-icn-caret-down icn-right caret-down"></i></a>
+        <ul aria-expanded='false'>
+          <li>
+            <a href='#'>Dashboard</a>
+          </li>
+          <li>
+            <a href='#'>Section 1</a>
+          </li>
+          <li>
+            <a href='#'>Section 2</a>
+          </li>
+          <li>
+            <a href='#'>Section 3</a>
+          </li>
+          <li>
+            <a href='#'>Section 4</a>
+          </li>
+          <li>
+            <a href='#'>Section 5</a>
+          </li>
+          <li>
+            <a href='#'>Configuration</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</aside>
+<!-- End Sidebar -->
+<!-- Right Block -->
+<!-- =========== -->
+<div class="cp-right-block">
+<!-- Topbar -->
+<!-- ====== -->
+<nav class='navbar navbar-light' id='topbar'>
+  <a class='navbar-brand' href='#'>
+    <img alt='Logo of GVN' src='../images/logo.png'>
+  </a>
+  <ul class='nav navbar-nav pull-xs-right' id='topbar-right'>
+    <li class='nav-item dropdown'>
+      <a aria-haspopup='true' class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' id='noti-topbar'>
+        <i class='cp-icn-noti-topbar icn-noti'></i>
+        <div class='noti-bubble'>10</div>
+      </a>
+      <ul aria-labelledby='#noti-topbar' class='dropdown-menu dropdown-menu-right dropdown-messages'>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div>
+              <strong>Johnny Depp</strong>
+              <em class='pull-xs-right'>14:30</em>
+            </div>
+            <div>This is a message for just one who has right to read it. If you're not that one, please don't read it.</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+        <hr>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div>
+              <strong>Benedict Cumberbatch</strong>
+              <em class='pull-xs-right'>10:30</em>
+            </div>
+            <div>This is a message for just one who has right to read it. If you're not that one, please don't read it.</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+        <hr>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div>
+              <strong>Elon Musk</strong>
+              <em class='pull-xs-right'>Yesterday</em>
+            </div>
+            <div>This is a message for just one who has right to read it. If you're not that one, please don't read it.</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+        <hr>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink read-more'>
+            <strong>Read All Messages</strong>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li class='nav-item dropdown'>
+      <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#'>
+        <i class='cp-icn-config-topbar'></i>
+      </a>
+      <ul class='dropdown-menu dropdown-menu-right'>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div><i class="cp-icn-config-topbar-small icn-left"></i> Configuration 1</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div><i class="cp-icn-config-topbar-small icn-left"></i> Configuration 2</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div><i class="cp-icn-config-topbar-small icn-left"></i> Configuration 3</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li class='nav-item dropdown'>
+      <a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#'>
+        <i class='cp-icn-setting-topbar'></i>
+      </a>
+      <ul class='dropdown-menu dropdown-menu-right'>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div><i class="cp-icn-us-flag icn-left"></i> English</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div><i class="cp-icn-setting-topbar-small icn-left"></i> Setting 2</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+        <li class='dropdown-item'>
+          <div class='topbar-wraplink'>
+            <div><i class="cp-icn-setting-topbar-small icn-left"></i> Setting 3</div>
+            <a class='topbar-link' href='#'></a>
+          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<!-- End Topbar -->
+<!-- Content -->
+<!-- ======= -->
+<div class="cp-content">
+<!-- Breadcrumb -->
+<ol class='cp-breadcrumb'>
+  <li class='cp-breadcrumb-item'>
+    <a href='index.html'>Home</a>
+  </li>
+  <li class='cp-breadcrumb-item'>
+    <a href='cleaner-dashboard.html'>Cleaner</a>
+  </li>
+  <li class='cp-breadcrumb-item'>
+    <a href='cleaner-list-cleaner.html'>List Cleaner</a>
+  </li>
+  <li class='cp-breadcrumb-item active'>Change Password</li>
+</ol>
+<!-- End Breadcrumb -->
+<!-- Content Flex -->
+<form class='cp-float-container' enctype='multipart/form-data' method='post'>
+  <div class='cp-float-item-s3 cp-card cp-left'>
+    <header>
+      <div class='cp-card-title'>
+        <div class='cp-typo-title'>Change Password</div>
+      </div>
+    </header>
+    <div class='cp-card-content'>
+      <table class='cp-card-detail'>
+        <tr>
+          <td>Name:</td>
+          <td>Thang Tran</td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td>thang.tran@nexx.vn</td>
+        </tr>
+        <tr>
+          <td>Phone:</td>
+          <td>01234567890</td>
+        </tr>
+      </table>
+      <div class='cp-label'>password</div>
+      <input placeholder='Enter password' type='password'>
+      <div class='cp-label'>retype password</div>
+      <input placeholder='Retype password' type='password'>
+      <button class='cp-btn cp-btn-success' type='submit'>Create</button>
+    </div>
+  </div>
+</form>
+<!-- End Content Flex -->
+</div>
+<!-- End Content -->
+<!-- Foobar -->
+<!-- ====== -->
+<footer id='foobar'>
+  <p>NextStep &copy; 2016. All Rights Reserved. From us with <span class="love">&#10084;</span></p>
+</footer>
+<!-- End Foobar -->
+</div>
+<!-- End Right Block -->
+</div>
+<!-- End Container -->
+<!-- External Javascript -->
+<script src='../js/jquery-2.2.4.min.js' type='text/javascript'></script>
+<script src='../js/bootstrap.min.js' type='text/javascript'></script>
+<script src='../js/jquery.nicescroll.min.js' type='text/javascript'></script>
+<script src='../js/metisMenu.min.js' type='text/javascript'></script>
+<script src='../js/bootstrap-datepicker.min.js' type='text/javascript'></script>
+<script src='../js/fileinput.js' type='text/javascript'></script>
+<script src='../js/main.js' type='text/javascript'></script>
+</body>
+</html>

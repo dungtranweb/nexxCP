@@ -4,15 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/sass/_selectric.sass" description="$selectric-main-color" line="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_table.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_table.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/user-change-pass.haml" afterPath="$PROJECT_DIR$/haml/user-change-pass.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/user-detail.haml" afterPath="$PROJECT_DIR$/haml/user-detail.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/user-change-pass.html" afterPath="$PROJECT_DIR$/html/user-change-pass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/user-detail.html" afterPath="$PROJECT_DIR$/html/user-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_table.sass" afterPath="$PROJECT_DIR$/sass/_table.sass" />
-    </list>
+    <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="" />
     <ignored path="nexxCP.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,46 +26,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user-create-user.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haml/user-create-user.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="123" column="20" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="20" />
-              <folding>
-                <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-                <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-                <element signature="n#select#2;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_table.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/_table.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-detail.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haml/user-detail.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user-change-pass.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haml/user-change-pass.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="27" />
+              <caret line="43" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="51" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cleaner-change-pass.haml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/haml/cleaner-change-pass.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cleaner-create-cleaner.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haml/cleaner-create-cleaner.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4320">
+              <caret line="453" column="36" selection-start-line="453" selection-start-column="36" selection-end-line="453" selection-end-column="36" />
+              <folding>
+                <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#2;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#1;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#2;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#2;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#1;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#2;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#5;n#form#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/_variables.sass" />
         <option value="$PROJECT_DIR$/sass/_default.sass" />
         <option value="$PROJECT_DIR$/sass/_extend.sass" />
         <option value="$PROJECT_DIR$/sass/_function.sass" />
@@ -137,6 +129,7 @@
         <option value="$PROJECT_DIR$/haml/user-change-pass.haml" />
         <option value="$PROJECT_DIR$/haml/user-detail.haml" />
         <option value="$PROJECT_DIR$/sass/_table.sass" />
+        <option value="$PROJECT_DIR$/haml/cleaner-change-pass.haml" />
       </list>
     </option>
   </component>
@@ -148,7 +141,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="-876" />
+    <option name="y" value="24" />
     <option name="width" value="1547" />
     <option name="height" value="876" />
   </component>
@@ -363,15 +356,15 @@
       <workItem from="1476599928448" duration="19178000" />
       <workItem from="1476672130362" duration="31544000" />
       <workItem from="1476761056564" duration="2954000" />
-      <workItem from="1476765010913" duration="15819000" />
+      <workItem from="1476765010913" duration="16006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216076000" />
+    <option name="totallyTimeSpent" value="216263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="-876" width="1547" height="876" extended-state="6" />
+    <frame x="53" y="24" width="1547" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19238345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -429,13 +422,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/haml/topbar.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_selectric.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -683,14 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/cleaner-list-cleaner.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -723,29 +701,6 @@
         <state relative-caret-position="620">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haml/cleaner-create-cleaner.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="453" column="36" selection-start-line="453" selection-start-column="36" selection-end-line="453" selection-end-column="36" />
-          <folding>
-            <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#2;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#2;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#2;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#2;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#5;n#form#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,6 +768,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_table.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/haml/user-create-user.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -825,14 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/user-change-pass.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haml/user-detail.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -841,10 +796,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_table.sass">
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-list-cleaner.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1680">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-create-cleaner.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="453" column="36" selection-start-line="453" selection-start-column="36" selection-end-line="453" selection-end-column="36" />
+          <folding>
+            <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#5;n#form#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/user-change-pass.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <caret line="43" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-change-pass.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding />
         </state>
       </provider>
