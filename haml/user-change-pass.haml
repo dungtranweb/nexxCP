@@ -28,15 +28,41 @@
     %a(href="index.html") Home
   %li.cp-breadcrumb-item
     %a(href="user-dashboard.html") User
-  %li.cp-breadcrumb-item.active List User
+  %li.cp-breadcrumb-item
+    %a(href="user-list-user.html") List User
+  %li.cp-breadcrumb-item.active Change Password
 / End Breadcrumb
 
 / Content Flex
-\<div class="cp-float-container">
+%form.cp-float-container(method="post" enctype="multipart/form-data" )
+  .cp-float-item-s3.cp-card.cp-left
+    %header
+      .cp-card-title
+        .cp-typo-title Change Password
+
+    .cp-card-content
+      %table.cp-card-detail
+        %tr
+          %td Name:
+          %td Lady Killer
+        %tr
+          %td Email:
+          %td lady_killer@nexx.vn
+        %tr
+          %td Role:
+          %td Admin
+        %tr
+          %td Position:
+          %td Boss
+
+      .cp-label password
+      %input(type="password" placeholder="Enter password" )
+      .cp-label retype password
+      %input(type="password" placeholder="Retype password" )
+      %button.cp-btn.cp-btn-success(type="submit" ) Create
 
 
 
-\</div>
 / End Content Flex
 
 \</div>

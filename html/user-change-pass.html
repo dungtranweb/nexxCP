@@ -454,12 +454,47 @@
   <li class='cp-breadcrumb-item'>
     <a href='user-dashboard.html'>User</a>
   </li>
-  <li class='cp-breadcrumb-item active'>List User</li>
+  <li class='cp-breadcrumb-item'>
+    <a href='user-list-user.html'>List User</a>
+  </li>
+  <li class='cp-breadcrumb-item active'>Change Password</li>
 </ol>
 <!-- End Breadcrumb -->
 <!-- Content Flex -->
-<div class="cp-float-container">
-</div>
+<form class='cp-float-container' enctype='multipart/form-data' method='post'>
+  <div class='cp-float-item-s3 cp-card cp-left'>
+    <header>
+      <div class='cp-card-title'>
+        <div class='cp-typo-title'>Change Password</div>
+      </div>
+    </header>
+    <div class='cp-card-content'>
+      <table class='cp-card-detail'>
+        <tr>
+          <td>Name:</td>
+          <td>Lady Killer</td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td>lady_killer@nexx.vn</td>
+        </tr>
+        <tr>
+          <td>Role:</td>
+          <td>Admin</td>
+        </tr>
+        <tr>
+          <td>Position:</td>
+          <td>Boss</td>
+        </tr>
+      </table>
+      <div class='cp-label'>password</div>
+      <input placeholder='Enter password' type='password'>
+      <div class='cp-label'>retype password</div>
+      <input placeholder='Retype password' type='password'>
+      <button class='cp-btn cp-btn-success' type='submit'>Create</button>
+    </div>
+  </div>
+</form>
 <!-- End Content Flex -->
 </div>
 <!-- End Content -->

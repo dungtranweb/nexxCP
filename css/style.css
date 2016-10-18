@@ -1018,23 +1018,28 @@ table.cp-table-list tbody tr td label.checkbox:before {
 }
 
 /* line 99, ../sass/_table.sass */
-table.cp-card-detail {
+.cp-detail-container {
   margin: 25px 30px 0 30px;
 }
+
 /* line 102, ../sass/_table.sass */
+table.cp-card-detail {
+  width: 100%;
+}
+/* line 105, ../sass/_table.sass */
 table.cp-card-detail tr:last-child td {
   padding-bottom: 0;
 }
-/* line 104, ../sass/_table.sass */
+/* line 107, ../sass/_table.sass */
 table.cp-card-detail tr td {
   padding-bottom: 5px;
 }
-/* line 106, ../sass/_table.sass */
+/* line 109, ../sass/_table.sass */
 table.cp-card-detail tr td:first-child {
   width: 110px;
   vertical-align: text-top;
 }
-/* line 110, ../sass/_table.sass */
+/* line 113, ../sass/_table.sass */
 table.cp-card-detail tr td:nth-child(2) {
   text-align: right;
 }
