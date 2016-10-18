@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 7, ../sass/_sprite.sass */
 i {
-  background: url('../images/icons-sceb0a296e7.png') no-repeat;
+  background: url('../images/icons-sc81d696ed2.png') no-repeat;
   display: inline-block;
   vertical-align: baseline;
 }
@@ -112,122 +112,122 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-export {
+.cp-icn-en-flag {
   background-position: 0 -235px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 13, ../sass/_sprite.sass */
+.cp-icn-export {
+  background-position: 0 -251px;
   height: 27px;
   width: 22px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-female {
-  background-position: 0 -262px;
+  background-position: 0 -278px;
   height: 14px;
   width: 9px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-finance {
-  background-position: 0 -276px;
+  background-position: 0 -292px;
   height: 17px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-geography {
-  background-position: 0 -293px;
+  background-position: 0 -309px;
   height: 23px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-magnifier {
-  background-position: 0 -316px;
+  background-position: 0 -332px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-male {
-  background-position: 0 -332px;
+  background-position: 0 -348px;
   height: 14px;
   width: 14px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-news {
-  background-position: 0 -346px;
+  background-position: 0 -362px;
   height: 15px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-noti-topbar {
-  background-position: 0 -361px;
+  background-position: 0 -377px;
   height: 27px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-notification {
-  background-position: 0 -388px;
+  background-position: 0 -404px;
   height: 19px;
   width: 14px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-pass {
-  background-position: 0 -407px;
+  background-position: 0 -423px;
   height: 16px;
   width: 8px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-payment {
-  background-position: 0 -423px;
+  background-position: 0 -439px;
   height: 14px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-profile {
-  background-position: 0 -437px;
+  background-position: 0 -453px;
   height: 18px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-service {
-  background-position: 0 -455px;
+  background-position: 0 -471px;
   height: 20px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar-small {
-  background-position: 0 -475px;
+  background-position: 0 -491px;
   height: 12px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar {
-  background-position: 0 -487px;
+  background-position: 0 -503px;
   height: 19px;
   width: 26px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-sign-out {
-  background-position: 0 -506px;
+  background-position: 0 -522px;
   height: 19px;
   width: 17px;
-}
-
-/* line 13, ../sass/_sprite.sass */
-.cp-icn-us-flag {
-  background-position: 0 -525px;
-  height: 16px;
-  width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
@@ -238,17 +238,17 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-vietnam-flag {
+.cp-icn-view {
   background-position: 0 -557px;
   height: 16px;
-  width: 16px;
+  width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-view {
+.cp-icn-vn-flag {
   background-position: 0 -573px;
   height: 16px;
-  width: 20px;
+  width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
