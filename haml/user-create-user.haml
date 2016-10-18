@@ -114,12 +114,6 @@
           %option 2000
       .cp-label description
       %textarea(placeholder="Enter description" )
-      .cp-label status
-      %select
-        %option Active
-        %option Deactive
-      %button.cp-btn.cp-btn-success(type="submit" ) Create
-
 
   / Address
   .cp-float-item-s2.cp-card.cp-right
@@ -172,6 +166,20 @@
         %option 10
         %option 11
         %option 12
+
+  / Action
+  .cp-float-item-s2.cp-card.cp-left
+    %header
+      .cp-card-title
+        .cp-typo-title Action
+
+    .cp-card-content
+      .cp-label status
+      %select
+        %option Active
+        %option Deactive
+      %button.cp-btn.cp-btn-success(type="submit" ) Create
+
 
 / End Content Flex
 
