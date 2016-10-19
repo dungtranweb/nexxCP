@@ -19,6 +19,9 @@ $btn-style-list: zip($list-btn, $list-btn-color)
   line-height: rem(16px)
   +border-radius(3px)
   +box-shadow(none)
+  &:focus
+    outline: none
+    +box-shadow(none)
 
 @each $btn in $btn-style-list
   .cp-btn-#{nth($btn, 1)}

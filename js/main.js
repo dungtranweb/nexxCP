@@ -68,3 +68,12 @@ $(document).ready(function () {
         elPreviewContainer: '.cp-upimage-container'
     });
 })
+
+// Trigger button "Add New Address"
+// ================================
+$(document).ready(function () {
+    $("#add-new-address").on('click', function () {
+        $("#cp-old-address").css("display", "block");
+        $("#cp-old-address").addClass("animated fadeIn");
+    })
+})

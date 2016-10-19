@@ -4,7 +4,23 @@
     <bookmark url="file://$PROJECT_DIR$/sass/_selectric.sass" description="$selectric-main-color" line="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="" />
+    <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_button.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_button.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_form.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_form.sassc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/header.haml" afterPath="$PROJECT_DIR$/haml/header.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/topbar.haml" afterPath="$PROJECT_DIR$/haml/topbar.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/user-create-user.haml" afterPath="$PROJECT_DIR$/haml/user-create-user.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/header.html" afterPath="$PROJECT_DIR$/html/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/topbar.html" afterPath="$PROJECT_DIR$/html/topbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/user-create-user.html" afterPath="$PROJECT_DIR$/html/user-create-user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_button.sass" afterPath="$PROJECT_DIR$/sass/_button.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_card.sass" afterPath="$PROJECT_DIR$/sass/_card.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_form.sass" afterPath="$PROJECT_DIR$/sass/_form.sass" />
+    </list>
     <ignored path="nexxCP.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,31 +42,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user-change-pass.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haml/user-change-pass.haml">
+      <file leaf-file-name="_form.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_form.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="43" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="51" />
+            <state relative-caret-position="3000">
+              <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cleaner-change-pass.haml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/haml/cleaner-change-pass.haml">
+      <file leaf-file-name="topbar.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haml/topbar.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="317">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cleaner-create-cleaner.haml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haml/cleaner-create-cleaner.haml">
+      <file leaf-file-name="cleaner-edit.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haml/cleaner-edit.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4320">
-              <caret line="453" column="36" selection-start-line="453" selection-start-column="36" selection-end-line="453" selection-end-column="36" />
+            <state relative-caret-position="362">
+              <caret line="225" column="64" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
               <folding>
                 <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
                 <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
@@ -58,8 +74,8 @@
                 <element signature="n#select#0;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
                 <element signature="n#select#1;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
                 <element signature="n#select#2;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
-                <element signature="n#select#2;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
-                <element signature="n#select#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#2;n#div#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#3;n#div#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
                 <element signature="n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
                 <element signature="n#select#0;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
@@ -67,6 +83,39 @@
                 <element signature="n#select#2;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#5;n#form#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_card.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_card.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+              <folding>
+                <marker date="1476850155526" expanded="true" signature="1690:1706" ph="..." />
+                <marker date="1476850155526" expanded="true" signature="2029:2041" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_button.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/_button.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/_default.sass" />
         <option value="$PROJECT_DIR$/sass/_extend.sass" />
         <option value="$PROJECT_DIR$/sass/_function.sass" />
         <option value="$PROJECT_DIR$/haml/footbar.haml" />
@@ -89,7 +137,6 @@
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/scss/bootstrap-flex.scss" />
-        <option value="$PROJECT_DIR$/haml/topbar.haml" />
         <option value="$PROJECT_DIR$/sass/_breadcumb.sass" />
         <option value="$PROJECT_DIR$/scss/selectric.scss" />
         <option value="$PROJECT_DIR$/sass/_breadcrumb.sass" />
@@ -99,9 +146,7 @@
         <option value="$PROJECT_DIR$/sass/_selectric.sass" />
         <option value="$PROJECT_DIR$/sass/_general.sass" />
         <option value="$PROJECT_DIR$/haml/foobar.haml" />
-        <option value="$PROJECT_DIR$/haml/header.haml" />
         <option value="$PROJECT_DIR$/sass/_pagination.sass" />
-        <option value="$PROJECT_DIR$/haml/footer.haml" />
         <option value="$PROJECT_DIR$/sass/_sidebar.sass" />
         <option value="$PROJECT_DIR$/sass/_draft.sass" />
         <option value="$PROJECT_DIR$/sass/_typography.sass" />
@@ -110,8 +155,6 @@
         <option value="$PROJECT_DIR$/sass/_image.sass" />
         <option value="$PROJECT_DIR$/haml/test.haml" />
         <option value="$PROJECT_DIR$/js/fileinput.js" />
-        <option value="$PROJECT_DIR$/sass/_form.sass" />
-        <option value="$PROJECT_DIR$/sass/_button.sass" />
         <option value="$PROJECT_DIR$/sass/_flex-grid.sass" />
         <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/haml/layout.haml" />
@@ -120,9 +163,6 @@
         <option value="$PROJECT_DIR$/haml/user-list-user.haml" />
         <option value="$PROJECT_DIR$/haml/cleaner-list-cleaner.haml" />
         <option value="$PROJECT_DIR$/haml/sidebar.haml" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/sass/_card.sass" />
-        <option value="$PROJECT_DIR$/haml/user-create-user.haml" />
         <option value="$PROJECT_DIR$/haml/cleaner-create-cleaner.haml" />
         <option value="$PROJECT_DIR$/sass/_sprite.sass" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -130,6 +170,15 @@
         <option value="$PROJECT_DIR$/haml/user-detail.haml" />
         <option value="$PROJECT_DIR$/sass/_table.sass" />
         <option value="$PROJECT_DIR$/haml/cleaner-change-pass.haml" />
+        <option value="$PROJECT_DIR$/haml/header.haml" />
+        <option value="$PROJECT_DIR$/sass/_form.sass" />
+        <option value="$PROJECT_DIR$/haml/topbar.haml" />
+        <option value="$PROJECT_DIR$/haml/user-create-user.haml" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/haml/cleaner-edit.haml" />
+        <option value="$PROJECT_DIR$/sass/_card.sass" />
+        <option value="$PROJECT_DIR$/sass/_button.sass" />
+        <option value="$PROJECT_DIR$/haml/footer.haml" />
       </list>
     </option>
   </component>
@@ -187,6 +236,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,41 +279,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nexxCP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nexxCP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="haml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nexxCP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nexxCP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,12 +377,13 @@
       <workItem from="1476599928448" duration="19178000" />
       <workItem from="1476672130362" duration="31544000" />
       <workItem from="1476761056564" duration="2954000" />
-      <workItem from="1476765010913" duration="16006000" />
+      <workItem from="1476765010913" duration="19108000" />
+      <workItem from="1476846803882" duration="3654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216263000" />
+    <option name="totallyTimeSpent" value="223019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="24" width="1547" height="876" extended-state="6" />
@@ -370,7 +392,6 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19238345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -382,6 +403,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -422,30 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/_selectric.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_topbar.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_breadcrumb.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haml/foobar.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -454,13 +452,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haml/user-create-user.html" />
-    <entry file="file://$PROJECT_DIR$/haml/header.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_pagination.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -473,13 +464,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haml/footer.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -552,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-147">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,11 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
-          <folding>
-            <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#2;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-549">
           <caret line="544" column="12" selection-start-line="544" selection-start-column="12" selection-end-line="544" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,14 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_button.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -673,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,26 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
-          <folding>
-            <marker date="1476783912977" expanded="true" signature="1690:1706" ph="..." />
-            <marker date="1476783912977" expanded="true" signature="2029:2041" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_card.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,19 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_form.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haml/sidebar.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1780">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="34" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,10 +709,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/haml/user-detail.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-list-cleaner.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1680">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/user-change-pass.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-create-cleaner.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="453" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="486" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/header.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_form.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="150" column="26" selection-start-line="150" selection-start-column="26" selection-end-line="150" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-change-pass.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/haml/user-create-user.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="123" column="20" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="20" />
+        <state relative-caret-position="237">
+          <caret line="180" column="58" selection-start-line="180" selection-start-column="58" selection-end-line="180" selection-end-column="58" />
           <folding>
             <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
             <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
@@ -788,26 +771,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/user-detail.haml">
+    <entry file="file://$PROJECT_DIR$/html/cleaner-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="-420">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/cleaner-list-cleaner.haml">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1680">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="644">
+          <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+          <folding>
+            <marker date="1476850155526" expanded="true" signature="1690:1706" ph="..." />
+            <marker date="1476850155526" expanded="true" signature="2029:2041" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/cleaner-create-cleaner.haml">
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-edit.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="453" column="36" selection-start-line="453" selection-start-column="36" selection-end-line="453" selection-end-column="36" />
+        <state relative-caret-position="362">
+          <caret line="225" column="64" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
           <folding>
             <element signature="n#select#0;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
             <element signature="n#select#1;n#div#11;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
@@ -815,8 +801,8 @@
             <element signature="n#select#0;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
             <element signature="n#select#1;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
             <element signature="n#select#2;n#div#2;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#2;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#select#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#div#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#3;n#div#3;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
             <element signature="n#select#0;n#div#6;n#div#0;n#div#4;n#form#0;n#!!top" expanded="false" />
@@ -827,18 +813,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/user-change-pass.haml">
+    <entry file="file://$PROJECT_DIR$/haml/topbar.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="43" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="51" />
+        <state relative-caret-position="317">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/cleaner-change-pass.haml">
+    <entry file="file://$PROJECT_DIR$/sass/_card.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="560">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/haml/footer.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_button.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>

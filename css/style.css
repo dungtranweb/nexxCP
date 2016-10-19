@@ -479,44 +479,51 @@ i {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+/* line 22, ../sass/_button.sass */
+.cp-btn:focus {
+  outline: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
-/* line 24, ../sass/_button.sass */
+/* line 27, ../sass/_button.sass */
 .cp-btn-trans {
   background-color: transparent;
 }
 
-/* line 24, ../sass/_button.sass */
+/* line 27, ../sass/_button.sass */
 .cp-btn-upload {
   background-color: #666666;
 }
 
-/* line 24, ../sass/_button.sass */
+/* line 27, ../sass/_button.sass */
 .cp-btn-instant {
   background-color: #3c57a7;
 }
 
-/* line 24, ../sass/_button.sass */
+/* line 27, ../sass/_button.sass */
 .cp-btn-primary {
   background-color: #77C044;
 }
 
-/* line 24, ../sass/_button.sass */
+/* line 27, ../sass/_button.sass */
 .cp-btn-danger {
   background-color: #e75425;
 }
 
-/* line 24, ../sass/_button.sass */
+/* line 27, ../sass/_button.sass */
 .cp-btn-success {
   background-color: #40c7f1;
 }
 
-/* line 27, ../sass/_button.sass */
+/* line 30, ../sass/_button.sass */
 .cp-btn-upload {
   width: 200px !important;
   margin-top: 5px;
 }
 
-/* line 33, ../sass/_button.sass */
+/* line 36, ../sass/_button.sass */
 .cp-btn-act {
   padding: 3px 10px;
   color: white;
@@ -527,22 +534,22 @@ i {
   border-radius: 3px;
 }
 
-/* line 45, ../sass/_button.sass */
+/* line 48, ../sass/_button.sass */
 .cp-cleaner-available {
   background-color: #77C044;
 }
 
-/* line 45, ../sass/_button.sass */
+/* line 48, ../sass/_button.sass */
 .cp-cleaner-accept {
   background-color: #e13370;
 }
 
-/* line 45, ../sass/_button.sass */
+/* line 48, ../sass/_button.sass */
 .cp-cleaner-inprogress {
   background-color: #3c57a7;
 }
 
-/* line 45, ../sass/_button.sass */
+/* line 48, ../sass/_button.sass */
 .cp-cleaner-outbalance {
   background-color: #666666;
 }
@@ -835,8 +842,35 @@ form select:disabled {
   background-image: url('../images/icons/disable.png?1476619147');
   background-position-y: 12px;
 }
+/* line 139, ../sass/_form.sass */
+form .fake-input {
+  width: 100%;
+  height: 40px;
+  background-color: #eeeeee;
+  border: 1px solid rgba(195, 195, 195, 0.6);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: inset 0 1px 3px rgba(195, 195, 195, 0.2);
+  -webkit-box-shadow: inset 0 1px 3px rgba(195, 195, 195, 0.2);
+  box-shadow: inset 0 1px 3px rgba(195, 195, 195, 0.2);
+}
+/* line 146, ../sass/_form.sass */
+form .fake-input a {
+  color: #40c7f1;
+  float: right;
+  margin-right: 20px;
+  padding-top: 8px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+/* line 153, ../sass/_form.sass */
+form .fake-input a:hover {
+  text-decoration: none;
+  color: #77C044;
+}
 
-/* line 143, ../sass/_form.sass */
+/* line 161, ../sass/_form.sass */
 .kv-avatar .file-preview-frame,
 .kv-avatar .file-preview-frame:hover {
   margin: 0;
@@ -848,13 +882,13 @@ form select:disabled {
   text-align: center;
 }
 
-/* line 151, ../sass/_form.sass */
+/* line 169, ../sass/_form.sass */
 .kv-avatar .file-input {
   display: table-cell;
   max-width: 200px;
 }
 
-/* line 155, ../sass/_form.sass */
+/* line 173, ../sass/_form.sass */
 .kv-avatar .file-preview {
   padding: 0;
 }
@@ -1325,38 +1359,71 @@ input:focus {
   padding-right: 30px;
 }
 /* line 57, ../sass/_card.sass */
+.cp-card .cp-card-content .cp-address-container {
+  display: inline-block;
+  padding: 22px 0;
+  width: 100%;
+}
+/* line 61, ../sass/_card.sass */
+.cp-card .cp-card-content .cp-address-container .cp-address-detail {
+  white-space: nowrap;
+  overflow: hidden;
+  float: left;
+  font-size: 1.6rem;
+  width: 440px;
+}
+/* line 67, ../sass/_card.sass */
+.cp-card .cp-card-content .cp-address-container i {
+  margin-left: 10px;
+  margin-top: 5px;
+  float: right;
+}
+/* line 71, ../sass/_card.sass */
+.cp-card .cp-card-content .cp-address-container a#add-new-address {
+  color: white;
+}
+/* line 73, ../sass/_card.sass */
+.cp-card .cp-card-content #cp-old-address {
+  display: none;
+}
+/* line 75, ../sass/_card.sass */
+.cp-card .cp-card-content #cp-old-address hr {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+/* line 79, ../sass/_card.sass */
 .cp-card .cp-card-summary {
   padding: 30px 30px 20px 30px;
 }
-/* line 59, ../sass/_card.sass */
+/* line 81, ../sass/_card.sass */
 .cp-card .cp-card-summary.online {
   border-left: 5px solid #40c7f1;
 }
-/* line 61, ../sass/_card.sass */
+/* line 83, ../sass/_card.sass */
 .cp-card .cp-card-summary .cp-detail-avatar {
   float: left;
   padding-right: 25px;
 }
-/* line 64, ../sass/_card.sass */
+/* line 86, ../sass/_card.sass */
 .cp-card .cp-card-summary .cp-detail-summary-info {
   white-space: nowrap;
   overflow: hidden;
 }
-/* line 67, ../sass/_card.sass */
+/* line 89, ../sass/_card.sass */
 .cp-card .cp-upload-oneline {
   width: 100%;
   padding: 20px 20px 0 20px;
 }
-/* line 70, ../sass/_card.sass */
+/* line 92, ../sass/_card.sass */
 .cp-card .cp-upload-oneline .cp-upload-item {
   float: left;
   margin-left: 50px;
 }
-/* line 73, ../sass/_card.sass */
+/* line 95, ../sass/_card.sass */
 .cp-card .cp-upload-oneline .cp-upload-item:first-child {
   margin-left: 0;
 }
-/* line 75, ../sass/_card.sass */
+/* line 97, ../sass/_card.sass */
 .cp-card hr {
   border-top-color: #e6e6e6;
 }
