@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 7, ../sass/_sprite.sass */
 i {
-  background: url('../images/icons-sc81d696ed2.png') no-repeat;
+  background: url('../images/icons-scab95afcfe.png') no-repeat;
   display: inline-block;
   vertical-align: baseline;
 }
@@ -238,17 +238,17 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-view {
+.cp-icn-vi-flag {
   background-position: 0 -557px;
   height: 16px;
-  width: 20px;
+  width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-vn-flag {
+.cp-icn-view {
   background-position: 0 -573px;
   height: 16px;
-  width: 16px;
+  width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
