@@ -460,518 +460,174 @@
   <li class='cp-breadcrumb-item'>
     <a href='cleaner-list-cleaner.html'>List Cleaner</a>
   </li>
-  <li class='cp-breadcrumb-item active'>Edit Cleaner</li>
+  <li class='cp-breadcrumb-item active'>Cleaner Detail</li>
 </ol>
 <!-- End Breadcrumb -->
 <!-- Float Container -->
-<form class='cp-float-container' enctype='multipart/form-data' method='post'>
-  <!-- Create Cleaner -->
-  <div class='cp-float-item-s2 cp-card cp-left'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>Edit Cleaner</div>
+<div class="cp-float-container">
+<!-- / General Information -->
+<div class='cp-float-item-s3 cp-card cp-left'>
+  <header>
+    <div class='cp-card-summary online'>
+      <div class='cp-detail-avatar'>
+        <img alt='User Avatar' class='avatar-rectangle' src='../images/thang-tran.png'>
       </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>avatar</div>
-      <div class='kv-avatar'>
-        <input class='cp-upimage file-loading' name='cleaner-avatar' type='file'>
-      </div>
-      <div class='cp-label'>first name</div>
-      <input placeholder='Enter first name' type='text'>
-      <div class='cp-label'>last name</div>
-      <input placeholder='Enter last name' type='text'>
-      <div class='cp-label'>display name</div>
-      <input placeholder='Enter display name' type='text'>
-      <div class='cp-label'>email</div>
-      <input placeholder='Enter email' type='email'>
-      <div class='cp-label'>password</div>
-      <div class='fake-input'>
-        <a href='cleaner-change-pass.html'>Change password</a>
-      </div>
-      <div class='cp-label'>phone</div>
-      <input placeholder='Enter phone number' type='text'>
-      <div class='cp-label'>Gender</div>
-      <select>
-        <option>Male</option>
-        <option>Female</option>
-      </select>
-      <div class='cp-label'>date of birth</div>
-      <div class='cp-date'>
-        <select>
-          <option disabled selected>Day</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Month</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Year</option>
-          <option>1990</option>
-          <option>1991</option>
-          <option>1992</option>
-          <option>1993</option>
-          <option>1994</option>
-          <option>1995</option>
-          <option>1996</option>
-          <option>1997</option>
-          <option>1998</option>
-          <option>1999</option>
-          <option>2000</option>
-        </select>
-      </div>
-      <div class='cp-label'>description</div>
-      <textarea placeholder='Enter description'></textarea>
-    </div>
-  </div>
-  <!-- System Information -->
-  <div class='cp-float-item-s2 cp-card cp-right'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>System Information</div>
-      </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>is verified?</div>
-      <div class='cp-is'>
-        <input checked id='is-verify-cleaner' type='checkbox'>
-        <label class='checkbox' for='is-verify-cleaner'></label>
-      </div>
-      <div class='cp-label'>cleaner rate (%)</div>
-      <input placeholder='Enter cleaner rate' type='text'>
-      <div class='cp-label'>service location</div>
-      <select>
-        <option disabled selected>Select one</option>
-        <option>HCM1 include District 1, District 3, District 11, District 5, District 10</option>
-        <option>HCM2 include District 2, District 9, District 12, District 4, District 8</option>
-      </select>
-      <div class='cp-label'>training level</div>
-      <select>
-        <option disabled selected>Select one</option>
-        <option>Training Level 1</option>
-        <option>Training Level 2</option>
-        <option>Training Level 3</option>
-      </select>
-      <div class='cp-label'>level</div>
-      <select>
-        <option disabled selected>Select one</option>
-        <option>Level 1</option>
-        <option>Level 2</option>
-        <option>Level 3</option>
-        <option>Level 4</option>
-        <option>Level 5</option>
-      </select>
-      <div class='cp-label'>hometown</div>
-      <input placeholder='Enter hometown' type='text'>
-      <div class='cp-label'>description</div>
-      <textarea placeholder='Enter description'></textarea>
-    </div>
-  </div>
-  <!-- Identity -->
-  <div class='cp-float-item-s2 cp-card cp-right'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>Identity</div>
-      </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>identity number</div>
-      <input placeholder='Enter identity number' type='text'>
-      <div class='cp-label'>issue date</div>
-      <div class='cp-date'>
-        <select>
-          <option disabled selected>Day</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Month</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Year</option>
-          <option>1990</option>
-          <option>1991</option>
-          <option>1992</option>
-          <option>1993</option>
-          <option>1994</option>
-          <option>1995</option>
-          <option>1996</option>
-          <option>1997</option>
-          <option>1998</option>
-          <option>1999</option>
-          <option>2000</option>
-        </select>
-      </div>
-      <div class='cp-label'>issued by</div>
-      <input placeholder='Enter issued by' type='text'>
-      <div class='cp-upload-oneline'>
-        <div class='cp-upload-item'>
-          <div class='cp-label'>front</div>
-          <div class='kv-avatar'>
-            <input class='cp-upimage file-loading' name='cleaner-identity-front' type='file'>
-          </div>
-        </div>
-        <div class='cp-upload-item'>
-          <div class='cp-label'>back</div>
-          <div class='kv-avatar'>
-            <input class='cp-upimage file-loading' name='cleaner-identity-back' type='file'>
-          </div>
-        </div>
+      <div class='cp-detail-summary-info'>
+        <div class='cp-typo-code'>CN5246</div>
+        <div class='cp-typo-name'>Thang Tran</div>
+        <div class='cp-typo-text'>Level 4</div>
       </div>
     </div>
+  </header>
+  <hr>
+  <div class='cp-detail-container'>
+    <table class='cp-card-detail'>
+      <tr>
+        <td>Email:</td>
+        <td>thang.tran@nexx.vn</td>
+      </tr>
+      <tr>
+        <td>Date of Birth:</td>
+        <td>15/10/1990</td>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <i class='cp-icn-male'></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Address:</td>
+        <td>Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City</td>
+      </tr>
+      <tr>
+        <td>Description:</td>
+        <td>Praesent consectetur ultrices tellus eu ultricies. Maecenas interdum magna et mollis lobortis. Fusce sed ultricies mauris. Quisque in purus vitae ex bibendum condimentum et in nisl.</td>
+      </tr>
+    </table>
   </div>
-  <!-- Address -->
-  <div class='cp-float-item-s2 cp-card cp-left'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>Address</div>
-      </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>Home</div>
-      <div class='cp-is'>
-        <input checked id='home-address' type='checkbox'>
-        <label class='checkbox' for='home-address'></label>
-      </div>
-      <div class='cp-address-container'>
-        <div class='cp-address-detail'>Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City</div>
-        <a href='edit-address.html'><i class="cp-icn-edit"></i></a>
-        <a href='delete-address.html'><i class="cp-icn-delete"></i></a>
-      </div>
-      <button class='cp-btn cp-btn-instant' id='add-new-address' type='button'>Add New Address</button>
-      <div id='cp-old-address'>
-        <hr>
-        <div class='cp-label'>is default?</div>
-        <div class='cp-is'>
-          <input id='is-default-cleaner' type='checkbox'>
-          <label class='checkbox' for='is-default-cleaner'></label>
-        </div>
-        <div class='cp-label'>address</div>
-        <input placeholder='Enter address' type='text'>
-        <div class='cp-label'>type</div>
-        <input placeholder='Eg: Home, Company...' type='text'>
-        <div class='cp-label'>country</div>
-        <select disabled>
-          <option>Viet Nam</option>
-        </select>
-        <div class='cp-label'>province</div>
-        <select disabled>
-          <option>Ho Chi Minh</option>
-        </select>
-        <div class='cp-label'>district</div>
-        <select>
-          <option disabled selected>Select one</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <div class='cp-label'>ward</div>
-        <select>
-          <option disabled selected>Select one</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-      </div>
+</div>
+<!-- / Service & Banking -->
+<div class='cp-float-item-s3 cp-card cp-left'>
+  <header>
+    <div class='cp-card-title'>
+      <div class='cp-typo-title'>Service & Banking</div>
     </div>
+  </header>
+  <div class='cp-detail-container'>
+    <table class='cp-card-detail'>
+      <tr>
+        <td>Rating:</td>
+        <td>
+          230
+          <i class='cp-icn-star'></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Activity:</td>
+        <td>
+          <div class='cp-btn-act cp-booking-completed'>Completed</div>
+        </td>
+      </tr>
+      <tr>
+        <td>Verify:</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Status:</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>Training Level:</td>
+        <td>Training Level 3</td>
+      </tr>
+      <tr>
+        <td>Service Location:</td>
+        <td>HCM1 include District 1, District 3, District 11, District 5, District 10</td>
+      </tr>
+    </table>
   </div>
-  <!-- Insurance -->
-  <div class='cp-float-item-s2 cp-card cp-right'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>Insurance</div>
-      </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>insurance number</div>
-      <input placeholder='Enter insurance number' type='text'>
-      <div class='cp-label'>insurance type</div>
-      <input placeholder='Enter insurance type' type='text'>
-      <div class='cp-label'>issued by</div>
-      <input placeholder='Enter issued by' type='text'>
-      <div class='cp-label'>effective time (from)</div>
-      <div class='cp-date'>
-        <select>
-          <option disabled selected>Day</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Month</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Year</option>
-          <option>1990</option>
-          <option>1991</option>
-          <option>1992</option>
-          <option>1993</option>
-          <option>1994</option>
-          <option>1995</option>
-          <option>1996</option>
-          <option>1997</option>
-          <option>1998</option>
-          <option>1999</option>
-          <option>2000</option>
-        </select>
-      </div>
-      <div class='cp-label'>effective time (to)</div>
-      <div class='cp-date'>
-        <select>
-          <option disabled selected>Day</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Month</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Year</option>
-          <option>1990</option>
-          <option>1991</option>
-          <option>1992</option>
-          <option>1993</option>
-          <option>1994</option>
-          <option>1995</option>
-          <option>1996</option>
-          <option>1997</option>
-          <option>1998</option>
-          <option>1999</option>
-          <option>2000</option>
-        </select>
-      </div>
-      <div class='cp-upload-oneline'>
-        <div class='cp-upload-item'>
-          <div class='cp-label'>front</div>
-          <div class='kv-avatar'>
-            <input class='cp-upimage file-loading' name='cleaner-insurance-front' type='file'>
-          </div>
-        </div>
-        <div class='cp-upload-item'>
-          <div class='cp-label'>back</div>
-          <div class='kv-avatar'>
-            <input class='cp-upimage file-loading' name='cleaner-insurance-back' type='file'>
-          </div>
-        </div>
-      </div>
+  <hr class='cp-space-detail'>
+  <div class='cp-detail-container'>
+    <table class='cp-card-detail'>
+      <tr>
+        <td>Bank Name:</td>
+        <td>HSBC</td>
+      </tr>
+      <tr>
+        <td>Bank Brand:</td>
+        <td>Ho Chi Minh City</td>
+      </tr>
+      <tr>
+        <td>Account Name:</td>
+        <td>Tran Duc Thang</td>
+      </tr>
+      <tr>
+        <td>Account Number:</td>
+        <td>542369548721</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<!-- / System & Meta Data -->
+<div class='cp-float-item-s3 cp-card cp-right'>
+  <header>
+    <div class='cp-card-title'>
+      <div class='cp-typo-title'>System & Meta Data</div>
     </div>
+  </header>
+  <div class='cp-detail-container'>
+    <table class='cp-card-detail'>
+      <tr>
+        <td>Join At:</td>
+        <td>12:00, 15/09/2016</td>
+      </tr>
+      <tr>
+        <td>Create At:</td>
+        <td>14:23, 10/09/2016</td>
+      </tr>
+      <tr>
+        <td>Verify:</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Status:</td>
+        <td>Active</td>
+      </tr>
+      <tr>
+        <td>Training Level:</td>
+        <td>Training Level 3</td>
+      </tr>
+      <tr>
+        <td>Service Location:</td>
+        <td>HCM1 include District 1, District 3, District 11, District 5, District 10</td>
+      </tr>
+    </table>
   </div>
-  <!-- Certificate -->
-  <div class='cp-float-item-s2 cp-card cp-left'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>Certificate</div>
-      </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>certificate number</div>
-      <input placeholder='Enter certificate number' type='text'>
-      <div class='cp-label'>issue date</div>
-      <div class='cp-date'>
-        <select>
-          <option disabled selected>Day</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Month</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-          <option>12</option>
-        </select>
-        <select>
-          <option disabled selected>Year</option>
-          <option>1990</option>
-          <option>1991</option>
-          <option>1992</option>
-          <option>1993</option>
-          <option>1994</option>
-          <option>1995</option>
-          <option>1996</option>
-          <option>1997</option>
-          <option>1998</option>
-          <option>1999</option>
-          <option>2000</option>
-        </select>
-      </div>
-      <div class='cp-label'>issued by</div>
-      <input placeholder='Enter issued by' type='text'>
-      <div class='cp-upload-oneline'>
-        <div class='cp-upload-item'>
-          <div class='cp-label'>front</div>
-          <div class='kv-avatar'>
-            <input class='cp-upimage file-loading' name='cleaner-certificate-front' type='file'>
-          </div>
-        </div>
-        <div class='cp-upload-item'>
-          <div class='cp-label'>back</div>
-          <div class='kv-avatar'>
-            <input class='cp-upimage file-loading' name='cleaner-certificate-back' type='file'>
-          </div>
-        </div>
-      </div>
-    </div>
+  <hr class='cp-space-detail'>
+  <div class='cp-detail-container'>
+    <table class='cp-card-detail'>
+      <tr>
+        <td>Bank Name:</td>
+        <td>HSBC</td>
+      </tr>
+      <tr>
+        <td>Bank Brand:</td>
+        <td>Ho Chi Minh City</td>
+      </tr>
+      <tr>
+        <td>Account Name:</td>
+        <td>Tran Duc Thang</td>
+      </tr>
+      <tr>
+        <td>Account Number:</td>
+        <td>542369548721</td>
+      </tr>
+    </table>
   </div>
-  <!-- Banking Information -->
-  <div class='cp-float-item-s2 cp-card cp-right'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>Banking Information</div>
-      </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>bank name</div>
-      <input placeholder='Enter bank name' type='text'>
-      <div class='cp-label'>bank branch</div>
-      <input placeholder='Enter bank branch' type='text'>
-      <div class='cp-label'>account number</div>
-      <input placeholder='Enter account number' type='text'>
-      <div class='cp-label'>account name</div>
-      <input placeholder='Enter account name' type='text'>
-    </div>
-  </div>
-  <!-- Action -->
-  <div class='cp-float-item-s2 cp-card cp-left'>
-    <header>
-      <div class='cp-card-title'>
-        <div class='cp-typo-title'>Action</div>
-      </div>
-    </header>
-    <div class='cp-card-content'>
-      <div class='cp-label'>status</div>
-      <select>
-        <option>Active</option>
-        <option>Deactive</option>
-      </select>
-      <button class='cp-btn cp-btn-success' type='submit'>Save</button>
-    </div>
-  </div>
-</form>
+</div>
+<div class='cp-clear'></div>
+</div>
 <!-- End Float Container -->
 </div>
 <!-- End Content -->

@@ -1,0 +1,173 @@
+= Haml::Engine.new(File.read('header.haml')).render
+
+/ Container
+/ =========
+\<div class="cp-container">
+
+/ Sidebar
+/ =======
+= Haml::Engine.new(File.read('sidebar.haml')).render
+/ End Sidebar
+
+/ Right Block
+/ ===========
+\<div class="cp-right-block">
+
+/ Topbar
+/ ======
+= Haml::Engine.new(File.read('topbar.haml')).render
+/ End Topbar
+
+/ Content
+/ =======
+\<div class="cp-content">
+
+/ Breadcrumb
+%ol.cp-breadcrumb
+  %li.cp-breadcrumb-item
+    %a(href="index.html") Home
+  %li.cp-breadcrumb-item
+    %a(href="cleaner-dashboard.html") Cleaner
+  %li.cp-breadcrumb-item
+    %a(href="cleaner-list-cleaner.html") List Cleaner
+  %li.cp-breadcrumb-item.active Cleaner Detail
+/ End Breadcrumb
+
+/ Float Container
+\<div class="cp-float-container">
+
+// General Information
+.cp-float-item-s3.cp-card.cp-left
+  %header
+    .cp-card-summary.online
+      .cp-detail-avatar
+        %img.avatar-rectangle(src="../images/thang-tran.png" alt="User Avatar" )
+      .cp-detail-summary-info
+        .cp-typo-code CN5246
+        .cp-typo-name Thang Tran
+        .cp-typo-text Level 4
+  %hr
+  .cp-detail-container
+    %table.cp-card-detail
+      %tr
+        %td Email:
+        %td thang.tran@nexx.vn
+      %tr
+        %td Date of Birth:
+        %td 15/10/1990
+      %tr
+        %td Gender:
+        %td
+          %i.cp-icn-male
+      %tr
+        %td Address:
+        %td Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City
+      %tr
+        %td Description:
+        %td Praesent consectetur ultrices tellus eu ultricies. Maecenas interdum magna et mollis lobortis. Fusce sed ultricies mauris. Quisque in purus vitae ex bibendum condimentum et in nisl.
+
+// Service & Banking
+.cp-float-item-s3.cp-card.cp-left
+  %header
+    .cp-card-title
+      .cp-typo-title Service & Banking
+  .cp-detail-container
+    %table.cp-card-detail
+      %tr
+        %td Rating:
+        %td
+          230
+          %i.cp-icn-star
+      %tr
+        %td Activity:
+        %td
+          .cp-btn-act.cp-booking-completed Completed
+      %tr
+        %td Verify:
+        %td Yes
+      %tr
+        %td Status:
+        %td Active
+      %tr
+        %td Training Level:
+        %td Training Level 3
+      %tr
+        %td Service Location:
+        %td HCM1 include District 1, District 3, District 11, District 5, District 10
+  %hr.cp-space-detail
+  .cp-detail-container
+    %table.cp-card-detail
+      %tr
+        %td Bank Name:
+        %td HSBC
+      %tr
+        %td Bank Brand:
+        %td Ho Chi Minh City
+      %tr
+        %td Account Name:
+        %td Tran Duc Thang
+      %tr
+        %td Account Number:
+        %td 542369548721
+
+// System & Meta Data
+.cp-float-item-s3.cp-card.cp-right
+  %header
+    .cp-card-title
+      .cp-typo-title System & Meta Data
+  .cp-detail-container
+    %table.cp-card-detail
+      %tr
+        %td Join At:
+        %td 12:00, 15/09/2016
+      %tr
+        %td Create At:
+        %td 14:23, 10/09/2016
+      %tr
+        %td Verify:
+        %td Yes
+      %tr
+        %td Status:
+        %td Active
+      %tr
+        %td Training Level:
+        %td Training Level 3
+      %tr
+        %td Service Location:
+        %td HCM1 include District 1, District 3, District 11, District 5, District 10
+  %hr.cp-space-detail
+  .cp-detail-container
+    %table.cp-card-detail
+      %tr
+        %td Bank Name:
+        %td HSBC
+      %tr
+        %td Bank Brand:
+        %td Ho Chi Minh City
+      %tr
+        %td Account Name:
+        %td Tran Duc Thang
+      %tr
+        %td Account Number:
+        %td 542369548721
+
+.cp-clear
+
+\</div>
+/ End Float Container
+
+\</div>
+/ End Content
+
+/ Foobar
+/ ======
+= Haml::Engine.new(File.read('foobar.haml')).render
+/ End Foobar
+
+\</div>
+/ End Right Block
+
+\</div>
+/ End Container
+
+= Haml::Engine.new(File.read('footer.haml')).render

@@ -51,4 +51,11 @@ $btn-cleaner-act: zip($list-cleaner-act, $list-cleaner-color)
   .cp-cleaner-#{nth($btn, 1)}
     background-color: nth($btn, 2)
 
+$list-booking-act: new accepted approved inprogress completed cancelled expired
+$list-booking-color: $primary $pink $lightRed $purple $blue $red $primaryText
+$btn-booking-act: zip($list-booking-act, $list-booking-color)
+
+@each $btn in $btn-booking-act
+  .cp-booking-#{nth($btn, 1)}
+    background-color: nth($btn, 2)
 

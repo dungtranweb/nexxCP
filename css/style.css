@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 7, ../sass/_sprite.sass */
 i {
-  background: url('../images/icons-s9aae91ffda.png') no-repeat;
+  background: url('../images/icons-s7fbac3a5b3.png') no-repeat;
   display: inline-block;
   vertical-align: baseline;
 }
@@ -238,29 +238,36 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-user {
+.cp-icn-star {
   background-position: 0 -560px;
+  height: 20px;
+  width: 21px;
+}
+
+/* line 13, ../sass/_sprite.sass */
+.cp-icn-user {
+  background-position: 0 -580px;
   height: 16px;
   width: 19px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-vi-flag {
-  background-position: 0 -576px;
+  background-position: 0 -596px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-view {
-  background-position: 0 -592px;
+  background-position: 0 -612px;
   height: 16px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-zoom {
-  background-position: 0 -608px;
+  background-position: 0 -628px;
   height: 16px;
   width: 16px;
 }
@@ -362,7 +369,7 @@ i {
 .cp-typo-label, form .cp-label, table.cp-card-detail tr td:first-child {
   font-size: 1.4rem;
   color: #274025;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* line 7, ../sass/_image.sass */
@@ -598,6 +605,41 @@ i {
 
 /* line 51, ../sass/_button.sass */
 .cp-cleaner-outbalance {
+  background-color: #666666;
+}
+
+/* line 59, ../sass/_button.sass */
+.cp-booking-new {
+  background-color: #77C044;
+}
+
+/* line 59, ../sass/_button.sass */
+.cp-booking-accepted {
+  background-color: #e13370;
+}
+
+/* line 59, ../sass/_button.sass */
+.cp-booking-approved {
+  background-color: #e75425;
+}
+
+/* line 59, ../sass/_button.sass */
+.cp-booking-inprogress {
+  background-color: #3c57a7;
+}
+
+/* line 59, ../sass/_button.sass */
+.cp-booking-completed {
+  background-color: #40c7f1;
+}
+
+/* line 59, ../sass/_button.sass */
+.cp-booking-cancelled {
+  background-color: #ed1c24;
+}
+
+/* line 59, ../sass/_button.sass */
+.cp-booking-expired {
   background-color: #666666;
 }
 
@@ -1127,7 +1169,7 @@ table.cp-card-detail tr td {
 }
 /* line 116, ../sass/_table.sass */
 table.cp-card-detail tr td:first-child {
-  width: 110px;
+  width: 120px;
   vertical-align: text-top;
 }
 /* line 120, ../sass/_table.sass */
@@ -1493,6 +1535,10 @@ input:focus {
 /* line 103, ../sass/_card.sass */
 .cp-card hr {
   border-top-color: #e6e6e6;
+}
+/* line 105, ../sass/_card.sass */
+.cp-card hr.cp-space-detail {
+  margin-top: 25px;
 }
 
 /* Login
