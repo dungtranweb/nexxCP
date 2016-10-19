@@ -77,3 +77,14 @@ $(document).ready(function () {
         $("#cp-old-address").addClass("animated fadeIn");
     })
 })
+
+// Set position of foobar
+// ======================
+$(document).ready(function () {
+    var windowHeight = $(window).height();
+    var contentHeight = $(".cp-float-container").height();
+    var minHeight = windowHeight - 155;
+    if (contentHeight < minHeight) {
+        $("#foobar").addClass("cp-set-bottom");
+    }
+})

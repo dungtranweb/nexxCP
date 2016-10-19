@@ -1875,3 +1875,10 @@ footer#foobar p {
 footer#foobar p span.love {
   color: #ed1c24;
 }
+
+/* line 13, ../sass/_foobar.sass */
+.cp-set-bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

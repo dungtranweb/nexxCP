@@ -28,17 +28,19 @@
     %a(href="index.html") Home
   %li.cp-breadcrumb-item
     %a(href="user-dashboard.html") User
-  %li.cp-breadcrumb-item.active Create User
+  %li.cp-breadcrumb-item
+    %a(href="user-list-user.html") List User
+  %li.cp-breadcrumb-item.active Edit User
 / End Breadcrumb
 
 / Float Container
 %form.cp-float-container(method="post" enctype="multipart/form-data" )
 
-  / Create User
+  / Edit User
   .cp-float-item-s2.cp-card.cp-left
     %header
       .cp-card-title
-        .cp-typo-title Create User
+        .cp-typo-title Edit User
 
     .cp-card-content
       .cp-label avatar
@@ -115,58 +117,6 @@
       .cp-label description
       %textarea(placeholder="Enter description" )
 
-  / Address
-  .cp-float-item-s2.cp-card.cp-right
-    %header
-      .cp-card-title
-        .cp-typo-title Address
-
-    .cp-card-content
-      .cp-label is default?
-      .cp-is
-        %input#is-default-user(type="checkbox" checked )
-        %label.checkbox(for="is-default-user")
-      .cp-label address
-      %input(type="text" placeholder="Enter address" )
-      .cp-label type
-      %input(type="text" placeholder="Eg: Home, Company..." )
-      .cp-label country
-      %select(disabled)
-        %option Viet Nam
-      .cp-label province
-      %select(disabled)
-        %option Ho Chi Minh
-      .cp-label district
-      %select
-        %option(disabled selected) Select one
-        %option 1
-        %option 2
-        %option 3
-        %option 4
-        %option 5
-        %option 6
-        %option 7
-        %option 8
-        %option 9
-        %option 10
-        %option 11
-        %option 12
-      .cp-label ward
-      %select
-        %option(disabled selected) Select one
-        %option 1
-        %option 2
-        %option 3
-        %option 4
-        %option 5
-        %option 6
-        %option 7
-        %option 8
-        %option 9
-        %option 10
-        %option 11
-        %option 12
-
   / Action
   .cp-float-item-s2.cp-card.cp-left
     %header
@@ -178,9 +128,9 @@
       %select
         %option Active
         %option Deactive
-      %button.cp-btn.cp-btn-success(type="submit" ) Create
+      %button.cp-btn.cp-btn-success(type="submit" ) Save
 
-  .cp-clear
+.cp-clear
 
 / End Float Container
 

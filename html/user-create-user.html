@@ -41,13 +41,16 @@
           <a data-parent='#user-menu' data-target='#user-menu-item' data-toggle='collapse' href='#' id='user-name'>Lady Killer <i class="cp-icn-caret-down icn-right"></i></a>
           <ul class='nav nav-stacked collapse' id='user-menu-item'>
             <li>
-              <a href='user-detail.html'><i class="cp-icn-profile icn-left"></i>Profile</a>
+              <a href='user-detail.html'><i class="cp-icn-profile icn-left"></i>View Profile</a>
+            </li>
+            <li>
+              <a href='user-edit.html'><i class="cp-icn-edit-profile icn-left"></i>Edit Profile</a>
             </li>
             <li>
               <a href='user-change-pass.html'><i class="cp-icn-change-pass icn-left"></i>Change Password</a>
             </li>
             <li>
-              <a href='#'><i class="cp-icn-sign-out icn-left"></i>Sign Out</a>
+              <a href='#'><i class="cp-icn-sign-out icn-left"></i>Log Out</a>
             </li>
           </ul>
         </li>
@@ -457,7 +460,7 @@
   <li class='cp-breadcrumb-item active'>Create User</li>
 </ol>
 <!-- End Breadcrumb -->
-<!-- Content Flex -->
+<!-- Float Container -->
 <form class='cp-float-container' enctype='multipart/form-data' method='post'>
   <!-- Create User -->
   <div class='cp-float-item-s2 cp-card cp-left'>
@@ -625,8 +628,9 @@
       <button class='cp-btn cp-btn-success' type='submit'>Create</button>
     </div>
   </div>
+  <div class='cp-clear'></div>
 </form>
-<!-- End Content Flex -->
+<!-- End Float Container -->
 </div>
 <!-- End Content -->
 <!-- Foobar -->

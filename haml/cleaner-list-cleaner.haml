@@ -31,7 +31,7 @@
   %li.cp-breadcrumb-item.active List Cleaner
 / End Breadcrumb
 
-/ Content Flex
+/ Float Container
 \<div class="cp-float-container">
 
 .cp-float-item-s1.cp-card.cp-left
@@ -340,10 +340,10 @@
     %li.cp-pagination-item
       %a.cp-pagination-link(href="#" ) &raquo;
 
-
+.cp-clear
 
 \</div>
-/ End Content Flex
+/ End Float Container
 
 \</div>
 / End Content
@@ -360,3 +360,4 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
+
