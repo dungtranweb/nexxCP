@@ -3,8 +3,8 @@
 
 // Button Action
 // =============
-$list-btn: trans upload instant primary danger success
-$list-btn-color: transparent $primaryText $purple $primary $red $blue
+$list-btn: trans upload instant primary danger success deactive
+$list-btn-color: transparent $primaryText $purple $primary $red $blue $primaryText
 $btn-style-list: zip($list-btn, $list-btn-color)
 
 %cp-btn,
@@ -26,6 +26,9 @@ $btn-style-list: zip($list-btn, $list-btn-color)
 @each $btn in $btn-style-list
   .cp-btn-#{nth($btn, 1)}
     background-color: nth($btn, 2)
+    border: 1px solid darken(nth($btn, 2), 5%)
+    &:hover
+      background-color: darken(nth($btn, 2), 3%)
 
 .cp-btn-upload
   width: 200px !important

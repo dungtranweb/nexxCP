@@ -38,6 +38,10 @@
   %header
     .cp-card-title
       .cp-typo-title List Cleaner
+    .cp-btn-status
+      %button.cp-btn.cp-btn-success(type="button" ) Active
+      %button.cp-btn.cp-btn-deactive(type="button" ) Deactive
+      %button.cp-btn.cp-btn-danger(type="button" ) Block
     .cp-card-config
       .dropdown.export
         .dropdown-toggle(data-toggle="dropdown") <i class="cp-icn-export"></i> &nbsp;&nbsp;<i class="cp-icn-caret-black"></i>
@@ -60,14 +64,22 @@
         %th &nbsp;
         %th &nbsp;
         %th &nbsp;
-        %th CODE
-        %th NAME
-        %th PHONE
-        %th DATE OF BIRTH
-        %th ACTIVITY
-        %th STATUS
-        %th BOOKING
-        %th ACTION
+        %th
+          %a(href="#" ) CODE
+        %th
+          %a(href="" ) NAME
+        %th
+          %a(href="" ) PHONE
+        %th
+          %a(href="" ) DATE OF BIRTH
+        %th
+          %a(href="" ) ACTIVITY
+        %th
+          %a(href="" ) STATUS
+        %th
+          %a(href="" ) BOOKING
+        %th
+          %a(href="" ) ACTION
       %tr.filter
         %td &nbsp;
         %td

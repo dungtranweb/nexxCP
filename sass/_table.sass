@@ -3,6 +3,7 @@
 table.cp-table-list
   color: $primaryText
   overflow: hidden
+  margin-top: 15px
   margin-bottom: 0
   border-spacing: 35px
   thead
@@ -14,6 +15,12 @@ table.cp-table-list
       text-transform: uppercase
       &:nth-child(2)
         padding-left: 0
+      a
+        color: $primaryText
+        &:hover,
+        &:focus
+          color: $brandText
+          text-decoration: none
     tr.filter td
       border: none
       padding-left: 10px

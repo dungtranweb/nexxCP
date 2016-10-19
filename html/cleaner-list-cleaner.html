@@ -20,10 +20,10 @@
   <link href='../css/fileinput.min.css' rel='stylesheet'>
   <link href='../css/style.css' rel='stylesheet'>
   <!-- Setup for Compass -->
-  <link href='/stylesheets/screen.css' media='screen, projection' rel='stylesheet' type='text/css'>
-  <link href='/stylesheets/print.css' media='print' rel='stylesheet' type='text/css'>
   <!--[if IE]>
     <link href='/stylesheets/ie.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <link href='/stylesheets/screen.css' media='screen, projection' rel='stylesheet' type='text/css'>
+    <link href='/stylesheets/print.css' media='print' rel='stylesheet' type='text/css'>
   <![endif]-->
 </head>
 <body>
@@ -41,13 +41,16 @@
           <a data-parent='#user-menu' data-target='#user-menu-item' data-toggle='collapse' href='#' id='user-name'>Lady Killer <i class="cp-icn-caret-down icn-right"></i></a>
           <ul class='nav nav-stacked collapse' id='user-menu-item'>
             <li>
-              <a href='user-detail.html'><i class="cp-icn-profile icn-left"></i>Profile</a>
+              <a href='user-detail.html'><i class="cp-icn-profile icn-left"></i>View Profile</a>
+            </li>
+            <li>
+              <a href='user-edit.html'><i class="cp-icn-edit-profile icn-left"></i>Edit Profile</a>
             </li>
             <li>
               <a href='user-change-pass.html'><i class="cp-icn-change-pass icn-left"></i>Change Password</a>
             </li>
             <li>
-              <a href='#'><i class="cp-icn-sign-out icn-left"></i>Sign Out</a>
+              <a href='#'><i class="cp-icn-sign-out icn-left"></i>Log Out</a>
             </li>
           </ul>
         </li>
@@ -85,7 +88,7 @@
             <a href='cleaner-list-cleaner.html'>List Cleaner</a>
           </li>
           <li>
-            <a href='cleaner-create-cleaner'>Create Cleaner</a>
+            <a href='cleaner-create-cleaner.html'>Create Cleaner</a>
           </li>
           <li>
             <a href='cleaner-configuration.html'>Configuration</a>
@@ -422,7 +425,7 @@
       <ul class='dropdown-menu dropdown-menu-right'>
         <li class='dropdown-item'>
           <div class='topbar-wraplink'>
-            <div><i class="cp-icn-us-flag icn-left"></i> English</div>
+            <div><i class="cp-icn-en-flag icn-left"></i> English</div>
             <a class='topbar-link' href='#'></a>
           </div>
         </li>
@@ -464,6 +467,11 @@
     <div class='cp-card-title'>
       <div class='cp-typo-title'>List Cleaner</div>
     </div>
+    <div class='cp-btn-status'>
+      <button class='cp-btn cp-btn-success' type='button'>Active</button>
+      <button class='cp-btn cp-btn-deactive' type='button'>Deactive</button>
+      <button class='cp-btn cp-btn-danger' type='button'>Block</button>
+    </div>
     <div class='cp-card-config'>
       <div class='dropdown export'>
         <div class='dropdown-toggle' data-toggle='dropdown'><i class="cp-icn-export"></i> &nbsp;&nbsp;<i class="cp-icn-caret-black"></i></div>
@@ -490,14 +498,30 @@
         <th>&nbsp;</th>
         <th>&nbsp;</th>
         <th>&nbsp;</th>
-        <th>CODE</th>
-        <th>NAME</th>
-        <th>PHONE</th>
-        <th>DATE OF BIRTH</th>
-        <th>ACTIVITY</th>
-        <th>STATUS</th>
-        <th>BOOKING</th>
-        <th>ACTION</th>
+        <th>
+          <a href='#'>CODE</a>
+        </th>
+        <th>
+          <a href=''>NAME</a>
+        </th>
+        <th>
+          <a href=''>PHONE</a>
+        </th>
+        <th>
+          <a href=''>DATE OF BIRTH</a>
+        </th>
+        <th>
+          <a href=''>ACTIVITY</a>
+        </th>
+        <th>
+          <a href=''>STATUS</a>
+        </th>
+        <th>
+          <a href=''>BOOKING</a>
+        </th>
+        <th>
+          <a href=''>ACTION</a>
+        </th>
       </tr>
       <tr class='filter'>
         <td>&nbsp;</td>
