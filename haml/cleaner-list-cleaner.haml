@@ -34,7 +34,7 @@
 / Float Container
 \<div class="cp-float-container">
 
-.cp-float-item-s1.cp-card.cp-left
+.cp-float-item-11.cp-card.cp-left
   %header
     .cp-card-title
       .cp-typo-title List Cleaner
@@ -54,8 +54,8 @@
         %option 20 items
         %option 50 items
         %option 100 items
-      .split
-      %input.cp-card-date(type="text" placeholder="15/10/2016" ) <i class="cp-icn-caret-black"></i>
+      -#.split
+      -#%input.cp-card-date(type="text" placeholder="15/10/2016" ) <i class="cp-icn-caret-black"></i>
 
   %table.table.cp-table-list
     %thead
@@ -360,4 +360,3 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
-

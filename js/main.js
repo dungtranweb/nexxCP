@@ -55,11 +55,19 @@ $(document).ready(function () {
         maxFileSize: 1500,
         showClose: false,
         showCaption: false,
+        showDrag: false,
         browseLabel: '',
         removeLabel: '',
         browseIcon: '<span style="font-size: 16px;">Browse...</span>',
         removeIcon: '<i class="cp-icn-disable"></i>',
+        fileActionSettings: {
+            zoomIcon: '<i class="cp-icn-zoom"></i>',
+            zoomClass: 'btn cp-btn-trans'
+        },
         removeTitle: 'Cancel or reset changes',
+        browseClass: 'btn cp-btn cp-btn-upload',
+        previewSettings: {image: {width: "100%", height: "auto"}},
+        previewZoomSettings: {image: {width: "auto", height: "100%"}},
         elErrorContainer: '#kv-avatar-errors-1',
         msgErrorClass: 'alert alert-block alert-danger',
         defaultPreviewContent: '<img src="../images/upimage-wide.png" alt="Your Image" style="width: 200px">',
@@ -73,6 +81,10 @@ $(document).ready(function () {
 // ================================
 $(document).ready(function () {
     $("#add-new-address").on('click', function () {
+        $("#cp-old-address").css("display", "block");
+        $("#cp-old-address").addClass("animated fadeIn");
+    });
+    $("#edit-address").on('click', function () {
         $("#cp-old-address").css("display", "block");
         $("#cp-old-address").addClass("animated fadeIn");
     })

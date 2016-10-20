@@ -37,7 +37,7 @@
 %form.cp-float-container(method="post" enctype="multipart/form-data" )
 
   / Create Cleaner
-  .cp-float-item-s2.cp-card.cp-left
+  .cp-float-item-12.cp-card.cp-left
     %header
       .cp-card-title
         .cp-typo-title Edit Cleaner
@@ -110,7 +110,7 @@
       %textarea(placeholder="Enter description" )
 
   / System Information
-  .cp-float-item-s2.cp-card.cp-right
+  .cp-float-item-12.cp-card.cp-right
     %header
       .cp-card-title
         .cp-typo-title System Information
@@ -147,7 +147,7 @@
       %textarea(placeholder="Enter description" )
 
   / Identity
-  .cp-float-item-s2.cp-card.cp-right
+  .cp-float-item-12.cp-card.cp-right
     %header
       .cp-card-title
         .cp-typo-title Identity
@@ -211,7 +211,7 @@
             %input.cp-upimage.file-loading(name="cleaner-identity-back" type="file" )
 
   / Address
-  .cp-float-item-s2.cp-card.cp-left
+  .cp-float-item-12.cp-card.cp-left
     %header
       .cp-card-title
         .cp-typo-title Address
@@ -223,8 +223,8 @@
         %label.checkbox(for="home-address")
       .cp-address-container
         .cp-address-detail Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City
-        %a(href="edit-address.html" ) <i class="cp-icn-edit"></i>
-        %a(href="delete-address.html" ) <i class="cp-icn-delete"></i>
+        %a(href="#" ) <i class="cp-icn-delete"></i>
+        %a#edit-address(href="#cp-old-address" ) <i class="cp-icn-edit"></i>
       %button#add-new-address.cp-btn.cp-btn-instant(type="button" ) Add New Address
       #cp-old-address
         %hr
@@ -274,7 +274,7 @@
           %option 12
 
   / Insurance
-  .cp-float-item-s2.cp-card.cp-right
+  .cp-float-item-12.cp-card.cp-right
     %header
       .cp-card-title
         .cp-typo-title Insurance
@@ -383,7 +383,7 @@
             %input.cp-upimage.file-loading(name="cleaner-insurance-back" type="file" )
 
   / Certificate
-  .cp-float-item-s2.cp-card.cp-left
+  .cp-float-item-12.cp-card.cp-left
     %header
       .cp-card-title
         .cp-typo-title Certificate
@@ -447,7 +447,7 @@
             %input.cp-upimage.file-loading(name="cleaner-certificate-back" type="file" )
 
   / Banking Information
-  .cp-float-item-s2.cp-card.cp-right
+  .cp-float-item-12.cp-card.cp-left
     %header
       .cp-card-title
         .cp-typo-title Banking Information
@@ -463,7 +463,7 @@
       %input(type="text" placeholder="Enter account name" )
 
   / Action
-  .cp-float-item-s2.cp-card.cp-left
+  .cp-float-item-12.cp-card.cp-left
     %header
       .cp-card-title
         .cp-typo-title Action
@@ -475,6 +475,7 @@
         %option Deactive
       %button.cp-btn.cp-btn-success(type="submit" ) Save
 
+  .cp-clear
 / End Float Container
 
 \</div>
@@ -492,3 +493,5 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
+
+

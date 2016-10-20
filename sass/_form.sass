@@ -63,6 +63,7 @@ select
   +appearance(none)
   option
     color: $primaryText
+    font-weight: 300
     &:checked:after
       content: attr(title)
       background: $background
@@ -93,9 +94,8 @@ select
   +box-shadow(inset 0 1px 3px rgba($inputText, 0.2))
   +input-placeholder
     color: $inputText
+  @extend .cp-typo-normal
   color: $primaryText
-  font-size: rem(16px)
-  font-weight: 400
   padding: 8px 0 8px 35px
   width: 100%
   &:hover

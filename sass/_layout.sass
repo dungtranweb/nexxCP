@@ -22,3 +22,13 @@
     width: (1170px - (30px * $i)) / $i
     +border-radius(7px)
 
+@for $i from 1 through 4
+  @for $j from 1 through 4
+    @if (($i == $j) and ($j == 1)) or ($i < $j)
+      .cp-float-item-#{$i}#{$j}
+        background-color: white
+        margin-left: 30px
+        margin-bottom: 30px
+        border: 1px solid $line
+        width: ((1170px / $j) * $i) - 30px
+        +border-radius(7px)
