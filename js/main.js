@@ -11,7 +11,7 @@ $(document).ready(function () {
         $(this).parent().find('.user').attr('src', '../images/login/user.png');
         $(this).parent().find('.pass').attr('src', '../images/login/pass.png');
     })
-})
+});
 
 
 // Sidebar: Setup metisMenu
@@ -20,7 +20,7 @@ $(document).ready(function () {
     $('#sidebar-menu').metisMenu({
         activeClass: 'active'
     });
-})
+});
 
 // Setup NiceScroll plugin
 // =======================
@@ -35,7 +35,7 @@ $(document).ready(function () {
         cursorcolor: 'rgba(238, 238, 238 , 0.2)',
         cursorborder: 'none'
     });
-})
+});
 
 // Setup datePicker plugin
 // ======================
@@ -45,7 +45,7 @@ $(document).ready(function () {
         todayHighlight: true,
         autoclose: true
     });
-})
+});
 
 // Setup Bootstrap Input File plugin
 // =================================
@@ -75,7 +75,7 @@ $(document).ready(function () {
         allowedFileExtensions: ["jpg", "png", "gif"],
         elPreviewContainer: '.cp-upimage-container'
     });
-})
+});
 
 // Trigger button "Add New Address"
 // ================================
@@ -88,7 +88,7 @@ $(document).ready(function () {
         $("#cp-old-address").css("display", "block");
         $("#cp-old-address").addClass("animated fadeIn");
     })
-})
+});
 
 // Set position of foobar
 // ======================
@@ -99,12 +99,31 @@ $(document).ready(function () {
     if (contentHeight < minHeight) {
         $("#foobar").addClass("cp-set-bottom");
     }
-})
+});
 
 // Setup Bootstrap Tooltips
 // ======================
 $(document).ready(function () {
     $('[data-hover="tooltip"]').tooltip();
-    $('#eg').tooltip();
-})
+});
 
+// Setup Alert
+// ===========
+$(document).ready(function () {
+    $('.cp-alert').hide();
+    $('#cp-btn-alert-success').click(function showAlert() {
+        $('.cp-alert-success').alert();
+        $('.cp-alert-success').fadeTo(3000, 500).fadeOut(500);
+    });
+    $('#cp-btn-alert-warning').click(function showAlert() {
+        $('.cp-alert-warning').alert();
+        $('.cp-alert-warning').fadeTo(3000, 500).fadeOut(500);
+    });
+    $('#cp-btn-alert-danger').click(function showAlert() {
+        $('.cp-alert-error').alert();
+        $('.cp-alert-error').fadeTo(3000, 500).fadeOut(500);
+    });
+    $('.cp-btn-close').click(function () {
+        $('.cp-alert').hide();
+    })
+});

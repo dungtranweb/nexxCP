@@ -3,8 +3,8 @@
 
 // Button Action
 // =============
-$list-btn: trans upload instant primary danger success deactive
-$list-btn-color: transparent $primaryText $purple $primary $red $blue $primaryText
+$list-btn: trans upload instant primary danger success deactive warning
+$list-btn-color: transparent $primaryText $purple $primary $red $blue $primaryText $orange
 $btn-style-list: zip($list-btn, $list-btn-color)
 
 %cp-btn,
@@ -33,6 +33,16 @@ $btn-style-list: zip($list-btn, $list-btn-color)
 .cp-btn-upload
   width: 200px !important
   margin-top: 5px
+
+.cp-btn-close
+  background-color: transparent
+  border: none
+  +box-shadow(none)
+  &:hover,
+  &:focus,
+  &:active
+    outline: none
+
 
 // Button Cleaner Activities
 // =========================

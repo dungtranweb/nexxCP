@@ -1,0 +1,51 @@
+.cp-alert
+  position: fixed
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  z-index: 9999
+  .cp-alert-content
+    position: relative
+    width: 400px
+    padding: 15px 30px 15px 50px
+    color: $primaryText
+    background-color: white
+    margin: 30px auto
+    +border-radius(3px)
+    +box-shadow(0 6px 12px rgba(black, 0.175))
+    @extend .cp-typo-text
+    .cp-btn-close
+      position: absolute
+      right: 5px
+      top: 0px
+      font-size: rem(20px)
+    .cp-alert-color
+      position: absolute
+      top: 0
+      left: 0
+      height: 100%
+      width: 30px
+      +display-flex(flex)
+      +justify-content(center)
+      +align-items(center)
+      +border-left-radius(3px)
+
+.cp-alert-success
+  .cp-alert-content
+    border: 1px solid $blue
+    .cp-alert-color
+      background-color: $blue
+
+.cp-alert-warning
+  .cp-alert-content
+    border: 1px solid $orange
+    .cp-alert-color
+      background-color: $orange
+
+.cp-alert-error
+  .cp-alert-content
+    border: 1px solid $red
+    .cp-alert-color
+      background-color: $red
+

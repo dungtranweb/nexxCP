@@ -1,0 +1,86 @@
+= Haml::Engine.new(File.read('header.haml')).render
+
+/ Container
+/ =========
+\<div class="cp-container">
+
+/ Sidebar
+/ =======
+= Haml::Engine.new(File.read('sidebar.haml')).render
+/ End Sidebar
+
+/ Right Block
+/ ===========
+\<div class="cp-right-block">
+
+/ Topbar
+/ ======
+= Haml::Engine.new(File.read('topbar.haml')).render
+/ End Topbar
+
+/ Content
+/ =======
+\<div class="cp-content">
+
+/ Breadcrumb
+%ol.cp-breadcrumb
+  %li.cp-breadcrumb-item
+    %a(href="index.html") Home
+  %li.cp-breadcrumb-item
+    %a(href="user-dashboard.html") User
+  %li.cp-breadcrumb-item.active List User
+/ End Breadcrumb
+
+/ Alert
+.cp-alert.cp-alert-success
+  .cp-alert-content
+    .cp-alert-color
+      %i.cp-icn-alert-success
+    Your update is successful!
+    %button.cp-btn-close(type="button" data-dismiss="alert" ) &times;
+
+.cp-alert.cp-alert-warning
+  .cp-alert-content
+    .cp-alert-color
+      %i.cp-icn-alert-warning
+    This action could be dangerous!
+    %button.cp-btn-close(type="button" data-dismiss="alert" ) &times;
+
+.cp-alert.cp-alert-error
+  .cp-alert-content
+    .cp-alert-color
+      %i.cp-icn-alert-error
+    Be aware! This is a dangerous action
+    %button.cp-btn-close(type="button" data-dismiss="alert" ) &times;
+/ End Alert
+
+/ Float Container
+\<div class="cp-float-container">
+
+.cp-float-item-12.cp-card.cp-left
+  %header
+    .cp-card-title
+      .cp-typo-title Alert
+    .cp-btn-status
+      %button.cp-btn.cp-btn-success#cp-btn-alert-success(type="button" ) Success Alert
+      %button.cp-btn.cp-btn-warning#cp-btn-alert-warning(type="button" ) Warning Alert
+      %button.cp-btn.cp-btn-danger#cp-btn-alert-danger(type="button" ) Error Alert
+
+\</div>
+/ End Float Container
+
+\</div>
+/ End Content
+
+/ Foobar
+/ ======
+= Haml::Engine.new(File.read('foobar.haml')).render
+/ End Foobar
+
+\</div>
+/ End Right Block
+
+\</div>
+/ End Container
+
+= Haml::Engine.new(File.read('footer.haml')).render
