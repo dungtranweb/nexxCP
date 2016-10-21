@@ -34,7 +34,7 @@
 / End Breadcrumb
 
 / Float Container
-\<div class="cp-float-container">
+\<div class="cp-float-container clearfix">
 
 // General Information
 .cp-float-item-13.cp-card.cp-left
@@ -148,46 +148,227 @@
         %td deviceToken:
         %td bb5ab0cf-e008-4c07-b5a4-6dc6e03e5b0e
 
+.cp-clear
+
 // Address
-.cp-float-item-23.cp-card.cp-right
+.cp-float-item-23.cp-card.cp-left
   %header
     .cp-card-title
-      .cp-typo-title System & Meta Data
+      .cp-typo-title Address
+  %table.table.cp-table-list
+    %thead
+      %tr
+        %th &nbsp;
+        %th ADDRESS
+        %th COUNTRY
+        %th PROVINCE
+        %th DISTRICT
+        %th WARD
+        %th TYPE
+        %th STATUS
+    %tbody
+      %tr
+        %td
+          %input#chb-1(type="checkbox" checked disabled)
+          %label.checkbox(for="chb-1")
+        %td Him Lam Cho Lon
+        %td Viet Nam
+        %td Ho Chi Minh City
+        %td District 6
+        %td Ward 11
+        %td Home
+        %td Active
+      %tr
+        %td
+          %input#chb-2(type="checkbox" disabled)
+          %label.checkbox(for="chb-2")
+        %td 297/3 Ly Thuong Kiet
+        %td Viet Nam
+        %td Ho Chi Minh City
+        %td District 11
+        %td Ward 15
+        %td Girl Friend
+        %td Deactive
+      %tr
+        %td
+          %input#chb-3(type="checkbox" disabled)
+          %label.checkbox(for="chb-3")
+        %td 124 Tan Tho
+        %td Viet Nam
+        %td Ho Chi Minh City
+        %td Tan Binh
+        %td Ward 14
+        %td Unknown
+        %td Active
+
+// Relationship
+.cp-float-item-13.cp-card.cp-left
+  %header
+    .cp-card-title
+      .cp-typo-title Relationship
   .cp-detail-container
     %table.cp-card-detail
       %tr
-        %td Join At:
-        %td 15/09/2016 12:19:22
+        %td Refer To:
+        %td Ty Luu
       %tr
-        %td Create At:
-        %td 10/09/2016 14:29:38
-      %tr
-        %td Create By:
-        %td Admin
-      %tr
-        %td Update At:
-        %td 21/09/2016 09:34:12
-      %tr
-        %td Update By:
-        %td Admin
+        %td Service Fee:
+        %td 1%
   %hr.cp-space-detail
   .cp-detail-container
     %table.cp-card-detail
       %tr
-        %td os:
-        %td REL
+        %td(colspan="3" )
+          .cp-label list cleaner invited
       %tr
-        %td version:
-        %td 1.0
+        %td Thi Huynh
+        %td 2%
       %tr
-        %td platform:
-        %td android
-      %tr
-        %td deviceToken:
-        %td bb5ab0cf-e008-4c07-b5a4-6dc6e03e5b0e
+        %td Anh Nguyen
+        %td 2%
+
+// Summary
+.cp-float-item-11.cp-card.cp-left
+  %header
+    .cp-card-title
+      .cp-typo-title Summary
+  .cp-detail-container.clearfix
+    .cp-detail-onehaft.clearfix.cp-left
+      .cp-count-block
+        %div &nbsp;
+        %div 471
+        %div Total Booking
+      .cp-count-block
+        %div &nbsp;
+        %div 346
+        %div Completed Booking
+      .cp-count-block
+        %div 17/09/2016 15:12:24
+        %div 2
+        %div Today Booking
+      .cp-count-block
+        %div &nbsp;
+        %div 12
+        %div Cancelled Booking
+      .cp-count-block
+        %div VND
+        %div 17,500,000
+        %div Total Income
+      .cp-count-block
+        %div VND
+        %div 2,820,000
+        %div Total Service Fee
+      .cp-count-block
+        %div VND
+        %div +3,450,000
+        %div Balance
+      .cp-count-block
+        %div VND
+        %div 840,000
+        %div Today Earning
+    .cp-detail-onehaft.clearfix.cp-right
+      .cp-label rating & comment
+      .cp-booking-star.cp-typo-label-detail BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i>
+      .cp-comment Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.
+      %hr
+      .cp-booking-star.cp-typo-label-detail BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i>
+      .cp-comment Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.
+      %hr
+      .cp-booking-star.cp-typo-label-detail BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i>
+      .cp-comment Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.
+      %hr
+      .cp-booking-star.cp-typo-label-detail BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i>
+      .cp-comment Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.
+
+      %ul.cp-pagination
+        %li.cp-pagination-item
+          %a.cp-pagination-link(href="#" ) &laquo;
+        %li.cp-pagination-item
+          %a.cp-pagination-link(href="#" ) 1
+        %li.cp-pagination-item
+          %a.cp-pagination-link(href="#" ) 2
+        %li.cp-pagination-item
+          %a.cp-pagination-link(href="#" ) 3
+        %li.cp-pagination-item
+          %a.cp-pagination-link(href="#" ) 4
+        %li.cp-pagination-item
+          %a.cp-pagination-link(href="#" ) 5
+        %li.cp-pagination-item
+          %a.cp-pagination-link(href="#" ) &raquo;
+
+// Document
+.cp-float-item-11.cp-card.cp-left
+  %header
+    .cp-card-title
+      .cp-typo-title Document
+  .cp-detail-container.clearfix
+    .cp-detail-onethird.clearfix.cp-left
+      %table.cp-card-detail
+        %tr
+          %td(colspan="2" )
+            .cp-label identity card
+        %tr
+          %td ID No.:
+          %td 257456985
+        %tr
+          %td Issue Date:
+          %td 17/11/2005
+        %tr
+          %td Issue By:
+          %td HTPD
+      .cp-document-image
+        .cp-image-item
+          .cp-label ID Front Image
+          %img(src="../images/id-front.png" alt="ID front" )
+        .cp-image-item
+          .cp-label ID Back Image
+          %img(src="../images/id-back.png" alt="ID back" )
+
+    .cp-detail-onethird.clearfix.cp-left
+      %table.cp-card-detail
+        %tr
+          %td(colspan="2" )
+            .cp-label insurance
+        %tr
+          %td Insurance No.:
+          %td 5693578451346
+        %tr
+          %td Insurance Type:
+          %td Health Care
+        %tr
+          %td Effective Time:
+          %td 11/09/2016 - 11/09/2017
+        %tr
+          %td Issue By:
+          %td Viet Nam Health Insurance
+      .cp-document-image
+        .cp-image-item
+          .cp-label Insurance Front Image
+          %img(src="../images/insurance-front.png" alt="/Insurance front" )
+        .cp-image-item
+          .cp-label Insurance Back Image
+          %img(src="../images/insurance-back.png" alt="Insurance back" )
+
+    .cp-detail-onethird.clearfix.cp-right
+      %table.cp-card-detail
+        %tr
+          %td(colspan="2" )
+            .cp-label certificate
+        %tr
+          %td Certificate No.:
+          %td 257456985
+        %tr
+          %td Issue Date:
+          %td 17/09/2016
+        %tr
+          %td Issue By:
+          %td Happy Clean
+      .cp-document-image
+        .cp-image-item
+          .cp-label Certificate Image
+          %img(src="../images/certificate.png" alt="Certificate" )
 
 
-.cp-clear
 
 \</div>
 / End Float Container
