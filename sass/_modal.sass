@@ -1,0 +1,31 @@
+#cp-modal-delete
+  width: 100%
+  .modal-dialog
+    width: 450px
+    margin: 50px auto
+
+#cp-modal-success
+  width: 100%
+  .modal-dialog
+    width: 400px
+    margin: 50px auto
+
+.cp-modal-content
+  padding: 30px 0 20px 0
+  text-align: center
+  background-color: white
+  outline: 0
+  border: 1px solid $line
+  +border-radius(7px)
+  .cp-modal-header
+    color: $primaryText
+    margin-bottom: 20px
+    .cp-modal-title
+      @extend .cp-typo-modal-title
+    .cp-modal-subtitle
+      @extend .cp-typo-normal
+  .cp-modal-footer
+    button
+      margin-right: 15px
+      &:last-child
+        margin-right: 0

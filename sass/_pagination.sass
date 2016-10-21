@@ -18,6 +18,7 @@ ul.cp-pagination
       padding: 5px 10px
       margin: 0
       +box-sizing(border-box)
+      &.active,
       &:hover,
       &:focus,
       &:active
@@ -25,6 +26,7 @@ ul.cp-pagination
         +border-radius(50%)
         +box-sizing(border-box)
         color: $primary
+
     &:first-child a,
     &:last-child a
       font-size: rem(20px)
@@ -35,4 +37,13 @@ ul.cp-pagination
       &:focus,
       &:active
         border: none
-        +border-radius(none)
+        +border-radius(0)
+      &.disable
+        &:hover,
+        &:focus,
+        &:active
+          pointer-events: none
+          border: none
+          +border-radius(0)
+          +box-sizing(border-box)
+          color: $primaryText

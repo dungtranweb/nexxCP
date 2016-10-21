@@ -100,3 +100,11 @@ $(document).ready(function () {
         $("#foobar").addClass("cp-set-bottom");
     }
 })
+
+// Setup Bootstrap Tooltips
+// ======================
+$(document).ready(function () {
+    $('[data-hover="tooltip"]').tooltip();
+    $('#eg').tooltip();
+})
+

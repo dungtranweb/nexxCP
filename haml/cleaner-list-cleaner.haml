@@ -31,6 +31,19 @@
   %li.cp-breadcrumb-item.active List Cleaner
 / End Breadcrumb
 
+/ Modal
+#cp-modal-delete.modal.fade(tabindex="-1" role="dialog" )
+  .modal-dialog(role="document")
+    .cp-modal-content
+      .cp-modal-header
+        %i.cp-icn-modal-warning
+        .cp-modal-title Are you sure?
+        .cp-modal-subtitle You will not able to recover this cleaner!
+      .cp-modal-footer
+        %button.cp-btn.cp-btn-danger(type="button" ) Yes
+        %button.cp-btn.cp-btn-success(type="button" data-dismiss="modal" ) No
+/ End Modal
+
 / Float Container
 \<div class="cp-float-container clearfix">
 
@@ -48,12 +61,12 @@
         .dropdown-menu.dropdown-menu-right
           %a.dropdown-item(href="#") Excel
           %a.dropdown-item(href="#") CSV
-      .split
-      %select
-        %option 10 items
-        %option 20 items
-        %option 50 items
-        %option 100 items
+      -#.split
+      -#%select
+      -#  %option 10 items
+      -#  %option 20 items
+      -#  %option 50 items
+      -#  %option 100 items
       -#.split
       -#%input.cp-card-date(type="text" placeholder="15/10/2016" ) <i class="cp-icn-caret-black"></i>
 
@@ -129,10 +142,10 @@
         %td Active
         %td 7
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list#eg(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
       %tr
         %td.online &nbsp;
         %td
@@ -150,10 +163,10 @@
         %td Active
         %td 2
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
         %tr
         %td &nbsp;
         %td
@@ -171,10 +184,10 @@
         %td Active
         %td 4
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
       %tr
         %td.online &nbsp;
         %td
@@ -192,10 +205,10 @@
         %td Deactive
         %td 1
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
       %tr
         %td &nbsp;
         %td
@@ -213,10 +226,10 @@
         %td Active
         %td 5
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
         %tr
         %td &nbsp;
         %td
@@ -234,10 +247,10 @@
         %td Active
         %td 2
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
       %tr
         %td &nbsp;
         %td
@@ -255,10 +268,10 @@
         %td Active
         %td 1
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
         %tr
         %td.online &nbsp;
         %td
@@ -276,10 +289,10 @@
         %td Active
         %td 2
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
       %tr
         %td &nbsp;
         %td
@@ -297,10 +310,10 @@
         %td Active
         %td 3
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
         %tr
         %td.online &nbsp;
         %td
@@ -318,17 +331,17 @@
         %td Active
         %td 4
         %td.action
-          %a.btn-list(href="cleaner-detail.html") <i class="cp-icn-view"></i>
-          %a.btn-list(href="cleaner-change-pass.html") <i class="cp-icn-pass"></i>
-          %a.btn-list(href="cleaner-edit.html") <i class="cp-icn-edit"></i>
-          %a.btn-list(href="#") <i class="cp-icn-delete"></i>
+          %a.btn-list(href="cleaner-detail.html" data-hover="tooltip" data-placement="top" title="View detail" ) <i class="cp-icn-view"></i>
+          %a.btn-list(href="cleaner-change-pass.html" data-hover="tooltip" data-placement="top" title="Change password" ) <i class="cp-icn-pass"></i>
+          %a.btn-list(href="cleaner-edit.html" data-hover="tooltip" data-placement="bottom" title="Edit" ) <i class="cp-icn-edit"></i>
+          %a.btn-list(href="#" data-hover="tooltip" data-toggle="modal" data-target="#cp-modal-delete" data-placement="bottom" title="Delete" ) <i class="cp-icn-delete"></i>
 
 
   %ul.cp-pagination
     %li.cp-pagination-item
-      %a.cp-pagination-link(href="#" ) &laquo;
+      %a.cp-pagination-link.disable(href="#") &laquo;
     %li.cp-pagination-item
-      %a.cp-pagination-link(href="#" ) 1
+      %a.cp-pagination-link.active(href="#" ) 1
     %li.cp-pagination-item
       %a.cp-pagination-link(href="#" ) 2
     %li.cp-pagination-item
