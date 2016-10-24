@@ -129,4 +129,7 @@ $(document).ready(function () {
             $('.cp-right-block').css('margin-left', '0');
         }
     });
+
+
+
 });

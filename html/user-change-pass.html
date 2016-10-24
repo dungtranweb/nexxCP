@@ -343,9 +343,13 @@
 <!-- ====== -->
 <nav class='navbar navbar-light' id='topbar'>
   <a class='navbar-brand' href='#'>
+    <div class='switch'>
+      <input checked class='switch-toggle switch-toggle-round' id='switch-sidebar' type='checkbox'>
+      <label for='switch-sidebar'></label>
+    </div>
     <img alt='Logo of GVN' src='../images/logo.png'>
   </a>
-  <ul class='nav navbar-nav pull-xs-right' id='topbar-right'>
+  <ul class='nav navbar-nav cp-right' id='topbar-right'>
     <li class='nav-item dropdown'>
       <a aria-haspopup='true' class='nav-link dropdown-toggle' data-toggle='dropdown' href='#' id='noti-topbar'>
         <i class='cp-icn-noti-topbar icn-noti'></i>
@@ -513,10 +517,10 @@
 <!-- End Container -->
 <!-- External Javascript -->
 <script src='../js/jquery-2.2.4.min.js' type='text/javascript'></script>
+<script src='../js/tether.min.js' type='text/javascript'></script>
 <script src='../js/bootstrap.min.js' type='text/javascript'></script>
 <script src='../js/jquery.nicescroll.min.js' type='text/javascript'></script>
 <script src='../js/metisMenu.min.js' type='text/javascript'></script>
-<script src='../js/bootstrap-datepicker.min.js' type='text/javascript'></script>
 <script src='../js/fileinput.min.js' type='text/javascript'></script>
 <script src='../js/main.js' type='text/javascript'></script>
 </body>
