@@ -1,7 +1,6 @@
 // Define Form Element Style
 // =========================
 
-
 // Checkbox & Radio
 // ================
 label
@@ -47,6 +46,58 @@ input[type=radio]:checked + label.radio:before
   line-height: rem(11px)
   text-align: center
   color: $primary
+
+// Switch button
+// =============
+.switch
+  float: left
+  margin-top: 7px
+.switch-toggle
+  position: absolute
+  margin-left: -9999px
+  visibility: hidden
+
+.switch-toggle + label
+  display: block
+  position: relative
+  cursor: pointer
+  outline: none
+  user-select: none
+
+input.switch-toggle-round + label
+  padding: 2px
+  width: 60px
+  height: 30px
+  background-color: #dddddd
+  +border-radius(30px)
+
+input.switch-toggle-round + label:before,
+input.switch-toggle-round + label:after
+  display: block
+  position: absolute
+  top: 1px
+  left: 1px
+  bottom: 1px
+  content: ""
+
+input.switch-toggle-round + label:before
+  right: 1px
+  background-color: #f1f1f1
+  +border-radius(30px)
+  +transition(background 0.4s)
+
+input.switch-toggle-round + label:after
+  width: 28px
+  background-color: white
+  +border-radius(100%)
+  +box-shadow(0 2px 5px rgba(0, 0, 0, 0.3))
+  +transition(margin 0.4s)
+
+input.switch-toggle-round:checked + label:before
+  background-color: #8ce196
+
+input.switch-toggle-round:checked + label:after
+  margin-left: 30px
 
 
 // Select

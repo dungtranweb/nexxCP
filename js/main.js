@@ -10,21 +10,16 @@ $(document).ready(function () {
         $(this).parent().removeClass('focus-login');
         $(this).parent().find('.user').attr('src', '../images/login/user.png');
         $(this).parent().find('.pass').attr('src', '../images/login/pass.png');
-    })
-});
-
+    });;
 
 // Sidebar: Setup metisMenu
-// ========================
-$(document).ready(function () {
+// ========================;
     $('#sidebar-menu').metisMenu({
         activeClass: 'active'
     });
-});
 
 // Setup NiceScroll plugin
 // =======================
-$(document).ready(function () {
     $('html').niceScroll({
         cursorcolor: 'rgba(33, 119, 86 , 0.6)',
         cursorborder: 'none',
@@ -35,21 +30,17 @@ $(document).ready(function () {
         cursorcolor: 'rgba(238, 238, 238 , 0.2)',
         cursorborder: 'none'
     });
-});
 
 // Setup datePicker plugin
 // ======================
-$(document).ready(function () {
     $('.cp-card-date').datepicker({
         format: 'dd/mm/yyyy',
         todayHighlight: true,
         autoclose: true
     });
-});
 
 // Setup Bootstrap Input File plugin
 // =================================
-$(document).ready(function () {
     $(".cp-upimage").fileinput({
         overwriteInitial: true,
         maxFileSize: 1500,
@@ -75,11 +66,9 @@ $(document).ready(function () {
         allowedFileExtensions: ["jpg", "png", "gif"],
         elPreviewContainer: '.cp-upimage-container'
     });
-});
 
 // Trigger button "Add New Address"
 // ================================
-$(document).ready(function () {
     $("#add-new-address").on('click', function () {
         $("#cp-old-address").css("display", "block");
         $("#cp-old-address").addClass("animated fadeIn");
@@ -87,29 +76,23 @@ $(document).ready(function () {
     $("#edit-address").on('click', function () {
         $("#cp-old-address").css("display", "block");
         $("#cp-old-address").addClass("animated fadeIn");
-    })
-});
+    });
 
 // Set position of foobar
 // ======================
-$(document).ready(function () {
     var windowHeight = $(window).height();
     var contentHeight = $(".cp-float-container").height();
     var minHeight = windowHeight - 155;
     if (contentHeight < minHeight) {
         $("#foobar").addClass("cp-set-bottom");
-    }
-});
+    };
 
 // Setup Bootstrap Tooltips
-// ======================
-$(document).ready(function () {
+// ========================
     $('[data-hover="tooltip"]').tooltip();
-});
 
 // Setup Alert
 // ===========
-$(document).ready(function () {
     $('.cp-alert').hide();
     $('#cp-btn-alert-success').click(function showAlert() {
         $('.cp-alert-success').alert();
@@ -125,5 +108,28 @@ $(document).ready(function () {
     });
     $('.cp-btn-close').click(function () {
         $('.cp-alert').hide();
-    })
+    });
+
+// Setup Switch Button
+// ===================
+    $('#switch-sidebar').change(function () {
+        if ($(this).is(':checked')) {
+            // console.log('true');
+            // $('#sidebar').css('display', 'none');
+            // $('#sidebar').fadeIn(500);
+            $('#sidebar').removeClass('animated fadeOutLeft');
+            $('#sidebar').addClass('animated fadeInLeft');
+            $('.cp-right-block').css('margin-left', '190px');
+        } else {
+            // console.log('false');
+            // $('#sidebar').css('display', 'block');
+            // $('#sidebar').fadeOut(500);
+            $('#sidebar').removeClass('animated fadeInLeft');
+            $('#sidebar').addClass('animated fadeOutLeft');
+            $('.cp-right-block').css('margin-left', '0');
+        }
+    });
+
+
+
 });
