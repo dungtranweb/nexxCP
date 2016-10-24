@@ -1,6 +1,9 @@
+// Nexx Control Panel Javascript
+// =============================
+$(document).ready(function () {
+
 // Login
 // =====
-$(document).ready(function () {
     $('.input-login').focusin(function () {
         $(this).parent().addClass('focus-login');
         $(this).parent().find('.user').attr('src', '../images/login/user-hover.png');
@@ -94,6 +97,7 @@ $(document).ready(function () {
 // Setup Alert
 // ===========
     $('.cp-alert').hide();
+    $('.cp-alert').fadeTo(3000, 500).fadeOut(500);
     $('#cp-btn-alert-success').click(function showAlert() {
         $('.cp-alert-success').alert();
         $('.cp-alert-success').fadeTo(3000, 500).fadeOut(500);
@@ -120,6 +124,11 @@ $(document).ready(function () {
             $('#sidebar').removeClass('animated fadeOutLeft');
             $('#sidebar').addClass('animated fadeInLeft');
             $('.cp-right-block').css('margin-left', '190px');
+            $('#topbar').css({'width': '100%', 'transition': 'width 1s'});
+            $('.cp-float-container').css({'width': '100%', 'transition': 'width 1s'});
+            $('.cp-breadcrumb').css({'width': '97.36842%', 'transition': 'width 1s'});
+            $('.cp-float-item-s2').css({'margin-left': '30px', 'transition': 'margin-left 1s'});
+            $('.cp-float-item-11').css({'width': '100% !important', 'transition': 'width 1s'});
         } else {
             // console.log('false');
             // $('#sidebar').css('display', 'block');
@@ -127,6 +136,14 @@ $(document).ready(function () {
             $('#sidebar').removeClass('animated fadeInLeft');
             $('#sidebar').addClass('animated fadeOutLeft');
             $('.cp-right-block').css('margin-left', '0');
+            $('#topbar').css({'width': '115%', 'transition': 'width 1s'});
+            $('.cp-float-container').css({'width': '121.5%', 'transition': 'width 1s'});
+            $('.cp-breadcrumb').css({'width': '118.36842%', 'transition': 'width 1s'});
+            $('.cp-float-item-s2').css({'margin-left':'38px', 'transition': 'margin-left 1s'});
+            $('.cp-float-item-11').css({'width': '97.5% !important', 'transition': 'width 1s'});
         }
     });
+
+// End Nexx Control Panel Javascript
+// =================================
 });
