@@ -29,13 +29,62 @@
   %li.cp-breadcrumb-item.active Cleaner Dashboard
 / End Breadcrumb
 
-/ Float Container
-\<div class="cp-float-container clearfix">
+/ Flexbox Layout
+.cp-flex.cp-cleaner-dashboard
+  / Total Cleaner
+  .cp-flex-item.cp-flex-equal.cp-flex-1of3
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Total Cleaner
 
+      .cp-dashboard
+        %i.cp-icn-total-cleaner
+        .cp-typo-dashboard-count 175
+        .cp-typo-dashboard-title Cleaner
 
+  / Cleaner Status
+  .cp-flex-item.cp-flex-equal.cp-flex-1of3
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Cleaner Status
 
-\</div>
-/ End Float Container
+      .cp-dashboard
+        .cp-chart-pie
+          %canvas#cleaner-status(width="200" height="200" )
+
+  / System Status
+  .cp-flex-item.cp-flex-equal.cp-flex-1of3
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title System Status
+
+      .cp-dashboard
+        .cp-chart-doughnut
+          %canvas#cleaner-system-status(width="200" height="200" )
+          .cp-dashboard-icn-center
+            %i.cp-icn-active-cleaner
+        .cp-typo-dashboard-subcount 70
+        .cp-typo-code Active Cleaner
+
+  // New Cleaner
+  .cp-flex-item.cp-flex-1of1
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title New Cleaner
+        .cp-card-config
+          .btn-group.btn-group-lg
+            %button.btn.btn-secondary(type="button" ) Year
+            %button.btn.btn-secondary(type="button" ) Month
+            %button.btn.btn-secondary.active(type="button" ) Week
+
+      .cp-dashboard
+        .cp-chart-doughnut
+          %canvas#cleaner-new-cleaner(width="200" height="200" )
+/ End Flexbox Layout
 
 \</div>
 / End Content
@@ -52,4 +101,3 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
-
