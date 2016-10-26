@@ -41,7 +41,8 @@
       %header
         .cp-card-summary.online
           .cp-detail-avatar
-            %img.avatar-rectangle(src="../images/thang-tran.png" alt="User Avatar" )
+            .cp-avatar-container
+              %img.avatar-rectangle(src="../images/thang-tran.png" alt="User Avatar" )
           .cp-detail-summary-info
             .cp-typo-code CN5246
             .cp-typo-name Thang Tran
@@ -111,44 +112,33 @@
             %td Account Number:
             %td 542369548721
 
-  / System & Meta Data
+
+  / Relationship
   .cp-flex-item.cp-flex-equal
     .cp-flex-content.cp-card
       %header
         .cp-card-title
-          .cp-typo-title System & Meta Data
+          .cp-typo-title Relationship
       .cp-detail-container
         %table.cp-card-detail
           %tr
-            %td Join At:
-            %td 15/09/2016 12:19:22
+            %td Refer To:
+            %td Ty Luu
           %tr
-            %td Create At:
-            %td 10/09/2016 14:29:38
-          %tr
-            %td Create By:
-            %td Admin
-          %tr
-            %td Update At:
-            %td 21/09/2016 09:34:12
-          %tr
-            %td Update By:
-            %td Admin
+            %td Service Fee:
+            %td 1%
       %hr.cp-space-detail
       .cp-detail-container
         %table.cp-card-detail
           %tr
-            %td os:
-            %td REL
+            %td(colspan="3" )
+              .cp-label list cleaner invited
           %tr
-            %td version:
-            %td 1.0
+            %td Thi Huynh
+            %td 2%
           %tr
-            %td platform:
-            %td android
-          %tr
-            %td deviceToken:
-            %td bb5ab0cf-e008-4c07-b5a4-6dc6e03e5b0e
+            %td Anh Nguyen
+            %td 2%
 
 / Address
 .cp-float-item-23.cp-card
@@ -200,32 +190,6 @@
         %td Ward 14
         %td Unknown
         %td Active
-
-/ Relationship
-.cp-flex-content.cp-card
-  %header
-    .cp-card-title
-      .cp-typo-title Relationship
-  .cp-detail-container
-    %table.cp-card-detail
-      %tr
-        %td Refer To:
-        %td Ty Luu
-      %tr
-        %td Service Fee:
-        %td 1%
-  %hr.cp-space-detail
-  .cp-detail-container
-    %table.cp-card-detail
-      %tr
-        %td(colspan="3" )
-          .cp-label list cleaner invited
-      %tr
-        %td Thi Huynh
-        %td 2%
-      %tr
-        %td Anh Nguyen
-        %td 2%
 
 / Summary
 .cp-float-item-11.cp-card
@@ -367,6 +331,45 @@
         .cp-image-item
           .cp-label Certificate Image
           %img(src="../images/certificate.png" alt="Certificate" )
+  -#
+  -#/ System & Meta Data
+  -#.cp-flex-item.cp-flex-equal
+  -#  .cp-flex-content.cp-card
+  -#    %header
+  -#      .cp-card-title
+  -#        .cp-typo-title System & Meta Data
+  -#    .cp-detail-container
+  -#      %table.cp-card-detail
+  -#        %tr
+  -#          %td Join At:
+  -#          %td 15/09/2016 12:19:22
+  -#        %tr
+  -#          %td Create At:
+  -#          %td 10/09/2016 14:29:38
+  -#        %tr
+  -#          %td Create By:
+  -#          %td Admin
+  -#        %tr
+  -#          %td Update At:
+  -#          %td 21/09/2016 09:34:12
+  -#        %tr
+  -#          %td Update By:
+  -#          %td Admin
+  -#    %hr.cp-space-detail
+  -#    .cp-detail-container
+  -#      %table.cp-card-detail
+  -#        %tr
+  -#          %td os:
+  -#          %td REL
+  -#        %tr
+  -#          %td version:
+  -#          %td 1.0
+  -#        %tr
+  -#          %td platform:
+  -#          %td android
+  -#        %tr
+  -#          %td deviceToken:
+  -#          %td bb5ab0cf-e008-4c07-b5a4-6dc6e03e5b0e
 
 \</div>
 / End Content
@@ -383,4 +386,3 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
-

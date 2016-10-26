@@ -328,90 +328,6 @@ i {
   clear: both;
 }
 
-/* line 28, ../sass/_layout.sass */
-.cp-float-item-11 {
-  background-color: white;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #e6e6e6;
-  width: 1140px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
-}
-
-/* line 28, ../sass/_layout.sass */
-.cp-float-item-12 {
-  background-color: white;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #e6e6e6;
-  width: 555px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
-}
-
-/* line 28, ../sass/_layout.sass */
-.cp-float-item-13 {
-  background-color: white;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #e6e6e6;
-  width: 360px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
-}
-
-/* line 28, ../sass/_layout.sass */
-.cp-float-item-14 {
-  background-color: white;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #e6e6e6;
-  width: 262.5px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
-}
-
-/* line 28, ../sass/_layout.sass */
-.cp-float-item-23 {
-  background-color: white;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #e6e6e6;
-  width: 750px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
-}
-
-/* line 28, ../sass/_layout.sass */
-.cp-float-item-24 {
-  background-color: white;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #e6e6e6;
-  width: 555px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
-}
-
-/* line 28, ../sass/_layout.sass */
-.cp-float-item-34 {
-  background-color: white;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #e6e6e6;
-  width: 847.5px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-  border-radius: 7px;
-}
-
 /* line 38, ../sass/_layout.sass */
 .cp-column {
   -moz-column-count: 2;
@@ -465,11 +381,14 @@ i {
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
+/* line 68, ../sass/_layout.sass */
+.cp-flex .cp-flex-1of1 {
+  width: 100%;
+}
 
-/* line 69, ../sass/_layout.sass */
+/* line 71, ../sass/_layout.sass */
 .cp-flex-equal {
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -567,23 +486,35 @@ select {
 }
 
 /* line 7, ../sass/_image.sass */
+.cp-avatar-container {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* line 14, ../sass/_image.sass */
 .avatar-circle, .avatar-rectangle, .avatar-rec-empty, .avatar-list-empty,
 .avatar-list {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 100%;
   vertical-align: middle;
   border: 3px solid rgba(33, 119, 86, 0.9);
 }
 
-/* line 14, ../sass/_image.sass */
+/* line 20, ../sass/_image.sass */
 .avatar-circle {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 
-/* line 18, ../sass/_image.sass */
+/* line 24, ../sass/_image.sass */
 .avatar-rectangle, .avatar-rec-empty {
   border-color: #e6e6e6;
   -moz-border-radius: 3px;
@@ -591,7 +522,7 @@ select {
   border-radius: 3px;
 }
 
-/* line 23, ../sass/_image.sass */
+/* line 29, ../sass/_image.sass */
 .avatar-list-empty,
 .avatar-list {
   width: 56px;
@@ -602,7 +533,7 @@ select {
   border-radius: 3px;
 }
 
-/* line 31, ../sass/_image.sass */
+/* line 37, ../sass/_image.sass */
 .avatar-rec-empty, .avatar-list-empty {
   background-color: rgba(102, 102, 102, 0.5);
   color: white;
@@ -611,13 +542,13 @@ select {
   font-weight: 300;
 }
 
-/* line 38, ../sass/_image.sass */
+/* line 44, ../sass/_image.sass */
 .avatar-rec-empty {
   font-size: 2rem;
   line-height: 2.4rem;
 }
 
-/* line 44, ../sass/_image.sass */
+/* line 50, ../sass/_image.sass */
 .avatar-list-empty {
   font-size: 1.2rem;
   line-height: 1.6rem;
@@ -2299,8 +2230,8 @@ aside#sidebar .sidebar-nav .user-info {
   text-align: center;
 }
 /* line 51, ../sass/_sidebar.sass */
-aside#sidebar .sidebar-nav .user-info img {
-  margin-bottom: 5px;
+aside#sidebar .sidebar-nav .user-info .cp-avatar-container {
+  margin: 0 auto 5px auto;
 }
 /* line 53, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info #user-name {

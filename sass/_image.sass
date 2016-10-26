@@ -4,10 +4,16 @@
 
 // Avatar
 // ======
-%cp-avatar
-  display: inline-block
+.cp-avatar-container
   width: 90px
   height: 90px
+  overflow: hidden
+  +display-flex(flex)
+  +justify-content(center)
+  +align-items(center)
+%cp-avatar
+  display: inline-block
+  width: 100%
   vertical-align: middle
   border: 3px solid rgba($loginDark, 0.9)
 
