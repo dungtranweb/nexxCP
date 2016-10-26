@@ -145,6 +145,7 @@ select
   +box-shadow(inset 0 1px 3px rgba($inputText, 0.2))
   +input-placeholder
     color: darken($inputText, 10%)
+    font-size: rem(16px)
   @extend .cp-typo-normal
   color: $primaryText
   padding: 8px 0 8px 35px
@@ -171,13 +172,11 @@ form
     &:first-child
       padding-top: 0
   .cp-date
-    display: inline
+    +display-flex(flex)
+    +justify-content(space-between)
     select
-      width: 145px
-      margin-right: 26px
+      width: 30%
       background-position-x: 91%
-      &:last-child
-        margin-right: 0
   .cp-btn-success
     margin-top: 40px
   .cp-is
@@ -219,7 +218,7 @@ form
 
 .kv-avatar .file-input
   display: table-cell
-  max-width: 200px
+  max-width: 162px
 
 .kv-avatar .file-preview
   padding: 0

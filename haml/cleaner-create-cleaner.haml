@@ -32,40 +32,107 @@
 / End Breadcrumb
 
 / Float Container
-%form.cp-float-container.clearfix(method="post" enctype="multipart/form-data" )
+%form.clearfix(method="post" enctype="multipart/form-data" )
+  / Column Layout
+  .cp-column
+    / Create Cleaner
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Create Cleaner
 
-  / Create Cleaner
-  .cp-float-item-12.cp-card.cp-left
-    %header
-      .cp-card-title
-        .cp-typo-title Create Cleaner
-
-    .cp-card-content
-      .cp-label avatar
-      .kv-avatar
-        %input.cp-upimage.file-loading(name="cleaner-avatar" type="file" )
-      .cp-label first name
-      %input(type="text" placeholder="Enter first name" )
-      .cp-label last name
-      %input(type="text" placeholder="Enter last name" )
-      .cp-label display name
-      %input(type="text" placeholder="Enter display name" )
-      .cp-label email
-      %input(type="email" placeholder="Enter email" )
-      .cp-label password
-      %input(type="password" placeholder="Enter password" )
-      .cp-label retype password
-      %input(type="password" placeholder="Retype password" )
-      .cp-label phone
-      %input(type="text" placeholder="Enter phone number" )
-      .cp-label Gender
-      %select
-        %option Male
-        %option Female
-      .cp-label date of birth
-      .cp-date
+      .cp-card-content
+        .cp-label avatar
+        .kv-avatar
+          %input.cp-upimage.file-loading(name="cleaner-avatar" type="file" )
+        .cp-label first name
+        %input(type="text" placeholder="Enter first name" )
+        .cp-label last name
+        %input(type="text" placeholder="Enter last name" )
+        .cp-label display name
+        %input(type="text" placeholder="Enter display name" )
+        .cp-label email
+        %input(type="email" placeholder="Enter email" )
+        .cp-label password
+        %input(type="password" placeholder="Enter password" )
+        .cp-label retype password
+        %input(type="password" placeholder="Retype password" )
+        .cp-label phone
+        %input(type="text" placeholder="Enter phone number" )
+        .cp-label Gender
         %select
-          %option(disabled selected) Day
+          %option Male
+          %option Female
+        .cp-label date of birth
+        .cp-date
+          %select
+            %option(disabled selected) Day
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Month
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Year
+            %option 1990
+            %option 1991
+            %option 1992
+            %option 1993
+            %option 1994
+            %option 1995
+            %option 1996
+            %option 1997
+            %option 1998
+            %option 1999
+            %option 2000
+        .cp-label description
+        %textarea(placeholder="Enter description" )
+
+    / Address
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Address
+
+      .cp-card-content
+        .cp-label is default?
+        .cp-is
+          %input#is-default-user(type="checkbox" checked )
+          %label.checkbox(for="is-default-user")
+        .cp-label address
+        %input(type="text" placeholder="Enter address" )
+        .cp-label type
+        %input(type="text" placeholder="Eg: Home, Company..." )
+        .cp-label country
+        %select(disabled)
+          %option Viet Nam
+        .cp-label province
+        %select(disabled)
+          %option Ho Chi Minh
+        .cp-label district
+        %select
+          %option(disabled selected) Select one
           %option 1
           %option 2
           %option 3
@@ -78,8 +145,9 @@
           %option 10
           %option 11
           %option 12
+        .cp-label ward
         %select
-          %option(disabled selected) Month
+          %option(disabled selected) Select one
           %option 1
           %option 2
           %option 3
@@ -92,378 +160,314 @@
           %option 10
           %option 11
           %option 12
+
+    / Banking Information
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Banking Information
+
+      .cp-card-content
+        .cp-label bank name
+        %input(type="text" placeholder="Enter bank name" )
+        .cp-label bank branch
+        %input(type="text" placeholder="Enter bank branch" )
+        .cp-label account number
+        %input(type="text" placeholder="Enter account number" )
+        .cp-label account name
+        %input(type="text" placeholder="Enter account name" )
+
+    / Certificate
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Certificate
+
+      .cp-card-content
+        .cp-label certificate number
+        %input(type="text" placeholder="Enter certificate number" )
+        .cp-label issue date
+        .cp-date
+          %select
+            %option(disabled selected) Day
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Month
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Year
+            %option 1990
+            %option 1991
+            %option 1992
+            %option 1993
+            %option 1994
+            %option 1995
+            %option 1996
+            %option 1997
+            %option 1998
+            %option 1999
+            %option 2000
+        .cp-label issued by
+        %input(type="text" placeholder="Enter issued by" )
+        .cp-upload-oneline
+          .cp-upload-item
+            .cp-label front
+            .kv-avatar
+              %input.cp-upimage.file-loading(name="cleaner-certificate-front" type="file" )
+          .cp-upload-item
+            .cp-label back
+            .kv-avatar
+              %input.cp-upimage.file-loading(name="cleaner-certificate-back" type="file" )
+
+    / System Information
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title System Information
+
+      .cp-card-content
+        .cp-label is verified?
+        .cp-is
+          %input#is-verify-cleaner(type="checkbox" checked )
+          %label.checkbox(for="is-verify-cleaner")
+        .cp-label cleaner rate (%)
+        %input(type="text" placeholder="Enter cleaner rate" )
+        .cp-label service location
         %select
-          %option(disabled selected) Year
-          %option 1990
-          %option 1991
-          %option 1992
-          %option 1993
-          %option 1994
-          %option 1995
-          %option 1996
-          %option 1997
-          %option 1998
-          %option 1999
-          %option 2000
-      .cp-label description
-      %textarea(placeholder="Enter description" )
-
-  / System Information
-  .cp-float-item-12.cp-card.cp-right
-    %header
-      .cp-card-title
-        .cp-typo-title System Information
-
-    .cp-card-content
-      .cp-label is verified?
-      .cp-is
-        %input#is-verify-cleaner(type="checkbox" checked )
-        %label.checkbox(for="is-verify-cleaner")
-      .cp-label cleaner rate (%)
-      %input(type="text" placeholder="Enter cleaner rate" )
-      .cp-label service location
-      %select
-        %option(selected disabled) Select one
-        %option HCM1 include District 1, District 3, District 11, District 5, District 10
-        %option HCM2 include District 2, District 9, District 12, District 4, District 8
-      .cp-label training level
-      %select
-        %option(selected disabled) Select one
-        %option Training Level 1
-        %option Training Level 2
-        %option Training Level 3
-      .cp-label level
-      %select
-        %option(selected disabled) Select one
-        %option Level 1
-        %option Level 2
-        %option Level 3
-        %option Level 4
-        %option Level 5
-      .cp-label hometown
-      %input(type="text" placeholder="Enter hometown" )
-      .cp-label description
-      %textarea(placeholder="Enter description" )
-
-  / Identity
-  .cp-float-item-12.cp-card.cp-right
-    %header
-      .cp-card-title
-        .cp-typo-title Identity
-
-    .cp-card-content
-      .cp-label identity number
-      %input(type="text" placeholder="Enter identity number" )
-      .cp-label issue date
-      .cp-date
+          %option(selected disabled) Select one
+          %option HCM1 include District 1, District 3, District 11, District 5, District 10
+          %option HCM2 include District 2, District 9, District 12, District 4, District 8
+        .cp-label training level
         %select
-          %option(disabled selected) Day
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
+          %option(selected disabled) Select one
+          %option Training Level 1
+          %option Training Level 2
+          %option Training Level 3
+        .cp-label level
         %select
-          %option(disabled selected) Month
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
+          %option(selected disabled) Select one
+          %option Level 1
+          %option Level 2
+          %option Level 3
+          %option Level 4
+          %option Level 5
+        .cp-label hometown
+        %input(type="text" placeholder="Enter hometown" )
+        .cp-label description
+        %textarea(placeholder="Enter description" )
+
+    / Identity
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Identity
+
+      .cp-card-content
+        .cp-label identity number
+        %input(type="text" placeholder="Enter identity number" )
+        .cp-label issue date
+        .cp-date
+          %select
+            %option(disabled selected) Day
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Month
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Year
+            %option 1990
+            %option 1991
+            %option 1992
+            %option 1993
+            %option 1994
+            %option 1995
+            %option 1996
+            %option 1997
+            %option 1998
+            %option 1999
+            %option 2000
+        .cp-label issued by
+        %input(type="text" placeholder="Enter issued by" )
+        .cp-upload-oneline
+          .cp-upload-item
+            .cp-label front
+            .kv-avatar
+              %input.cp-upimage.file-loading(name="cleaner-identity-front" type="file" )
+          .cp-upload-item
+            .cp-label back
+            .kv-avatar
+              %input.cp-upimage.file-loading(name="cleaner-identity-back" type="file" )
+
+    / Insurance
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Insurance
+
+      .cp-card-content
+        .cp-label insurance number
+        %input(type="text" placeholder="Enter insurance number" )
+        .cp-label insurance type
+        %input(type="text" placeholder="Enter insurance type" )
+        .cp-label issued by
+        %input(type="text" placeholder="Enter issued by" )
+        .cp-label effective time (from)
+        .cp-date
+          %select
+            %option(disabled selected) Day
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Month
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Year
+            %option 1990
+            %option 1991
+            %option 1992
+            %option 1993
+            %option 1994
+            %option 1995
+            %option 1996
+            %option 1997
+            %option 1998
+            %option 1999
+            %option 2000
+        .cp-label effective time (to)
+        .cp-date
+          %select
+            %option(disabled selected) Day
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Month
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Year
+            %option 1990
+            %option 1991
+            %option 1992
+            %option 1993
+            %option 1994
+            %option 1995
+            %option 1996
+            %option 1997
+            %option 1998
+            %option 1999
+            %option 2000
+        .cp-upload-oneline
+          .cp-upload-item
+            .cp-label front
+            .kv-avatar
+              %input.cp-upimage.file-loading(name="cleaner-insurance-front" type="file" )
+          .cp-upload-item
+            .cp-label back
+            .kv-avatar
+              %input.cp-upimage.file-loading(name="cleaner-insurance-back" type="file" )
+
+  / End Column Layout
+
+  / Column Layout
+  .cp-column
+    / Action
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Action
+
+      .cp-card-content
+        .cp-label status
         %select
-          %option(disabled selected) Year
-          %option 1990
-          %option 1991
-          %option 1992
-          %option 1993
-          %option 1994
-          %option 1995
-          %option 1996
-          %option 1997
-          %option 1998
-          %option 1999
-          %option 2000
-      .cp-label issued by
-      %input(type="text" placeholder="Enter issued by" )
-      .cp-upload-oneline
-        .cp-upload-item
-          .cp-label front
-          .kv-avatar
-            %input.cp-upimage.file-loading(name="cleaner-identity-front" type="file" )
-        .cp-upload-item
-          .cp-label back
-          .kv-avatar
-            %input.cp-upimage.file-loading(name="cleaner-identity-back" type="file" )
-
-  / Address
-  .cp-float-item-12.cp-card.cp-left
-    %header
-      .cp-card-title
-        .cp-typo-title Address
-
-    .cp-card-content
-      .cp-label is default?
-      .cp-is
-        %input#is-default-user(type="checkbox" checked )
-        %label.checkbox(for="is-default-user")
-      .cp-label address
-      %input(type="text" placeholder="Enter address" )
-      .cp-label type
-      %input(type="text" placeholder="Eg: Home, Company..." )
-      .cp-label country
-      %select(disabled)
-        %option Viet Nam
-      .cp-label province
-      %select(disabled)
-        %option Ho Chi Minh
-      .cp-label district
-      %select
-        %option(disabled selected) Select one
-        %option 1
-        %option 2
-        %option 3
-        %option 4
-        %option 5
-        %option 6
-        %option 7
-        %option 8
-        %option 9
-        %option 10
-        %option 11
-        %option 12
-      .cp-label ward
-      %select
-        %option(disabled selected) Select one
-        %option 1
-        %option 2
-        %option 3
-        %option 4
-        %option 5
-        %option 6
-        %option 7
-        %option 8
-        %option 9
-        %option 10
-        %option 11
-        %option 12
-
-  / Insurance
-  .cp-float-item-12.cp-card.cp-right
-    %header
-      .cp-card-title
-        .cp-typo-title Insurance
-
-    .cp-card-content
-      .cp-label insurance number
-      %input(type="text" placeholder="Enter insurance number" )
-      .cp-label insurance type
-      %input(type="text" placeholder="Enter insurance type" )
-      .cp-label issued by
-      %input(type="text" placeholder="Enter issued by" )
-      .cp-label effective time (from)
-      .cp-date
-        %select
-          %option(disabled selected) Day
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
-        %select
-          %option(disabled selected) Month
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
-        %select
-          %option(disabled selected) Year
-          %option 1990
-          %option 1991
-          %option 1992
-          %option 1993
-          %option 1994
-          %option 1995
-          %option 1996
-          %option 1997
-          %option 1998
-          %option 1999
-          %option 2000
-      .cp-label effective time (to)
-      .cp-date
-        %select
-          %option(disabled selected) Day
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
-        %select
-          %option(disabled selected) Month
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
-        %select
-          %option(disabled selected) Year
-          %option 1990
-          %option 1991
-          %option 1992
-          %option 1993
-          %option 1994
-          %option 1995
-          %option 1996
-          %option 1997
-          %option 1998
-          %option 1999
-          %option 2000
-      .cp-upload-oneline
-        .cp-upload-item
-          .cp-label front
-          .kv-avatar
-            %input.cp-upimage.file-loading(name="cleaner-insurance-front" type="file" )
-        .cp-upload-item
-          .cp-label back
-          .kv-avatar
-            %input.cp-upimage.file-loading(name="cleaner-insurance-back" type="file" )
-
-  / Certificate
-  .cp-float-item-12.cp-card.cp-left
-    %header
-      .cp-card-title
-        .cp-typo-title Certificate
-
-    .cp-card-content
-      .cp-label certificate number
-      %input(type="text" placeholder="Enter certificate number" )
-      .cp-label issue date
-      .cp-date
-        %select
-          %option(disabled selected) Day
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
-        %select
-          %option(disabled selected) Month
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
-        %select
-          %option(disabled selected) Year
-          %option 1990
-          %option 1991
-          %option 1992
-          %option 1993
-          %option 1994
-          %option 1995
-          %option 1996
-          %option 1997
-          %option 1998
-          %option 1999
-          %option 2000
-      .cp-label issued by
-      %input(type="text" placeholder="Enter issued by" )
-      .cp-upload-oneline
-        .cp-upload-item
-          .cp-label front
-          .kv-avatar
-            %input.cp-upimage.file-loading(name="cleaner-certificate-front" type="file" )
-        .cp-upload-item
-          .cp-label back
-          .kv-avatar
-            %input.cp-upimage.file-loading(name="cleaner-certificate-back" type="file" )
-
-  / Banking Information
-  .cp-float-item-12.cp-card.cp-right
-    %header
-      .cp-card-title
-        .cp-typo-title Banking Information
-
-    .cp-card-content
-      .cp-label bank name
-      %input(type="text" placeholder="Enter bank name" )
-      .cp-label bank branch
-      %input(type="text" placeholder="Enter bank branch" )
-      .cp-label account number
-      %input(type="text" placeholder="Enter account number" )
-      .cp-label account name
-      %input(type="text" placeholder="Enter account name" )
-
-  / Action
-  .cp-float-item-12.cp-card.cp-left
-    %header
-      .cp-card-title
-        .cp-typo-title Action
-
-    .cp-card-content
-      .cp-label status
-      %select
-        %option Active
-        %option Deactive
-      %button.cp-btn.cp-btn-success(type="submit" ) Create
-
-/ End Float Container
+          %option Active
+          %option Deactive
+        %button.cp-btn.cp-btn-success(type="submit" ) Save
+  / End Column Layout
 
 \</div>
 / End Content
@@ -480,3 +484,4 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
+

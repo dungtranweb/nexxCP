@@ -32,103 +32,107 @@
 / End Breadcrumb
 
 / Float Container
-%form.cp-float-container.clearfix(method="post" enctype="multipart/form-data" )
+%form(method="post" enctype="multipart/form-data" )
+  / Column Layout
+  .cp-column
+    / Create User
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Create User
 
-  / Create User
-  .cp-float-item-12.cp-card.cp-left
-    %header
-      .cp-card-title
-        .cp-typo-title Create User
-
-    .cp-card-content
-      .cp-label avatar
-      .kv-avatar
-        %input.cp-upimage.file-loading(name="user-avatar" type="file" )
-      .cp-label name
-      %input(type="text" placeholder="Enter username" )
-      .cp-label role
-      %select
-        %option Admin
-        %option Moderator
-        %option Member
-      .cp-label position
-      %select
-        %option CEO
-        %option Tech Manager
-        %option Tech Guy
-        %option Marketer
-      .cp-label email
-      %input(type="email" placeholder="Enter email" )
-      .cp-label password
-      %input(type="password" placeholder="Enter password" )
-      .cp-label retype password
-      %input(type="password" placeholder="Retype password" )
-      .cp-label phone
-      %input(type="text" placeholder="Enter phone number" )
-      .cp-label Gender
-      %select
-        %option Male
-        %option Female
-      .cp-label date of birth
-      .cp-date
+      .cp-card-content
+        .cp-label avatar
+        .kv-avatar
+          %input.cp-upimage.file-loading(name="user-avatar" type="file" )
+        .cp-label name
+        %input(type="text" placeholder="Enter username" )
+        .cp-label role
         %select
-          %option(disabled selected) Day
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
+          %option Admin
+          %option Moderator
+          %option Member
+        .cp-label position
         %select
-          %option(disabled selected) Month
-          %option 1
-          %option 2
-          %option 3
-          %option 4
-          %option 5
-          %option 6
-          %option 7
-          %option 8
-          %option 9
-          %option 10
-          %option 11
-          %option 12
+          %option CEO
+          %option Tech Manager
+          %option Tech Guy
+          %option Marketer
+        .cp-label email
+        %input(type="email" placeholder="Enter email" )
+        .cp-label password
+        %input(type="password" placeholder="Enter password" )
+        .cp-label retype password
+        %input(type="password" placeholder="Retype password" )
+        .cp-label phone
+        %input(type="text" placeholder="Enter phone number" )
+        .cp-label Gender
         %select
-          %option(disabled selected) Year
-          %option 1990
-          %option 1991
-          %option 1992
-          %option 1993
-          %option 1994
-          %option 1995
-          %option 1996
-          %option 1997
-          %option 1998
-          %option 1999
-          %option 2000
-      .cp-label description
-      %textarea(placeholder="Enter description" )
+          %option Male
+          %option Female
+        .cp-label date of birth
+        .cp-date
+          %select
+            %option(disabled selected) Day
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Month
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          %select
+            %option(disabled selected) Year
+            %option 1990
+            %option 1991
+            %option 1992
+            %option 1993
+            %option 1994
+            %option 1995
+            %option 1996
+            %option 1997
+            %option 1998
+            %option 1999
+            %option 2000
+        .cp-label description
+        %textarea(placeholder="Enter description" )
 
-  / Action
-  .cp-float-item-12.cp-card.cp-left
-    %header
-      .cp-card-title
-        .cp-typo-title Action
+  / End Column Layout
 
-    .cp-card-content
-      .cp-label status
-      %select
-        %option Active
-        %option Deactive
-      %button.cp-btn.cp-btn-success(type="submit" ) Create
+  / Column Layout
+  .cp-column
+    / Action
+    .cp-column-item.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Action
 
-/ End Float Container
+      .cp-card-content
+        .cp-label status
+        %select
+          %option Active
+          %option Deactive
+        %button.cp-btn.cp-btn-success(type="submit" ) Create
+  / End Column Layout
 
 \</div>
 / End Content

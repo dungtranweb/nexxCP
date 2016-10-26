@@ -64,7 +64,7 @@ $(document).ready(function () {
         previewZoomSettings: {image: {width: "auto", height: "100%"}},
         elErrorContainer: '#kv-avatar-errors-1',
         msgErrorClass: 'alert alert-block alert-danger',
-        defaultPreviewContent: '<img src="../images/upimage-wide.png" alt="Your Image" style="width: 200px">',
+        defaultPreviewContent: '<img src="../images/upimage-wide.png" alt="Your Image" style="width: 160px">',
         layoutTemplates: {main2: '{preview} {browse}'},
         allowedFileExtensions: ["jpg", "png", "gif"],
         elPreviewContainer: '.cp-upimage-container'
@@ -84,7 +84,7 @@ $(document).ready(function () {
 // Set position of foobar
 // ======================
     var windowHeight = $(window).height();
-    var contentHeight = $(".cp-float-container").height();
+    var contentHeight = $(".cp-content").height();
     var minHeight = windowHeight - 155;
     if (contentHeight < minHeight) {
         $("#foobar").addClass("cp-set-bottom");
@@ -123,24 +123,24 @@ $(document).ready(function () {
             // $('#sidebar').fadeIn(500);
             $('#sidebar').removeClass('animated fadeOutLeft');
             $('#sidebar').addClass('animated fadeInLeft');
-            $('.cp-right-block').css('margin-left', '190px');
-            $('#topbar').css({'width': '100%', 'transition': 'width 1s'});
-            $('.cp-float-container').css({'width': '100%', 'transition': 'width 1s'});
-            $('.cp-breadcrumb').css({'width': '97.36842%', 'transition': 'width 1s'});
-            $('.cp-float-item-s2').css({'margin-left': '30px', 'transition': 'margin-left 1s'});
-            $('.cp-float-item-11').css({'width': '100% !important', 'transition': 'width 1s'});
+            $('.cp-right-block').css('padding-left', '190px');
+            // $('#topbar').css({'width': '100%', 'transition': 'width 1s'});
+            // $('.cp-float-container').css({'width': '100%', 'transition': 'width 1s'});
+            // $('.cp-breadcrumb').css({'width': '97.36842%', 'transition': 'width 1s'});
+            // $('.cp-float-item-s2').css({'margin-left': '30px', 'transition': 'margin-left 1s'});
+            // $('.cp-float-item-11').css({'width': '100% !important', 'transition': 'width 1s'});
         } else {
             // console.log('false');
             // $('#sidebar').css('display', 'block');
             // $('#sidebar').fadeOut(500);
             $('#sidebar').removeClass('animated fadeInLeft');
             $('#sidebar').addClass('animated fadeOutLeft');
-            $('.cp-right-block').css('margin-left', '0');
-            $('#topbar').css({'width': '115%', 'transition': 'width 1s'});
-            $('.cp-float-container').css({'width': '121.5%', 'transition': 'width 1s'});
-            $('.cp-breadcrumb').css({'width': '118.36842%', 'transition': 'width 1s'});
-            $('.cp-float-item-s2').css({'margin-left':'38px', 'transition': 'margin-left 1s'});
-            $('.cp-float-item-11').css({'width': '97.5% !important', 'transition': 'width 1s'});
+            $('.cp-right-block').css('padding-left', '0');
+            // $('#topbar').css({'width': '115%', 'transition': 'width 1s'});
+            // $('.cp-float-container').css({'width': '121.5%', 'transition': 'width 1s'});
+            // $('.cp-breadcrumb').css({'width': '118.36842%', 'transition': 'width 1s'});
+            // $('.cp-float-item-s2').css({'margin-left':'38px', 'transition': 'margin-left 1s'});
+            // $('.cp-float-item-11').css({'width': '97.5% !important', 'transition': 'width 1s'});
         }
     });
 

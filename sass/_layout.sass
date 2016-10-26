@@ -13,14 +13,14 @@
 .cp-clear
   clear: both
 
-@for $i from 1 through 3
-  .cp-float-item-s#{$i}
-    background-color: white
-    margin-left: 30px
-    margin-bottom: 30px
-    border: 1px solid $line
-    width: (1170px - (30px * $i)) / $i
-    +border-radius(7px)
+//@for $i from 1 through 3
+//  .cp-float-item-s#{$i}
+//    background-color: white
+//    margin-left: 30px
+//    margin-bottom: 30px
+//    border: 1px solid $line
+//    width: (1170px - (30px * $i)) / $i
+//    +border-radius(7px)
 
 @for $i from 1 through 4
   @for $j from 1 through 4
@@ -32,3 +32,41 @@
         border: 1px solid $line
         width: ((1170px / $j) * $i) - 30px
         +border-radius(7px)
+
+// Define Layout Using Column
+// ==========================
+.cp-column
+  +column-count(2)
+  +column-width(440px)
+  +column-gap(30px)
+  width: 100%
+  margin: 0 auto
+  .cp-column-item
+    display: inline-block
+    width: 100%
+    background-color: white
+    margin-bottom: 26px
+    border: 1px solid $line
+    +border-radius(7px)
+    +column-break-inside(avoid)
+
+// Define Layout Using Flexbox
+// ===========================
+.cp-flex
+  +display-flex(flex)
+  +flex-flow(row wrap)
+  padding: 0
+  margin: 0 0 0 -30px
+  .cp-flex-item
+    padding: 0 0 30px 30px
+    +flex(1)
+    .cp-flex-content
+      width: 100%
+      background-color: white
+      border: 1px solid $line
+      +border-radius(7px)
+
+.cp-flex-equal
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
