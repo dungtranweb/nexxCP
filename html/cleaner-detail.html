@@ -472,7 +472,7 @@
 <!-- Flexbox Layout -->
 <div class='cp-flex'>
   <!-- General Information -->
-  <div class='cp-flex-item cp-flex-equal'>
+  <div class='cp-flex-item cp-flex-equal cp-flex-1of3'>
     <div class='cp-flex-content cp-card'>
       <header>
         <div class='cp-card-summary online'>
@@ -518,7 +518,7 @@
     </div>
   </div>
   <!-- Service & Banking -->
-  <div class='cp-flex-item cp-flex-equal'>
+  <div class='cp-flex-item cp-flex-equal cp-flex-1of3'>
     <div class='cp-flex-content cp-card'>
       <header>
         <div class='cp-card-title'>
@@ -582,7 +582,7 @@
     </div>
   </div>
   <!-- Relationship -->
-  <div class='cp-flex-item cp-flex-equal'>
+  <div class='cp-flex-item cp-flex-equal cp-flex-1of3'>
     <div class='cp-flex-content cp-card'>
       <header>
         <div class='cp-card-title'>
@@ -621,258 +621,337 @@
       </div>
     </div>
   </div>
-</div>
-<!-- Address -->
-<div class='cp-float-item-23 cp-card'>
-  <header>
-    <div class='cp-card-title'>
-      <div class='cp-typo-title'>Address</div>
-    </div>
-  </header>
-  <table class='table cp-table-list'>
-    <thead>
-      <tr>
-        <th>&nbsp;</th>
-        <th>ADDRESS</th>
-        <th>COUNTRY</th>
-        <th>PROVINCE</th>
-        <th>DISTRICT</th>
-        <th>WARD</th>
-        <th>TYPE</th>
-        <th>STATUS</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <input checked disabled id='chb-1' type='checkbox'>
-          <label class='checkbox' for='chb-1'></label>
-        </td>
-        <td>Him Lam Cho Lon</td>
-        <td>Viet Nam</td>
-        <td>Ho Chi Minh City</td>
-        <td>District 6</td>
-        <td>Ward 11</td>
-        <td>Home</td>
-        <td>Active</td>
-      </tr>
-      <tr>
-        <td>
-          <input disabled id='chb-2' type='checkbox'>
-          <label class='checkbox' for='chb-2'></label>
-        </td>
-        <td>297/3 Ly Thuong Kiet</td>
-        <td>Viet Nam</td>
-        <td>Ho Chi Minh City</td>
-        <td>District 11</td>
-        <td>Ward 15</td>
-        <td>Girl Friend</td>
-        <td>Deactive</td>
-      </tr>
-      <tr>
-        <td>
-          <input disabled id='chb-3' type='checkbox'>
-          <label class='checkbox' for='chb-3'></label>
-        </td>
-        <td>124 Tan Tho</td>
-        <td>Viet Nam</td>
-        <td>Ho Chi Minh City</td>
-        <td>Tan Binh</td>
-        <td>Ward 14</td>
-        <td>Unknown</td>
-        <td>Active</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-<!-- Summary -->
-<div class='cp-float-item-11 cp-card'>
-  <header>
-    <div class='cp-card-title'>
-      <div class='cp-typo-title'>Summary</div>
-    </div>
-  </header>
-  <div class='cp-detail-container clearfix'>
-    <div class='cp-detail-onehaft clearfix'>
-      <div class='cp-count-block'>
-        <div>&nbsp;</div>
-        <div>471</div>
-        <div>Total Booking</div>
+  <!-- Address -->
+  <div class='cp-flex-item cp-flex-1of1'>
+    <div class='cp-flex-content cp-card'>
+      <header>
+        <div class='cp-card-title'>
+          <div class='cp-typo-title'>Address</div>
+        </div>
+      </header>
+      <div class='scrollable'>
+        <table class='table cp-table-list'>
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>ADDRESS</th>
+              <th>COUNTRY</th>
+              <th>PROVINCE</th>
+              <th>DISTRICT</th>
+              <th>WARD</th>
+              <th>TYPE</th>
+              <th>STATUS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <input checked disabled id='chb-1' type='checkbox'>
+                <label class='checkbox' for='chb-1'></label>
+              </td>
+              <td>Him Lam Cho Lon</td>
+              <td>Viet Nam</td>
+              <td>Ho Chi Minh City</td>
+              <td>District 6</td>
+              <td>Ward 11</td>
+              <td>Home</td>
+              <td>Active</td>
+            </tr>
+            <tr>
+              <td>
+                <input disabled id='chb-2' type='checkbox'>
+                <label class='checkbox' for='chb-2'></label>
+              </td>
+              <td>297/3 Ly Thuong Kiet</td>
+              <td>Viet Nam</td>
+              <td>Ho Chi Minh City</td>
+              <td>District 11</td>
+              <td>Ward 15</td>
+              <td>Girl Friend</td>
+              <td>Deactive</td>
+            </tr>
+            <tr>
+              <td>
+                <input disabled id='chb-3' type='checkbox'>
+                <label class='checkbox' for='chb-3'></label>
+              </td>
+              <td>124 Tan Tho</td>
+              <td>Viet Nam</td>
+              <td>Ho Chi Minh City</td>
+              <td>Tan Binh</td>
+              <td>Ward 14</td>
+              <td>Unknown</td>
+              <td>Active</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div class='cp-count-block'>
-        <div>&nbsp;</div>
-        <div>346</div>
-        <div>Completed Booking</div>
-      </div>
-      <div class='cp-count-block'>
-        <div>17/09/2016 15:12:24</div>
-        <div>2</div>
-        <div>Today Booking</div>
-      </div>
-      <div class='cp-count-block'>
-        <div>&nbsp;</div>
-        <div>12</div>
-        <div>Cancelled Booking</div>
-      </div>
-      <div class='cp-count-block'>
-        <div>VND</div>
-        <div>17,500,000</div>
-        <div>Total Income</div>
-      </div>
-      <div class='cp-count-block'>
-        <div>VND</div>
-        <div>2,820,000</div>
-        <div>Total Service Fee</div>
-      </div>
-      <div class='cp-count-block'>
-        <div>VND</div>
-        <div>+3,450,000</div>
-        <div>Balance</div>
-      </div>
-      <div class='cp-count-block'>
-        <div>VND</div>
-        <div>840,000</div>
-        <div>Today Earning</div>
-      </div>
-    </div>
-    <div class='cp-detail-onehaft clearfix'>
-      <div class='cp-label'>rating & comment</div>
-      <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
-      <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
-      <hr>
-      <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
-      <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
-      <hr>
-      <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
-      <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
-      <hr>
-      <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
-      <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
-      <ul class='cp-pagination'>
-        <li class='cp-pagination-item'>
-          <a class='cp-pagination-link disable' href='#'>&laquo;</a>
-        </li>
-        <li class='cp-pagination-item'>
-          <a class='cp-pagination-link active' href='#'>1</a>
-        </li>
-        <li class='cp-pagination-item'>
-          <a class='cp-pagination-link' href='#'>2</a>
-        </li>
-        <li class='cp-pagination-item'>
-          <a class='cp-pagination-link' href='#'>3</a>
-        </li>
-        <li class='cp-pagination-item'>
-          <a class='cp-pagination-link' href='#'>4</a>
-        </li>
-        <li class='cp-pagination-item'>
-          <a class='cp-pagination-link' href='#'>5</a>
-        </li>
-        <li class='cp-pagination-item'>
-          <a class='cp-pagination-link' href='#'>&raquo;</a>
-        </li>
-      </ul>
     </div>
   </div>
-</div>
-<!-- Document -->
-<div class='cp-float-item-11 cp-card'>
-  <header>
-    <div class='cp-card-title'>
-      <div class='cp-typo-title'>Document</div>
-    </div>
-  </header>
-  <div class='cp-detail-container clearfix'>
-    <div class='cp-detail-onethird clearfix'>
-      <table class='cp-card-detail'>
-        <tr>
-          <td colspan='2'>
-            <div class='cp-label'>identity card</div>
-          </td>
-        </tr>
-        <tr>
-          <td>ID No.:</td>
-          <td>257456985</td>
-        </tr>
-        <tr>
-          <td>Issue Date:</td>
-          <td>17/11/2005</td>
-        </tr>
-        <tr>
-          <td>Issue By:</td>
-          <td>HTPD</td>
-        </tr>
-      </table>
-      <div class='cp-document-image'>
-        <div class='cp-image-item'>
-          <div class='cp-label'>ID Front Image</div>
-          <img alt='ID front' src='../images/id-front.png'>
+  <!-- Summary -->
+  <div class='cp-flex-item cp-flex-1of1'>
+    <div class='cp-flex-content cp-card'>
+      <header>
+        <div class='cp-card-title'>
+          <div class='cp-typo-title'>Summary</div>
         </div>
-        <div class='cp-image-item'>
-          <div class='cp-label'>ID Back Image</div>
-          <img alt='ID back' src='../images/id-back.png'>
+      </header>
+      <div class='scrollable'>
+        <div class='cp-detail-container'>
+          <div class='cp-column cp-detail-onehaft'>
+            <div class='cp-column-item'>
+              <div class='cp-row'>
+                <div class='cp-count-block'>
+                  <div>&nbsp;</div>
+                  <div>471</div>
+                  <div>Total Booking</div>
+                </div>
+                <div class='cp-count-block'>
+                  <div>&nbsp;</div>
+                  <div>346</div>
+                  <div>Completed Booking</div>
+                </div>
+              </div>
+              <div class='cp-row'>
+                <div class='cp-count-block'>
+                  <div>17/09/2016 15:12:24</div>
+                  <div>2</div>
+                  <div>Today Booking</div>
+                </div>
+                <div class='cp-count-block'>
+                  <div>&nbsp;</div>
+                  <div>12</div>
+                  <div>Cancelled Booking</div>
+                </div>
+              </div>
+              <div class='cp-row'>
+                <div class='cp-count-block'>
+                  <div>VND</div>
+                  <div>17,500,000</div>
+                  <div>Total Income</div>
+                </div>
+                <div class='cp-count-block'>
+                  <div>VND</div>
+                  <div>2,820,000</div>
+                  <div>Total Service Fee</div>
+                </div>
+              </div>
+              <div class='cp-row'>
+                <div class='cp-count-block'>
+                  <div>VND</div>
+                  <div>+3,450,000</div>
+                  <div>Balance</div>
+                </div>
+                <div class='cp-count-block'>
+                  <div>VND</div>
+                  <div>840,000</div>
+                  <div>Today Earning</div>
+                </div>
+              </div>
+            </div>
+            <div class='cp-column-item'>
+              <div class='cp-label'>rating & comment</div>
+              <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
+              <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
+              <hr>
+              <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
+              <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
+              <hr>
+              <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
+              <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
+              <hr>
+              <div class='cp-booking-star cp-typo-label-detail'>BK25134578 &nbsp; - &nbsp; <i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i><i class="cp-icn-star"></i></div>
+              <div class='cp-comment'>Nullam eros quam, commodo a metus ut, lobortis blandit arcu. Ut auctor sapien mi, non eleifend lectus cursus sit amet. Sed laoreet porttitor tortor, at fringilla ante aliquet et.</div>
+              <ul class='cp-pagination'>
+                <li class='cp-pagination-item'>
+                  <a class='cp-pagination-link disable' href='#'>&laquo;</a>
+                </li>
+                <li class='cp-pagination-item'>
+                  <a class='cp-pagination-link active' href='#'>1</a>
+                </li>
+                <li class='cp-pagination-item'>
+                  <a class='cp-pagination-link' href='#'>2</a>
+                </li>
+                <li class='cp-pagination-item'>
+                  <a class='cp-pagination-link' href='#'>3</a>
+                </li>
+                <li class='cp-pagination-item'>
+                  <a class='cp-pagination-link' href='#'>4</a>
+                </li>
+                <li class='cp-pagination-item'>
+                  <a class='cp-pagination-link' href='#'>5</a>
+                </li>
+                <li class='cp-pagination-item'>
+                  <a class='cp-pagination-link' href='#'>&raquo;</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class='cp-detail-onethird clearfix'>
-      <table class='cp-card-detail'>
-        <tr>
-          <td colspan='2'>
-            <div class='cp-label'>insurance</div>
-          </td>
-        </tr>
-        <tr>
-          <td>Insurance No.:</td>
-          <td>5693578451346</td>
-        </tr>
-        <tr>
-          <td>Insurance Type:</td>
-          <td>Health Care</td>
-        </tr>
-        <tr>
-          <td>Effective Time:</td>
-          <td>11/09/2016 - 11/09/2017</td>
-        </tr>
-        <tr>
-          <td>Issue By:</td>
-          <td>Viet Nam Health Insurance</td>
-        </tr>
-      </table>
-      <div class='cp-document-image'>
-        <div class='cp-image-item'>
-          <div class='cp-label'>Insurance Front Image</div>
-          <img alt='/Insurance front' src='../images/insurance-front.png'>
+  </div>
+  <!-- Document -->
+  <div class='cp-flex-item cp-flex-1of1'>
+    <div class='cp-flex-content cp-card'>
+      <header>
+        <div class='cp-card-title'>
+          <div class='cp-typo-title'>Document</div>
         </div>
-        <div class='cp-image-item'>
-          <div class='cp-label'>Insurance Back Image</div>
-          <img alt='Insurance back' src='../images/insurance-back.png'>
+      </header>
+      <div class='scrollable'>
+        <div class='cp-detail-container'>
+          <div class='cp-flex-inner'>
+            <div class='cp-detail-onethird'>
+              <table class='cp-card-detail'>
+                <tr>
+                  <td colspan='2'>
+                    <div class='cp-label'>identity card</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>ID No.:</td>
+                  <td>257456985</td>
+                </tr>
+                <tr>
+                  <td>Issue Date:</td>
+                  <td>17/11/2005</td>
+                </tr>
+                <tr>
+                  <td>Issue By:</td>
+                  <td>HTPD</td>
+                </tr>
+              </table>
+              <div class='cp-document-image'>
+                <div class='cp-image-item'>
+                  <div class='cp-label'>ID Front Image</div>
+                  <img alt='ID front' src='../images/id-front.png'>
+                </div>
+                <div class='cp-image-item'>
+                  <div class='cp-label'>ID Back Image</div>
+                  <img alt='ID back' src='../images/id-back.png'>
+                </div>
+              </div>
+            </div>
+            <div class='cp-detail-onethird'>
+              <table class='cp-card-detail'>
+                <tr>
+                  <td colspan='2'>
+                    <div class='cp-label'>insurance</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Insurance No.:</td>
+                  <td>5693578451346</td>
+                </tr>
+                <tr>
+                  <td>Insurance Type:</td>
+                  <td>Health Care</td>
+                </tr>
+                <tr>
+                  <td>Effective Time:</td>
+                  <td>11/09/2016 - 11/09/2017</td>
+                </tr>
+                <tr>
+                  <td>Issue By:</td>
+                  <td>Viet Nam Health Insurance</td>
+                </tr>
+              </table>
+              <div class='cp-document-image'>
+                <div class='cp-image-item'>
+                  <div class='cp-label'>Insurance Front Image</div>
+                  <img alt='/Insurance front' src='../images/insurance-front.png'>
+                </div>
+                <div class='cp-image-item'>
+                  <div class='cp-label'>Insurance Back Image</div>
+                  <img alt='Insurance back' src='../images/insurance-back.png'>
+                </div>
+              </div>
+            </div>
+            <div class='cp-detail-onethird'>
+              <table class='cp-card-detail'>
+                <tr>
+                  <td colspan='2'>
+                    <div class='cp-label'>certificate</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Certificate No.:</td>
+                  <td>257456985</td>
+                </tr>
+                <tr>
+                  <td>Issue Date:</td>
+                  <td>17/09/2016</td>
+                </tr>
+                <tr>
+                  <td>Issue By:</td>
+                  <td>Happy Clean</td>
+                </tr>
+              </table>
+              <div class='cp-document-image'>
+                <div class='cp-image-item'>
+                  <div class='cp-label'>Certificate Image</div>
+                  <img alt='Certificate' src='../images/certificate.png'>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class='cp-detail-onethird clearfix'>
-      <table class='cp-card-detail'>
-        <tr>
-          <td colspan='2'>
-            <div class='cp-label'>certificate</div>
-          </td>
-        </tr>
-        <tr>
-          <td>Certificate No.:</td>
-          <td>257456985</td>
-        </tr>
-        <tr>
-          <td>Issue Date:</td>
-          <td>17/09/2016</td>
-        </tr>
-        <tr>
-          <td>Issue By:</td>
-          <td>Happy Clean</td>
-        </tr>
-      </table>
-      <div class='cp-document-image'>
-        <div class='cp-image-item'>
-          <div class='cp-label'>Certificate Image</div>
-          <img alt='Certificate' src='../images/certificate.png'>
+  </div>
+  <!-- System & Meta Data -->
+  <div class='cp-flex-item cp-flex-1of1'>
+    <div class='cp-flex-content cp-card'>
+      <header>
+        <div class='cp-card-title'>
+          <div class='cp-typo-title'>System & Meta Data</div>
         </div>
+      </header>
+      <div class='cp-detail-container'>
+        <table class='cp-card-detail'>
+          <tr>
+            <td>Join At:</td>
+            <td>15/09/2016 12:19:22</td>
+          </tr>
+          <tr>
+            <td>Create At:</td>
+            <td>10/09/2016 14:29:38</td>
+          </tr>
+          <tr>
+            <td>Create By:</td>
+            <td>Admin</td>
+          </tr>
+          <tr>
+            <td>Update At:</td>
+            <td>21/09/2016 09:34:12</td>
+          </tr>
+          <tr>
+            <td>Update By:</td>
+            <td>Admin</td>
+          </tr>
+        </table>
+      </div>
+      <hr class='cp-space-detail'>
+      <div class='cp-detail-container'>
+        <table class='cp-card-detail'>
+          <tr>
+            <td>os:</td>
+            <td>REL</td>
+          </tr>
+          <tr>
+            <td>version:</td>
+            <td>1.0</td>
+          </tr>
+          <tr>
+            <td>platform:</td>
+            <td>android</td>
+          </tr>
+          <tr>
+            <td>deviceToken:</td>
+            <td>bb5ab0cf-e008-4c07-b5a4-6dc6e03e5b0e</td>
+          </tr>
+        </table>
       </div>
     </div>
   </div>

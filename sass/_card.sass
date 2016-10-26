@@ -107,3 +107,57 @@
   hr.cp-space-detail
     margin-top: 25px
 
+
+.cp-detail-container
+  margin: 15px 30px 0 30px
+  .cp-label
+    text-transform: uppercase
+    padding-bottom: 10px
+    @extend .cp-typo-label
+    color: $primaryText
+  .cp-detail-onehaft
+    .cp-column-item
+      display: inline
+    .cp-row
+      white-space: nowrap
+      margin-top: 5px
+      &:first-child
+        margin-top: 0
+      &:nth-child(3)
+        margin-top: 15px
+    .cp-count-block
+      display: inline-block
+      width: 255px
+      padding: 10px
+      margin-right: 10px
+      overflow: hidden
+      border: 1px solid $line
+      +border-radius(7px)
+      div
+        &:first-child
+          text-align: left
+          @extend .cp-typo-count-1
+        &:nth-child(2)
+          text-align: right
+          padding-top: 5px
+          @extend .cp-typo-count-2
+        &:nth-child(3)
+          text-align: right
+          @extend .cp-typo-count-3
+    .cp-comment
+      padding: 10px 0 0 20px
+      color: $primaryText
+      @extend .cp-typo-text
+    hr
+      margin: 15px 0
+  .cp-detail-onethird
+    &:last-child
+      margin-right: 0
+    .cp-document-image
+      padding-top: 10px
+      .cp-image-item
+        margin-top: 15px
+        .cp-label
+          padding-bottom: 6px
+        img
+          width: 100%

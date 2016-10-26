@@ -11,6 +11,7 @@
   +display-flex(flex)
   +justify-content(center)
   +align-items(center)
+
 %cp-avatar
   display: inline-block
   width: 100%
@@ -26,13 +27,10 @@
   border-color: $line
   +border-radius(3px)
 
-%avatar-list,
-.avatar-list
-  @extend %cp-avatar
+.cp-avatar-list-container
+  @extend .cp-avatar-container
   width: 56px
   height: 56px
-  border-color: $line
-  +border-radius(3px)
 
 %avatar-empty
   background-color: rgba($primaryText, 0.5)
@@ -48,7 +46,9 @@
   line-height: rem(24px)
 
 .avatar-list-empty
-  @extend %avatar-list
+  @extend .avatar-rectangle
   @extend %avatar-empty
+  width: 56px
+  height: 56px
   font-size: rem(12px)
   line-height: rem(16px)

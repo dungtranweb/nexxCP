@@ -483,322 +483,326 @@
 </div>
 <!-- End Modal -->
 <!-- Float Container -->
-<div class="cp-float-container clearfix">
-<div class='cp-float-item-11 cp-card cp-left'>
-  <header>
-    <div class='cp-card-title'>
-      <div class='cp-typo-title'>List User</div>
-    </div>
-    <div class='cp-btn-status'>
-      <button class='cp-btn cp-btn-success' type='button'>Active</button>
-      <button class='cp-btn cp-btn-deactive' type='button'>Deactive</button>
-      <button class='cp-btn cp-btn-danger' type='button'>Block</button>
-    </div>
-    <div class='cp-card-config'>
-      <div class='dropdown export'>
-        <div class='dropdown-toggle' data-toggle='dropdown'><i class="cp-icn-export"></i> &nbsp;&nbsp;<i class="cp-icn-caret-black"></i></div>
-        <div class='dropdown-menu dropdown-menu-right'>
-          <a class='dropdown-item' href='#'>Excel</a>
-          <a class='dropdown-item' href='#'>CSV</a>
+<div class="cp-flex">
+<div class='cp-flex-item cp-flex-1of1'>
+  <div class='cp-flex-content cp-card'>
+    <header>
+      <div class='cp-card-title'>
+        <div class='cp-typo-title'>List User</div>
+      </div>
+      <div class='cp-btn-status'>
+        <button class='cp-btn cp-btn-success' type='button'>Active</button>
+        <button class='cp-btn cp-btn-deactive' type='button'>Deactive</button>
+        <button class='cp-btn cp-btn-danger' type='button'>Block</button>
+      </div>
+      <div class='cp-card-config'>
+        <div class='dropdown export'>
+          <div class='dropdown-toggle' data-toggle='dropdown'><i class="cp-icn-export"></i> &nbsp;&nbsp;<i class="cp-icn-caret-black"></i></div>
+          <div class='dropdown-menu dropdown-menu-right'>
+            <a class='dropdown-item' href='#'>Excel</a>
+            <a class='dropdown-item' href='#'>CSV</a>
+          </div>
         </div>
       </div>
+    </header>
+    <div class='scrollable'>
+      <table class='table cp-table-list'>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th>CODE</th>
+            <th>NAME</th>
+            <th>EMAIL</th>
+            <th>DATE OF BIRTH</th>
+            <th>ROLE</th>
+            <th>POSITION</th>
+            <th>STATUS</th>
+            <th>ACTION</th>
+          </tr>
+          <tr class='filter'>
+            <td>&nbsp;</td>
+            <td>
+              <input id='chb-all' type='checkbox'>
+              <label class='checkbox' for='chb-all'></label>
+            </td>
+            <td>&nbsp;</td>
+            <td>
+              <input class='cp-input-s1' type='text'>
+            </td>
+            <td>
+              <input type='text'>
+            </td>
+            <td>
+              <input type='text'>
+            </td>
+            <td>
+              <input type='text'>
+            </td>
+            <td>
+              <select class='cp-table-select'>
+                <option>All</option>
+                <option>Admin</option>
+                <option>Moderator</option>
+                <option>Member</option>
+              </select>
+            </td>
+            <td>
+              <select class='cp-table-select'>
+                <option>All</option>
+                <option>Boss</option>
+                <option>Tech Manager</option>
+                <option>Tech Guy</option>
+                <option>Marketer</option>
+              </select>
+            </td>
+            <td>
+              <select class='cp-table-select'>
+                <option>All</option>
+                <option>Active</option>
+                <option>Deactive</option>
+              </select>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class='online'>&nbsp;</td>
+            <td>
+              <input id='chb-1' type='checkbox'>
+              <label class='checkbox' for='chb-1'></label>
+            </td>
+            <td>1</td>
+            <td>NV2516</td>
+            <td>Toan Nguyen</td>
+            <td>toan.nguyen@nexx.vn</td>
+            <td>12/12/1990</td>
+            <td>Moderator</td>
+            <td>Tech Guy</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <input id='chb-2' type='checkbox'>
+              <label class='checkbox' for='chb-2'></label>
+            </td>
+            <td>2</td>
+            <td>NV2512</td>
+            <td>Anh Nguyen</td>
+            <td>anh.nguyen@nexx.vn</td>
+            <td>06/10/1990</td>
+            <td>Moderator</td>
+            <td>Tech Guy</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <input id='chb-3' type='checkbox'>
+              <label class='checkbox' for='chb-3'></label>
+            </td>
+            <td>3</td>
+            <td>NV2587</td>
+            <td>Thi Huynh</td>
+            <td>thi.huynh@nexx.vn</td>
+            <td>25/07/1990</td>
+            <td>Admin</td>
+            <td>Tech Manager</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td class='online'>&nbsp;</td>
+            <td>
+              <input id='chb-4' type='checkbox'>
+              <label class='checkbox' for='chb-4'></label>
+            </td>
+            <td>4</td>
+            <td>NV2587</td>
+            <td>Andy Nguyen</td>
+            <td>andy.nguyen@nexx.vn</td>
+            <td>22/02/1984</td>
+            <td>Admin</td>
+            <td>CEO</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+            <tr></tr>
+            <td class='online'>&nbsp;</td>
+            <td>
+              <input id='chb-5' type='checkbox'>
+              <label class='checkbox' for='chb-5'></label>
+            </td>
+            <td>5</td>
+            <td>NV2516</td>
+            <td>Toan Nguyen</td>
+            <td>toan.nguyen@nexx.vn</td>
+            <td>12/12/1990</td>
+            <td>Moderator</td>
+            <td>Tech Guy</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <input id='chb-6' type='checkbox'>
+              <label class='checkbox' for='chb-6'></label>
+            </td>
+            <td>6</td>
+            <td>NV2512</td>
+            <td>Anh Nguyen</td>
+            <td>anh.nguyen@nexx.vn</td>
+            <td>06/10/1990</td>
+            <td>Moderator</td>
+            <td>Tech Guy</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <input id='chb-7' type='checkbox'>
+              <label class='checkbox' for='chb-7'></label>
+            </td>
+            <td>7</td>
+            <td>NV2587</td>
+            <td>Thi Huynh</td>
+            <td>thi.huynh@nexx.vn</td>
+            <td>25/07/1990</td>
+            <td>Admin</td>
+            <td>Tech Manager</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td class='online'>&nbsp;</td>
+            <td>
+              <input id='chb-8' type='checkbox'>
+              <label class='checkbox' for='chb-8'></label>
+            </td>
+            <td>8</td>
+            <td>NV2587</td>
+            <td>Andy Nguyen</td>
+            <td>andy.nguyen@nexx.vn</td>
+            <td>22/02/1984</td>
+            <td>Admin</td>
+            <td>CEO</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+            <tr></tr>
+            <td>&nbsp;</td>
+            <td>
+              <input id='chb-9' type='checkbox'>
+              <label class='checkbox' for='chb-9'></label>
+            </td>
+            <td>9</td>
+            <td>NV2587</td>
+            <td>Thi Huynh</td>
+            <td>thi.huynh@nexx.vn</td>
+            <td>25/07/1990</td>
+            <td>Admin</td>
+            <td>Tech Manager</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+          <tr>
+            <td class='online'>&nbsp;</td>
+            <td>
+              <input id='chb-10' type='checkbox'>
+              <label class='checkbox' for='chb-10'></label>
+            </td>
+            <td>10</td>
+            <td>NV2587</td>
+            <td>Andy Nguyen</td>
+            <td>andy.nguyen@nexx.vn</td>
+            <td>22/02/1984</td>
+            <td>Admin</td>
+            <td>CEO</td>
+            <td>Active</td>
+            <td class='action'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='user-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='user-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <ul class='cp-pagination'>
+        <li class='cp-pagination-item'>
+          <a class='cp-pagination-link disable' href='#'>&laquo;</a>
+        </li>
+        <li class='cp-pagination-item'>
+          <a class='cp-pagination-link active' href='#'>1</a>
+        </li>
+        <li class='cp-pagination-item'>
+          <a class='cp-pagination-link' href='#'>2</a>
+        </li>
+        <li class='cp-pagination-item'>
+          <a class='cp-pagination-link' href='#'>3</a>
+        </li>
+        <li class='cp-pagination-item'>
+          <a class='cp-pagination-link' href='#'>4</a>
+        </li>
+        <li class='cp-pagination-item'>
+          <a class='cp-pagination-link' href='#'>5</a>
+        </li>
+        <li class='cp-pagination-item'>
+          <a class='cp-pagination-link' href='#'>&raquo;</a>
+        </li>
+      </ul>
     </div>
-  </header>
-  <table class='table cp-table-list'>
-    <thead>
-      <tr>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th>CODE</th>
-        <th>NAME</th>
-        <th>EMAIL</th>
-        <th>DATE OF BIRTH</th>
-        <th>ROLE</th>
-        <th>POSITION</th>
-        <th>STATUS</th>
-        <th>ACTION</th>
-      </tr>
-      <tr class='filter'>
-        <td>&nbsp;</td>
-        <td>
-          <input id='chb-all' type='checkbox'>
-          <label class='checkbox' for='chb-all'></label>
-        </td>
-        <td>&nbsp;</td>
-        <td>
-          <input class='cp-input-s1' type='text'>
-        </td>
-        <td>
-          <input type='text'>
-        </td>
-        <td>
-          <input type='text'>
-        </td>
-        <td>
-          <input type='text'>
-        </td>
-        <td>
-          <select class='cp-table-select'>
-            <option>All</option>
-            <option>Admin</option>
-            <option>Moderator</option>
-            <option>Member</option>
-          </select>
-        </td>
-        <td>
-          <select class='cp-table-select'>
-            <option>All</option>
-            <option>Boss</option>
-            <option>Tech Manager</option>
-            <option>Tech Guy</option>
-            <option>Marketer</option>
-          </select>
-        </td>
-        <td>
-          <select class='cp-table-select'>
-            <option>All</option>
-            <option>Active</option>
-            <option>Deactive</option>
-          </select>
-        </td>
-        <td>&nbsp;</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class='online'>&nbsp;</td>
-        <td>
-          <input id='chb-1' type='checkbox'>
-          <label class='checkbox' for='chb-1'></label>
-        </td>
-        <td>1</td>
-        <td>NV2516</td>
-        <td>Toan Nguyen</td>
-        <td>toan.nguyen@nexx.vn</td>
-        <td>12/12/1990</td>
-        <td>Moderator</td>
-        <td>Tech Guy</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>
-          <input id='chb-2' type='checkbox'>
-          <label class='checkbox' for='chb-2'></label>
-        </td>
-        <td>2</td>
-        <td>NV2512</td>
-        <td>Anh Nguyen</td>
-        <td>anh.nguyen@nexx.vn</td>
-        <td>06/10/1990</td>
-        <td>Moderator</td>
-        <td>Tech Guy</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>
-          <input id='chb-3' type='checkbox'>
-          <label class='checkbox' for='chb-3'></label>
-        </td>
-        <td>3</td>
-        <td>NV2587</td>
-        <td>Thi Huynh</td>
-        <td>thi.huynh@nexx.vn</td>
-        <td>25/07/1990</td>
-        <td>Admin</td>
-        <td>Tech Manager</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-      <tr>
-        <td class='online'>&nbsp;</td>
-        <td>
-          <input id='chb-4' type='checkbox'>
-          <label class='checkbox' for='chb-4'></label>
-        </td>
-        <td>4</td>
-        <td>NV2587</td>
-        <td>Andy Nguyen</td>
-        <td>andy.nguyen@nexx.vn</td>
-        <td>22/02/1984</td>
-        <td>Admin</td>
-        <td>CEO</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-        <tr></tr>
-        <td class='online'>&nbsp;</td>
-        <td>
-          <input id='chb-5' type='checkbox'>
-          <label class='checkbox' for='chb-5'></label>
-        </td>
-        <td>5</td>
-        <td>NV2516</td>
-        <td>Toan Nguyen</td>
-        <td>toan.nguyen@nexx.vn</td>
-        <td>12/12/1990</td>
-        <td>Moderator</td>
-        <td>Tech Guy</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>
-          <input id='chb-6' type='checkbox'>
-          <label class='checkbox' for='chb-6'></label>
-        </td>
-        <td>6</td>
-        <td>NV2512</td>
-        <td>Anh Nguyen</td>
-        <td>anh.nguyen@nexx.vn</td>
-        <td>06/10/1990</td>
-        <td>Moderator</td>
-        <td>Tech Guy</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-      <tr>
-        <td>&nbsp;</td>
-        <td>
-          <input id='chb-7' type='checkbox'>
-          <label class='checkbox' for='chb-7'></label>
-        </td>
-        <td>7</td>
-        <td>NV2587</td>
-        <td>Thi Huynh</td>
-        <td>thi.huynh@nexx.vn</td>
-        <td>25/07/1990</td>
-        <td>Admin</td>
-        <td>Tech Manager</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-      <tr>
-        <td class='online'>&nbsp;</td>
-        <td>
-          <input id='chb-8' type='checkbox'>
-          <label class='checkbox' for='chb-8'></label>
-        </td>
-        <td>8</td>
-        <td>NV2587</td>
-        <td>Andy Nguyen</td>
-        <td>andy.nguyen@nexx.vn</td>
-        <td>22/02/1984</td>
-        <td>Admin</td>
-        <td>CEO</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-        <tr></tr>
-        <td>&nbsp;</td>
-        <td>
-          <input id='chb-9' type='checkbox'>
-          <label class='checkbox' for='chb-9'></label>
-        </td>
-        <td>9</td>
-        <td>NV2587</td>
-        <td>Thi Huynh</td>
-        <td>thi.huynh@nexx.vn</td>
-        <td>25/07/1990</td>
-        <td>Admin</td>
-        <td>Tech Manager</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-      <tr>
-        <td class='online'>&nbsp;</td>
-        <td>
-          <input id='chb-10' type='checkbox'>
-          <label class='checkbox' for='chb-10'></label>
-        </td>
-        <td>10</td>
-        <td>NV2587</td>
-        <td>Andy Nguyen</td>
-        <td>andy.nguyen@nexx.vn</td>
-        <td>22/02/1984</td>
-        <td>Admin</td>
-        <td>CEO</td>
-        <td>Active</td>
-        <td class='action'>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-          <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <ul class='cp-pagination'>
-    <li class='cp-pagination-item'>
-      <a class='cp-pagination-link disable' href='#'>&laquo;</a>
-    </li>
-    <li class='cp-pagination-item'>
-      <a class='cp-pagination-link active' href='#'>1</a>
-    </li>
-    <li class='cp-pagination-item'>
-      <a class='cp-pagination-link' href='#'>2</a>
-    </li>
-    <li class='cp-pagination-item'>
-      <a class='cp-pagination-link' href='#'>3</a>
-    </li>
-    <li class='cp-pagination-item'>
-      <a class='cp-pagination-link' href='#'>4</a>
-    </li>
-    <li class='cp-pagination-item'>
-      <a class='cp-pagination-link' href='#'>5</a>
-    </li>
-    <li class='cp-pagination-item'>
-      <a class='cp-pagination-link' href='#'>&raquo;</a>
-    </li>
-  </ul>
+  </div>
 </div>
 </div>
 <!-- End Float Container -->

@@ -22,16 +22,15 @@
 //    width: (1170px - (30px * $i)) / $i
 //    +border-radius(7px)
 
-//@for $i from 1 through 4
-//  @for $j from 1 through 4
-//    @if (($i == $j) and ($j == 1)) or ($i < $j)
-//      .cp-float-item-#{$i}#{$j}
-//        background-color: white
-//        margin-left: 30px
-//        margin-bottom: 30px
-//        border: 1px solid $line
-//        width: ((1170px / $j) * $i) - 30px
-//        +border-radius(7px)
+@for $i from 1 through 4
+  @for $j from 1 through 4
+    @if (($i == $j) and ($j == 1)) or ($i < $j)
+      .cp-float-item-#{$i}#{$j}
+        background-color: white
+        margin-bottom: 30px
+        border: 1px solid $line
+        width: ((1170px / $j) * $i) - 30px
+        +border-radius(7px)
 
 // Define Layout Using Column
 // ==========================
@@ -62,11 +61,40 @@
     +flex(1)
     .cp-flex-content
       width: 100%
+      overflow: hidden
       background-color: white
       border: 1px solid $line
       +border-radius(7px)
   .cp-flex-1of1
     width: 100%
+    +flex(none !important)
+    .scrollable
+      overflow-y: auto
+      width: 100%
+      table.cp-table-list
+        min-width: 1000px
+      .cp-detail-onehaft
+        min-width: 550px
+        &.cp-column
+          +column-width(510px)
+          .cp-column-item
+            border: none
+  .cp-flex-1of2
+    width: 50%
+    +flex(none !important)
+  .cp-flex-1of3
+    width: (100% / 3)
+    +flex(none !important)
+    @media (max-width: 1100px)
+      width: 100%
+  .cp-flex-2of3
+    width: (100% / 3 * 2)
+    +flex(none !important)
 
 .cp-flex-equal
   +display-flex(flex)
+
+.cp-flex-inner
+  +display-flex(flex)
+  +flex-flow(row wrap)
+  +justify-content(space-between)
