@@ -819,7 +819,7 @@ select {
   border: 1px solid transparent;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-trans:hover {
+.cp-btn-trans:hover, .cp-btn-trans:focus {
   background-color: transparent;
 }
 
@@ -829,7 +829,7 @@ select {
   border: 1px solid #595959;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-upload:hover {
+.cp-btn-upload:hover, .cp-btn-upload:focus {
   background-color: #5e5e5e;
 }
 
@@ -839,7 +839,7 @@ select {
   border: 1px solid #354d94;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-instant:hover {
+.cp-btn-instant:hover, .cp-btn-instant:focus {
   background-color: #38519c;
 }
 
@@ -849,7 +849,7 @@ select {
   border: 1px solid #6baf3b;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-primary:hover {
+.cp-btn-primary:hover, .cp-btn-primary:focus {
   background-color: #70b73e;
 }
 
@@ -859,7 +859,7 @@ select {
   border: 1px solid #de1219;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-danger:hover {
+.cp-btn-danger:hover, .cp-btn-danger:focus {
   background-color: #e7121a;
 }
 
@@ -869,7 +869,7 @@ select {
   border: 1px solid #28c0ef;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-success:hover {
+.cp-btn-success:hover, .cp-btn-success:focus {
   background-color: #32c3f0;
 }
 
@@ -879,7 +879,7 @@ select {
   border: 1px solid #595959;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-deactive:hover {
+.cp-btn-deactive:hover, .cp-btn-deactive:focus {
   background-color: #5e5e5e;
 }
 
@@ -889,17 +889,39 @@ select {
   border: 1px solid #fca627;
 }
 /* line 30, ../sass/_button.sass */
-.cp-btn-warning:hover {
+.cp-btn-warning:hover, .cp-btn-warning:focus {
   background-color: #fcaa31;
 }
 
-/* line 33, ../sass/_button.sass */
+/* line 34, ../sass/_button.sass */
+.cp-btn-white {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+}
+/* line 37, ../sass/_button.sass */
+.cp-btn-white:hover, .cp-btn-white:focus, .cp-btn-white.active {
+  background-color: #eeeeee;
+  border-color: #d5d5d5;
+}
+
+/* line 44, ../sass/_button.sass */
+.cp-btn-group .cp-btn-white {
+  padding: 8px 20px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #666666;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 53, ../sass/_button.sass */
 .cp-btn-upload {
   width: 162px !important;
   margin-top: 5px;
 }
 
-/* line 37, ../sass/_button.sass */
+/* line 57, ../sass/_button.sass */
 .cp-btn-close {
   background-color: transparent;
   border: none;
@@ -907,12 +929,12 @@ select {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 41, ../sass/_button.sass */
+/* line 61, ../sass/_button.sass */
 .cp-btn-close:hover, .cp-btn-close:focus, .cp-btn-close:active {
   outline: none;
 }
 
-/* line 49, ../sass/_button.sass */
+/* line 69, ../sass/_button.sass */
 .cp-btn-act {
   padding: 3px 10px;
   color: white;
@@ -923,57 +945,57 @@ select {
   border-radius: 3px;
 }
 
-/* line 61, ../sass/_button.sass */
+/* line 81, ../sass/_button.sass */
 .cp-cleaner-available {
   background-color: #77C044;
 }
 
-/* line 61, ../sass/_button.sass */
+/* line 81, ../sass/_button.sass */
 .cp-cleaner-accept {
   background-color: #e13370;
 }
 
-/* line 61, ../sass/_button.sass */
+/* line 81, ../sass/_button.sass */
 .cp-cleaner-inprogress {
   background-color: #3c57a7;
 }
 
-/* line 61, ../sass/_button.sass */
+/* line 81, ../sass/_button.sass */
 .cp-cleaner-outbalance {
   background-color: #666666;
 }
 
-/* line 69, ../sass/_button.sass */
+/* line 89, ../sass/_button.sass */
 .cp-booking-new {
   background-color: #77C044;
 }
 
-/* line 69, ../sass/_button.sass */
+/* line 89, ../sass/_button.sass */
 .cp-booking-accepted {
   background-color: #e13370;
 }
 
-/* line 69, ../sass/_button.sass */
+/* line 89, ../sass/_button.sass */
 .cp-booking-approved {
   background-color: #e75425;
 }
 
-/* line 69, ../sass/_button.sass */
+/* line 89, ../sass/_button.sass */
 .cp-booking-inprogress {
   background-color: #3c57a7;
 }
 
-/* line 69, ../sass/_button.sass */
+/* line 89, ../sass/_button.sass */
 .cp-booking-completed {
   background-color: #40c7f1;
 }
 
-/* line 69, ../sass/_button.sass */
+/* line 89, ../sass/_button.sass */
 .cp-booking-cancelled {
   background-color: #ed1c24;
 }
 
-/* line 69, ../sass/_button.sass */
+/* line 89, ../sass/_button.sass */
 .cp-booking-expired {
   background-color: #666666;
 }
@@ -2191,18 +2213,24 @@ input:focus {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 0;
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+/* line 181, ../sass/_card.sass */
+.cp-dashboard .cp-chart-full {
+  width: 95%;
+  margin: 0 auto;
+}
 
-/* line 182, ../sass/_card.sass */
+/* line 186, ../sass/_card.sass */
 .cp-cleaner-dashboard .cp-typo-dashboard-count {
   color: #77C044;
   margin-top: 50px;
 }
-/* line 185, ../sass/_card.sass */
+/* line 189, ../sass/_card.sass */
 .cp-cleaner-dashboard .cp-typo-dashboard-subcount {
   color: #77C044;
   margin-top: 30px;

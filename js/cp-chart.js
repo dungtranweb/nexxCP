@@ -9,7 +9,7 @@ Chart.defaults.global.defaultFontStyle = "300";
 Chart.defaults.global.elements.arc = {
     borderWidth: 3,
     borderColor: '#fff'
-}
+};
 
 // Cleaner Charts
 // ==============
@@ -102,20 +102,30 @@ var cleanerNewCleanerData= {
     datasets: [
         {
             data: [5, 7, 12, 2, 3, 8, 5],
-            backgroundColor: [
-                "#77C044",
-                "#77C044",
-                "#77C044",
-                "#77C044",
-                "#77C044",
-                "#77C044",
-                "#77C044"
-            ]
+            label: "New Cleaner",
+            fill: false,
+            lineTension: 0.1,
+            borderWidth: 3,
+            borderColor: "#77C044",
+            borderCapStyle: 'butt',
+            borderDash: [],
+            borderDashOffset: 0.0,
+            borderJoinStyle: 'miter',
+            pointBorderColor: "#eeeeee",
+            pointBackgroundColor: "#77C044",
+            pointBorderWidth: 2,
+            pointBorderRadius: 2,
+            pointHoverRadius: 5,
+            pointHoverBackgroundColor: "#217756",
+            pointHoverBorderColor: "#b0d553",
+            pointHoverBorderWidth: 3,
+            pointHitRadius: 10,
+            spanGaps: false
         }
     ]
 };
 var cleanerNewCleanerChart= new Chart(cleanerNewCleaner, {
-    type: 'bar',
+    type: 'line',
     data: cleanerNewCleanerData,
     options: {
         legend: {
@@ -125,7 +135,6 @@ var cleanerNewCleanerChart= new Chart(cleanerNewCleaner, {
             bodyFontSize: 12,
             bodyFontStyle: 400,
             yPadding: 12
-        },
-        cutoutPercentage: 80
+        }
     }
 });

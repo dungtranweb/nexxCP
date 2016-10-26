@@ -27,8 +27,28 @@ $btn-style-list: zip($list-btn, $list-btn-color)
   .cp-btn-#{nth($btn, 1)}
     background-color: nth($btn, 2)
     border: 1px solid darken(nth($btn, 2), 5%)
-    &:hover
+    &:hover,
+    &:focus
       background-color: darken(nth($btn, 2), 3%)
+
+.cp-btn-white
+  background-color: white
+  border: 1px solid $line
+  &:hover,
+  &:focus,
+  &.active
+    background-color: $background
+    border-color: darken($background, 10%)
+
+
+.cp-btn-group .cp-btn-white
+  padding: 8px 20px
+  font-size: rem(16px)
+  font-weight: 300
+  color: $primaryText
+  +border-radius(5px)
+
+
 
 .cp-btn-upload
   width: 162px !important
