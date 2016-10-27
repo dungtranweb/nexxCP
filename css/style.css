@@ -2268,6 +2268,17 @@ input:focus {
   margin-top: 30px;
 }
 
+/* line 202, ../sass/_card.sass */
+.cp-customer-dashboard .cp-typo-dashboard-count {
+  color: #e75425;
+  margin-top: 50px;
+}
+/* line 205, ../sass/_card.sass */
+.cp-customer-dashboard .cp-typo-dashboard-subcount {
+  color: #77C044;
+  margin-top: 30px;
+}
+
 /* Login
  * ===== */
 /* line 7, ../sass/_login.sass */

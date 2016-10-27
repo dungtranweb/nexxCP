@@ -1,29 +1,28 @@
-// User Charts
+// Customer Charts
 // ==============
-// User Role
-var userRole = $("#user-role");
-var userRoleData= {
+
+// Customer Status
+var customerStatus = $("#customer-status");
+var customerStatusData= {
     labels: [
-        "Admin",
-        "Super Mod",
-        "Mod",
-        "User"
+        "Booking",
+        "In Progress",
+        "No Booking"
     ],
     datasets: [
         {
-            data: [1, 2, 1, 8],
+            data: [245, 102, 1118],
             backgroundColor: [
                 "#77C044",
                 "#40c7f1",
-                "#3c57a7",
                 "#e75425"
             ]
         }
     ]
 };
-var userRoleChart= new Chart(userRole, {
+var customerStatusChart= new Chart(customerStatus, {
     type: 'pie',
-    data: userRoleData,
+    data: customerStatusData,
     options: {
         legend: {
             display: true,
@@ -41,9 +40,9 @@ var userRoleChart= new Chart(userRole, {
     }
 });
 
-// User System Status
-var userSystemStatus = $("#user-system-status");
-var userSystemStatusData= {
+// Customer System Status
+var customerSystemStatus = $("#customer-system-status");
+var customerSystemStatusData= {
     labels: [
         "Active",
         "Deactive",
@@ -51,7 +50,7 @@ var userSystemStatusData= {
     ],
     datasets: [
         {
-            data: [8, 2, 2],
+            data: [987, 330, 148],
             backgroundColor: [
                 "#77C044",
                 "#666666",
@@ -60,9 +59,9 @@ var userSystemStatusData= {
         }
     ]
 };
-var userSystemStatusChart= new Chart(userSystemStatus, {
+var customerSystemStatusChart= new Chart(customerSystemStatus, {
     type: 'doughnut',
-    data: userSystemStatusData,
+    data: customerSystemStatusData,
     options: {
         legend: {
             display: false
@@ -76,9 +75,9 @@ var userSystemStatusChart= new Chart(userSystemStatus, {
     }
 });
 
-// New User
-var userNewUser = $("#user-new-user");
-var userNewUserData= {
+// New Customer
+var customerNewCustomer = $("#customer-new-customer");
+var customerNewCustomerData= {
     labels: [
         "Monday",
         "Tuesday",
@@ -90,32 +89,32 @@ var userNewUserData= {
     ],
     datasets: [
         {
-            data: [5, 7, 12, 2, 3, 8, 5],
-            label: "New User",
+            data: [75, 47, 63, 102, 32, 28, 15],
+            label: "New Customer",
             fill: false,
             lineTension: 0.1,
             borderWidth: 3,
-            borderColor: "#40c7f1",
+            borderColor: "#e75425",
             borderCapStyle: 'butt',
             borderDash: [],
             borderDashOffset: 0.0,
             borderJoinStyle: 'miter',
             pointBorderColor: "#eeeeee",
-            pointBackgroundColor: "#40c7f1",
+            pointBackgroundColor: "#e75425",
             pointBorderWidth: 2,
             pointBorderRadius: 2,
             pointHoverRadius: 5,
-            pointHoverBackgroundColor: "#40aaf1",
-            pointHoverBorderColor: "#87dcf6",
+            pointHoverBackgroundColor: "#e72527",
+            pointHoverBorderColor: "#ef8a6a",
             pointHoverBorderWidth: 3,
             pointHitRadius: 10,
             spanGaps: false
         }
     ]
 };
-var userNewUserChart= new Chart(userNewUser, {
+var customerNewCustomerChart= new Chart(customerNewCustomer, {
     type: 'line',
-    data: userNewUserData,
+    data: customerNewCustomerData,
     options: {
         legend: {
             display: false
