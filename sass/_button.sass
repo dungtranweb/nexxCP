@@ -64,7 +64,7 @@ $btn-style-list: zip($list-btn, $list-btn-color)
     outline: none
 
 
-// Button Cleaner Activities
+// Button Activities
 // =========================
 .cp-btn-act
   padding: 3px 10px
@@ -79,6 +79,14 @@ $btn-cleaner-act: zip($list-cleaner-act, $list-cleaner-color)
 
 @each $btn in $btn-cleaner-act
   .cp-cleaner-#{nth($btn, 1)}
+    background-color: nth($btn, 2)
+
+$list-customer-act: available create-booking waiting is-serving
+$list-customer-color: $primary $lightRed $purple $blue
+$btn-customer-act: zip($list-customer-act, $list-customer-color)
+
+@each $btn in $btn-customer-act
+  .cp-customer-#{nth($btn, 1)}
     background-color: nth($btn, 2)
 
 $list-booking-act: new accepted approved inprogress completed cancelled expired

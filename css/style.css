@@ -561,14 +561,20 @@ i {
   -webkit-flex: none !important;
   flex: none !important;
 }
+@media (max-width: 1100px) {
+  /* line 90, ../sass/_layout.sass */
+  .cp-flex .cp-flex-2of3 {
+    width: 100%;
+  }
+}
 
-/* line 94, ../sass/_layout.sass */
+/* line 96, ../sass/_layout.sass */
 .cp-flex-equal {
   display: -webkit-flex;
   display: flex;
 }
 
-/* line 97, ../sass/_layout.sass */
+/* line 99, ../sass/_layout.sass */
 .cp-flex-inner {
   display: -webkit-flex;
   display: flex;
@@ -578,7 +584,7 @@ i {
   justify-content: space-between;
 }
 
-/* line 102, ../sass/_layout.sass */
+/* line 104, ../sass/_layout.sass */
 .cp-flex-center {
   display: -webkit-flex;
   display: flex;
@@ -809,6 +815,34 @@ select {
   text-decoration: none;
 }
 
+/* line 3, ../sass/_progress.sass */
+progress[value] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 35px;
+  width: 80%;
+  border: none;
+}
+/* line 8, ../sass/_progress.sass */
+progress[value]::-webkit-progress-bar {
+  background-color: #fcb040;
+}
+/* line 10, ../sass/_progress.sass */
+progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(left, #77c044 0%, #77c044 100%);
+  background-size: 100% 100%, 100% 100%;
+}
+/* line 13, ../sass/_progress.sass */
+progress[value]::-moz-progress-bar {
+  background-image: -moz-linear-gradient(left, #77c044 0%, #77c044 100%);
+  background-size: 100% 100%, 100% 100%;
+}
+
+/* line 17, ../sass/_progress.sass */
+.cp-progress {
+  margin-top: 40px;
+}
+
 /* line 10, ../sass/_button.sass */
 .cp-btn {
   height: 40px;
@@ -987,36 +1021,56 @@ select {
 }
 
 /* line 89, ../sass/_button.sass */
-.cp-booking-new {
+.cp-customer-available {
   background-color: #77C044;
 }
 
 /* line 89, ../sass/_button.sass */
-.cp-booking-accepted {
-  background-color: #e13370;
-}
-
-/* line 89, ../sass/_button.sass */
-.cp-booking-approved {
+.cp-customer-create-booking {
   background-color: #e75425;
 }
 
 /* line 89, ../sass/_button.sass */
-.cp-booking-inprogress {
+.cp-customer-waiting {
   background-color: #3c57a7;
 }
 
 /* line 89, ../sass/_button.sass */
+.cp-customer-is-serving {
+  background-color: #40c7f1;
+}
+
+/* line 97, ../sass/_button.sass */
+.cp-booking-new {
+  background-color: #77C044;
+}
+
+/* line 97, ../sass/_button.sass */
+.cp-booking-accepted {
+  background-color: #e13370;
+}
+
+/* line 97, ../sass/_button.sass */
+.cp-booking-approved {
+  background-color: #e75425;
+}
+
+/* line 97, ../sass/_button.sass */
+.cp-booking-inprogress {
+  background-color: #3c57a7;
+}
+
+/* line 97, ../sass/_button.sass */
 .cp-booking-completed {
   background-color: #40c7f1;
 }
 
-/* line 89, ../sass/_button.sass */
+/* line 97, ../sass/_button.sass */
 .cp-booking-cancelled {
   background-color: #ed1c24;
 }
 
-/* line 89, ../sass/_button.sass */
+/* line 97, ../sass/_button.sass */
 .cp-booking-expired {
   background-color: #666666;
 }
@@ -1602,16 +1656,20 @@ table.cp-table-list thead tr th a:hover, table.cp-table-list thead tr th a:focus
   text-decoration: none;
 }
 /* line 25, ../sass/_table.sass */
+table.cp-table-list thead tr th.cp-thead-small {
+  width: 75px;
+}
+/* line 27, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td {
   border: none;
   padding-left: 10px;
   padding-bottom: 10px;
 }
-/* line 29, ../sass/_table.sass */
+/* line 31, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td:nth-child(2) {
   padding-left: 0;
 }
-/* line 31, ../sass/_table.sass */
+/* line 33, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"] {
   display: inline-block;
   border: none;
@@ -1626,7 +1684,7 @@ table.cp-table-list thead tr.filter td input[type="text"] {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 40, ../sass/_table.sass */
+/* line 42, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"]:focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -1634,23 +1692,23 @@ table.cp-table-list thead tr.filter td input[type="text"]:focus {
   outline: none;
   border-bottom-color: #274025;
 }
-/* line 44, ../sass/_table.sass */
+/* line 46, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"].cp-input-s1 {
   width: 65px;
 }
-/* line 46, ../sass/_table.sass */
+/* line 48, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"].cp-input-s2 {
   width: 95px;
 }
-/* line 48, ../sass/_table.sass */
+/* line 50, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"].cp-input-s3 {
   width: 120px;
 }
-/* line 50, ../sass/_table.sass */
+/* line 52, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td input[type="text"].cp-input-s4 {
   width: 165px;
 }
-/* line 52, ../sass/_table.sass */
+/* line 54, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td select {
   border: none;
   border-bottom: 1px solid rgba(102, 102, 102, 0.4);
@@ -1668,101 +1726,101 @@ table.cp-table-list thead tr.filter td select {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
-/* line 64, ../sass/_table.sass */
+/* line 66, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td select option {
   font-size: 1.2rem;
   text-transform: capitalize;
 }
-/* line 67, ../sass/_table.sass */
+/* line 69, ../sass/_table.sass */
 table.cp-table-list thead tr.filter td label.checkbox {
   margin-top: 28px;
   margin-bottom: -10px;
 }
-/* line 73, ../sass/_table.sass */
+/* line 75, ../sass/_table.sass */
 table.cp-table-list tbody.have-avatar tr td {
   vertical-align: middle;
 }
-/* line 76, ../sass/_table.sass */
+/* line 78, ../sass/_table.sass */
 table.cp-table-list tbody tr:hover {
   background-color: rgba(38, 34, 98, 0.05);
 }
-/* line 78, ../sass/_table.sass */
+/* line 80, ../sass/_table.sass */
 table.cp-table-list tbody tr:first-child td {
   border-top: none !important;
 }
-/* line 80, ../sass/_table.sass */
+/* line 82, ../sass/_table.sass */
 table.cp-table-list tbody tr td {
   border-top: 1px solid #e6e6e6;
   font-size: 1.2rem;
   font-weight: 400;
   padding: 10px 0 10px 10px;
 }
-/* line 85, ../sass/_table.sass */
+/* line 87, ../sass/_table.sass */
 table.cp-table-list tbody tr td:nth-child(2) {
   padding-left: 0;
 }
-/* line 87, ../sass/_table.sass */
+/* line 89, ../sass/_table.sass */
 table.cp-table-list tbody tr td.online {
   border-left: 10px solid #40c7f1;
 }
-/* line 89, ../sass/_table.sass */
+/* line 91, ../sass/_table.sass */
 table.cp-table-list tbody tr td.action {
   width: 90px;
   padding-right: 30px;
 }
-/* line 92, ../sass/_table.sass */
+/* line 94, ../sass/_table.sass */
 table.cp-table-list tbody tr td.cell-center {
   text-align: center;
 }
-/* line 94, ../sass/_table.sass */
+/* line 96, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list {
   padding-right: 10px;
 }
-/* line 96, ../sass/_table.sass */
+/* line 98, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list:first-child {
   padding-right: 5px;
 }
-/* line 98, ../sass/_table.sass */
+/* line 100, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list:nth-child(3) {
   padding-left: 3px;
   padding-right: 7px;
 }
-/* line 101, ../sass/_table.sass */
+/* line 103, ../sass/_table.sass */
 table.cp-table-list tbody tr td a.btn-list:hover, table.cp-table-list tbody tr td a.btn-list:focus {
   outline: none;
 }
-/* line 104, ../sass/_table.sass */
+/* line 106, ../sass/_table.sass */
 table.cp-table-list tbody tr td label.checkbox {
   padding-left: 25px;
   margin-right: 5px;
 }
-/* line 107, ../sass/_table.sass */
+/* line 109, ../sass/_table.sass */
 table.cp-table-list tbody tr td label.checkbox:before {
   bottom: -16px;
 }
 
-/* line 110, ../sass/_table.sass */
+/* line 112, ../sass/_table.sass */
 table.cp-card-detail {
   width: 100%;
 }
-/* line 113, ../sass/_table.sass */
+/* line 115, ../sass/_table.sass */
 table.cp-card-detail tr:last-child td {
   padding-bottom: 0;
 }
-/* line 115, ../sass/_table.sass */
+/* line 117, ../sass/_table.sass */
 table.cp-card-detail tr td {
   padding-bottom: 5px;
 }
-/* line 117, ../sass/_table.sass */
+/* line 119, ../sass/_table.sass */
 table.cp-card-detail tr td:first-child {
   width: 120px;
   vertical-align: text-top;
 }
-/* line 121, ../sass/_table.sass */
+/* line 123, ../sass/_table.sass */
 table.cp-card-detail tr td:nth-child(2) {
   text-align: right;
 }
-/* line 124, ../sass/_table.sass */
+/* line 126, ../sass/_table.sass */
 table.cp-card-detail tr td .cp-label {
   padding-bottom: 6px;
 }
@@ -2277,6 +2335,10 @@ input:focus {
 .cp-customer-dashboard .cp-typo-dashboard-subcount {
   color: #77C044;
   margin-top: 30px;
+}
+/* line 208, ../sass/_card.sass */
+.cp-customer-dashboard .cp-typo-dashboard-subcount.cp-second {
+  color: #fcb040;
 }
 
 /* Login
