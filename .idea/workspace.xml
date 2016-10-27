@@ -5,54 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/LANG.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/cr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/cz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/locales/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins/canvas-to-blob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins/canvas-to-blob.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins/purify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins/purify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins/sortable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/plugins/sortable.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons-s3e3e16f60c.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_sprite.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_sprite.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/cleaner-dashboard.haml" afterPath="$PROJECT_DIR$/haml/cleaner-dashboard.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/footer.haml" afterPath="$PROJECT_DIR$/haml/footer.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/user-dashboard.haml" afterPath="$PROJECT_DIR$/haml/user-dashboard.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cleaner-dashboard.html" afterPath="$PROJECT_DIR$/html/cleaner-dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/footer.html" afterPath="$PROJECT_DIR$/html/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/user-dashboard.html" afterPath="$PROJECT_DIR$/html/user-dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/cp-chart.js" afterPath="$PROJECT_DIR$/js/cp-chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/test.js" afterPath="$PROJECT_DIR$/js/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_card.sass" afterPath="$PROJECT_DIR$/sass/_card.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_sprite.sass" afterPath="$PROJECT_DIR$/sass/_sprite.sass" />
     </list>
     <ignored path="nexxCP.iws" />
@@ -109,8 +64,8 @@
       <file leaf-file-name="_sprite.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_sprite.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -439,12 +394,12 @@
       <workItem from="1477384203483" duration="8599000" />
       <workItem from="1477451766346" duration="27396000" />
       <workItem from="1477491820808" duration="3795000" />
-      <workItem from="1477539230684" duration="7974000" />
+      <workItem from="1477539230684" duration="8062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355018000" />
+    <option name="totallyTimeSpent" value="355106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-876" width="1547" height="876" extended-state="6" />
@@ -885,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/_sprite.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>
