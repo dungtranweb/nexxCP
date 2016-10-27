@@ -1,28 +1,29 @@
-
-// Cleaner Charts
+// User Charts
 // ==============
-// Cleaner Status
-var cleanerStatus = $("#cleaner-status");
-var cleanerStatusData= {
+    // User Role
+var userRole = $("#user-role");
+var userRoleData= {
     labels: [
-        "Available",
-        "Accepted",
-        "In Progress"
+        "Admin",
+        "Super Mod",
+        "Mod",
+        "User"
     ],
     datasets: [
         {
-            data: [20, 50, 105],
+            data: [1, 2, 1, 8],
             backgroundColor: [
-                "#3c57a7",
                 "#77C044",
-                "#e13370"
+                "#40c7f1",
+                "#3c57a7",
+                "#e75425"
             ]
         }
     ]
 };
-var cleanerStatusChart= new Chart(cleanerStatus, {
+var userRoleChart= new Chart(userRole, {
     type: 'pie',
-    data: cleanerStatusData,
+    data: userRoleData,
     options: {
         legend: {
             display: true,
@@ -40,9 +41,9 @@ var cleanerStatusChart= new Chart(cleanerStatus, {
     }
 });
 
-// Cleaner System Status
-var cleanerSystemStatus = $("#cleaner-system-status");
-var cleanerSystemStatusData= {
+    // User System Status
+var userSystemStatus = $("#user-system-status");
+var userSystemStatusData= {
     labels: [
         "Active",
         "Deactive",
@@ -50,7 +51,7 @@ var cleanerSystemStatusData= {
     ],
     datasets: [
         {
-            data: [70, 50, 20],
+            data: [8, 2, 2],
             backgroundColor: [
                 "#77C044",
                 "#666666",
@@ -59,9 +60,9 @@ var cleanerSystemStatusData= {
         }
     ]
 };
-var cleanerSystemStatusChart= new Chart(cleanerSystemStatus, {
+var userSystemStatusChart= new Chart(userSystemStatus, {
     type: 'doughnut',
-    data: cleanerSystemStatusData,
+    data: userSystemStatusData,
     options: {
         legend: {
             display: false
@@ -75,9 +76,9 @@ var cleanerSystemStatusChart= new Chart(cleanerSystemStatus, {
     }
 });
 
-// New Cleaner
-var cleanerNewCleaner = $("#cleaner-new-cleaner");
-var cleanerNewCleanerData= {
+    // New User
+var userNewUser = $("#user-new-user");
+var userNewUserData= {
     labels: [
         "Monday",
         "Tuesday",
@@ -90,31 +91,31 @@ var cleanerNewCleanerData= {
     datasets: [
         {
             data: [5, 7, 12, 2, 3, 8, 5],
-            label: "New Cleaner",
+            label: "New User",
             fill: false,
             lineTension: 0.1,
             borderWidth: 3,
-            borderColor: "#77C044",
+            borderColor: "#40c7f1",
             borderCapStyle: 'butt',
             borderDash: [],
             borderDashOffset: 0.0,
             borderJoinStyle: 'miter',
             pointBorderColor: "#eeeeee",
-            pointBackgroundColor: "#77C044",
+            pointBackgroundColor: "#40c7f1",
             pointBorderWidth: 2,
             pointBorderRadius: 2,
             pointHoverRadius: 5,
-            pointHoverBackgroundColor: "#217756",
-            pointHoverBorderColor: "#b0d553",
+            pointHoverBackgroundColor: "#40aaf1",
+            pointHoverBorderColor: "#87dcf6",
             pointHoverBorderWidth: 3,
             pointHitRadius: 10,
             spanGaps: false
         }
     ]
 };
-var cleanerNewCleanerChart= new Chart(cleanerNewCleaner, {
+var userNewUserChart= new Chart(userNewUser, {
     type: 'line',
-    data: cleanerNewCleanerData,
+    data: userNewUserData,
     options: {
         legend: {
             display: false

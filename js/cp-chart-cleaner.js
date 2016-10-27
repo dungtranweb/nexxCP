@@ -1,7 +1,7 @@
-
 // Cleaner Charts
 // ==============
-// Cleaner Status
+
+    // Cleaner Status
 var cleanerStatus = $("#cleaner-status");
 var cleanerStatusData= {
     labels: [
@@ -40,7 +40,7 @@ var cleanerStatusChart= new Chart(cleanerStatus, {
     }
 });
 
-// Cleaner System Status
+    // Cleaner System Status
 var cleanerSystemStatus = $("#cleaner-system-status");
 var cleanerSystemStatusData= {
     labels: [
@@ -75,7 +75,7 @@ var cleanerSystemStatusChart= new Chart(cleanerSystemStatus, {
     }
 });
 
-// New Cleaner
+    // New Cleaner
 var cleanerNewCleaner = $("#cleaner-new-cleaner");
 var cleanerNewCleanerData= {
     labels: [

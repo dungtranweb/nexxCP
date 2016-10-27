@@ -29,12 +29,62 @@
   %li.cp-breadcrumb-item.active User Dashboard
 / End Breadcrumb
 
-/ Float Container
-\<div class="cp-float-container clearfix">
+/ Flexbox Layout
+.cp-flex.cp-user-dashboard
+  / Total User
+  .cp-flex-item.cp-flex-equal.cp-flex-1of3
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Total User
 
+      .cp-dashboard
+        %i.cp-icn-total-user
+        .cp-typo-dashboard-count 12
+        .cp-typo-dashboard-title User
 
-\</div>
-/ End Float Container
+  / User Role
+  .cp-flex-item.cp-flex-equal.cp-flex-1of3
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title User Role
+
+      .cp-dashboard
+        .cp-chart-pie
+          %canvas#user-role(width="200" height="200" )
+
+  / System Status
+  .cp-flex-item.cp-flex-equal.cp-flex-1of3
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title System Status
+
+      .cp-dashboard
+        .cp-chart-doughnut
+          %canvas#user-system-status(width="200" height="200" )
+          .cp-dashboard-icn-center
+            %i.cp-icn-active-user
+        .cp-typo-dashboard-subcount 8
+        .cp-typo-code Active User
+
+  // New User
+  .cp-flex-item.cp-flex-1of1
+    .cp-flex-content.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title New User
+        .cp-card-config
+          .btn-group.cp-btn-group
+            %button.btn.cp-btn-white(type="button" ) Year
+            %button.btn.cp-btn-white(type="button" ) Month
+            %button.btn.cp-btn-white.active(type="button" ) Week
+
+      .cp-dashboard
+        .cp-chart-full
+          %canvas#user-new-user(width="1200" height="500" )
+/ End Flexbox Layout
 
 \</div>
 / End Content
@@ -51,3 +101,4 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
+

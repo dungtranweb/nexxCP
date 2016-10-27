@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 7, ../sass/_sprite.sass */
 i {
-  background: url('../images/icons-sd493ba3a56.png') no-repeat;
+  background: url('../images/icons-s3e3e16f60c.png') no-repeat;
   display: inline-block;
   vertical-align: baseline;
 }
@@ -14,323 +14,337 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-active-user {
+.cp-icn-active-customer {
   background-position: 0 -101px;
+  height: 73px;
+  width: 90px;
+}
+
+/* line 13, ../sass/_sprite.sass */
+.cp-icn-active-user {
+  background-position: 0 -174px;
   height: 80px;
   width: 72px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-alert-error {
-  background-position: 0 -181px;
+  background-position: 0 -254px;
   height: 13px;
   width: 13px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-alert-success {
-  background-position: 0 -194px;
+  background-position: 0 -267px;
   height: 9px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-alert-warning {
-  background-position: 0 -203px;
+  background-position: 0 -276px;
   height: 12px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-booking {
-  background-position: 0 -215px;
+  background-position: 0 -288px;
   height: 22px;
   width: 18px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-business {
-  background-position: 0 -237px;
+  background-position: 0 -310px;
   height: 19px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-caret-black {
-  background-position: 0 -256px;
+  background-position: 0 -329px;
   height: 6px;
   width: 9px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-caret-down {
-  background-position: 0 -262px;
+  background-position: 0 -335px;
   height: 6px;
   width: 9px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-caret-grey {
-  background-position: 0 -268px;
+  background-position: 0 -341px;
   height: 6px;
   width: 9px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-change-pass {
-  background-position: 0 -274px;
+  background-position: 0 -347px;
   height: 18px;
   width: 18px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-check {
-  background-position: 0 -292px;
+  background-position: 0 -365px;
   height: 15px;
   width: 15px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-cleaner {
-  background-position: 0 -307px;
+  background-position: 0 -380px;
   height: 25px;
   width: 18px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-config-topbar-small {
-  background-position: 0 -332px;
+  background-position: 0 -405px;
   height: 12px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-config-topbar {
-  background-position: 0 -344px;
+  background-position: 0 -417px;
   height: 25px;
   width: 26px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-customer {
-  background-position: 0 -369px;
+  background-position: 0 -442px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-dashboard {
-  background-position: 0 -385px;
+  background-position: 0 -458px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-delete {
-  background-position: 0 -401px;
+  background-position: 0 -474px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-disable {
-  background-position: 0 -417px;
+  background-position: 0 -490px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-edit-profile {
-  background-position: 0 -433px;
+  background-position: 0 -506px;
   height: 19px;
   width: 11px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-edit {
-  background-position: 0 -452px;
+  background-position: 0 -525px;
   height: 17px;
   width: 10px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-en-flag {
-  background-position: 0 -469px;
+  background-position: 0 -542px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-export {
-  background-position: 0 -485px;
+  background-position: 0 -558px;
   height: 27px;
   width: 22px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-female {
-  background-position: 0 -512px;
+  background-position: 0 -585px;
   height: 14px;
   width: 9px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-finance {
-  background-position: 0 -526px;
+  background-position: 0 -599px;
   height: 17px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-geography {
-  background-position: 0 -543px;
+  background-position: 0 -616px;
   height: 23px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-magnifier {
-  background-position: 0 -566px;
+  background-position: 0 -639px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-male {
-  background-position: 0 -582px;
+  background-position: 0 -655px;
   height: 14px;
   width: 14px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-modal-success {
-  background-position: 0 -596px;
+  background-position: 0 -669px;
   height: 91px;
   width: 91px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-modal-warning {
-  background-position: 0 -687px;
+  background-position: 0 -760px;
   height: 94px;
   width: 91px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-news {
-  background-position: 0 -781px;
+  background-position: 0 -854px;
   height: 15px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-noti-topbar {
-  background-position: 0 -796px;
+  background-position: 0 -869px;
   height: 27px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-notification {
-  background-position: 0 -823px;
+  background-position: 0 -896px;
   height: 19px;
   width: 14px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-pass {
-  background-position: 0 -842px;
+  background-position: 0 -915px;
   height: 16px;
   width: 8px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-payment {
-  background-position: 0 -858px;
+  background-position: 0 -931px;
   height: 14px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-profile {
-  background-position: 0 -872px;
+  background-position: 0 -945px;
   height: 18px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-service {
-  background-position: 0 -890px;
+  background-position: 0 -963px;
   height: 20px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar-small {
-  background-position: 0 -910px;
+  background-position: 0 -983px;
   height: 12px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar {
-  background-position: 0 -922px;
+  background-position: 0 -995px;
   height: 19px;
   width: 26px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-sign-out {
-  background-position: 0 -941px;
+  background-position: 0 -1014px;
   height: 19px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-star {
-  background-position: 0 -960px;
+  background-position: 0 -1033px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-cleaner {
-  background-position: 0 -976px;
+  background-position: 0 -1049px;
   height: 148px;
   width: 117px;
 }
 
 /* line 13, ../sass/_sprite.sass */
+.cp-icn-total-customer {
+  background-position: 0 -1197px;
+  height: 148px;
+  width: 148px;
+}
+
+/* line 13, ../sass/_sprite.sass */
 .cp-icn-total-user {
-  background-position: 0 -1124px;
+  background-position: 0 -1345px;
   height: 149px;
   width: 177px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-user {
-  background-position: 0 -1273px;
+  background-position: 0 -1494px;
   height: 16px;
   width: 19px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-vi-flag {
-  background-position: 0 -1289px;
+  background-position: 0 -1510px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-view {
-  background-position: 0 -1305px;
+  background-position: 0 -1526px;
   height: 16px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-zoom {
-  background-position: 0 -1321px;
+  background-position: 0 -1542px;
   height: 16px;
   width: 16px;
 }
@@ -2232,6 +2246,17 @@ input:focus {
 }
 /* line 189, ../sass/_card.sass */
 .cp-cleaner-dashboard .cp-typo-dashboard-subcount {
+  color: #77C044;
+  margin-top: 30px;
+}
+
+/* line 194, ../sass/_card.sass */
+.cp-user-dashboard .cp-typo-dashboard-count {
+  color: #40c7f1;
+  margin-top: 50px;
+}
+/* line 197, ../sass/_card.sass */
+.cp-user-dashboard .cp-typo-dashboard-subcount {
   color: #77C044;
   margin-top: 30px;
 }
