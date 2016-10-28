@@ -211,3 +211,18 @@
     &.cp-second
       color: $orange
 
+.cp-card-count-block
+  overflow: hidden
+  padding: 20px
+  display: inline-block
+  div
+    &:first-child
+      text-align: left
+      @extend .cp-typo-count-1
+    &:nth-child(2)
+      text-align: right
+      padding-top: 5px
+      @extend .cp-typo-count-2
+    &:nth-child(3)
+      text-align: right
+      @extend .cp-typo-count-3
