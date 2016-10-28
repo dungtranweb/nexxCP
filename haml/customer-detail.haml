@@ -30,81 +30,51 @@
 / End Breadcrumb
 
 / Flexbox Layout
-.cp-flex.cp-customer-dashboard
-  / Total Customer
+.cp-flex
+  / General Information
   .cp-flex-item.cp-flex-equal.cp-flex-1of3
     .cp-flex-content.cp-card
       %header
-        .cp-card-title
-          .cp-typo-title Total Customer
+        .cp-card-summary
+          .cp-detail-avatar
+            .cp-image-rec90
+              %img(src="../images/hoang-giang.png" alt="Customer Avatar" )
+          .cp-detail-summary-info
+            .cp-typo-code CT854231
+            .cp-typo-name Hoang Giang
+            .cp-btn-act.cp-customer-waiting Waiting for Cleaner
+      %hr
+      .cp-detail-container
+        %table.cp-card-detail
+          %tr
+            %td Email:
+            %td giang.hoang@nexx.vn
+          %tr
+            %td Date of Birth:
+            %td 15/10/1996
+          %tr
+            %td Gender:
+            %td
+              %i.cp-icn-male
+          %tr
+            %td Address:
+            %td 192 Le Van Viet, Ward 5, District 9, Ho Chi Minh City
+          %tr
+            %td Phone:
+            %td 0987254354
+          %tr
+            %td Join At:
+            %td 15/10/2016
+          %tr
+            %td Status:
+            %td Active
 
-      .cp-dashboard
-        %i.cp-icn-total-customer
-        .cp-typo-dashboard-count 1465
-        .cp-typo-dashboard-title Customer
-
-  / Customer Status
-  .cp-flex-item.cp-flex-equal.cp-flex-1of3
-    .cp-flex-content.cp-card
-      %header
-        .cp-card-title
-          .cp-typo-title Customer Status
-
-      .cp-dashboard
-        .cp-chart-pie
-          %canvas#customer-status(width="200" height="200" )
-
-  / System Status
-  .cp-flex-item.cp-flex-equal.cp-flex-1of3
-    .cp-flex-content.cp-card
-      %header
-        .cp-card-title
-          .cp-typo-title System Status
-
-      .cp-dashboard
-        .cp-chart-doughnut
-          %canvas#customer-system-status(width="200" height="200" )
-          .cp-dashboard-icn-center
-            %i.cp-icn-active-customer
-        .cp-typo-dashboard-subcount 987
-        .cp-typo-code Active Customer
-
-  // New Customer
+  / Booking History
   .cp-flex-item.cp-flex-2of3
     .cp-flex-content.cp-card
       %header
         .cp-card-title
-          .cp-typo-title New Customer
-        .cp-card-config
-          .btn-group.cp-btn-group
-            %button.btn.cp-btn-white(type="button" ) Year
-            %button.btn.cp-btn-white(type="button" ) Month
-            %button.btn.cp-btn-white.active(type="button" ) Week
-
-      .cp-dashboard
-        .cp-chart-full
-          %canvas#customer-new-customer(width="1200" height="500" )
-
-  / Booking Status
-  .cp-flex-item.cp-flex-equal.cp-flex-1of3
-    .cp-flex-content.cp-card
-      %header
-        .cp-card-title
-          .cp-typo-title Customer Booking
-
-      .cp-dashboard
-        .cp-typo-dashboard-subcount 1204
-        .cp-typo-code Booked
-        %progress.cp-progress(max="1465" value="1204" )
-        .cp-typo-dashboard-subcount.cp-second 261
-        .cp-typo-code Never Book
-
-  / Top Customer
-  .cp-flex-item.cp-flex-1of1
-    .cp-flex-content.cp-card
-      %header
-        .cp-card-title
-          .cp-typo-title Top Customer
+          .cp-typo-title Booking History
       .scrollable
         %table.table.cp-table-list
           %thead
@@ -117,9 +87,9 @@
               %th BOOKED
               %th PHONE
               %th ADDRESS
-          %tbody.have-avatar
+          %tbody
             %tr
-              %td.online &nbsp;
+              %td &nbsp;
               %td 1
               %td
                 .cp-image-rec56
@@ -141,7 +111,7 @@
               %td 0123458211
               %td Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City
             %tr
-              %td.online &nbsp;
+              %td &nbsp;
               %td 3
               %td
                 .cp-image-rec56
@@ -152,7 +122,7 @@
               %td 0123458211
               %td Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City
             %tr
-              %td.online &nbsp;
+              %td &nbsp;
               %td 4
               %td
                 .cp-image-rec56
@@ -196,7 +166,7 @@
               %td 0123458211
               %td Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City
             %tr
-              %td.online &nbsp;
+              %td &nbsp;
               %td 8
               %td
                 .cp-image-rec56
@@ -229,6 +199,21 @@
               %td 0123458211
               %td Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City
 
+        %ul.cp-pagination
+          %li.cp-pagination-item
+            %a.cp-pagination-link.disable(href="#") &laquo;
+          %li.cp-pagination-item
+            %a.cp-pagination-link.active(href="#" ) 1
+          %li.cp-pagination-item
+            %a.cp-pagination-link(href="#" ) 2
+          %li.cp-pagination-item
+            %a.cp-pagination-link(href="#" ) 3
+          %li.cp-pagination-item
+            %a.cp-pagination-link(href="#" ) 4
+          %li.cp-pagination-item
+            %a.cp-pagination-link(href="#" ) 5
+          %li.cp-pagination-item
+            %a.cp-pagination-link(href="#" ) &raquo;
 / End Flexbox Layout
 
 \</div>

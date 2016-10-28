@@ -2,6 +2,24 @@
 // =============================
 $(document).ready(function () {
 
+// Checking size of image
+// ======================
+    var image56 = $('.cp-image-rec56').children();
+    if (image56.width() > image56.height()) {
+        image56.css({'width': 'auto', 'height': '100%'});
+    }
+
+    var image90 = $('.cp-image-rec90').children();
+    if (image90.width() > image90.height()) {
+        image90.css({'width': 'auto', 'height': '100%'});
+    }
+
+    var imageCircle = $('.cp-image-circle').children();
+    if (imageCircle.width() > imageCircle.height()) {
+        imageCircle.css({'width': 'auto', 'height': '100%'});
+    }
+
+
 // Login
 // =====
     $('.input-login').focusin(function () {
@@ -13,7 +31,7 @@ $(document).ready(function () {
         $(this).parent().removeClass('focus-login');
         $(this).parent().find('.user').attr('src', '../images/login/user.png');
         $(this).parent().find('.pass').attr('src', '../images/login/pass.png');
-    });;
+    });
 
 // Sidebar: Setup metisMenu
 // ========================;
