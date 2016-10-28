@@ -85,7 +85,10 @@ $(document).ready(function () {
         defaultPreviewContent: '<img src="../images/upimage-wide.png" alt="Your Image" style="width: 160px">',
         layoutTemplates: {main2: '{preview} {browse}'},
         allowedFileExtensions: ["jpg", "png", "gif"],
-        elPreviewContainer: '.cp-upimage-container'
+        elPreviewContainer: '.cp-upimage-container',
+        previewZoomButtonIcons: {
+            prev: ''
+        }
     });
 
 // Trigger button "Add New Address"

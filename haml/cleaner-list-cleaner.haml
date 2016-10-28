@@ -61,7 +61,8 @@
           .dropdown-menu.dropdown-menu-right
             %a.dropdown-item(href="#") Excel
             %a.dropdown-item(href="#") CSV
-        -#.split
+        .split
+        .total Total 200 items
         -#%select
         -#  %option 10 items
         -#  %option 20 items
@@ -126,7 +127,7 @@
               %input(type="text")
             %td &nbsp;
         %tbody.have-avatar
-          %tr
+          %tr.cp-need-verify
             %td.online &nbsp;
             %td
               %input#chb-1(type="checkbox")
