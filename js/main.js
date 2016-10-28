@@ -87,7 +87,20 @@ $(document).ready(function () {
         allowedFileExtensions: ["jpg", "png", "gif"],
         elPreviewContainer: '.cp-upimage-container',
         previewZoomButtonIcons: {
-            prev: ''
+            prev: '<i class="cp-icn-prev"></i>',
+            next: '<i class="cp-icn-next"></i>',
+            toggleheader: '<i class="cp-icn-toggle-header"></i>',
+            fullscreen: '<i class="cp-icn-fullscreen"></i>',
+            borderless: '<i class="cp-icn-borderless"></i>',
+            close: '<i class="cp-icn-close"></i>'
+        },
+        previewZoomButtonClasses: {
+            prev: 'btn cp-btn-trans',
+            next: 'btn cp-btn-trans',
+            toggleheader: 'btn cp-btn-trans',
+            fullscreen: 'btn cp-btn-trans',
+            borderless: 'btn cp-btn-trans',
+            close: 'btn cp-btn-trans'
         }
     });
 

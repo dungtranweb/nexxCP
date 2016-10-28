@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_layout.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_layout.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_table.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_table.sassc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/icons-sa1e8973d18.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_sprite.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_sprite.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/cleaner-list-cleaner.haml" afterPath="$PROJECT_DIR$/haml/cleaner-list-cleaner.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/customer-detail.haml" afterPath="$PROJECT_DIR$/haml/customer-detail.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/customer-list-customer.haml" afterPath="$PROJECT_DIR$/haml/customer-list-customer.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/user-list-user.haml" afterPath="$PROJECT_DIR$/haml/user-list-user.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cleaner-list-cleaner.html" afterPath="$PROJECT_DIR$/html/cleaner-list-cleaner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/customer-detail.html" afterPath="$PROJECT_DIR$/html/customer-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/customer-list-customer.html" afterPath="$PROJECT_DIR$/html/customer-list-customer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/user-list-user.html" afterPath="$PROJECT_DIR$/html/user-list-user.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_card.sass" afterPath="$PROJECT_DIR$/sass/_card.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_layout.sass" afterPath="$PROJECT_DIR$/sass/_layout.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_table.sass" afterPath="$PROJECT_DIR$/sass/_table.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_sprite.sass" afterPath="$PROJECT_DIR$/sass/_sprite.sass" />
     </list>
     <ignored path="nexxCP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,14 +62,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
+            <state relative-caret-position="640">
+              <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
               <folding>
-                <marker date="1477647596745" expanded="true" signature="2214:2230" ph="..." />
-                <marker date="1477647596745" expanded="true" signature="2876:2888" ph="..." />
+                <marker date="1477649689328" expanded="true" signature="2214:2230" ph="..." />
+                <marker date="1477649689328" expanded="true" signature="2876:2888" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-list-user.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user-list-user.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haml/user-list-user.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -155,7 +144,6 @@
         <option value="$PROJECT_DIR$/js/cp-chart-cleaner.js" />
         <option value="$PROJECT_DIR$/js/cp-chart.js" />
         <option value="$PROJECT_DIR$/js/cp-chart-user.js" />
-        <option value="$PROJECT_DIR$/sass/_sprite.sass" />
         <option value="$PROJECT_DIR$/haml/footer.haml" />
         <option value="$PROJECT_DIR$/js/cp-chart-customer.js" />
         <option value="$PROJECT_DIR$/sass/style.sass" />
@@ -179,12 +167,13 @@
         <option value="$PROJECT_DIR$/haml/user-edit.haml" />
         <option value="$PROJECT_DIR$/haml/customer-detail.haml" />
         <option value="$PROJECT_DIR$/sass/_layout.sass" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/sass/_table.sass" />
         <option value="$PROJECT_DIR$/sass/_card.sass" />
         <option value="$PROJECT_DIR$/haml/customer-list-customer.haml" />
         <option value="$PROJECT_DIR$/haml/cleaner-list-cleaner.haml" />
         <option value="$PROJECT_DIR$/haml/user-list-user.haml" />
+        <option value="$PROJECT_DIR$/sass/_sprite.sass" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -196,7 +185,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="-876" />
+    <option name="y" value="24" />
     <option name="width" value="1547" />
     <option name="height" value="876" />
   </component>
@@ -428,15 +417,15 @@
       <workItem from="1477451766346" duration="27396000" />
       <workItem from="1477491820808" duration="3795000" />
       <workItem from="1477539230684" duration="18233000" />
-      <workItem from="1477638099313" duration="9923000" />
+      <workItem from="1477638099313" duration="10815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375200000" />
+    <option name="totallyTimeSpent" value="376092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="-876" width="1547" height="876" extended-state="6" />
+    <frame x="53" y="24" width="1547" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19238345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -582,14 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_sprite.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haml/footer.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -684,7 +665,7 @@
         <state relative-caret-position="561">
           <caret line="654" column="0" selection-start-line="654" selection-start-column="0" selection-end-line="654" selection-end-column="0" />
           <folding>
-            <marker date="1477648753272" expanded="true" signature="14589:14687" ph="{...}" />
+            <marker date="1477649691476" expanded="true" signature="14589:14687" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -833,17 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
-          <folding>
-            <marker date="1477647596745" expanded="true" signature="2214:2230" ph="..." />
-            <marker date="1477647596745" expanded="true" signature="2876:2888" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_table.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -889,6 +859,25 @@
         <state relative-caret-position="300">
           <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_sprite.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
+          <folding>
+            <marker date="1477649689328" expanded="true" signature="2214:2230" ph="..." />
+            <marker date="1477649689328" expanded="true" signature="2876:2888" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
