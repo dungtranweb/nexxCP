@@ -466,7 +466,7 @@
   <li class='cp-breadcrumb-item active'>Create Customer</li>
 </ol>
 <!-- End Breadcrumb -->
-<!-- Float Container -->
+<!-- Real Content -->
 <form enctype='multipart/form-data' method='post'>
   <!-- Column Layout -->
   <div class='cp-column'>
@@ -554,19 +554,29 @@
     </div>
     <!-- Fake Column Item -->
     <div class='cp-column-item-fake'></div>
-    <!-- Address -->
+    <!-- Verified -->
     <div class='cp-column-item cp-card'>
+      <header>
+        <div class='cp-card-title'>
+          <div class='cp-typo-title'>Verified</div>
+        </div>
+      </header>
+      <div class='cp-card-content'>
+        <div class='cp-label'>is verified?</div>
+        <div class='cp-is'>
+          <input checked id='is-verified-customer' type='checkbox'>
+          <label class='checkbox' for='is-verified-customer'></label>
+        </div>
+      </div>
+    </div>
+    <!-- Address -->
+    <div class='cp-column-item cp-cutout cp-card'>
       <header>
         <div class='cp-card-title'>
           <div class='cp-typo-title'>Address</div>
         </div>
       </header>
       <div class='cp-card-content'>
-        <div class='cp-label'>is default?</div>
-        <div class='cp-is'>
-          <input checked id='is-default-customer' type='checkbox'>
-          <label class='checkbox' for='is-default-customer'></label>
-        </div>
         <div class='cp-label'>address</div>
         <input placeholder='Enter address' type='text'>
         <div class='cp-label'>type</div>

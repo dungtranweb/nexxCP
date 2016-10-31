@@ -549,12 +549,16 @@ i {
 .cp-column .cp-column-item.cp-cutout {
   margin-bottom: 0;
 }
-/* line 53, ../sass/_layout.sass */
+@media (max-width: 1160px) {
+  /* line 51, ../sass/_layout.sass */
+  .cp-column .cp-column-item.cp-cutout {
+    margin-bottom: 26px;
+  }
+}
+/* line 55, ../sass/_layout.sass */
 .cp-column .cp-column-item-fake {
   width: 100%;
   visibility: hidden;
-  display: inherit;
-  padding: 11px;
 }
 
 /* line 61, ../sass/_layout.sass */
