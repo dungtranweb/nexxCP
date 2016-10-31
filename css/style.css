@@ -524,8 +524,19 @@ i {
   -webkit-column-break-inside: avoid;
   break-inside: avoid;
 }
+/* line 51, ../sass/_layout.sass */
+.cp-column .cp-column-item.cp-cutout {
+  margin-bottom: 0;
+}
+/* line 53, ../sass/_layout.sass */
+.cp-column .cp-column-item-fake {
+  width: 100%;
+  visibility: hidden;
+  display: inherit;
+  padding: 11px;
+}
 
-/* line 54, ../sass/_layout.sass */
+/* line 61, ../sass/_layout.sass */
 .cp-flex {
   display: -webkit-flex;
   display: flex;
@@ -534,13 +545,13 @@ i {
   padding: 0;
   margin: 0 0 0 -30px;
 }
-/* line 59, ../sass/_layout.sass */
+/* line 66, ../sass/_layout.sass */
 .cp-flex .cp-flex-item {
   padding: 0 0 30px 30px;
   -webkit-flex: 1;
   flex: 1;
 }
-/* line 62, ../sass/_layout.sass */
+/* line 69, ../sass/_layout.sass */
 .cp-flex .cp-flex-item .cp-flex-content {
   width: 100%;
   overflow: hidden;
@@ -550,85 +561,91 @@ i {
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
-/* line 68, ../sass/_layout.sass */
+/* line 75, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of1 {
   width: 100%;
   -webkit-flex: none !important;
   flex: none !important;
 }
-/* line 71, ../sass/_layout.sass */
+/* line 78, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of1 .scrollable {
   overflow-y: auto;
   width: 100%;
 }
-/* line 74, ../sass/_layout.sass */
+/* line 81, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of1 .scrollable table.cp-table-list {
   min-width: 1000px;
 }
-/* line 76, ../sass/_layout.sass */
+/* line 83, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of1 .scrollable .cp-detail-onehaft {
   min-width: 550px;
 }
-/* line 78, ../sass/_layout.sass */
+/* line 85, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of1 .scrollable .cp-detail-onehaft.cp-column {
   -moz-column-width: 510px;
   -webkit-column-width: 510px;
   column-width: 510px;
 }
-/* line 80, ../sass/_layout.sass */
+/* line 87, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of1 .scrollable .cp-detail-onehaft.cp-column .cp-column-item {
   border: none;
 }
-/* line 82, ../sass/_layout.sass */
+/* line 89, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of2 {
   width: 50%;
   -webkit-flex: none !important;
   flex: none !important;
 }
-/* line 85, ../sass/_layout.sass */
+@media (max-width: 1100px) {
+  /* line 89, ../sass/_layout.sass */
+  .cp-flex .cp-flex-1of2 {
+    width: 100%;
+  }
+}
+/* line 94, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of3 {
   width: 33.33333%;
   -webkit-flex: none !important;
   flex: none !important;
 }
 @media (max-width: 1100px) {
-  /* line 85, ../sass/_layout.sass */
+  /* line 94, ../sass/_layout.sass */
   .cp-flex .cp-flex-1of3 {
     width: 100%;
   }
 }
-/* line 90, ../sass/_layout.sass */
+/* line 99, ../sass/_layout.sass */
 .cp-flex .cp-flex-1of4 {
   width: 25%;
   -webkit-flex: none !important;
   flex: none !important;
 }
 @media (max-width: 1100px) {
-  /* line 90, ../sass/_layout.sass */
+  /* line 99, ../sass/_layout.sass */
   .cp-flex .cp-flex-1of4 {
     width: 100%;
   }
 }
-/* line 95, ../sass/_layout.sass */
+/* line 104, ../sass/_layout.sass */
 .cp-flex .cp-flex-2of3 {
   width: 66.66667%;
   -webkit-flex: none !important;
   flex: none !important;
 }
 @media (max-width: 1100px) {
-  /* line 95, ../sass/_layout.sass */
+  /* line 104, ../sass/_layout.sass */
   .cp-flex .cp-flex-2of3 {
     width: 100%;
   }
 }
 
-/* line 101, ../sass/_layout.sass */
+/* line 110, ../sass/_layout.sass */
 .cp-flex-equal {
   display: -webkit-flex;
   display: flex;
 }
 
-/* line 104, ../sass/_layout.sass */
+/* line 113, ../sass/_layout.sass */
 .cp-flex-inner {
   display: -webkit-flex;
   display: flex;
@@ -638,7 +655,7 @@ i {
   justify-content: space-between;
 }
 
-/* line 109, ../sass/_layout.sass */
+/* line 118, ../sass/_layout.sass */
 .cp-flex-center {
   display: -webkit-flex;
   display: flex;
@@ -1136,6 +1153,11 @@ progress[value]::-moz-progress-bar {
 /* line 98, ../sass/_button.sass */
 .cp-booking-expired {
   background-color: #666666;
+}
+
+/* line 98, ../sass/_button.sass */
+.cp-booking-rating {
+  background-color: #274025;
 }
 
 /* line 1, ../sass/_modal.sass */

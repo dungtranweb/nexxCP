@@ -31,8 +31,8 @@
   %li.cp-breadcrumb-item.active Create Cleaner
 / End Breadcrumb
 
-/ Float Container
-%form.clearfix(method="post" enctype="multipart/form-data" )
+/ Real Content
+%form(method="post" enctype="multipart/form-data" )
   / Column Layout
   .cp-column
     / Create Cleaner
@@ -118,8 +118,8 @@
       .cp-card-content
         .cp-label is default?
         .cp-is
-          %input#is-default-user(type="checkbox" checked )
-          %label.checkbox(for="is-default-user")
+          %input#is-default-cleaner(type="checkbox" checked )
+          %label.checkbox(for="is-default-cleaner")
         .cp-label address
         %input(type="text" placeholder="Enter address" )
         .cp-label type
@@ -161,24 +161,8 @@
           %option 11
           %option 12
 
-    / Banking Information
-    .cp-column-item.cp-card
-      %header
-        .cp-card-title
-          .cp-typo-title Banking Information
-
-      .cp-card-content
-        .cp-label bank name
-        %input(type="text" placeholder="Enter bank name" )
-        .cp-label bank branch
-        %input(type="text" placeholder="Enter bank branch" )
-        .cp-label account number
-        %input(type="text" placeholder="Enter account number" )
-        .cp-label account name
-        %input(type="text" placeholder="Enter account name" )
-
     / Certificate
-    .cp-column-item.cp-card
+    .cp-column-item.cp-cutout.cp-card
       %header
         .cp-card-title
           .cp-typo-title Certificate
@@ -240,6 +224,9 @@
             .cp-label back
             .kv-avatar
               %input.cp-upimage.file-loading(name="cleaner-certificate-back" type="file" )
+
+    / Fake Column Item
+    .cp-column-item-fake
 
     / System Information
     .cp-column-item.cp-card
@@ -326,7 +313,7 @@
             %option 1994
             %option 1995
             %option 1996
-            %option 1997
+            %option 1997Float Container
             %option 1998
             %option 1999
             %option 2000
@@ -450,6 +437,22 @@
             .cp-label back
             .kv-avatar
               %input.cp-upimage.file-loading(name="cleaner-insurance-back" type="file" )
+
+    / Banking Information
+    .cp-column-item.cp-cutout.cp-card
+      %header
+        .cp-card-title
+          .cp-typo-title Banking Information
+
+      .cp-card-content
+        .cp-label bank name
+        %input(type="text" placeholder="Enter bank name" )
+        .cp-label bank branch
+        %input(type="text" placeholder="Enter bank branch" )
+        .cp-label account number
+        %input(type="text" placeholder="Enter account number" )
+        .cp-label account name
+        %input(type="text" placeholder="Enter account name" )
 
   / End Column Layout
 

@@ -90,8 +90,8 @@ $btn-customer-act: zip($list-customer-act, $list-customer-color)
   .cp-customer-#{nth($btn, 1)}
     background-color: nth($btn, 2)
 
-$list-booking-act: new accepted approved inprogress completed cancelled expired
-$list-booking-color: $primary $pink $lightRed $purple $blue $red $primaryText
+$list-booking-act: new accepted approved inprogress completed cancelled expired rating
+$list-booking-color: $primary $pink $lightRed $purple $blue $red $primaryText $brandText
 $btn-booking-act: zip($list-booking-act, $list-booking-color)
 
 @each $btn in $btn-booking-act
