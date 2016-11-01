@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 7, ../sass/_sprite.sass */
 i {
-  background: url('../images/icons-sff6b835675.png') no-repeat;
+  background: url('../images/icons-sf26f853224.png') no-repeat;
   display: inline-block;
   vertical-align: baseline;
 }
@@ -357,64 +357,71 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-toggle-header {
+.cp-icn-start {
   background-position: 0 -1171px;
+  height: 18px;
+  width: 18px;
+}
+
+/* line 13, ../sass/_sprite.sass */
+.cp-icn-toggle-header {
+  background-position: 0 -1189px;
   height: 13px;
   width: 15px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-cleaner {
-  background-position: 0 -1184px;
+  background-position: 0 -1202px;
   height: 148px;
   width: 117px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-customer {
-  background-position: 0 -1332px;
+  background-position: 0 -1350px;
   height: 148px;
   width: 148px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-user {
-  background-position: 0 -1480px;
+  background-position: 0 -1498px;
   height: 149px;
   width: 177px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-tracking {
-  background-position: 0 -1629px;
+  background-position: 0 -1647px;
   height: 21px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-user {
-  background-position: 0 -1650px;
+  background-position: 0 -1668px;
   height: 16px;
   width: 19px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-vi-flag {
-  background-position: 0 -1666px;
+  background-position: 0 -1684px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-view {
-  background-position: 0 -1682px;
+  background-position: 0 -1700px;
   height: 16px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-zoom {
-  background-position: 0 -1698px;
+  background-position: 0 -1716px;
   height: 16px;
   width: 16px;
 }
