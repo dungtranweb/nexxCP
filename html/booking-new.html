@@ -467,13 +467,13 @@
 </ol>
 <!-- End Breadcrumb -->
 <!-- Modal -->
-<div class='modal fade' id='cp-modal-delete' role='dialog' tabindex='-1'>
+<div class='modal fade' id='cp-modal-assign' role='dialog' tabindex='-1'>
   <div class='modal-dialog' role='document'>
     <div class='cp-modal-content'>
       <div class='cp-modal-header'>
         <i class='cp-icn-modal-warning'></i>
-        <div class='cp-modal-title'>Are you sure?</div>
-        <div class='cp-modal-subtitle'>You will not able to recover this item!</div>
+        <div class='cp-modal-title'>Assign Cleaner</div>
+        <div class='cp-modal-subtitle'>Do you really want to assign this booking to cleaner #NV10086?</div>
       </div>
       <div class='cp-modal-footer'>
         <button class='cp-btn cp-btn-danger' type='button'>Yes</button>
@@ -489,7 +489,7 @@
   <div class='cp-flex-content cp-card'>
     <header>
       <div class='cp-card-title'>
-        <div class='cp-typo-title'>List Cleaner</div>
+        <div class='cp-typo-title'>New Booking</div>
       </div>
       <div class='cp-btn-status'>
         <button class='cp-btn cp-btn-success' type='button'>Active</button>
@@ -514,40 +514,45 @@
           <tr>
             <th>&nbsp;</th>
             <th>&nbsp;</th>
-            <th>&nbsp;</th>
-            <th>&nbsp;</th>
             <th>
               <a href='#'>CODE</a>
             </th>
             <th>
-              <a href=''>NAME</a>
+              <a href=''>CUSTOMER NAME</a>
             </th>
             <th>
-              <a href=''>PHONE</a>
+              <a href=''>START TIME</a>
             </th>
             <th>
-              <a href=''>DATE OF BIRTH</a>
+              <a href=''>ADDRESS</a>
+            </th>
+            <th>
+              <a href=''>TYPE</a>
+            </th>
+            <th>
+              <a href=''>TIME <br>(min)</a>
+            </th>
+            <th>
+              <a href=''>LEVEL</a>
+            </th>
+            <th>
+              <a href=''>AMOUNT <br>(VND)</a>
+            </th>
+            <th>
+              <a href=''>CREATE AT</a>
             </th>
             <th>
               <a href=''>ACTIVITY</a>
-            </th>
-            <th>
-              <a href=''>STATUS</a>
-            </th>
-            <th>
-              <a href=''>BOOKING</a>
             </th>
             <th>
               <a href=''>ACTION</a>
             </th>
           </tr>
           <tr class='filter'>
-            <td>&nbsp;</td>
             <td>
               <input id='chb-all' type='checkbox'>
               <label class='checkbox' for='chb-all'></label>
             </td>
-            <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>
               <input class='cp-input-s1' type='text'>
@@ -564,301 +569,241 @@
             <td>
               <select class='cp-table-select'>
                 <option>All</option>
-                <option>Available</option>
-                <option>Accept</option>
-                <option>In Progress</option>
-                <option>Out of Balance</option>
-              </select>
-            </td>
-            <td>
-              <select class='cp-table-select'>
-                <option>All</option>
-                <option>Active</option>
-                <option>Deactive</option>
-                <option>Blocked</option>
+                <option>Penthouse</option>
+                <option>Apartment</option>
+                <option>Townhouse</option>
+                <option>Office</option>
               </select>
             </td>
             <td>
               <input type='text'>
             </td>
+            <td>
+              <select class='cp-table-select'>
+                <option>All</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </td>
+            <td>
+              <input type='text'>
+            </td>
+            <td>
+              <input type='text'>
+            </td>
+            <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
         </thead>
-        <tbody class='have-avatar'>
+        <tbody>
           <tr class='cp-highlight'>
-            <td class='online'>&nbsp;</td>
             <td>
               <input id='chb-1' type='checkbox'>
               <label class='checkbox' for='chb-1'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Avatar' src='../images/thang-tran.png'>
-              </div>
-            </td>
             <td>1</td>
-            <td>CN5246</td>
-            <td>Thang Tran <br> Level 3 - 160 stars</td>
-            <td>01236581245</td>
-            <td>12/09/1990</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
+            <td>2</td>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
             <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-available'>Available</div>
+              <div class='cp-btn-act cp-booking-new'>New</div>
             </td>
-            <td>Active</td>
-            <td>7</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
           </tr>
-          <tr>
-            <td class='online'>&nbsp;</td>
+          <tr class='cp-highlight'>
             <td>
               <input id='chb-2' type='checkbox'>
               <label class='checkbox' for='chb-2'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Avatar' src='../images/vu-nguyen.png'>
-              </div>
-            </td>
             <td>2</td>
-            <td>CN7845</td>
-            <td>Vu Nguyen <br> Level 3 - 141 stars</td>
-            <td>0128564245</td>
-            <td>02/07/1991</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
+            <td>2</td>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
             <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-accept'>Accept</div>
+              <div class='cp-btn-act cp-booking-new'>New</div>
             </td>
-            <td>Active</td>
-            <td>2</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
-            <tr></tr>
-            <td>&nbsp;</td>
+          </tr>
+          <tr class='cp-highlight'>
             <td>
               <input id='chb-3' type='checkbox'>
               <label class='checkbox' for='chb-3'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Avatar' src='../images/ty-luu.png'>
-              </div>
-            </td>
             <td>3</td>
-            <td>CN8513</td>
-            <td>Ty Luu <br> Level 2 - 36 stars</td>
-            <td>0975321856</td>
-            <td>24/07/1995</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
+            <td>2</td>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
             <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-inprogress'>In Progress</div>
+              <div class='cp-btn-act cp-booking-new'>New</div>
             </td>
-            <td>Active</td>
-            <td>4</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
           </tr>
           <tr>
-            <td class='online'>&nbsp;</td>
             <td>
               <input id='chb-4' type='checkbox'>
               <label class='checkbox' for='chb-4'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Avatar' src='../images/hoang-giang.png'>
-              </div>
-            </td>
             <td>4</td>
-            <td>CN8542</td>
-            <td>Hoang Giang <br> Level 2 - 95 stars</td>
-            <td>01236581896</td>
-            <td>12/09/1995</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
+            <td>2</td>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
             <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-outbalance'>Out of Balance</div>
+              <div class='cp-btn-act cp-booking-new'>New</div>
             </td>
-            <td>Deactive</td>
-            <td>1</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
             <td>
               <input id='chb-5' type='checkbox'>
               <label class='checkbox' for='chb-5'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Placeholder' src='../images/placeholder.png'>
-              </div>
-            </td>
             <td>5</td>
-            <td>CN2163</td>
-            <td>Andy Nguyen <br> Level 2 - 49 stars</td>
-            <td>01236581245</td>
-            <td>25/01/1984</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
+            <td>2</td>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
             <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-accept'>Accept</div>
+              <div class='cp-btn-act cp-booking-new'>New</div>
             </td>
-            <td>Active</td>
-            <td>5</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
-            <tr></tr>
-            <td>&nbsp;</td>
+          </tr>
+          <tr>
             <td>
               <input id='chb-6' type='checkbox'>
               <label class='checkbox' for='chb-6'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Avatar' src='../images/phuong-mai.png'>
-              </div>
-            </td>
             <td>6</td>
-            <td>NV2516</td>
-            <td>Phuong Mai <br> Level 3 - 171 stars</td>
-            <td>01236896412</td>
-            <td>12/09/1988</td>
-            <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-available'>Available</div>
-            </td>
-            <td>Active</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
             <td>2</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
+            <td class='cell-center'>
+              <div class='cp-btn-act cp-booking-new'>New</div>
+            </td>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
             <td>
               <input id='chb-7' type='checkbox'>
               <label class='checkbox' for='chb-7'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Avatar' src='../images/thinh-nguyen.png'>
-              </div>
-            </td>
             <td>7</td>
-            <td>CN2648</td>
-            <td>Thinh Nguyen <br> Level 3 - 160 stars</td>
-            <td>01239632631</td>
-            <td>18/07/1990</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
+            <td>2</td>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
             <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-inprogress'>In Progress</div>
+              <div class='cp-btn-act cp-booking-new'>New</div>
             </td>
-            <td>Active</td>
-            <td>1</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
-            <tr></tr>
-            <td class='online'>&nbsp;</td>
+          </tr>
+          <tr>
             <td>
               <input id='chb-8' type='checkbox'>
               <label class='checkbox' for='chb-8'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Placeholder' src='../images/placeholder.png'>
-              </div>
-            </td>
             <td>8</td>
-            <td>CN4521</td>
-            <td>Huong Nguyen <br> Level 2 - 110 stars</td>
-            <td>01236588641</td>
-            <td>12/02/1990</td>
-            <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-available'>Available</div>
-            </td>
-            <td>Active</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
             <td>2</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
+            <td class='cell-center'>
+              <div class='cp-btn-act cp-booking-new'>New</div>
+            </td>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
           </tr>
           <tr>
-            <td>&nbsp;</td>
             <td>
               <input id='chb-9' type='checkbox'>
               <label class='checkbox' for='chb-9'></label>
             </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Placeholder' src='../images/placeholder.png'>
-              </div>
-            </td>
             <td>9</td>
-            <td>CN8751</td>
-            <td>Nhut Tran <br> Level 4 - 260 stars</td>
-            <td>012823142714</td>
-            <td>23/09/1995</td>
+            <td>BK1254361</td>
+            <td>Thang Tran <br>0123456789</td>
+            <td>11/10/2016 <br>15:30</td>
+            <td>Him Lam Cho Lon</td>
+            <td>Apartment</td>
+            <td>150</td>
+            <td>2</td>
+            <td>250,000</td>
+            <td>10/10/2016 <br>10:20</td>
             <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-available'>Available</div>
+              <div class='cp-btn-act cp-booking-new'>New</div>
             </td>
-            <td>Active</td>
-            <td>3</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
-            </td>
-            <tr></tr>
-            <td class='online'>&nbsp;</td>
-            <td>
-              <input id='chb-10' type='checkbox'>
-              <label class='checkbox' for='chb-10'></label>
-            </td>
-            <td>
-              <div class='cp-image-rec56'>
-                <img alt='Avatar' src='../images/male-models.png'>
-              </div>
-            </td>
-            <td>10</td>
-            <td>CN6234</td>
-            <td>David Gay <br> Level 3 - 160 stars</td>
-            <td>01289635422</td>
-            <td>12/04/1991</td>
-            <td class='cell-center'>
-              <div class='cp-btn-act cp-cleaner-available'>Available</div>
-            </td>
-            <td>Active</td>
-            <td>4</td>
-            <td class='action'>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-detail.html' title='View detail'><i class="cp-icn-view"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='top' href='cleaner-change-pass.html' title='Change password'><i class="cp-icn-pass"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' href='cleaner-edit.html' title='Edit'><i class="cp-icn-edit"></i></a>
-              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-delete' data-toggle='modal' href='#' title='Delete'><i class="cp-icn-delete"></i></a>
+            <td class='action-second'>
+              <a class='btn-list' data-hover='tooltip' data-placement='top' href='Booking-detail.html' id='eg' title='View detail'><i class="cp-icn-view"></i></a>
+              <a class='btn-list' data-hover='tooltip' data-placement='bottom' data-target='#cp-modal-assign' data-toggle='modal' href='#' title='Assign'><i class="cp-icn-assign-cleaner"></i></a>
             </td>
           </tr>
         </tbody>
