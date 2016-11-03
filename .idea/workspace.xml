@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_sprite.sass" afterPath="$PROJECT_DIR$/sass/_sprite.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_table.sass" afterPath="$PROJECT_DIR$/sass/_table.sass" />
     </list>
     <ignored path="nexxCP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_table.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_table.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_table.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+            <state relative-caret-position="500">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -43,18 +42,8 @@
       <file leaf-file-name="booking-new.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haml/booking-new.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6180">
+            <state relative-caret-position="20">
               <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_sprite.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/_sprite.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -63,7 +52,7 @@
       <file leaf-file-name="cleaner-list-cleaner.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haml/cleaner-list-cleaner.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2580">
+            <state relative-caret-position="677">
               <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
               <folding />
             </state>
@@ -136,9 +125,9 @@
         <option value="$PROJECT_DIR$/haml/customer-dashboard.haml" />
         <option value="$PROJECT_DIR$/haml/customer-list-customer.haml" />
         <option value="$PROJECT_DIR$/haml/cleaner-list-cleaner.haml" />
-        <option value="$PROJECT_DIR$/sass/_table.sass" />
         <option value="$PROJECT_DIR$/haml/booking-new.haml" />
         <option value="$PROJECT_DIR$/sass/_sprite.sass" />
+        <option value="$PROJECT_DIR$/sass/_table.sass" />
       </list>
     </option>
   </component>
@@ -195,6 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,8 +220,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,11 +354,12 @@
       <workItem from="1478072267106" duration="1570000" />
       <workItem from="1478151113361" duration="32000" />
       <workItem from="1478151163902" duration="19000" />
+      <workItem from="1478185328612" duration="292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395135000" />
+    <option name="totallyTimeSpent" value="395427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,34 +777,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/cleaner-list-cleaner.haml">
+    <entry file="file://$PROJECT_DIR$/sass/_sprite.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_table.sass">
+    <entry file="file://$PROJECT_DIR$/haml/cleaner-list-cleaner.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        <state relative-caret-position="677">
+          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haml/booking-new.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6180">
+        <state relative-caret-position="20">
           <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_sprite.sass">
+    <entry file="file://$PROJECT_DIR$/sass/_table.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="500">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>
