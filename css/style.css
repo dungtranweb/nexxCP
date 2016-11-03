@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 7, ../sass/_sprite.sass */
 i {
-  background: url('../images/icons-sf024ca0fbe.png') no-repeat;
+  background: url('../images/icons-sde0f847d83.png') no-repeat;
   display: inline-block;
   vertical-align: baseline;
 }
@@ -301,141 +301,148 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-pass {
+.cp-icn-online-register {
   background-position: 0 -1043px;
+  height: 18px;
+  width: 19px;
+}
+
+/* line 13, ../sass/_sprite.sass */
+.cp-icn-pass {
+  background-position: 0 -1061px;
   height: 16px;
   width: 8px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-payment {
-  background-position: 0 -1059px;
+  background-position: 0 -1077px;
   height: 14px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-prev {
-  background-position: 0 -1073px;
+  background-position: 0 -1091px;
   height: 10px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-profile {
-  background-position: 0 -1083px;
+  background-position: 0 -1101px;
   height: 18px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-service-manage {
-  background-position: 0 -1101px;
+  background-position: 0 -1119px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-service {
-  background-position: 0 -1117px;
+  background-position: 0 -1135px;
   height: 20px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar-small {
-  background-position: 0 -1137px;
+  background-position: 0 -1155px;
   height: 12px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar {
-  background-position: 0 -1149px;
+  background-position: 0 -1167px;
   height: 19px;
   width: 26px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-sign-out {
-  background-position: 0 -1168px;
+  background-position: 0 -1186px;
   height: 19px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-star {
-  background-position: 0 -1187px;
+  background-position: 0 -1205px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-start {
-  background-position: 0 -1203px;
+  background-position: 0 -1221px;
   height: 18px;
   width: 18px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-toggle-header {
-  background-position: 0 -1221px;
+  background-position: 0 -1239px;
   height: 13px;
   width: 15px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-cleaner {
-  background-position: 0 -1234px;
+  background-position: 0 -1252px;
   height: 148px;
   width: 117px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-customer {
-  background-position: 0 -1382px;
+  background-position: 0 -1400px;
   height: 148px;
   width: 148px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-user {
-  background-position: 0 -1530px;
+  background-position: 0 -1548px;
   height: 149px;
   width: 177px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-tracking {
-  background-position: 0 -1679px;
+  background-position: 0 -1697px;
   height: 21px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-user {
-  background-position: 0 -1700px;
+  background-position: 0 -1718px;
   height: 16px;
   width: 19px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-vi-flag {
-  background-position: 0 -1716px;
+  background-position: 0 -1734px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-view {
-  background-position: 0 -1732px;
+  background-position: 0 -1750px;
   height: 16px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-zoom {
-  background-position: 0 -1748px;
+  background-position: 0 -1766px;
   height: 16px;
   width: 16px;
 }
@@ -2740,56 +2747,63 @@ aside#sidebar .sidebar-nav ul li a:hover, aside#sidebar .sidebar-nav ul li a:foc
   outline: none;
   font-weight: 600;
 }
-/* line 37, ../sass/_sidebar.sass */
+/* line 36, ../sass/_sidebar.sass */
+aside#sidebar .sidebar-nav ul li a span {
+  display: inline-block;
+  width: 105px;
+}
+/* line 40, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li .active-alone:focus, aside#sidebar .sidebar-nav ul li .active-alone:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 40, ../sass/_sidebar.sass */
+/* line 43, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a {
   padding-left: 65px;
 }
-/* line 42, ../sass/_sidebar.sass */
+/* line 45, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a:hover, aside#sidebar .sidebar-nav ul ul a:focus, aside#sidebar .sidebar-nav ul ul a:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 47, ../sass/_sidebar.sass */
+/* line 50, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info {
   padding-top: 70px;
   margin-bottom: 10px;
   text-align: center;
 }
-/* line 51, ../sass/_sidebar.sass */
+/* line 54, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info .cp-avatar-container {
   margin: 0 auto 5px auto;
 }
-/* line 53, ../sass/_sidebar.sass */
+/* line 56, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info #user-name {
   font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
 }
-/* line 58, ../sass/_sidebar.sass */
+/* line 60, ../sass/_sidebar.sass */
+aside#sidebar .sidebar-nav .user-info #user-name span {
+  display: inline-block;
+  width: 135px;
+}
+/* line 64, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info ul#user-menu-item li a {
   padding-left: 20px;
 }
-/* line 60, ../sass/_sidebar.sass */
-aside#sidebar .sidebar-nav .icn-left {
-  padding-right: 30px;
-}
-/* line 62, ../sass/_sidebar.sass */
-aside#sidebar .sidebar-nav .icn-right {
-  float: right;
-  position: relative;
-  top: 10px;
-  right: 15px;
-}
-/* line 67, ../sass/_sidebar.sass */
-aside#sidebar .sidebar-nav .icn-right.caret-down {
-  top: 18px;
+/* line 66, ../sass/_sidebar.sass */
+aside#sidebar .sidebar-nav .user-info ul#user-menu-item li a span {
+  display: inline-block;
+  width: 120px;
 }
 /* line 69, ../sass/_sidebar.sass */
-aside#sidebar .sidebar-nav .icn-right.caret-down-2line {
-  top: -12px;
+aside#sidebar .sidebar-nav .icn-left {
+  vertical-align: top;
+  padding-right: 30px;
+}
+/* line 72, ../sass/_sidebar.sass */
+aside#sidebar .sidebar-nav .icn-right {
+  float: right;
+  margin-top: 10px;
+  padding-right: 15px;
 }
 
 /* line 3, ../sass/_topbar.sass */
