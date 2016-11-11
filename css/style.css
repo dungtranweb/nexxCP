@@ -2459,15 +2459,15 @@ input:focus {
 /* line 160, ../sass/_card.sass */
 .cp-detail-container .cp-detail-onethird .cp-document-image .cp-image-item {
   margin-top: 15px;
+  max-width: 285px;
 }
-/* line 162, ../sass/_card.sass */
+/* line 163, ../sass/_card.sass */
 .cp-detail-container .cp-detail-onethird .cp-document-image .cp-image-item .cp-label {
   padding-bottom: 6px;
 }
-/* line 164, ../sass/_card.sass */
+/* line 165, ../sass/_card.sass */
 .cp-detail-container .cp-detail-onethird .cp-document-image .cp-image-item img {
   width: 100%;
-  border: 3px solid #e6e6e6;
 }
 
 /* line 168, ../sass/_card.sass */
