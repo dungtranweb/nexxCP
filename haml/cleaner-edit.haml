@@ -33,6 +33,66 @@
   %li.cp-breadcrumb-item.active Edit Cleaner
 / End Breadcrumb
 
+/ Modal
+#cp-modal-edit-address.modal.fade(tabindex="-1" role="dialog" )
+  .modal-dialog(role="document")
+    .cp-modal-content
+      .cp-modal-header
+        .cp-modal-title Edit Address
+        .cp-modal-subtitle #1354811487993988899
+      .cp-modal-body
+        %form(method="post")
+          %hr
+          .cp-label is default?
+          .cp-is
+            %input#is-default(type="checkbox" )
+            %label.checkbox(for="is-default")
+          .cp-label address
+          %input(type="text" placeholder="Enter address" )
+          .cp-label type
+          %input(type="text" placeholder="Eg: Home, Company..." )
+          .cp-label country
+          %select(disabled)
+            %option Viet Nam
+          .cp-label province
+          %select(disabled)
+            %option Ho Chi Minh
+          .cp-label district
+          %select
+            %option(disabled selected) Select one
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+          .cp-label ward
+          %select
+            %option(disabled selected) Select one
+            %option 1
+            %option 2
+            %option 3
+            %option 4
+            %option 5
+            %option 6
+            %option 7
+            %option 8
+            %option 9
+            %option 10
+            %option 11
+            %option 12
+      .cp-modal-footer
+        %button.cp-btn.cp-btn-success(type="button" ) Edit
+        %button.cp-btn.cp-btn-deactive(type="button" data-dismiss="modal" ) Close
+/ End Modal
+
+
 / Real Content
 %form(method="post" enctype="multipart/form-data" )
   / Column Layout
@@ -124,8 +184,8 @@
         .cp-address-container
           .cp-address-detail Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City
           %a(href="#" ) <i class="cp-icn-delete"></i>
-          %a#edit-address(href="#cp-old-address" ) <i class="cp-icn-edit"></i>
-        %button#add-new-address.cp-btn.cp-btn-instant(type="button" ) Add New Address
+          %a#edit-address(data-toggle="modal" data-target="#cp-modal-edit-address" ) <i class="cp-icn-edit"></i>
+        %button#add-new-address.cp-btn.cp-btn-instant(type="button") Add New Address
         #cp-old-address
           %hr
           .cp-label is default?

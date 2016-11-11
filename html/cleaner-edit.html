@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset='utf-8'>
-  <title>Nexx Control Panel</title>
+  <title>GVN Control Panel</title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport'>
   <meta content='IE=edge' http-equiv='X-UA-Compatible'>
-  <meta content='Nexx Admin, Nexx Control Panel, Nexx CMS, Nexx Content Management System, NextStep, GVN, Dtaxi' name='keywords'>
+  <meta content='GVN Admin, GVN Control Panel, GVN CMS, GVN Content Management System, NextStep, GVN, Dtaxi' name='keywords'>
   <meta content='NextStep Digital Technology And Media Company Limited' name='author'>
   <!-- Favicon -->
   <link href='../images/favicon.png' rel='shortcut icon'>
@@ -495,6 +495,76 @@
   <li class='cp-breadcrumb-item active'>Edit Cleaner</li>
 </ol>
 <!-- End Breadcrumb -->
+<!-- Modal -->
+<div class='modal fade' id='cp-modal-edit-address' role='dialog' tabindex='-1'>
+  <div class='modal-dialog' role='document'>
+    <div class='cp-modal-content'>
+      <div class='cp-modal-header'>
+        <div class='cp-modal-title'>Edit Address</div>
+        <div class='cp-modal-subtitle'>#1354811487993988899</div>
+      </div>
+      <div class='cp-modal-body'>
+        <form method='post'>
+          <hr>
+          <div class='cp-label'>is default?</div>
+          <div class='cp-is'>
+            <input id='is-default' type='checkbox'>
+            <label class='checkbox' for='is-default'></label>
+          </div>
+          <div class='cp-label'>address</div>
+          <input placeholder='Enter address' type='text'>
+          <div class='cp-label'>type</div>
+          <input placeholder='Eg: Home, Company...' type='text'>
+          <div class='cp-label'>country</div>
+          <select disabled>
+            <option>Viet Nam</option>
+          </select>
+          <div class='cp-label'>province</div>
+          <select disabled>
+            <option>Ho Chi Minh</option>
+          </select>
+          <div class='cp-label'>district</div>
+          <select>
+            <option disabled selected>Select one</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+          <div class='cp-label'>ward</div>
+          <select>
+            <option disabled selected>Select one</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+        </form>
+      </div>
+      <div class='cp-modal-footer'>
+        <button class='cp-btn cp-btn-success' type='button'>Edit</button>
+        <button class='cp-btn cp-btn-deactive' data-dismiss='modal' type='button'>Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
 <!-- Real Content -->
 <form enctype='multipart/form-data' method='post'>
   <!-- Column Layout -->
@@ -597,7 +667,7 @@
         <div class='cp-address-container'>
           <div class='cp-address-detail'>Him Lam Cho Lon, Ward 11, District 6, Ho Chi Minh City</div>
           <a href='#'><i class="cp-icn-delete"></i></a>
-          <a href='#cp-old-address' id='edit-address'><i class="cp-icn-edit"></i></a>
+          <a data-target='#cp-modal-edit-address' data-toggle='modal' id='edit-address'><i class="cp-icn-edit"></i></a>
         </div>
         <button class='cp-btn cp-btn-instant' id='add-new-address' type='button'>Add New Address</button>
         <div id='cp-old-address'>

@@ -110,10 +110,6 @@ $(document).ready(function () {
         $("#cp-old-address").css("display", "block");
         $("#cp-old-address").addClass("animated fadeIn");
     });
-    $("#edit-address").on('click', function () {
-        $("#cp-old-address").css("display", "block");
-        $("#cp-old-address").addClass("animated fadeIn");
-    });
 
 // Set position of foobar
 // ======================
