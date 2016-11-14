@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b46904d-aa64-4dad-8dd0-ec4b604baaf9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_card.sassc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_general.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_general.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/cleaner-detail.haml" afterPath="$PROJECT_DIR$/haml/cleaner-detail.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cleaner-detail.html" afterPath="$PROJECT_DIR$/html/cleaner-detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_card.sass" afterPath="$PROJECT_DIR$/sass/_card.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_form.sass" afterPath="$PROJECT_DIR$/sass/_form.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_general.sass" afterPath="$PROJECT_DIR$/sass/_general.sass" />
     </list>
     <ignored path="nexxCP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_form.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_form.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
@@ -64,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cleaner-detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/cleaner-detail.html">
+      <file leaf-file-name="_general.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/_general.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-147">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -137,12 +133,12 @@
         <option value="$PROJECT_DIR$/haml/customer-edit.haml" />
         <option value="$PROJECT_DIR$/haml/user-edit.haml" />
         <option value="$PROJECT_DIR$/sass/_modal.sass" />
-        <option value="$PROJECT_DIR$/sass/_general.sass" />
         <option value="$PROJECT_DIR$/haml/cleaner-edit.haml" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/haml/cleaner-detail.haml" />
         <option value="$PROJECT_DIR$/sass/_card.sass" />
         <option value="$PROJECT_DIR$/sass/_form.sass" />
+        <option value="$PROJECT_DIR$/sass/_general.sass" />
       </list>
     </option>
   </component>
@@ -154,7 +150,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="24" />
+    <option name="y" value="-876" />
     <option name="width" value="1547" />
     <option name="height" value="876" />
   </component>
@@ -395,12 +391,12 @@
       <workItem from="1478859884425" duration="159000" />
       <workItem from="1478864078176" duration="1067000" />
       <workItem from="1478865794013" duration="807000" />
-      <workItem from="1479095661444" duration="1033000" />
+      <workItem from="1479095661444" duration="1799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407654000" />
+    <option name="totallyTimeSpent" value="408420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,7 +408,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1547" height="876" extended-state="6" />
+    <frame x="53" y="-876" width="1547" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19238345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -562,13 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_layout.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -782,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_general.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="17" selection-start-line="17" selection-start-column="11" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_login.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -807,14 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cleaner-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -843,10 +817,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_layout.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_form.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cleaner-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#21728#21734#1" expanded="true" />
+            <element signature="e#23888#23894#1" expanded="true" />
+            <element signature="e#24068#24074#1" expanded="true" />
+            <element signature="e#24499#24505#1" expanded="true" />
+            <element signature="e#25670#25676#0" expanded="true" />
+            <element signature="e#25679#25685#0" expanded="true" />
+            <element signature="e#26145#26151#0" expanded="true" />
+            <element signature="e#26154#26160#0" expanded="true" />
+            <element signature="e#26620#26626#0" expanded="true" />
+            <element signature="e#26629#26635#0" expanded="true" />
+            <element signature="e#27095#27101#0" expanded="true" />
+            <element signature="e#27104#27110#0" expanded="true" />
+            <element signature="e#27630#27637#0" expanded="true" />
+            <element signature="e#28441#28448#0" expanded="true" />
+            <element signature="e#33860#33866#0" expanded="true" />
+            <element signature="e#33926#33934#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_general.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding />
         </state>
       </provider>
