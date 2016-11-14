@@ -2415,7 +2415,7 @@ input:focus {
 }
 /* line 130, ../sass/_card.sass */
 .cp-detail-container .cp-detail-onehaft .cp-column-item {
-  display: inline;
+  display: table;
 }
 /* line 132, ../sass/_card.sass */
 .cp-detail-container .cp-detail-onehaft .cp-row {
