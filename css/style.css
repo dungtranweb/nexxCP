@@ -2202,6 +2202,11 @@ input:focus {
   border-bottom-right-radius: 5px;
 }
 
+/* line 82, ../sass/_general.sass */
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: none;
+}
+
 /* line 4, ../sass/_card.sass */
 .cp-card {
   padding-bottom: 30px;
