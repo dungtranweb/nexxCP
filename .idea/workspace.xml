@@ -8,10 +8,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_sidebar.sassc" afterPath="$PROJECT_DIR$/.sass-cache/7f961a47d556dc9ef0e22ee3defc4d5d5440dd7a/_sidebar.sassc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/cleaner-detail.haml" afterPath="$PROJECT_DIR$/haml/cleaner-detail.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/footer.haml" afterPath="$PROJECT_DIR$/haml/footer.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/haml/sidebar.haml" afterPath="$PROJECT_DIR$/haml/sidebar.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cleaner-detail.html" afterPath="$PROJECT_DIR$/html/cleaner-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/footer.html" afterPath="$PROJECT_DIR$/html/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/sidebar.html" afterPath="$PROJECT_DIR$/html/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_sidebar.sass" afterPath="$PROJECT_DIR$/sass/_sidebar.sass" />
     </list>
     <ignored path="nexxCP.iws" />
@@ -35,11 +37,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cleaner-detail.haml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cleaner-detail.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haml/cleaner-detail.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="897">
               <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="51" selection-end-column="51" />
+              <folding>
+                <marker date="1479124643653" expanded="true" signature="2262:2278" ph="..." />
+                <marker date="1479124643653" expanded="true" signature="2924:2936" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/haml/footer.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -65,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_sidebar.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_sidebar.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_sidebar.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="18" column="25" selection-start-line="17" selection-start-column="24" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -78,8 +103,8 @@
       <file leaf-file-name="sidebar.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/haml/sidebar.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+            <state relative-caret-position="40">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,7 +157,6 @@
         <option value="$PROJECT_DIR$/js/cp-chart-cleaner.js" />
         <option value="$PROJECT_DIR$/js/cp-chart.js" />
         <option value="$PROJECT_DIR$/js/cp-chart-user.js" />
-        <option value="$PROJECT_DIR$/haml/footer.haml" />
         <option value="$PROJECT_DIR$/js/cp-chart-customer.js" />
         <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/sass/_progress.sass" />
@@ -167,13 +191,14 @@
         <option value="$PROJECT_DIR$/haml/user-edit.haml" />
         <option value="$PROJECT_DIR$/sass/_modal.sass" />
         <option value="$PROJECT_DIR$/haml/cleaner-edit.haml" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/sass/_form.sass" />
         <option value="$PROJECT_DIR$/sass/_general.sass" />
         <option value="$PROJECT_DIR$/sass/_card.sass" />
-        <option value="$PROJECT_DIR$/sass/_sidebar.sass" />
+        <option value="$PROJECT_DIR$/haml/footer.haml" />
         <option value="$PROJECT_DIR$/haml/sidebar.haml" />
         <option value="$PROJECT_DIR$/haml/cleaner-detail.haml" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/sass/_sidebar.sass" />
       </list>
     </option>
   </component>
@@ -185,7 +210,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="-876" />
+    <option name="y" value="24" />
     <option name="width" value="1547" />
     <option name="height" value="876" />
   </component>
@@ -428,12 +453,12 @@
       <workItem from="1478865794013" duration="807000" />
       <workItem from="1479095661444" duration="7051000" />
       <workItem from="1479111695804" duration="89000" />
-      <workItem from="1479118933259" duration="2228000" />
+      <workItem from="1479118933259" duration="4901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415989000" />
+    <option name="totallyTimeSpent" value="418662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,7 +470,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="-876" width="1547" height="876" extended-state="6" />
+    <frame x="53" y="24" width="1547" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19238345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -521,13 +546,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/customer-dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_progress.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -752,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haml/user-edit.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -823,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_card.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_form.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -863,26 +866,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_sidebar.sass">
+    <entry file="file://$PROJECT_DIR$/haml/sidebar.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        <state relative-caret-position="40">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/haml/sidebar.haml">
+    <entry file="file://$PROJECT_DIR$/haml/footer.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haml/cleaner-detail.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
+        <state relative-caret-position="897">
           <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_card.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="167" column="22" selection-start-line="167" selection-start-column="22" selection-end-line="167" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="51" selection-end-column="51" />
+          <folding>
+            <marker date="1479124643653" expanded="true" signature="2262:2278" ph="..." />
+            <marker date="1479124643653" expanded="true" signature="2924:2936" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_sidebar.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="25" selection-start-line="17" selection-start-column="24" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>

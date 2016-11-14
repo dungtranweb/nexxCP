@@ -2767,32 +2767,43 @@ label#checkbox-login:before {
  * ======= */
 /* line 3, ../sass/_sidebar.sass */
 aside#sidebar {
-  background: url('../images/sidebar-bg.png?1476365216') repeat center center;
   width: 190px;
   height: 100%;
   display: block;
   position: fixed;
   top: 0;
-}
-/* line 10, ../sass/_sidebar.sass */
-aside#sidebar .sidebar-nav {
+  outline: none;
   background-color: rgba(78, 159, 72, 0.95);
+}
+/* line 11, ../sass/_sidebar.sass */
+aside#sidebar .sidebar-image {
   width: 100%;
-  height: 100%;
-  border-right: 2px solid rgba(78, 159, 72, 0.95);
-  padding-bottom: 70px;
+  height: 1200px;
+  opacity: 0.05;
+  background: url('../images/sidebar-bg.png?1476365216') repeat center center;
 }
 /* line 16, ../sass/_sidebar.sass */
+aside#sidebar .sidebar-nav {
+  z-index: 200;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 200px;
+  border-right: 2px solid rgba(78, 159, 72, 0.95);
+}
+/* line 21, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 20, ../sass/_sidebar.sass */
+/* line 25, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li {
   display: block;
 }
-/* line 22, ../sass/_sidebar.sass */
+/* line 27, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li a {
   text-align: left;
   padding: 15px 10px 15px 20px;
@@ -2803,70 +2814,70 @@ aside#sidebar .sidebar-nav ul li a {
   display: block;
   outline: none;
 }
-/* line 31, ../sass/_sidebar.sass */
+/* line 36, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li a:hover, aside#sidebar .sidebar-nav ul li a:active {
   outline: none;
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 35, ../sass/_sidebar.sass */
+/* line 40, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li a span {
   display: inline-block;
   width: 105px;
 }
-/* line 39, ../sass/_sidebar.sass */
+/* line 44, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li .active-alone:focus, aside#sidebar .sidebar-nav ul li .active-alone:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 42, ../sass/_sidebar.sass */
+/* line 47, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a {
   padding-left: 65px;
 }
-/* line 44, ../sass/_sidebar.sass */
+/* line 49, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a:hover, aside#sidebar .sidebar-nav ul ul a:focus, aside#sidebar .sidebar-nav ul ul a:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 49, ../sass/_sidebar.sass */
+/* line 54, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info {
   padding-top: 70px;
   margin-bottom: 10px;
   text-align: center;
 }
-/* line 53, ../sass/_sidebar.sass */
+/* line 58, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info .cp-avatar-container {
   margin: 0 auto 5px auto;
 }
-/* line 55, ../sass/_sidebar.sass */
+/* line 60, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info #user-name {
   font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
 }
-/* line 59, ../sass/_sidebar.sass */
+/* line 64, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info #user-name span {
   display: inline-block;
   width: 135px;
 }
-/* line 63, ../sass/_sidebar.sass */
+/* line 68, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info ul#user-menu-item li a {
   padding-left: 20px;
 }
-/* line 65, ../sass/_sidebar.sass */
+/* line 70, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info ul#user-menu-item li a span {
   display: inline-block;
   width: 120px;
 }
-/* line 68, ../sass/_sidebar.sass */
+/* line 73, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-left {
   vertical-align: top;
   padding-right: 30px;
 }
-/* line 71, ../sass/_sidebar.sass */
+/* line 76, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-right {
   float: right;
   margin-top: 10px;
   padding-right: 15px;
 }
-/* line 75, ../sass/_sidebar.sass */
+/* line 80, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .cp-bubble {
   display: inline;
   -moz-border-radius: 10px;

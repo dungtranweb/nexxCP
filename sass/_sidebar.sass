@@ -1,18 +1,23 @@
 /* Sidebar
  * =======
 aside#sidebar
-  background: image-url('sidebar-bg.png') repeat center center
   width: 190px
   height: 100%
   display: block
   position: fixed
   top: 0
-  .sidebar-nav
-    background-color: rgba($login, 0.95)
+  outline: none
+  background-color: rgba($login, 0.95)
+  .sidebar-image
     width: 100%
-    height: 100%
+    height: 1200px
+    opacity: 0.05
+    background: image-url('sidebar-bg.png') repeat center center
+  .sidebar-nav
+    z-index: 200
+    +stretch(0, 0, 0, 0)
+    padding-bottom: 200px
     border-right: 2px solid rgba($login, 0.95)
-    padding-bottom: 70px
     ul
       list-style: none
       padding: 0
