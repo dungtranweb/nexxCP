@@ -29,10 +29,9 @@ aside#sidebar
           display: block
           outline: none
           &:hover,
-          &:focus,
           &:active
             outline: none
-            font-weight: 600
+            background-color: rgba($background, 0.15)
           span
             display: inline-block
             width: 105px
@@ -73,3 +72,14 @@ aside#sidebar
       float: right
       margin-top: 10px
       padding-right: 15px
+    .cp-bubble
+      display: inline
+      +border-radius(10px)
+      height: 20px
+      text-align: center
+      padding: 2px 6px 3px 5px
+      margin-left: 5px
+      color: white
+      font-weight: 600
+      font-size: rem(12px)
+      background-color: $orange

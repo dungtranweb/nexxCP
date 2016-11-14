@@ -2804,67 +2804,82 @@ aside#sidebar .sidebar-nav ul li a {
   outline: none;
 }
 /* line 31, ../sass/_sidebar.sass */
-aside#sidebar .sidebar-nav ul li a:hover, aside#sidebar .sidebar-nav ul li a:focus, aside#sidebar .sidebar-nav ul li a:active {
+aside#sidebar .sidebar-nav ul li a:hover, aside#sidebar .sidebar-nav ul li a:active {
   outline: none;
-  font-weight: 600;
+  background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 36, ../sass/_sidebar.sass */
+/* line 35, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li a span {
   display: inline-block;
   width: 105px;
 }
-/* line 40, ../sass/_sidebar.sass */
+/* line 39, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul li .active-alone:focus, aside#sidebar .sidebar-nav ul li .active-alone:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 43, ../sass/_sidebar.sass */
+/* line 42, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a {
   padding-left: 65px;
 }
-/* line 45, ../sass/_sidebar.sass */
+/* line 44, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav ul ul a:hover, aside#sidebar .sidebar-nav ul ul a:focus, aside#sidebar .sidebar-nav ul ul a:active {
   background-color: rgba(238, 238, 238, 0.15);
 }
-/* line 50, ../sass/_sidebar.sass */
+/* line 49, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info {
   padding-top: 70px;
   margin-bottom: 10px;
   text-align: center;
 }
-/* line 54, ../sass/_sidebar.sass */
+/* line 53, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info .cp-avatar-container {
   margin: 0 auto 5px auto;
 }
-/* line 56, ../sass/_sidebar.sass */
+/* line 55, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info #user-name {
   font-size: 1.6rem;
   font-weight: 600;
   text-align: center;
 }
-/* line 60, ../sass/_sidebar.sass */
+/* line 59, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info #user-name span {
   display: inline-block;
   width: 135px;
 }
-/* line 64, ../sass/_sidebar.sass */
+/* line 63, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info ul#user-menu-item li a {
   padding-left: 20px;
 }
-/* line 66, ../sass/_sidebar.sass */
+/* line 65, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .user-info ul#user-menu-item li a span {
   display: inline-block;
   width: 120px;
 }
-/* line 69, ../sass/_sidebar.sass */
+/* line 68, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-left {
   vertical-align: top;
   padding-right: 30px;
 }
-/* line 72, ../sass/_sidebar.sass */
+/* line 71, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav .icn-right {
   float: right;
   margin-top: 10px;
   padding-right: 15px;
+}
+/* line 75, ../sass/_sidebar.sass */
+aside#sidebar .sidebar-nav .cp-bubble {
+  display: inline;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  height: 20px;
+  text-align: center;
+  padding: 2px 6px 3px 5px;
+  margin-left: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: #fcb040;
 }
 
 /* line 3, ../sass/_topbar.sass */
