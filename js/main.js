@@ -39,27 +39,6 @@ $(document).ready(function () {
         activeClass: 'active'
     });
 
-// Setup NiceScroll plugin
-// =======================
-    if (!Modernizr.touchevents) {
-        console.log('this is no touch device');
-        $('.sidebar-nav').niceScroll({
-            cursorcolor: 'rgba(238, 238, 238 , 0.2)',
-            cursorborder: 'none'
-        });
-    } else {
-        console.log('this is touch device');
-        $('aside#sidebar').css('overflow', 'auto');
-    }
-
-// Setup datePicker plugin
-// ======================
-//     $('.cp-card-date').datepicker({
-//         format: 'dd/mm/yyyy',
-//         todayHighlight: true,
-//         autoclose: true
-//     });
-
 // Setup Bootstrap Input File plugin
 // =================================
     $(".cp-upimage").fileinput({
@@ -103,6 +82,19 @@ $(document).ready(function () {
             close: 'btn cp-btn-trans'
         }
     });
+
+// Setup NiceScroll plugin
+// =======================
+    if (!Modernizr.touchevents) {
+        console.log('this is no touch device');
+        $('.sidebar-nav').niceScroll({
+            cursorcolor: 'rgba(238, 238, 238 , 0.2)',
+            cursorborder: 'none'
+        });
+    } else {
+        console.log('this is touch device');
+        $('aside#sidebar').css('overflow', 'auto');
+    }
 
 // Trigger button "Add New Address"
 // ================================
@@ -148,29 +140,13 @@ $(document).ready(function () {
 // ===================
     $('#switch-sidebar').change(function () {
         if ($(this).is(':checked')) {
-            // console.log('true');
-            // $('#sidebar').css('display', 'none');
-            // $('#sidebar').fadeIn(500);
             $('#sidebar').removeClass('animated fadeOutLeft');
             $('#sidebar').addClass('animated fadeInLeft');
             $('.cp-right-block').css('padding-left', '190px');
-            // $('#topbar').css({'width': '100%', 'transition': 'width 1s'});
-            // $('.cp-float-container').css({'width': '100%', 'transition': 'width 1s'});
-            // $('.cp-breadcrumb').css({'width': '97.36842%', 'transition': 'width 1s'});
-            // $('.cp-float-item-s2').css({'margin-left': '30px', 'transition': 'margin-left 1s'});
-            // $('.cp-float-item-11').css({'width': '100% !important', 'transition': 'width 1s'});
         } else {
-            // console.log('false');
-            // $('#sidebar').css('display', 'block');
-            // $('#sidebar').fadeOut(500);
             $('#sidebar').removeClass('animated fadeInLeft');
             $('#sidebar').addClass('animated fadeOutLeft');
             $('.cp-right-block').css('padding-left', '0');
-            // $('#topbar').css({'width': '115%', 'transition': 'width 1s'});
-            // $('.cp-float-container').css({'width': '121.5%', 'transition': 'width 1s'});
-            // $('.cp-breadcrumb').css({'width': '118.36842%', 'transition': 'width 1s'});
-            // $('.cp-float-item-s2').css({'margin-left':'38px', 'transition': 'margin-left 1s'});
-            // $('.cp-float-item-11').css({'width': '97.5% !important', 'transition': 'width 1s'});
         }
     });
 
