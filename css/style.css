@@ -830,6 +830,14 @@ select {
   font-weight: 600;
 }
 
+/* line 72, ../sass/_typography.sass */
+.cp-typo-error {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #ed1c24;
+}
+
 /* line 7, ../sass/_image.sass */
 .cp-image-circle {
   margin: 0 auto;
