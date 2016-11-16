@@ -95,16 +95,22 @@
         margin-bottom: 15px
 
   .cp-card-summary
-    padding: 30px 30px 20px 30
+    padding: 30px 30px 20px 30px
     min-height: 140px
     &.online
       border-left: 5px solid $blue
     .cp-detail-avatar
       float: left
-      padding-right: 25px
     .cp-detail-summary-info
-      white-space: nowrap
-      overflow: hidden
+      min-height: 90px
+      padding-top: 5px
+      padding-left: 25px
+      margin-left: 90px
+      margin-right: 0
+      div:nth-child(3)
+        margin-top: 5px
+      &.cp-summary-short
+        width: 255px
   .cp-upload-oneline
     width: 100%
     padding: 20px 0 0 0
