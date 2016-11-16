@@ -99,3 +99,24 @@ $btn-booking-act: zip($list-booking-act, $list-booking-color)
   .cp-booking-#{nth($btn, 1)}
     background-color: nth($btn, 2)
 
+// Bubble
+// ======
+.cp-bubble
+  display: inline
+  +border-radius(10px)
+  height: 20px
+  text-align: center
+  padding: 2px 6px 3px 5px
+  margin-left: 5px
+  color: white
+  font-weight: 600
+  font-size: rem(12px)
+
+$list-bubble: danger success warning disable
+$list-bubble-color: $red $blue $orange $primaryText
+$bubble-act: zip($list-bubble, $list-bubble-color)
+
+@each $bubble in $bubble-act
+  .cp-bubble-#{nth($bubble, 1)}
+    background-color: nth($bubble, 2)
+
