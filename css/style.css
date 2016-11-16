@@ -1132,6 +1132,7 @@ progress[value]::-moz-progress-bar {
 
 /* line 70, ../sass/_button.sass */
 .cp-btn-act {
+  white-space: nowrap;
   padding: 3px 10px;
   color: white;
   text-align: center;
@@ -1141,82 +1142,82 @@ progress[value]::-moz-progress-bar {
   border-radius: 3px;
 }
 
-/* line 82, ../sass/_button.sass */
+/* line 83, ../sass/_button.sass */
 .cp-cleaner-available {
   background-color: #77C044;
 }
 
-/* line 82, ../sass/_button.sass */
+/* line 83, ../sass/_button.sass */
 .cp-cleaner-accept {
   background-color: #e13370;
 }
 
-/* line 82, ../sass/_button.sass */
+/* line 83, ../sass/_button.sass */
 .cp-cleaner-inprogress {
   background-color: #3c57a7;
 }
 
-/* line 82, ../sass/_button.sass */
+/* line 83, ../sass/_button.sass */
 .cp-cleaner-outbalance {
   background-color: #666666;
 }
 
-/* line 90, ../sass/_button.sass */
+/* line 91, ../sass/_button.sass */
 .cp-customer-available {
   background-color: #77C044;
 }
 
-/* line 90, ../sass/_button.sass */
+/* line 91, ../sass/_button.sass */
 .cp-customer-create-booking {
   background-color: #e75425;
 }
 
-/* line 90, ../sass/_button.sass */
+/* line 91, ../sass/_button.sass */
 .cp-customer-waiting {
   background-color: #3c57a7;
 }
 
-/* line 90, ../sass/_button.sass */
+/* line 91, ../sass/_button.sass */
 .cp-customer-is-serving {
   background-color: #40c7f1;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-new {
   background-color: #77C044;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-accepted {
   background-color: #e13370;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-approved {
   background-color: #e75425;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-inprogress {
   background-color: #3c57a7;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-completed {
   background-color: #40c7f1;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-cancelled {
   background-color: #ed1c24;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-expired {
   background-color: #666666;
 }
 
-/* line 98, ../sass/_button.sass */
+/* line 99, ../sass/_button.sass */
 .cp-booking-rating {
   background-color: #274025;
 }
@@ -2035,7 +2036,7 @@ ul.cp-pagination li.cp-pagination-item a.cp-pagination-link {
   float: left;
   text-decoration: none;
   background-color: white;
-  border: none;
+  border: 1px solid transparent;
   color: #666666;
   font-size: 1.2rem;
   padding: 5px 10px;
