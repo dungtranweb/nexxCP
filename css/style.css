@@ -798,7 +798,7 @@ select {
 }
 
 /* line 34, ../sass/_typography.sass */
-.cp-typo-label, form .cp-label, .cp-detail-container .cp-label {
+.cp-typo-label, .cp-modal-content .cp-label, form .cp-label, .cp-detail-container .cp-label {
   font-size: 1.2rem;
   color: #274025;
   font-weight: 600;
@@ -1334,6 +1334,11 @@ progress[value]::-moz-progress-bar {
   padding: 30px;
   padding-top: 0;
   text-align: left;
+}
+/* line 36, ../sass/_modal.sass */
+.cp-modal-content .cp-label {
+  text-transform: uppercase;
+  padding-bottom: 6px;
 }
 
 /* line 1, ../sass/_alert.sass */
