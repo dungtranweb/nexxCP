@@ -83,6 +83,8 @@ table.cp-table-list
     tr
       &.cp-highlight
         color: $red
+        span.subtext
+          color: lighten($red, 20%)
       &:hover
         background-color: rgba($hover, 0.05)
       &:first-child td
@@ -92,6 +94,10 @@ table.cp-table-list
         font-size: rem(12px)
         font-weight: 400
         padding: 10px 0 10px 10px
+        span.subtext
+          font-size: rem(12px)
+          color: lighten($primaryText, 25%)
+          font-style: italic
         &:nth-child(2)
           padding-left: 0
         &.online
