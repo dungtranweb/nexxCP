@@ -37,7 +37,7 @@ aside#sidebar
           &:active
             outline: none
             background-color: rgba($background, 0.15)
-          span
+          .menu-item
             display: inline-block
             width: 105px
         .active-alone
@@ -45,9 +45,9 @@ aside#sidebar
           &:active
             background-color: rgba($background, 0.15)
       ul a
-        padding-left: 65px
+        padding-left: 50px
+        padding-right: 5px
         &:hover,
-        &:focus,
         &:active
           background-color: rgba($background, 0.15)
 
@@ -79,3 +79,7 @@ aside#sidebar
       padding-right: 15px
     .cp-bubble
       display: inline
+      float: right
+    .submenu-item
+      width: 86px
+      display: inline-block
