@@ -150,6 +150,10 @@ $(document).ready(function () {
         }
     });
 
+// Select2
+// =======
+   $('.cp-select2').select2();
+
 // End Nexx Control Panel Javascript
 // =================================
 });

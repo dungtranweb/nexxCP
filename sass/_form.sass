@@ -99,6 +99,85 @@ input.switch-toggle-round:checked + label:before
 input.switch-toggle-round:checked + label:after
   margin-left: 30px
 
+// Select Searchable in Plugin Select2
+// ===================================
+.form-control:focus
+  color: $primaryText
+  outline: none
+  border: 1px solid rgba($primary, 0.3)
+  +border-radius(3px)
+  +box-shadow(inset 0 1px 1px rgba($primary, 0.075), 0 0 8px rgba($primary, 0.3))
+.select2-container
+  width: 100% !important
+.select2-container--focus
+  outline: none
+.select2-container--default .select2-selection--single
+  border: 1px solid rgba($inputText, 0.6)
+  +border-radius(3px)
+.selection:focus
+  outline: none
+
+
+// Font-size & Color
+.select2-container .select2-selection--single
+  height: 42px
+  font-size: rem(16px)
+  font-weight: 300
+  color: $primaryText
+  &:focus
+    outline: none
+
+// Size and Padding
+.select2-container--default .select2-selection--single .select2-selection__rendered
+  height: 40px
+  line-height: 40px
+  color: $primaryText
+  &:focus
+    outline: none
+.select2-container .select2-selection--single .select2-selection__rendered
+  padding-left: 30px
+  &:focus
+    outline: none
+  @media (max-width: 1100px)
+    padding-left: 20px
+
+// Arrow
+.select2-container--default .select2-selection--single .select2-selection__arrow
+  top: 8px
+  right: 12px
+  &:focus
+    outline: none
+.select2-container--default .select2-selection--single .select2-selection__arrow b
+  border-top-color: $inputText
+  border-width: 6px 5px 0 5px
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b
+  border-bottom-color: $inputText
+  border-width: 0 5px 6px 5px
+
+// Select Dropdown
+.select2-dropdown
+  border: 1px solid rgba($primary, 0.3)
+  +border-radius(3px)
+  +box-shadow(inset 0 1px 1px rgba($primary, 0.075), 0 0 8px rgba($primary, 0.3))
+
+// Search Box
+.select2-search--dropdown:focus
+  outline: none
+.select2-container--default .select2-search--dropdown .select2-search__field
+  +box-shadow(none)
+
+// List Option
+.select2-container--default .select2-results>.select2-results__options
+  font-size: rem(16px)
+  font-weight: 300
+.select2-results__option
+  padding-left: 30px
+  @media (max-width: 1100px)
+    padding-left: 20px
+
+// .cp-date, cp-range with Select2
+.cp-date .select2-container, .cp-range .select2-container
+  width: 30% !important
 
 // Select
 // ======

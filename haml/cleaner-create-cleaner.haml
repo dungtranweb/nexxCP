@@ -65,7 +65,7 @@
           %option Female
         .cp-label date of birth
         .cp-date
-          %select
+          %select.cp-select2
             %option(disabled selected) Day
             %option 1
             %option 2
@@ -79,7 +79,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Month
             %option 1
             %option 2
@@ -93,7 +93,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Year
             %option 1990
             %option 1991
@@ -131,7 +131,7 @@
         %select(disabled)
           %option Ho Chi Minh
         .cp-label district
-        %select
+        %select.cp-select2
           %option(disabled selected) Select one
           %option 1
           %option 2
@@ -146,7 +146,7 @@
           %option 11
           %option 12
         .cp-label ward
-        %select
+        %select.cp-select2
           %option(disabled selected) Select one
           %option 1
           %option 2
@@ -172,7 +172,7 @@
         %input(type="text" placeholder="Enter certificate number" )
         .cp-label issue date
         .cp-date
-          %select
+          %select.cp-select2
             %option(disabled selected) Day
             %option 1
             %option 2
@@ -186,7 +186,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Month
             %option 1
             %option 2
@@ -200,7 +200,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Year
             %option 1990
             %option 1991
@@ -247,13 +247,13 @@
           %option HCM1 include District 1, District 3, District 11, District 5, District 10
           %option HCM2 include District 2, District 9, District 12, District 4, District 8
         .cp-label training level
-        %select
+        %select.cp-select2
           %option(selected disabled) Select one
           %option Training Level 1
           %option Training Level 2
           %option Training Level 3
         .cp-label level
-        %select
+        %select.cp-select2
           %option(selected disabled) Select one
           %option Level 1
           %option Level 2
@@ -276,7 +276,7 @@
         %input(type="text" placeholder="Enter identity number" )
         .cp-label issue date
         .cp-date
-          %select
+          %select.cp-select2
             %option(disabled selected) Day
             %option 1
             %option 2
@@ -290,7 +290,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Month
             %option 1
             %option 2
@@ -304,7 +304,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Year
             %option 1990
             %option 1991
@@ -344,7 +344,7 @@
         %input(type="text" placeholder="Enter issued by" )
         .cp-label effective time (from)
         .cp-date
-          %select
+          %select.cp-select2
             %option(disabled selected) Day
             %option 1
             %option 2
@@ -358,7 +358,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Month
             %option 1
             %option 2
@@ -372,7 +372,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Year
             %option 1990
             %option 1991
@@ -387,7 +387,7 @@
             %option 2000
         .cp-label effective time (to)
         .cp-date
-          %select
+          %select.cp-select2
             %option(disabled selected) Day
             %option 1
             %option 2
@@ -401,7 +401,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Month
             %option 1
             %option 2
@@ -415,7 +415,7 @@
             %option 10
             %option 11
             %option 12
-          %select
+          %select.cp-select2
             %option(disabled selected) Year
             %option 1990
             %option 1991
@@ -487,3 +487,4 @@
 / End Container
 
 = Haml::Engine.new(File.read('footer.haml')).render
+
