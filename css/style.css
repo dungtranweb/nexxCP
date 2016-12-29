@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* line 7, ../sass/_sprite.sass */
 i {
-  background: url('../images/icons-s2ffe55e0d0.png') no-repeat;
+  background: url('../images/icons-sd7e4be8ad0.png') no-repeat;
   display: inline-block;
   vertical-align: baseline;
 }
@@ -112,358 +112,365 @@ i {
 }
 
 /* line 13, ../sass/_sprite.sass */
-.cp-icn-check {
+.cp-icn-change-staff {
   background-position: 0 -420px;
+  height: 19px;
+  width: 19px;
+}
+
+/* line 13, ../sass/_sprite.sass */
+.cp-icn-check {
+  background-position: 0 -439px;
   height: 15px;
   width: 15px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-cleaner {
-  background-position: 0 -435px;
+  background-position: 0 -454px;
   height: 25px;
   width: 18px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-close {
-  background-position: 0 -460px;
+  background-position: 0 -479px;
   height: 15px;
   width: 15px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-complete {
-  background-position: 0 -475px;
+  background-position: 0 -494px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-config-topbar-small {
-  background-position: 0 -491px;
+  background-position: 0 -510px;
   height: 12px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-config-topbar {
-  background-position: 0 -503px;
+  background-position: 0 -522px;
   height: 25px;
   width: 26px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-customer {
-  background-position: 0 -528px;
+  background-position: 0 -547px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-dashboard {
-  background-position: 0 -544px;
+  background-position: 0 -563px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-delete {
-  background-position: 0 -560px;
+  background-position: 0 -579px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-disable {
-  background-position: 0 -576px;
+  background-position: 0 -595px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-discount {
-  background-position: 0 -592px;
+  background-position: 0 -611px;
   height: 17px;
   width: 19px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-edit-profile {
-  background-position: 0 -609px;
+  background-position: 0 -628px;
   height: 19px;
   width: 11px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-edit {
-  background-position: 0 -628px;
+  background-position: 0 -647px;
   height: 17px;
   width: 10px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-en-flag {
-  background-position: 0 -645px;
+  background-position: 0 -664px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-export {
-  background-position: 0 -661px;
+  background-position: 0 -680px;
   height: 27px;
   width: 22px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-female {
-  background-position: 0 -688px;
+  background-position: 0 -707px;
   height: 14px;
   width: 9px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-finance {
-  background-position: 0 -702px;
+  background-position: 0 -721px;
   height: 17px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-fullscreen {
-  background-position: 0 -719px;
+  background-position: 0 -738px;
   height: 15px;
   width: 15px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-geography {
-  background-position: 0 -734px;
+  background-position: 0 -753px;
   height: 23px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-level {
-  background-position: 0 -757px;
+  background-position: 0 -776px;
   height: 16px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-magnifier {
-  background-position: 0 -773px;
+  background-position: 0 -792px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-male {
-  background-position: 0 -789px;
+  background-position: 0 -808px;
   height: 14px;
   width: 14px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-modal-success {
-  background-position: 0 -803px;
+  background-position: 0 -822px;
   height: 91px;
   width: 91px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-modal-warning {
-  background-position: 0 -894px;
+  background-position: 0 -913px;
   height: 94px;
   width: 91px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-news {
-  background-position: 0 -988px;
+  background-position: 0 -1007px;
   height: 15px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-next {
-  background-position: 0 -1003px;
+  background-position: 0 -1022px;
   height: 10px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-no {
-  background-position: 0 -1013px;
+  background-position: 0 -1032px;
   height: 17px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-noti-topbar {
-  background-position: 0 -1030px;
+  background-position: 0 -1049px;
   height: 27px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-notification {
-  background-position: 0 -1057px;
+  background-position: 0 -1076px;
   height: 19px;
   width: 14px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-online-register {
-  background-position: 0 -1076px;
+  background-position: 0 -1095px;
   height: 18px;
   width: 19px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-pass {
-  background-position: 0 -1094px;
+  background-position: 0 -1113px;
   height: 16px;
   width: 8px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-payment {
-  background-position: 0 -1110px;
+  background-position: 0 -1129px;
   height: 14px;
   width: 21px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-prev {
-  background-position: 0 -1124px;
+  background-position: 0 -1143px;
   height: 10px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-profile {
-  background-position: 0 -1134px;
+  background-position: 0 -1153px;
   height: 18px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-service-manage {
-  background-position: 0 -1152px;
+  background-position: 0 -1171px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-service {
-  background-position: 0 -1168px;
+  background-position: 0 -1187px;
   height: 20px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar-small {
-  background-position: 0 -1188px;
+  background-position: 0 -1207px;
   height: 12px;
   width: 12px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-setting-topbar {
-  background-position: 0 -1200px;
+  background-position: 0 -1219px;
   height: 19px;
   width: 26px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-sign-out {
-  background-position: 0 -1219px;
+  background-position: 0 -1238px;
   height: 19px;
   width: 17px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-star {
-  background-position: 0 -1238px;
+  background-position: 0 -1257px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-start {
-  background-position: 0 -1254px;
+  background-position: 0 -1273px;
   height: 18px;
   width: 18px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-toggle-header {
-  background-position: 0 -1272px;
+  background-position: 0 -1291px;
   height: 13px;
   width: 15px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-cleaner {
-  background-position: 0 -1285px;
+  background-position: 0 -1304px;
   height: 148px;
   width: 117px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-customer {
-  background-position: 0 -1433px;
+  background-position: 0 -1452px;
   height: 148px;
   width: 148px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-total-user {
-  background-position: 0 -1581px;
+  background-position: 0 -1600px;
   height: 149px;
   width: 177px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-tracking {
-  background-position: 0 -1730px;
+  background-position: 0 -1749px;
   height: 21px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-user {
-  background-position: 0 -1751px;
+  background-position: 0 -1770px;
   height: 16px;
   width: 19px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-vi-flag {
-  background-position: 0 -1767px;
+  background-position: 0 -1786px;
   height: 16px;
   width: 16px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-view {
-  background-position: 0 -1783px;
+  background-position: 0 -1802px;
   height: 16px;
   width: 20px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-yes {
-  background-position: 0 -1799px;
+  background-position: 0 -1818px;
   height: 17px;
   width: 24px;
 }
 
 /* line 13, ../sass/_sprite.sass */
 .cp-icn-zoom {
-  background-position: 0 -1816px;
+  background-position: 0 -1835px;
   height: 16px;
   width: 16px;
 }
@@ -1709,7 +1716,7 @@ input.switch-toggle-round:checked + label:after {
 /* line 184, ../sass/_form.sass */
 select {
   display: inline-block;
-  background: white url('../images/icons/caret-grey.png?1476565216') no-repeat 97% 16px;
+  background: white url('../images/icons/caret-grey.png?1480757049') no-repeat 97% 16px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -1951,7 +1958,7 @@ form .cp-is {
 /* line 266, ../sass/_form.sass */
 form select:disabled {
   background-color: #eeeeee;
-  background-image: url('../images/icons/disable.png?1476619147');
+  background-image: url('../images/icons/disable.png?1480757049');
   background-position-y: 12px;
 }
 /* line 270, ../sass/_form.sass */
@@ -2107,7 +2114,7 @@ table.cp-table-list thead tr.filter td input[type="text"].cp-input-s4 {
 table.cp-table-list thead tr.filter td select {
   border: none;
   border-bottom: 1px solid rgba(102, 102, 102, 0.4);
-  background-image: url('../images/icons/caret-black.png?1476461550');
+  background-image: url('../images/icons/caret-black.png?1480757049');
   background-position-x: right;
   background-position-y: 8px;
   font-weight: 400;
@@ -2535,7 +2542,7 @@ input:focus {
 .cp-card .cp-card-config select {
   width: 100px;
   padding: 0 15px 4px 15px;
-  background-image: url('../images/icons/caret-black.png?1476461550');
+  background-image: url('../images/icons/caret-black.png?1480757049');
   background-position-x: right;
   background-position-y: 12px;
   border: none;
@@ -2884,7 +2891,7 @@ label#checkbox-login:before {
   left: 50%;
   margin-top: -249px;
   margin-left: -232.5px;
-  background: url('../images/login/login-bg.png?1476166055') no-repeat center center;
+  background: url('../images/login/login-bg.png?1480757049') no-repeat center center;
   -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
@@ -3024,7 +3031,7 @@ aside#sidebar .sidebar-image {
   width: 100%;
   height: 1200px;
   opacity: 0.05;
-  background: url('../images/sidebar-bg.png?1476365216') repeat center center;
+  background: url('../images/sidebar-bg.png?1480757049') repeat center center;
 }
 /* line 16, ../sass/_sidebar.sass */
 aside#sidebar .sidebar-nav {
